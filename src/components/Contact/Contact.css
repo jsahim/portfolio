@@ -1,0 +1,19 @@
+section {
+  margin-bottom: 10px;
+  height: 400px;
+  background-color: brown;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact div {
+  height: 40vmin;
+  width: 40vmin;
+  background-color: fuchsia;
+}
+

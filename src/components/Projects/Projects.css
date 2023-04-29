@@ -1,0 +1,19 @@
+section {
+  margin-bottom: 10px;
+  height: 400px;
+  background-color: brown;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.projects div {
+  height: 40vmin;
+  width: 40vmin;
+  background-color: fuchsia;
+}
+

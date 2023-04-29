@@ -1,0 +1,15 @@
+aside {
+  background-color: teal; 
+  height: 100%;
+  width: 150px;
+  position: fixed;
+}
+
+main {
+  width: 100%;
+  margin-left: 150px;
+}
+
+h1 {
+  text-align: center;
+}
