@@ -1,7 +1,16 @@
 nav {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.logo {
+  transition: 0.4s;
+}
+
+.logo:hover {
+  filter: drop-shadow(0px 0px 7px #ff4da6);
 }
 
 ul {
@@ -20,11 +29,14 @@ ul {
 
 a, li {
   text-decoration: none;
-  color: black;
-  margin: 1%;
+  color: white;
+  margin: 15% 5% 15% 0;
+  transition: 0.3s;
 }
 
 .mail {
+  font-size: 30px;
+  transition: 0.3s;
   font-variation-settings:
   'FILL' 1,
   'wght' 400,
@@ -32,7 +44,20 @@ a, li {
   'opsz' 48
 }
 
-a:hover, li:hover, .mail:hover, a:hover svg path {
-  color: aliceblue;
-  fill: aliceblue;
+.connect svg path {
+  transition: 0.3s;
+}
+
+a:hover, li:hover {
+  text-shadow: 0px 0px 3px #ff4da6;
+}
+
+.connect:hover svg path {
+  filter: drop-shadow(0px 0px 2px #ff4da6);
+}
+
+a:hover, li:hover, 
+.connect:hover svg path {
+  color: #f7cde2;
+  fill: #f7cde2;
 }

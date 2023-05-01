@@ -5,7 +5,9 @@ html {
 body {
   margin: 0;
   height: 100vh;
-  background-color: lightgoldenrodyellow;
+  background-color: #222121;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
 }
 
 body > div {
@@ -22,6 +24,15 @@ body > div {
   'opsz' 48
 }
 
-h2 {
-  margin: 0%;
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 15px; 
 }

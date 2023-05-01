@@ -2,13 +2,15 @@ import './Contact.css'
 
 function Contact() {
   return (
-    <section className='contact' id='contact'>
-      <h2>CONTACT</h2>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </section>
+    <>
+      <h2>&#40; CONTACT &#41;</h2>
+      <section className='contact' id='contact'>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+    </>
   );
 }
 
