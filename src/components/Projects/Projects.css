@@ -1,20 +1,111 @@
 .projects {
+  height: inherit;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 
-.projects div {
-  height: 30vmin;
-  width: 40vmin;
-  border: 2px solid black;
+.project-box {
+  border: 1px solid white;
   border-radius: 5px;
-  background-color: fuchsia;
+  position: relative;
   overflow: hidden;
+  margin: 2%;
+  height: 32vmin;
+  width: 60vmin;
 }
 
-.xpresso-image {
-  width: inherit;
+.project-box .project-name {
+  display: none;
+}
+
+.project-box .project-image {
+  height: inherit;
   object-fit: contain;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.project-box:hover .project-image {
+  filter: blur(8px);
+}
+
+.project-box:hover .project-name {
+  display: block;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 500;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+
+.hub-btn, .site-btn {
+  font-size: small;
+  color: white;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2%;
+  transition: 0.3s;
+}
+
+.hub-btn .material-symbols-outlined, 
+.site-btn .material-symbols-outlined{
+  font-size: small;
+  margin-left: 5px;
+}
+
+.hub-btn:hover, .site-btn:hover {
+  box-shadow: 0px 0px 10px #ff4da6;
+  text-shadow: 0px 0px 10px #ff4da6;
+}
+
+.project-box:hover {
+  box-shadow: 0px 0px 10px #ff4da6;
+}
+
+.tech {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: x-small;
+  font-weight: bold;
+  margin: 0 15% 0 15%;
+}
+
+.project-description {
+  font-size: small;
+}
+
+.tech-item {
+  color: black;
+  border: 1px white solid;
+  background-color: white;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 1%;
+}
+
+#projects {
+  text-align: center;
+  font-size: 40px;
+  animation: glow 1s ease-in-out infinite alternate;
+  transition: 0.3s;
+}
+
+@media (max-width: 600px){
+  .project-box {
+    border: 1px solid white;
+    height: 43vmin;
+    width: 80vmin;
+    margin-bottom: 5%;
+  }
+  #projects {
+    font-size: 30px;
+  }
 }

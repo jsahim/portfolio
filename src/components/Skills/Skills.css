@@ -1,15 +1,10 @@
-section {
-  margin-bottom: 10px;
-  height: 400px;
-}
-
 .skills {
+  height: inherit;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  overflow: auto;
 }
 
 .skill-box {
@@ -17,7 +12,7 @@ section {
   align-items: center;
   justify-content: center;
   position: relative;
-  margin: 1%;
+  margin: 1% 2% 2% 2%;
   height: 15vmin;
   width: 15vmin;
 }
@@ -54,6 +49,18 @@ section {
   color: #31A8FF;
 }
 
+.git-icon > path {
+  color: #F05032;
+}
+
+.github-icon > path {
+  color: #ffffff;
+}
+
+.redux-icon > path {
+  color: #764ABC;
+}
+
 .skill-box .skill-name {
   display: none;
 }
@@ -70,8 +77,9 @@ section {
 }
 
 .skill-box:hover .skill-name {
+  overflow-wrap: break-word;
   text-align: center;
-  font-size: x-large;
+  font-size: large;
   font-weight: 500;
   height: 100%;
   width: 100%;
@@ -79,5 +87,23 @@ section {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   position: absolute;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px #ff4da6;
 }
 
+#skills {
+  text-align: center;
+  font-size: 40px;
+  animation: glow 1s ease-in-out infinite alternate;
+  transition: 0.3s;
+}
+
+
+@media (max-width: 600px){
+  #skills {
+    font-size: 30px;
+  }
+  .skill-box:hover .skill-name {
+    font-size: medium;
+  }
+}

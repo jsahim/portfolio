@@ -1,14 +1,99 @@
 
 .contact {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
 }
 
-.contact div {
-  height: 40vmin;
-  width: 40vmin;
-  background-color: fuchsia;
+#contact {
+  text-align: center;
+  font-size: 40px;
+  animation: glow 1s ease-in-out infinite alternate;
+  transition: 0.3s;
 }
 
+.contact .socials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.connect-text {
+  font-family: 'Yellowtail', cursive;
+  font-size: xx-large;
+  margin: 1%;
+}
+
+.connect-box {
+  display: flex;
+  justify-content: center;
+  height: 20vmin;
+  width: 40vmin;
+  border-radius: 50px;
+  border: 2px white solid;
+  margin: 0 1% 0 1%;
+  transition: 0.3s;
+}
+
+.connect-box p {
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0%;
+}
+
+.contact a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+.contact .mail {
+  font-size: 80px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.contact a:hover {
+  text-decoration: none;
+  text-shadow: 0px 0px 5px #ff4da6;
+}
+
+.connect:hover svg path {
+  filter: drop-shadow(0px 0px 1px #ff4da6);
+}
+
+.connect-box:hover {
+  box-shadow: 0px 0px 10px #ff4da6;
+}
+
+@media (max-width: 600px){
+  #contact {
+    font-size: 30px;
+  }
+  .contact {
+    margin-bottom: 100px;
+  }
+  .contact .socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .connect-box {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .connect-box p {
+    font-size: 50px;
+  }
+}

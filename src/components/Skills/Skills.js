@@ -4,8 +4,9 @@ import SVGIcons from '../../icons';
 function Skills() {
   return (
     <>
-      <h2>&lt; SKILLS /&gt;</h2>
-      <section className='skills' id='skills'>
+      <h2 id='skills'>SKILLS</h2>
+      <p className='connect-text'>These are my new skills</p>
+      <section className='skills'>
         <div className='skill-box'>
           {SVGIcons.react}
           <div className='skill-name'><p>React</p></div>
@@ -23,6 +24,10 @@ function Skills() {
           <div className='skill-name'><p>CSS</p></div>
         </div>
         <div className='skill-box'>
+          {SVGIcons.redux}
+          <div className='skill-name'><p>Redux</p></div>
+        </div>
+        <div className='skill-box'>
           {SVGIcons.mocha}
           <div className='skill-name'><p>Mocha</p></div>
         </div>
@@ -33,6 +38,14 @@ function Skills() {
         <div className='skill-box'>
           {SVGIcons.cypress}
           <div className='skill-name'><p>Cypress</p></div>
+        </div>
+        <div className='skill-box'>
+          {SVGIcons.git}
+          <div className='skill-name'><p>Git</p></div>
+        </div>
+        <div className='skill-box'>
+          {SVGIcons.github}
+          <div className='skill-name'><p>GitHub</p></div>
         </div>
         <div className='skill-box'>
           {SVGIcons.photoshop}

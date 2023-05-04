@@ -11,14 +11,22 @@ function App() {
         <Navigation />
       </aside>
       <main>
-        <div className='headline'>
-          <p className='hand-left'>☞</p>
-          <h1>JEFF SAHIM</h1>
-          <p className='hand-right'>☞</p>
+        <a href="#skills">
+          <div className='head-container'>
+            <p className='overline'>Hello there, I'm</p>
+            <div className='headline'>
+              <p className='hand-left'>☞</p>
+              <h1 className='my-name'>JEFF SAHIM</h1>
+              <p className='hand-right'>☞</p>
+            </div>
+            <p className='about'>Front End Software Developer</p>
+          </div>
+        </a>
+        <div className='content'>
+          <Skills />         
+          <Projects />
+          <Contact />
         </div>
-        <Skills />         
-        <Projects />
-        <Contact />
       </main>
     </>
   );
