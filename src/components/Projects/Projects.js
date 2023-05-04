@@ -7,7 +7,7 @@ function Projects() {
       <p className='connect-text'>These are my new projects</p>
       <section className='projects'>
         <div className='project-box'>
-          <img className='project-image' src='./Xpresso.png' alt='Xpresso' />
+          <img className='project-image' src='/Xpresso.png' alt='Xpresso' />
           <div className='project-name'>
             <p>Xpresso</p>
             <p className='project-description'>Imagine an app that allows you to order coffee and have it delivered by drone!</p>
@@ -26,7 +26,7 @@ function Projects() {
           </div>
         </div>
         <div className='project-box'>
-          <img className='project-image' src='./Rancid.png' alt='Rancid Tomatillos' />
+          <img className='project-image' src='/Rancid.png' alt='Rancid Tomatillos' />
           <div className='project-name'>
             <p>Rancid Tomatillos</p>
             <p className='project-description'>Imagine an app that allows you to order coffee and have it delivered by drone!</p>
@@ -45,7 +45,7 @@ function Projects() {
           </div>
         </div>
         <div className='project-box'>
-          <img className='project-image' src='./Hogwarts.png' alt='Battle of Hogwarts' />
+          <img className='project-image' src='/Hogwarts.png' alt='Battle of Hogwarts' />
           <div className='project-name'>
             <p>Battle of Hogwarts</p>
             <p className='project-description'>Imagine an app that allows you to order coffee and have it delivered by drone!</p>
@@ -64,7 +64,7 @@ function Projects() {
           </div>
         </div>
         <div className='project-box'>
-          <img className='project-image' src='./Hotel.png' alt='Hotel Azuro' />
+          <img className='project-image' src='/Hotel.png' alt='Hotel Azuro' />
           <div className='project-name'>
             <p>Hotel Azuro</p>
             <p className='project-description'>Imagine an app that allows you to order coffee and have it delivered by drone!</p>

@@ -9,7 +9,7 @@ function Navigation() {
   return (
     <nav>
       <ul>
-        <li><img className='logo' src='./Jeff_Logo.png' height='80px' alt='logo' onClick={scrollToTop} /></li>
+        <li><img className='logo' src='/Jeff_Logo.png' height='80px' alt='logo' onClick={scrollToTop} /></li>
         <li><a href="#skills">SKILLS</a></li>
         <li><a href="#projects">PROJECTS</a></li>
         <li><a href="#contact">CONTACT</a></li>
