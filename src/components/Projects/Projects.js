@@ -22,8 +22,10 @@ function Projects() {
               <div className='tech-item'>Fetch API</div>
               <div className='tech-item'>Webpack</div>
             </div>
-            <a href="https://github.com/jsahim/showcase" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
-            <a href="https://xpresso-coffee.vercel.app" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
+            <div className='connect-btns'>
+              <a href="https://github.com/jsahim/showcase" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
+              <a href="https://xpresso-coffee.vercel.app" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
+            </div>
           </div>
         </div>
         <div className='project-box'>
@@ -42,8 +44,10 @@ function Projects() {
               <div className='tech-item'>Fetch API</div>
               <div className='tech-item'>Webpack</div>
             </div>
-            <a href="https://github.com/jsahim/rancid-tomatillos" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
-            <a href="https://rancid-tomatillos-jsahim.vercel.app/" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
+            <div className='connect-btns'>
+              <a href="https://github.com/jsahim/rancid-tomatillos" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
+              <a href="https://rancid-tomatillos-jsahim.vercel.app/" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
+            </div>
           </div>
         </div>
         <div className='project-box'>
@@ -56,8 +60,10 @@ function Projects() {
               <div className='tech-item'>HTML</div>
               <div className='tech-item'>CSS</div>
             </div>
-            <a href="https://github.com/jsahim/rock-paper-scissors" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
-            <a href="https://jsahim.github.io/rock-paper-scissors" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
+            <div className='connect-btns'>
+              <a href="https://github.com/jsahim/rock-paper-scissors" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
+              <a href="https://jsahim.github.io/rock-paper-scissors" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
+            </div>
           </div>
         </div>
         <div className='project-box'>
@@ -74,8 +80,10 @@ function Projects() {
               <div className='tech-item'>Fetch API</div>
               <div className='tech-item'>Webpack</div>
             </div>
-            <a href="https://github.com/jsahim/overlook-project" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
-            <a href="https://overlook-project-z8ta.vercel.app" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
+            <div className='connect-btns'>
+              <a href="https://github.com/jsahim/overlook-project" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
+              <a href="https://overlook-project-z8ta.vercel.app" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
+            </div>
           </div>
         </div>
       </section>
