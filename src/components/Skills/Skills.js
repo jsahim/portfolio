@@ -9,47 +9,51 @@ function Skills() {
       <section className='skills'>
         <div className='skill-box'>
           {SVGIcons.react}
-          <div className='skill-name'><p>React</p></div>
+          <a className='skill-name' href="https://react.dev" target="_blank" rel="noreferrer"><div><p>React</p></div></a>
         </div>
         <div className='skill-box'>
           {SVGIcons.javascript}
-          <div className='skill-name'><p>JavaScript</p></div>
+          <a className='skill-name' href="https://www.javascript.com" target="_blank" rel="noreferrer"><div><p>JavaScript</p></div></a>
         </div>
         <div className='skill-box'>
           {SVGIcons.html}
-          <div className='skill-name'><p>HTML</p></div>
+          <a className='skill-name' href="https://html.spec.whatwg.org/multipage" target="_blank" rel="noreferrer"><div><p>HTML</p></div></a>
         </div>
         <div className='skill-box'>
           {SVGIcons.css}
-          <div className='skill-name'><p>CSS</p></div>
+          <a className='skill-name' href="https://www.w3.org/Style/CSS" target="_blank" rel="noreferrer"><div><p>CSS</p></div></a>
         </div>
         <div className='skill-box'>
           {SVGIcons.redux}
-          <div className='skill-name'><p>Redux</p></div>
+          <a className='skill-name' href="https://redux.js.org" target="_blank" rel="noreferrer"><div><p>Redux</p></div></a>
         </div>
         <div className='skill-box'>
           {SVGIcons.mocha}
-          <div className='skill-name'><p>Mocha</p></div>
+          <a className='skill-name' href="https://mochajs.org" target="_blank" rel="noreferrer"><div><p>Mocha</p></div></a>
         </div>
         <div className='skill-box'>
           {SVGIcons.chai}
-          <div className='skill-name'><p>Chai</p></div>
+          <a className='skill-name' href="https://www.chaijs.com" target="_blank" rel="noreferrer"><div><p>Chai</p></div></a>
         </div>
         <div className='skill-box'>
           {SVGIcons.cypress}
-          <div className='skill-name'><p>Cypress</p></div>
-        </div>
-        <div className='skill-box'>
-          {SVGIcons.git}
-          <div className='skill-name'><p>Git</p></div>
-        </div>
-        <div className='skill-box'>
-          {SVGIcons.github}
-          <div className='skill-name'><p>GitHub</p></div>
+          <a className='skill-name' href="https://www.cypress.io" target="_blank" rel="noreferrer"><div><p>Cypress</p></div></a>
         </div>
         <div className='skill-box'>
           {SVGIcons.photoshop}
-          <div className='skill-name'><p>Photoshop</p></div>
+          <a className='skill-name' href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noreferrer"><div><p>Photoshop</p></div></a>
+        </div>
+        <div className='skill-box'>
+          {SVGIcons.router}
+          <a className='skill-name' href="https://reactrouter.com/en/main" target="_blank" rel="noreferrer"><div><p>React Router</p></div></a>
+        </div>
+        <div className='skill-box'>
+          {SVGIcons.github}
+          <a className='skill-name' href="https://github.com" target="_blank" rel="noreferrer"><div><p>GitHub</p></div></a>
+        </div>
+        <div className='skill-box'>
+          {SVGIcons.git}
+          <a className='skill-name' href="https://git-scm.com" target="_blank" rel="noreferrer"><div><p>Git</p></div></a>
         </div>
       </section>
     </>

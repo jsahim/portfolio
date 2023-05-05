@@ -62,6 +62,11 @@
   color: #764ABC;
 }
 
+.router-icon > path {
+  color: #CA4245;
+}
+
+
 .skill-box .skill-name {
   display: none;
 }

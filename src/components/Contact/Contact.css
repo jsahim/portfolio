@@ -26,6 +26,7 @@
 
 .connect-box {
   display: flex;
+  align-items: center;
   justify-content: center;
   height: 20vmin;
   width: 40vmin;
@@ -86,9 +87,9 @@
     align-items: center;
   }
   .connect-box {
+    width: 80vmin;
     margin-top: 2%;
     margin-bottom: 2%;
-    width: 90%;
     border-radius: 20px;
     display: flex;
     justify-content: flex-start;
