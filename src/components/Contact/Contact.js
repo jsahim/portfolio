@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
       <h2 id='contact'>CONTACT</h2>
-        <p className='connect-text'>Connect with me through...</p>
+        <p className='connect-text'>Connect with me...</p>
         <section className='contact'>
         <div className='socials'>
           <div className='connect-box'>

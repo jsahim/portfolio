@@ -5,7 +5,7 @@ function Skills() {
   return (
     <>
       <h2 id='skills'>SKILLS</h2>
-      <p className='connect-text'>These are my new skills</p>
+      <p className='connect-text'>Some tech I've picked up...</p>
       <section className='skills'>
         <div className='skill-box'>
           {SVGIcons.react}

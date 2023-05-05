@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .project-box {
@@ -43,8 +44,13 @@
   position: absolute;
 }
 
+.project-title {
+  font-size: xx-large;
+  margin: 2%;
+}
+
 .hub-btn, .site-btn {
-  font-size: small;
+  font-size: medium;
   color: white;
   background: none;
   border: 1px solid white;
@@ -73,18 +79,20 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  font-size: x-small;
+  font-size: small;
   font-weight: bold;
   margin: 0 15% 0 15%;
 }
 
 .project-description {
-  font-size: small;
+  font-size: smaller;
+  margin: 0 5% 2% 5%;
+  font-weight: 100;
 }
 
 .tech-item {
   color: black;
-  border: 1px white solid;
+  border: none;
   background-color: white;
   border-radius: 10px;
   margin: 1%;
@@ -108,4 +116,20 @@
   #projects {
     font-size: 30px;
   }
+  .project-box:hover .project-name > p {
+    margin: 1%;
+  }
+  .tech {
+    margin: 0%;
+    font-size: x-small;
+  }
+  .project-description {
+    font-size: small;
+  }
+  .tech-item {
+    border: none;
+  }
+  .hub-btn, .site-btn {
+    padding: 1%;
+  }  
 }

@@ -96,4 +96,7 @@
   .connect-box p {
     font-size: 50px;
   }
+  .connect-text {
+    font-size: x-large;
+  }
 }
