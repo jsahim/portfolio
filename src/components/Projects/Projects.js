@@ -23,7 +23,7 @@ function Projects() {
               <div className='tech-item'>Webpack</div>
             </div>
             <div className='connect-btns'>
-              <a href="https://github.com/jsahim/showcase" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
+              <a href="https://github.com/jsahim/xpresso" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
               <a href="https://xpresso-coffee.vercel.app" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
             </div>
           </div>
@@ -61,8 +61,8 @@ function Projects() {
               <div className='tech-item'>CSS</div>
             </div>
             <div className='connect-btns'>
-              <a href="https://github.com/jsahim/rock-paper-scissors" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
-              <a href="https://jsahim.github.io/rock-paper-scissors" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
+              <a href="https://github.com/jsahim/battle-of-hogwarts" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
+              <a href="https://jsahim.github.io/battle-of-hogwarts" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
             </div>
           </div>
         </div>
@@ -81,8 +81,8 @@ function Projects() {
               <div className='tech-item'>Webpack</div>
             </div>
             <div className='connect-btns'>
-              <a href="https://github.com/jsahim/overlook-project" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
-              <a href="https://overlook-project-z8ta.vercel.app" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
+              <a href="https://github.com/jsahim/hotel-azuro" target="_blank" rel="noreferrer"><button className='hub-btn'>GitHub<span class="material-symbols-outlined">open_in_new</span></button></a>
+              <a href="https://hotel-azuro.vercel.app" target="_blank" rel="noreferrer"><button className='site-btn'>Website<span class="material-symbols-outlined">open_in_new</span></button></a>
             </div>
           </div>
         </div>
