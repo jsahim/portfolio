@@ -7,10 +7,32 @@ function Skills() {
       <h2 id='skills'>SKILLS</h2>
       <p className='connect-text'>Some tech I've picked up...</p>
       <section className='skills'>
+
+        <div className='skill-box'>
+          {SVGIcons.next}
+          <a className='skill-name' href="https://nextjs.org/" target="_blank" rel="noreferrer"><div><p>Next.js</p></div></a>
+        </div>
+        <div className='skill-box'>
+          {SVGIcons.typescript}
+          <a className='skill-name' href="https://www.typescriptlang.org" target="_blank" rel="noreferrer"><div><p>TypeScript</p></div></a>
+        </div>
+        <div className='skill-box'>
+          {SVGIcons.vue}
+          <a className='skill-name' href="https://vuejs.org" target="_blank" rel="noreferrer"><div><p>Vue.js</p></div></a>
+        </div>
         <div className='skill-box'>
           {SVGIcons.react}
           <a className='skill-name' href="https://react.dev" target="_blank" rel="noreferrer"><div><p>React</p></div></a>
         </div>
+        <div className='skill-box'>
+          {SVGIcons.node}
+          <a className='skill-name' href="https://nodejs.org" target="_blank" rel="noreferrer"><div><p>Node.js</p></div></a>
+        </div>
+        <div className='skill-box'>
+          {SVGIcons.jquery}
+          <a className='skill-name' href="https://jquery.com" target="_blank" rel="noreferrer"><div><p>jQuery</p></div></a>
+        </div>
+
         <div className='skill-box'>
           {SVGIcons.javascript}
           <a className='skill-name' href="https://www.javascript.com" target="_blank" rel="noreferrer"><div><p>JavaScript</p></div></a>

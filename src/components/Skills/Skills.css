@@ -18,52 +18,73 @@
   width: 15vmin;
 }
 
-.react-icon > path {
+.react-icon path {
   color: #61DAFB;
 }
 
-.javascript-icon > path {
+.javascript-icon path {
   color: #F7DF1E;
 }
 
-.html-icon > path {
+.html-icon path {
   color: #E34F26;
 }
 
-.css-icon > path {
+.css-icon path {
   color: #1572B6;
 }
 
-.mocha-icon > path {
+.mocha-icon path {
   color: #8D6748;
 }
 
-.chai-icon > path {
+.chai-icon path {
   color: #A30701;
 }
 
-.cypress-icon > path {
+.cypress-icon path {
   color: #95e4c5;
 }
 
-.photoshop-icon > path {
+.photoshop-icon path {
   color: #31A8FF;
 }
 
-.git-icon > path {
+.git-icon path {
   color: #F05032;
 }
 
-.github-icon > path {
+.github-icon path {
   color: #ffffff;
 }
 
-.redux-icon > path {
+.redux-icon path {
   color: #764ABC;
 }
 
-.router-icon > path {
+.router-icon path {
   color: #CA4245;
+}
+
+
+.next-icon path {
+  color: #ffffff;
+}
+
+.vue-icon path {
+  color: #41B883;
+}
+
+.jquery-icon path {
+  color: #1266a9;
+}
+
+.node-icon path {
+  color: #8CC84B;
+}
+
+.typescript-icon path {
+  color: #3178c6;
 }
 
 
