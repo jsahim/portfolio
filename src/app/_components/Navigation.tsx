@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { FiMenu } from 'react-icons/fi'
 import { GrClose } from 'react-icons/gr'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navigation() {
   const [open, setOpen] = useState(false)
@@ -12,7 +13,7 @@ export default function Navigation() {
     <header className='fixed h-20 flex md:justify-between  items-center w-full bg-[#304962] '>
 
       <Link className='p-2 mx-5 h-full' href="/">
-        <img className='h-full max-w-[200px]' src="/images/jeff-logo.png" alt="Jeff Logo" />
+        <Image className='h-full max-w-[200px]' src="/images/jeff-logo.png" alt="Jeff Logo" />
       </Link>
 
       <nav className="md:flex w-full items-center md:justify-end justify-between">

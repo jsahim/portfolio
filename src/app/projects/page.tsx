@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Projects() {
 
   return (
@@ -6,7 +8,7 @@ export default function Projects() {
       <div className="flex flex-wrap justify-center w-inherit">
 
         <div className="flex flex-col justify-center items-center md:w-[40%] w-full m-10 bg-slate-100 p-8 rounded-lg">
-          <img className="w-inherit" src="images/Xpresso.png" alt="Xpresso Coffee" />
+          <Image className="w-inherit" src="images/Xpresso.png" alt="Xpresso Coffee" />
           <h2 className="text-3xl font-semibold text-[#304962] py-5">Xpresso Coffee</h2>
           <p>Order a coffee through Xpresso and have it delivered by drone!</p>
           <div className="my-5 flex flex-wrap justify-center *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
@@ -26,7 +28,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center md:w-[40%] w-full m-10 bg-slate-100 p-8 rounded-lg">
-          <img className="w-inherit" src="images/Rancid.png" alt="Rancid Tomatillos" />
+          <Image className="w-inherit" src="images/Rancid.png" alt="Rancid Tomatillos" />
           <h2 className="text-3xl font-semibold text-[#304962] py-5">Rancid Tomatillos</h2>
           <p>Can't decide on a movie to watch? Rancid Tomatillos has you covered.</p>
           <div className="my-5 flex flex-wrap justify-center *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
@@ -46,7 +48,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center  md:w-[40%] w-full m-10 bg-slate-100 p-8 rounded-lg">
-          <img className="w-inherit" src="images/Hogwarts.png" alt="Battle of Hogwarts" />
+          <Image className="w-inherit" src="images/Hogwarts.png" alt="Battle of Hogwarts" />
           <h2 className="text-3xl font-semibold text-[#304962] py-5">Battle of Hogwarts</h2>
           <p>Battle of Hogwarts is a magical take on the classic game, Rock Paper Scissors.</p>
           <div className="my-5 flex flex-wrap justify-center *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
@@ -66,7 +68,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center md:w-[40%] w-full m-10 bg-slate-100 p-8 rounded-lg">
-          <img className="w-inherit" src="images/Hotel.png" alt="Hotel Azuro" />
+          <Image className="w-inherit" src="images/Hotel.png" alt="Hotel Azuro" />
           <h2 className="text-3xl font-semibold text-[#304962] py-5">Hotel Azuro</h2>
           <p>Book your stay at the luxourous Hotel Azuro.<br/>USERNAME: customer2 PASSWORD: overlook2021</p>
           <div className="my-5 flex flex-wrap justify-center *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
