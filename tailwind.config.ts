@@ -8,6 +8,12 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        refine: { "0%": { left: "-100%" }, "100%": { left: "0%" } }
+      },
+      animation: {
+        "refine-slidein": "refine 1s",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
