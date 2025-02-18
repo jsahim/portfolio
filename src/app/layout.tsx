@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Montserrat } from 'next/font/google'
 import Navigation from "./_components/Navigation"
+
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -10,10 +11,6 @@ export const metadata: Metadata = {
     icon: '/images/mini-logo.png',
   }
 }
-
-const montserrat = Montserrat({
-  subsets: ['latin'],
-})
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>) {
   return (

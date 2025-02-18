@@ -30,7 +30,7 @@ export default function Projects() {
         <div className="flex flex-col justify-center items-center md:w-[40%] w-full m-10 bg-slate-100 p-8 rounded-lg">
           <Image className="w-inherit" src="images/Rancid.png" alt="Rancid Tomatillos" />
           <h2 className="text-3xl font-semibold text-[#304962] py-5">Rancid Tomatillos</h2>
-          <p>Can't decide on a movie to watch? Rancid Tomatillos has you covered.</p>
+          <p>Can&apos;t decide on a movie to watch? Rancid Tomatillos has you covered.</p>
           <div className="my-5 flex flex-wrap justify-center *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
             <span>React</span>
             <span>JavaScript</span>

@@ -7,6 +7,11 @@
   src: url('/fonts/FugazOne-Regular.ttf'),
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url('/fonts/FugazOne-Regular.ttf'),
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
