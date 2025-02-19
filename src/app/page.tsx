@@ -1,16 +1,13 @@
 'use client'
 
 import React, { useEffect, useState } from "react";
+import { useRouter } from 'next/compat/router'
+import { useSearchParams } from 'next/navigation'
 
-interface HomeProps {
-  searchParams: {
-    type: string;
-  };
-}
 
-export default function Home(props: HomeProps)  {
-  // @ts-ignore
-  const tParams = React.use(props.searchParams)
+export default function Home()  {
+  const router = useRouter() 
+  const searchParams = useSearchParams()
   const [site, setSite] = useState("")
   const [introReady, setIntro] = useState<boolean>(false);
   const [nameReady, setName] = useState<boolean>(false);
@@ -18,13 +15,17 @@ export default function Home(props: HomeProps)  {
   const [orangeReady, setOrange] = useState<boolean>(false);
 
   useEffect(() => {
-    // @ts-ignore
-    setSite(tParams.type)
+    if (router && !router.isReady) {
+      return
+    }
+
+    const search = searchParams.get('type') || ""
+    setSite(search)
 
     setTimeout(() => {
       setIntro(true)
     }, 100);
-  
+
     setTimeout(() => {
       setName(true)
     }, 200);
