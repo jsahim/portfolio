@@ -1,14 +1,9 @@
 "use client"
 
-import { Montserrat } from 'next/font/google'
 import Navigation from "./_components/Navigation"
 import { Suspense } from "react";
 import "./globals.css"
 
-
-const montserrat = Montserrat({
-  subsets: ['latin'],
-})
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>) {
 
@@ -17,6 +12,9 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
       <head>
         <title>Jeff Sahim - Developer</title>
         <link rel="icon" type="image/x-icon" href="/images/mini-logo.png"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></link>
       </head>
         <body>
           <Suspense fallback={<div>Loading...</div>}>

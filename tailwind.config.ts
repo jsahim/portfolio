@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        fugaz: ['"Fugaz One"', '"sans-serif"']
+      },
       aspectRatio: {
         '3/4': '3 / 4',
       },
