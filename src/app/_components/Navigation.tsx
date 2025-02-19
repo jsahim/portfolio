@@ -6,8 +6,21 @@ import { GrClose } from 'react-icons/gr'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function Navigation() {
+interface NavigationProps {
+  type: string;
+}
+
+export default function Navigation({ type }: NavigationProps) {
   const [open, setOpen] = useState(false)
+
+  let resKey
+  if(type === "ux" ){
+    resKey = "10J6r5-bN6I6dx-xUCvtucJTw00JlQ_Xc"
+  }else if(type === "prod"){
+    resKey = "1oYg8PjnUsrlICyb9WwI2OL36TxCX-yxM"
+  } else {
+    resKey = "1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW"
+  }
 
   return (
     <header className='fixed h-20 flex md:justify-between items-center w-full bg-[#304962] '>
@@ -49,7 +62,7 @@ export default function Navigation() {
           </li>
 
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <a className="w-[400px] font-medium hover:text-[#e98522] text-white" target="_blank" href="https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=sharing">
+            <a className="w-[400px] font-medium hover:text-[#e98522] text-white" target="_blank" href={`https://drive.google.com/file/d/${resKey}/view?usp=sharing`}>
               <span className="w-full flex justify-center items-center">RESUME</span>
             </a>
           </li>
