@@ -1,8 +1,14 @@
 'use client'
 
-import React, { useEffect, useState, useContext, createContext } from "react";
+import React, { useEffect, useState } from "react";
 
-export default function Home(props: { searchParams: { type: string } }) {
+interface HomeProps {
+  searchParams: {
+    type: string;
+  };
+}
+
+export default function Home(props: HomeProps)  {
   // @ts-ignore
   const tParams = React.use(props.searchParams)
   const [site, setSite] = useState("")
@@ -10,7 +16,6 @@ export default function Home(props: { searchParams: { type: string } }) {
   const [nameReady, setName] = useState<boolean>(false);
   const [endReady, setEnd] = useState<boolean>(false);
   const [orangeReady, setOrange] = useState<boolean>(false);
- 
 
   useEffect(() => {
     // @ts-ignore
