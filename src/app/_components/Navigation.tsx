@@ -10,10 +10,10 @@ export default function Navigation() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className='fixed h-20 flex md:justify-between  items-center w-full bg-[#304962] '>
+    <header className='fixed h-20 flex md:justify-between items-center w-full bg-[#304962] '>
 
       <Link className='p-2 mx-5 h-full' href="/">
-        <Image className='h-full max-w-[200px]' src="/images/jeff-logo.png" alt="Jeff Logo" />
+        <Image className='min-w-[200px]' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
       </Link>
 
       <nav className="md:flex w-full items-center md:justify-end justify-between">

@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      aspectRatio: {
+        '3/4': '3 / 4',
+      },
       keyframes: {
         refine: { "0%": { left: "-100%" }, "100%": { left: "0%" } }
       },
