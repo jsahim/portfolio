@@ -2,6 +2,7 @@
 
 import { Montserrat } from 'next/font/google'
 import Navigation from "./_components/Navigation"
+import { Suspense } from "react";
 import "./globals.css"
 
 
@@ -18,9 +19,13 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         <link rel="icon" type="image/x-icon" href="/images/mini-logo.png"></link>
       </head>
         <body>
-          <Navigation />
+          <Suspense fallback={<div>Loading...</div>}>
+            <Navigation />
+          </Suspense>
           <main className='pt-28 flex flex-col items-center h-[100vh]'>
-            {children}
+            <Suspense fallback={<div>Loading...</div>}>
+              {children}
+            </Suspense>
           </main>
         </body>
       </html>
