@@ -12,6 +12,7 @@ export default function Navigation() {
   const allSearchParams = useGetAllSearchParams();
   const [open, setOpen] = useState(false)
   const [key, setKey] = useState("")
+  const [back, setBack] = useState("")
 
 
     useEffect(() => {
@@ -20,10 +21,13 @@ export default function Navigation() {
   
       if(sType === "ux" ){
         setKey("10J6r5-bN6I6dx-xUCvtucJTw00JlQ_Xc")
+        setBack("/?type=ux")
       }else if(sType === "prod"){
         setKey("1oYg8PjnUsrlICyb9WwI2OL36TxCX-yxM")
+        setBack("/?type=prod")
       } else {
         setKey("1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW")
+        setBack("")
       }
   
     }, []);
@@ -32,7 +36,7 @@ export default function Navigation() {
   return (
     <header className='fixed h-20 flex md:justify-between items-center w-[100vw] bg-[#304962] '>
 
-      <Link className='p-2 mx-6 h-full' href="/">
+      <Link className='p-2 mx-6 h-full' href={`/${back}`}>
         <Image className='min-w-[200px]' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
       </Link>
 
