@@ -4,7 +4,7 @@ export default function Projects() {
 
   return (
     <div className="w-[85%]">
-      <h1 className="font-[Fugaz] text-6xl text-[#e98522]">Projects</h1>
+      <h1 className="font-[Fugaz] text-6xl text-[#e98522] text-center m-5">Projects</h1>
       <div className="flex flex-wrap justify-center w-inherit">
 
         <div className="flex flex-col justify-between items-center w-[500px] m-10 bg-gray-100 p-10 border-2 rounded-3xl aspect-[3/4] transition-all duration-150 ease-in" >

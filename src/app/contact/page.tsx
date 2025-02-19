@@ -3,7 +3,7 @@ export default function Contact() {
   return (
     <div className="w-[85%] h-full"> 
     
-      <h1 className="font-[Fugaz] text-6xl text-[#e98522]">Contact</h1>
+      <h1 className="font-[Fugaz] text-6xl text-[#e98522] text-center m-5">Contact</h1>
 
       <section>
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">

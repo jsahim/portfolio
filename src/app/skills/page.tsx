@@ -4,7 +4,7 @@ export default function Skills() {
 
   return (
     <div className="w-[85%]"> 
-      <h1 className="font-[Fugaz] text-6xl text-[#e98522]">Skills</h1>
+      <h1 className="font-[Fugaz] text-6xl text-[#e98522] text-center m-5">Skills</h1>
       <div className="flex flex-wrap justify-center items-center">
           
           <a className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
