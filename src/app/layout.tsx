@@ -1,7 +1,7 @@
 "use client"
 
 import { Montserrat } from 'next/font/google'
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from 'next/navigation'
 import Navigation from "./_components/Navigation"
 import "./globals.css"
@@ -44,10 +44,12 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         <link rel="icon" type="image/x-icon" href="/images/mini-logo.png"></link>
       </head>
         <body>
-          <Navigation type={siteType} />
-          <main className='pt-28 flex flex-col items-center h-[100vh]'>
-            {children}
-          </main>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Navigation type={siteType} />
+            <main className='pt-28 flex flex-col items-center h-[100vh]'>
+              {children}
+            </main>
+          </Suspense>
         </body>
       </html>
   )
