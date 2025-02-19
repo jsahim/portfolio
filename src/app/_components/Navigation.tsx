@@ -30,7 +30,7 @@ export default function Navigation() {
 
 
   return (
-    <header className='fixed h-20 flex md:justify-between items-center w-full bg-[#304962] '>
+    <header className='fixed h-20 flex md:justify-between items-center w-[100vw] bg-[#304962] '>
 
       <Link className='p-2 mx-6 h-full' href="/">
         <Image className='min-w-[200px]' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
