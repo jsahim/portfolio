@@ -2,9 +2,15 @@
 
 import React, { useEffect, useState } from "react";
 
-export default function Home(props: { searchParams: { type: string } }) {
+interface PageProps {
+  searchParams: Promise<{
+    type: string;
+  }>;
+}
+
+export default function Home({ searchParams }: PageProps) {
   // @ts-ignore
-  const tParams = React.use(props.searchParams)
+  const tParams = React.use(searchParams)
   const [site, setSite] = useState("")
   const [introReady, setIntro] = useState<boolean>(false);
   const [nameReady, setName] = useState<boolean>(false);
