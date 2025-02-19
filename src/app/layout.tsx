@@ -2,6 +2,7 @@
 
 import { Montserrat } from 'next/font/google'
 import React, { useState, useEffect } from "react";
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation'
 import Navigation from "./_components/Navigation"
 import "./globals.css"
@@ -33,8 +34,11 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
       </head>
         <body>
           <Navigation type={searchState}/>
+          
           <main className='pt-28 flex flex-col items-center h-[100vh]'>
-            {children}
+            <Suspense fallback={<div>Loading...</div>}>
+              {children}
+            </Suspense>
           </main>
         </body>
       </html>
