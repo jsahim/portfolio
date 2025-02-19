@@ -1,16 +1,10 @@
 'use client'
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import useGetAllSearchParams from "./_components/GetParams";
 
-interface PageProps {
-  searchParams: Promise<{
-    type: string;
-  }>;
-}
-
-export default function Home({ searchParams }: PageProps) {
-  // @ts-ignore
-  const tParams = React.use(searchParams)
+export default function Home() {
+  const allSearchParams = useGetAllSearchParams();
   const [site, setSite] = useState("")
   const [introReady, setIntro] = useState<boolean>(false);
   const [nameReady, setName] = useState<boolean>(false);
@@ -19,8 +13,16 @@ export default function Home({ searchParams }: PageProps) {
 
 
   useEffect(() => {
-    // @ts-ignore
-    setSite(tParams.type)
+
+    const siteType = allSearchParams.type
+
+    if(siteType === "ux"){
+      setSite("UX")
+    } else if(siteType === "prod"){
+      setSite("PROD")
+    } else {
+      setSite("DEV")
+    }
 
     setTimeout(() => {
       setIntro(true)
@@ -38,13 +40,13 @@ export default function Home({ searchParams }: PageProps) {
       setOrange(true)
     }, 1500);
 
-  });
+  }, []);
 
 
   let position
-  if(site === "ux" ){
+  if(site === "UX" ){
     position = "UX Developer"
-  }else if(site === "prod"){
+  }else if(site === "PROD"){
     position = "Product Developer"
   } else {
     position = "Software Developer"
