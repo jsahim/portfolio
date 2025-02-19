@@ -26,7 +26,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
       setType("ux")
     }
     addChild()
-  }, []);
+  });
 
   
   const addChild = () => {
@@ -46,10 +46,12 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         <body>
           <Suspense fallback={<div>Loading...</div>}>
             <Navigation type={siteType} />
-            <main className='pt-28 flex flex-col items-center h-[100vh]'>
-              {children}
-            </main>
           </Suspense>
+          <main className='pt-28 flex flex-col items-center h-[100vh]'>
+          <Suspense fallback={<div>Loading...</div>}>
+            {children}
+          </Suspense>
+          </main>
         </body>
       </html>
   )

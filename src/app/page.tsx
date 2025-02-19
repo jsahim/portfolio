@@ -38,7 +38,7 @@ export default function Home({ searchParams }: PageProps) {
       setOrange(true)
     }, 1500);
 
-  }, []);
+  });
 
 
   let position
