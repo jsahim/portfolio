@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 export default function Projects() {
 
   return (
-    <div className="w-[85%]">
+    <div className="w-[85%] pb-16">
       <h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Projects</h1>
       <div className="flex flex-col flex-wrap justify-center items-center w-inherit gap-10">
 
