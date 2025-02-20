@@ -4,9 +4,7 @@ export default function Contact() {
     <div className="w-[85%] h-full"> 
     
       <h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5">Contact</h1>
-
-      <section>
-        <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <div className="py-8 lg:py-8 px-4 mx-auto max-w-screen-md">
             <h2 className="mb-8 lg:mb-16 font-medium text-center text-gray-500 sm:text-xl">Send me a message!</h2>
             <form action="https://formsubmit.co/jeffreysahim@gmail.com" method="POST" className="space-y-8">
                 <div>
@@ -26,7 +24,6 @@ export default function Contact() {
                 <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white bg-[#304962] rounded-lg bg-primary-700 sm:w-fit hover:bg-[#e98522]">Send message</button>
             </form>
         </div>
-      </section>
     </div>
   )
 }

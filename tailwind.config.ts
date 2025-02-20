@@ -12,7 +12,7 @@ export default {
         fugaz: ['"Fugaz One"', '"sans-serif"']
       },
       aspectRatio: {
-        '3/4': '3 / 4',
+        '5/2': '5 / 2',
       },
       keyframes: {
         refine: { "0%": { left: "-100%" }, "100%": { left: "0%" } }
@@ -26,5 +26,7 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 } satisfies Config;

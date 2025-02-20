@@ -1,5 +1,3 @@
-"use client"
-
 import Navigation from "./_components/Navigation"
 import { Suspense } from "react";
 import "./globals.css"
