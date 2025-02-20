@@ -39,7 +39,7 @@ export default function Projects() {
           <div className="flex flex-col w-[100%] lg:w-[50%] h-[350px] justify-around lg:justify-between ml-0 lg:ml-6">
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-center lg:text-left">Rancid Tomatillos</h2>
             <p className="text-center lg:text-left p-2">Can&apos;t decide on a movie to watch? Rancid Tomatillos has you covered.</p>
-            <div className="my-5 flex flex-wrap justify-center lg:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] lg:*:text-xs *:bg-[#304962]  *:rounded-xl *:font-semibold">
+            <div className="my-0 lg:my-5 flex flex-wrap justify-center lg:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] lg:*:text-xs *:bg-[#304962]  *:rounded-xl *:font-semibold">
               <span>React</span>
               <span>JavaScript</span>
               <span>HTML</span>
@@ -62,7 +62,7 @@ export default function Projects() {
           <div className="flex flex-col w-[100%] lg:w-[50%] h-[350px] justify-around lg:justify-between ml-0 lg:ml-6">
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-center lg:text-left">Battle of Hogwarts</h2>
             <p className="text-center lg:text-left p-2">Battle of Hogwarts is a magical take on the classic game, Rock Paper Scissors.</p>
-            <div className="my-5 flex flex-wrap justify-center lg:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] lg:*:text-xs *:bg-[#304962]  *:rounded-xl *:font-semibold">
+            <div className="my-0 lg:my-5 flex flex-wrap justify-center lg:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] lg:*:text-xs *:bg-[#304962]  *:rounded-xl *:font-semibold">
               <span>JavaScript</span>
               <span>HTML</span>
               <span>CSS</span>
@@ -79,7 +79,7 @@ export default function Projects() {
           <div className="flex flex-col w-[100%] lg:w-[50%] h-[350px] justify-around lg:justify-between ml-0 lg:ml-6">            
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-center lg:text-left">Hotel Azuro</h2>
             <p className="text-center lg:text-left p-2">Book your stay at the luxourous Hotel Azuro.<br/><br/><span className="font-semibold">USERNAME:</span> customer2 <br/><span className="font-semibold">PASSWORD:</span> overlook2021</p>
-            <div className="my-5 flex flex-wrap justify-center lg:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] lg:*:text-xs *:bg-[#304962]  *:rounded-xl *:font-semibold">
+            <div className="my-0 lg:my-5 flex flex-wrap justify-center lg:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] lg:*:text-xs *:bg-[#304962]  *:rounded-xl *:font-semibold">
               <span>JavaScript</span>
               <span>HTML</span>
               <span>CSS</span>
