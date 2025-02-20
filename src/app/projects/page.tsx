@@ -11,7 +11,7 @@ export default function Projects() {
       <h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Projects</h1>
       <div className="flex flex-col flex-wrap justify-center items-center w-inherit gap-10">
 
-        <div className="flex md:flex-row flex-col justify-between items-center w-[90%] bg-gray-100 p-10 border-2 rounded-[50px] aspect-[5/2] transition-all duration-150 ease-in" >
+        <div className="flex flex-col lg:flex-row justify-between items-center w-[90%] bg-gray-100 p-10 border-2 rounded-[50px] aspect-[5/2] transition-all duration-150 ease-in" >
           <Image className="w-inherit" height={200} width={500} src="/images/Xpresso.png" alt="Xpresso Coffee" />
           <div className="flex flex-col px-5 h-full justify-between md:py-10 py-2 md:pt-auto pt-5">
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-left">Xpresso Coffee</h2>
