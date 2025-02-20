@@ -45,7 +45,7 @@ export default function Home() {
 
   let position
   if(site === "UX" ){
-    position = "UX Developer"
+    position = "UX/UI Developer"
   }else if(site === "PROD"){
     position = "Product Developer"
   } else {
