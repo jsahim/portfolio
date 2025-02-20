@@ -34,7 +34,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="flex md:flex-row flex-col justify-between items-center w-[90%] bg-gray-100 p-10 border-2 rounded-[50px] aspect-[5/2] transition-all duration-150 ease-in" >
+        <div className="flex flex-col lg:flex-row justify-between items-center w-[90%] bg-gray-100 p-10 border-2 rounded-[50px] aspect-[5/2] transition-all duration-150 ease-in" >
           <Image className="w-inherit" height={200} width={500} src="/images/Rancid.png" alt="Rancid Tomatillos" />
           <div className="flex flex-col px-5 h-full justify-between md:py-10 py-2 md:pt-auto pt-5">
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-left">Rancid Tomatillos</h2>
@@ -57,7 +57,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="flex md:flex-row flex-col justify-between items-center w-[90%] bg-gray-100 p-10 border-2 rounded-[50px] aspect-[5/2] transition-all duration-150 ease-in" >
+        <div className="flex flex-col lg:flex-row justify-between items-center w-[90%] bg-gray-100 p-10 border-2 rounded-[50px] aspect-[5/2] transition-all duration-150 ease-in" >
           <Image className="w-inherit" height={200} width={500}  src="/images/Hogwarts.png" alt="Battle of Hogwarts" />
           <div className="flex flex-col px-5 h-full justify-between md:py-10 py-2 md:pt-auto pt-5">
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-left">Battle of Hogwarts</h2>
@@ -74,7 +74,7 @@ export default function Projects() {
           </div>
         </div>
         
-        <div className="flex md:flex-row flex-col justify-between items-center w-[90%] bg-gray-100 p-10 border-2 rounded-[50px] aspect-[5/2] transition-all duration-150 ease-in mb-10" >
+        <div className="flex flex-col lg:flex-row justify-between items-center w-[90%] bg-gray-100 p-10 border-2 rounded-[50px] aspect-[5/2] transition-all duration-150 ease-in" >
           <Image className="w-inherit" height={200} width={500} src="/images/Hotel.png" alt="Hotel Azuro" />
           <div className="flex flex-col px-5 h-full justify-between md:py-10 py-2 md:pt-auto pt-5">            
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-left">Hotel Azuro</h2>
