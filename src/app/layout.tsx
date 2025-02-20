@@ -15,7 +15,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></link>
       </head>
         <body>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense>
             <Navigation />
           </Suspense>
           <main className='pt-28 flex flex-col items-center h-[100vh]'>
