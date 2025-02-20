@@ -9,14 +9,14 @@ export default function Projects() {
   return (
     <div className="w-[85%]">
       <h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Projects</h1>
-      <div className="flex flex-col flex-wrap justify-center items-center w-inherit gap-3">
+      <div className="flex flex-col flex-wrap justify-center items-center w-inherit gap-10">
 
         <div className="flex md:flex-row flex-col justify-between items-center w-[90%] bg-gray-100 p-10 border-2 rounded-[50px] aspect-[5/2] transition-all duration-150 ease-in" >
           <Image className="w-inherit" height={200} width={500} src="/images/Xpresso.png" alt="Xpresso Coffee" />
           <div className="flex flex-col px-5 h-full justify-between md:py-10 py-2 md:pt-auto pt-5">
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-left">Xpresso Coffee</h2>
             <p className="text-left p-2">Order a coffee through Xpresso and have it delivered by drone!</p>
-            <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
+            <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#304962] *:text-xs *:border-2 *:border-[#304962] *:bg-white  *:rounded-xl *:font-semibold">
               <span>React</span>
               <span>JavaScript</span>
               <span>HTML</span>
@@ -39,7 +39,7 @@ export default function Projects() {
           <div className="flex flex-col px-5 h-full justify-between md:py-10 py-2 md:pt-auto pt-5">
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-left">Rancid Tomatillos</h2>
             <p className="text-left p-2">Can&apos;t decide on a movie to watch? Rancid Tomatillos has you covered.</p>
-            <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
+            <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#304962] *:text-xs *:border-2 *:border-[#304962] *:bg-white  *:rounded-xl *:font-semibold">
               <span>React</span>
               <span>JavaScript</span>
               <span>HTML</span>
@@ -62,7 +62,7 @@ export default function Projects() {
           <div className="flex flex-col px-5 h-full justify-between md:py-10 py-2 md:pt-auto pt-5">
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-left">Battle of Hogwarts</h2>
             <p className="text-left p-2">Battle of Hogwarts is a magical take on the classic game, Rock Paper Scissors.</p>
-            <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
+            <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#304962] *:text-xs *:border-2 *:border-[#304962] *:bg-white  *:rounded-xl *:font-semibold">
               <span>JavaScript</span>
               <span>HTML</span>
               <span>CSS</span>
@@ -79,7 +79,7 @@ export default function Projects() {
           <div className="flex flex-col px-5 h-full justify-between md:py-10 py-2 md:pt-auto pt-5">            
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-left">Hotel Azuro</h2>
             <p className="text-left p-2">Book your stay at the luxourous Hotel Azuro.<br/><br/><span className="font-semibold">USERNAME:</span> customer2 <br/><span className="font-semibold">PASSWORD:</span> overlook2021</p>
-            <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
+            <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#304962] *:text-xs *:border-2 *:border-[#304962] *:bg-white  *:rounded-xl *:font-semibold">
               <span>JavaScript</span>
               <span>HTML</span>
               <span>CSS</span>
