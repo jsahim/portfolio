@@ -55,25 +55,25 @@ export default function Navigation() {
           </li>
            */}
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/skills">
+            <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/skills" onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">SKILLS</span>
             </Link>
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/projects">
+            <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/projects" onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">PROJECTS</span>
             </Link>
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/contact">
+            <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/contact" onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">CONTACT</span>
             </Link>
           </li>
 
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <a className="w-[400px] font-medium hover:text-[#e98522] text-white" target="_blank" href={`https://drive.google.com/file/d/${key}/view?usp=sharing`}>
+            <a className="w-[400px] font-medium hover:text-[#e98522] text-white" target="_blank" href={`https://drive.google.com/file/d/${key}/view?usp=sharing`} onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">RESUME</span>
             </a>
           </li>
