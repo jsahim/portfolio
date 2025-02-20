@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react'
 import { FiMenu } from 'react-icons/fi'
 import { GrClose } from 'react-icons/gr'
+import { IoMdMail } from "react-icons/io";
+import { IoLogoLinkedin } from "react-icons/io";
 import Link from 'next/link'
 import Image from 'next/image'
 import useGetAllSearchParams from './GetParams'
@@ -80,14 +82,10 @@ export default function Navigation() {
 
           <div className='md:flex hidden text-white space-x-2 mx-6'>
             <a href="mailto:jeffreysahim@gmail.com">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
-                <path fill="currentColor" d="M 4 4 C 2.895 4 2 4.895 2 6 L 2 7.7324219 L 3 8.359375 L 4 8.9863281 L 12 14 L 20 9.0195312 L 21 8.3964844 L 22 7.7753906 L 22 6 C 22 4.895 21.105 4 20 4 L 4 4 z M 4 6 L 20 6 L 20 6.7695312 L 12 11.748047 L 4 6.734375 L 4 6 z M 2 10.091797 L 2 18 C 2 19.105 2.895 20 4 20 L 20 20 C 21.105 20 22 19.105 22 18 L 22 10.130859 L 20 11.375 L 20 18 L 4 18 L 4 11.345703 L 2 10.091797 z"/>
-              </svg>
-              </a>
+              <IoMdMail className='text-2xl hover:text-[#e98522]'/>
+            </a>
             <a href="https://www.linkedin.com/in/jeff-sahim/" target="_blank" rel="noreferrer">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
-                <path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"/>
-              </svg>
+              <IoLogoLinkedin className='text-2xl hover:text-[#e98522]' />
             </a>
           </div>
 
