@@ -56,25 +56,25 @@ export default function Navigation() {
            */}
           <li className='text-center md:bg-transparent bg-[#304962]'>
             <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/skills">
-              <span className="w-full flex justify-center items-center">SKILLS</span>
+              <span className="w-full flex justify-center items-center tracking-wide">SKILLS</span>
             </Link>
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
             <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/projects">
-              <span className="w-full flex justify-center items-center">PROJECTS</span>
+              <span className="w-full flex justify-center items-center tracking-wide">PROJECTS</span>
             </Link>
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
             <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/contact">
-              <span className="w-full flex justify-center items-center">CONTACT</span>
+              <span className="w-full flex justify-center items-center tracking-wide">CONTACT</span>
             </Link>
           </li>
 
           <li className='text-center md:bg-transparent bg-[#304962]'>
             <a className="w-[400px] font-medium hover:text-[#e98522] text-white" target="_blank" href={`https://drive.google.com/file/d/${key}/view?usp=sharing`}>
-              <span className="w-full flex justify-center items-center">RESUME</span>
+              <span className="w-full flex justify-center items-center tracking-wide">RESUME</span>
             </a>
           </li>
 
