@@ -18,7 +18,6 @@ export default function Projects() {
             <p className="text-left p-2">Order a coffee through Xpresso and have it delivered by drone!</p>
             <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
               <span>React</span>
-              <span>JavaScript</span>
               <span>HTML</span>
               <span>CSS</span>
               <span>React Router</span>
@@ -63,15 +62,9 @@ export default function Projects() {
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-left">Battle of Hogwarts</h2>
             <p className="text-left p-2">Battle of Hogwarts is a magical take on the classic game, Rock Paper Scissors.</p>
             <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
-              <span>React</span>
               <span>JavaScript</span>
               <span>HTML</span>
               <span>CSS</span>
-              <span>React Router</span>
-              <span>Cypress</span>
-              <span>Git</span>
-              <span>Fetch API</span>
-              <span>Webpack</span>
             </div>
             <div className="w-full flex justify-end items-center *:px-3">
               <a href="https://jsahim.github.io/battle-of-hogwarts" target="_blank"><span className="text-3xl hover:text-[#e98522] text-[#304962]"><FiExternalLink /></span></a>
@@ -86,13 +79,13 @@ export default function Projects() {
             <h2 className="text-3xl p-2 font-semibold text-[#304962] text-left">Hotel Azuro</h2>
             <p className="text-left p-2">Book your stay at the luxourous Hotel Azuro.<br/><br/><span className="font-semibold">USERNAME:</span> customer2 <br/><span className="font-semibold">PASSWORD:</span> overlook2021</p>
             <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
-              <span>React</span>
               <span>JavaScript</span>
               <span>HTML</span>
               <span>CSS</span>
-              <span>React Router</span>
-              <span>Cypress</span>
-              <span>Git</span>
+              <span>LightHouse</span>
+              <span>Wave Evaluation</span>
+              <span>Mocha</span>
+              <span>Chai</span>
               <span>Fetch API</span>
               <span>Webpack</span>
             </div>
