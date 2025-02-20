@@ -18,6 +18,7 @@ export default function Projects() {
             <p className="text-left p-2">Order a coffee through Xpresso and have it delivered by drone!</p>
             <div className="my-5 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-[#e98522] *:text-xs *:border-2 *:border-[#e98522] *:rounded-xl *:font-medium">
               <span>React</span>
+              <span>JavaScript</span>
               <span>HTML</span>
               <span>CSS</span>
               <span>React Router</span>
