@@ -13,3 +13,7 @@ body {
   background: var(--background);
   font-family: "Montserrat", sans-serif;
 }
+
+.itemp:fullscreen{
+  width: 100%;
+}
