@@ -5,7 +5,8 @@ import { VscVscode } from "react-icons/vsc";
 import { BsMicrosoftTeams } from "react-icons/bs";
 import { TbCloudCog } from "react-icons/tb";
 import { DiScrum } from "react-icons/di";
-import { FaNpm, FaTrello } from "react-icons/fa";
+import { FaTrello } from "react-icons/fa";
+import { CgNpm } from "react-icons/cg";
 import useGetAllSearchParams from "../_components/GetParams";
 import { useState, useEffect } from "react";
 
@@ -31,7 +32,7 @@ export default function Skills() {
 
     const chatGPT = (<a key="chatGPT" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">ChatGPT</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#74AA9C]">
         <SiOpenai className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
@@ -45,21 +46,21 @@ export default function Skills() {
 
     const claude = (<a key="claude" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Claude</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#da7756]">
         <SiClaude className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const tableau = (<a key="tableau" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Tableau</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#1C4481]">
         <SiTableau className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const slack = (<a key="slack" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Slack</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#4A154B]">
         <SiSlack className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
@@ -73,42 +74,42 @@ export default function Skills() {
 
     const googleDocs = (<a key="googleDocs" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Docs</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#3086F6]">
         <SiGoogledocs className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const googleAnalytics = (<a key="googleAnalytics" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Analytics</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#ed750a]">
         <SiGoogleanalytics className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const confluence = (<a key="confluence" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Confluence</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0053CD]">
         <SiConfluence className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const trello = (<a key="trello" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Trello</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0053CD]">
         <FaTrello className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const jira = (<a key="jira" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">JIRA</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0053CD]">
         <SiJira className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const sketch = (<a key="sketch" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Sketch</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#E9AC12]">
         <SiSketch className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
@@ -122,56 +123,56 @@ export default function Skills() {
 
     const npm = (<a key="npm" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">npm</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
-        <FaNpm className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#cb3837]">
+        <CgNpm className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const lighthouse = (<a key="lighthouse" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Lighthouse</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#EA4335]">
         <SiLighthouse className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const esLint = (<a key="esLint" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">ESLint</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#4b32c3]">
         <SiEslint className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const webPack = (<a key="webPack" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Webpack</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#8dd6f9]">
         <SiWebpack className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const agile = (<a key="agile" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Agile</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#6fd7ac]">
         <DiScrum className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const restAPI = (<a key="restAPI" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">REST API</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#01B5E6]">
         <TbCloudCog className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const microsoftTeams = (<a key="microsoftTeams" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Microsoft Teams</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#7B83EB]">
         <BsMicrosoftTeams className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const vsCode = (<a key="vsCode" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">VS Code</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0098FF]">
         <VscVscode className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
@@ -332,14 +333,14 @@ export default function Skills() {
     const uxSkills = (<div className="flex flex-col items-center">
       <h2>UX SKILLS</h2>
       <div className="flex flex-wrap justify-center w-full">
-        {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, mocha, chai, cypress, adobeCC, figma, tailwindCSS, git, gitHub, chatGPT, githubCopilot, claude, tableau, slack, notion, googleDocs, googleAnalytics, confluence, trello, sketch, jira, vercel, npm, lighthouse, esLint, webPack, agile, restAPI, microsoftTeams, vsCode]}
+        {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, mocha, chai, cypress, adobeCC, figma, tailwindCSS, git, gitHub, chatGPT, githubCopilot, claude, tableau, slack, notion, googleDocs, googleAnalytics, confluence, jira, trello, sketch, vercel, npm, lighthouse, esLint, webPack, agile, restAPI, microsoftTeams, vsCode]}
       </div>
     </div>)
 
     const productSkills = (<div className="flex flex-col items-center">
       <h2>PRODUCT SKILLS</h2>
       <div className="flex flex-wrap justify-center w-full">
-      {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, mocha, chai, cypress, adobeCC, figma, tailwindCSS, git, gitHub, chatGPT, githubCopilot, claude, tableau, slack, notion, googleDocs, googleAnalytics, confluence, trello, sketch, jira, vercel, npm, lighthouse, esLint, webPack, agile, restAPI, microsoftTeams, vsCode]}
+      {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, mocha, chai, cypress, adobeCC, figma, tailwindCSS, git, gitHub, chatGPT, githubCopilot, claude, tableau, slack, notion, googleDocs, googleAnalytics, confluence, jira, trello, sketch, vercel, npm, lighthouse, esLint, webPack, agile, restAPI, microsoftTeams, vsCode]}
       </div>
     </div>)
 
