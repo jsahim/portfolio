@@ -1,10 +1,11 @@
 "use client"
 
-import { SiOpenai, SiGithubcopilot, SiClaude, SiTableau, SiSlack, SiNotion, SiGoogledocs, SiGoogleanalytics, SiConfluence, SiTrello, SiJira, SiSketch, SiVercel, SiNpm, SiLighthouse, SiEslint, SiWebpack, SiGithub, SiGit, SiTailwindcss, SiFigma, SiAdobecreativecloud, SiCypress, SiChai, SiMocha, SiCss3, SiHtml5, SiJquery, SiJavascript, SiRedux, SiNextdotjs, SiTypescript, SiVuedotjs, SiReact, SiReactrouter } from "react-icons/si";
+import { SiOpenai, SiGithubcopilot, SiClaude, SiTableau, SiSlack, SiNotion, SiGoogledocs, SiGoogleanalytics, SiConfluence, SiJira, SiSketch, SiVercel, SiLighthouse, SiEslint, SiWebpack, SiGithub, SiGit, SiTailwindcss, SiFigma, SiAdobecreativecloud, SiCypress, SiChai, SiMocha, SiCss3, SiHtml5, SiJquery, SiJavascript, SiRedux, SiNextdotjs, SiTypescript, SiVuedotjs, SiReact, SiReactrouter } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { BsMicrosoftTeams } from "react-icons/bs";
 import { TbCloudCog } from "react-icons/tb";
 import { DiScrum } from "react-icons/di";
+import { FaNpm, FaTrello } from "react-icons/fa";
 import useGetAllSearchParams from "../_components/GetParams";
 import { useState, useEffect } from "react";
 
@@ -29,147 +30,147 @@ export default function Skills() {
     }, []);
 
     const chatGPT = (<a key="chatGPT" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">ChatGPT</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiOpenai className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const githubCopilot = (<a key="githubCopilot" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">GitHub<br/>Copilot</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiGithubcopilot className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const claude = (<a key="claude" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Claude</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiClaude className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const tableau = (<a key="tableau" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Tableau</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiTableau className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const slack = (<a key="slack" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Slack</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiSlack className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const notion = (<a key="notion" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Notion</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiNotion className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const googleDocs = (<a key="googleDocs" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Docs</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiGoogledocs className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const googleAnalytics = (<a key="googleAnalytics" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Analytics</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiGoogleanalytics className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const confluence = (<a key="confluence" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Confluence</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiConfluence className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const trello = (<a key="trello" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Trello</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
-        <SiTrello className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
+        <FaTrello className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const jira = (<a key="jira" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">JIRA</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiJira className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const sketch = (<a key="sketch" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Sketch</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiSketch className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
     
     const vercel = (<a key="vercel" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Vercel</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiVercel className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const npm = (<a key="npm" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">npm</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
-        <SiNpm className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
+        <FaNpm className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const lighthouse = (<a key="lighthouse" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Lighthouse</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiLighthouse className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const esLint = (<a key="esLint" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">ESLint</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiEslint className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const webPack = (<a key="webPack" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Webpack</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiWebpack className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const agile = (<a key="agile" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Agile</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <DiScrum className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const restAPI = (<a key="restAPI" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">REST API</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <TbCloudCog className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const microsoftTeams = (<a key="microsoftTeams" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Microsoft Teams</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <BsMicrosoftTeams className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const vsCode = (<a key="vsCode" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
+      <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">VS Code</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <VscVscode className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
