@@ -3,7 +3,6 @@ import { FiExternalLink } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
 
 
-
 export default function Projects() {
 
   return (

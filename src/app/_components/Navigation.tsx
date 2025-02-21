@@ -14,7 +14,7 @@ export default function Navigation() {
   const allSearchParams = useGetAllSearchParams();
   const [open, setOpen] = useState(false)
   const [key, setKey] = useState("")
-  const [back, setBack] = useState("")
+  const [sourcePath, setSource] = useState("")
 
 
     useEffect(() => {
@@ -23,13 +23,13 @@ export default function Navigation() {
   
       if(sType === "u" ){
         setKey("10J6r5-bN6I6dx-xUCvtucJTw00JlQ_Xc")
-        setBack("/?type=u")
+        setSource("type=u")
       }else if(sType === "p"){
         setKey("1oYg8PjnUsrlICyb9WwI2OL36TxCX-yxM")
-        setBack("/?type=p")
+        setSource("type=p")
       } else {
         setKey("1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW")
-        setBack("")
+        setSource("")
       }
   
     }, []);
@@ -38,7 +38,7 @@ export default function Navigation() {
   return (
     <header className='fixed h-20 flex md:justify-between items-center w-[100vw] bg-[#304962] border-b-2 border-[#e5e7eb]'>
 
-      <Link className='p-2 mx-6 h-full' href={`/${back}`}>
+      <Link className='p-2 mx-6 h-full' href={`/?${sourcePath}` }>
         <Image className='min-w-[200px]' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
       </Link>
 
@@ -57,19 +57,19 @@ export default function Navigation() {
           </li>
            */}
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/skills" onClick={() => setOpen(!open)}>
+            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/skills" as={`/skills/?${sourcePath}`} onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">SKILLS</span>
             </Link>
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/projects" onClick={() => setOpen(!open)}>
+            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/projects" as={`/projects/?${sourcePath}`} onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">PROJECTS</span>
             </Link>
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/contact" onClick={() => setOpen(!open)}>
+            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/contact" as={`/contact/?${sourcePath}`} onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">CONTACT</span>
             </Link>
           </li>

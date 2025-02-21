@@ -11,7 +11,6 @@ export default function Home() {
   const [endReady, setEnd] = useState<boolean>(false);
   const [orangeReady, setOrange] = useState<boolean>(false);
 
-
   useEffect(() => {
 
     const siteType = allSearchParams.type
