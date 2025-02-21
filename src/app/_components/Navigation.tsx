@@ -82,10 +82,10 @@ export default function Navigation() {
 
           <div className='md:flex hidden text-white space-x-2 mx-6'>
             <a href="mailto:jeffreysahim@gmail.com">
-              <IoMdMail className='text-2xl hover:text-[#e98522]'/>
+              <IoMdMail className='text-3xl hover:text-[#e98522]'/>
             </a>
             <a href="https://www.linkedin.com/in/jeff-sahim/" target="_blank" rel="noreferrer">
-              <IoLogoLinkedin className='text-2xl hover:text-[#e98522]' />
+              <IoLogoLinkedin className='text-3xl hover:text-[#e98522]' />
             </a>
           </div>
 

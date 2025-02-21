@@ -11,9 +11,6 @@ export default {
       fontFamily: {
         fugaz: ['"Fugaz One"', '"sans-serif"']
       },
-      aspectRatio: {
-        '5/2': '5 / 2',
-      },
       keyframes: {
         refine: { "0%": { left: "-100%" }, "100%": { left: "0%" } }
       },
