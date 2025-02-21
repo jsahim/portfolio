@@ -42,7 +42,7 @@ export default function Navigation() {
         <Image className='min-w-[200px]' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
       </Link>
 
-      <nav className="md:flex w-full items-center justify-center lg:justify-end">
+      <nav className="md:flex w-full items-center md:justify-center xl:justify-end">
 
         <div className='absolute right-8 top-6 cursor-pointer md:hidden' onClick={() => setOpen(!open)} >
           {open ? <GrClose className='h-10 w-10 text-white'/> : <FiMenu className='h-10 w-10 text-white'/>}
@@ -80,7 +80,7 @@ export default function Navigation() {
             </a>
           </li>
 
-          <div className='md:flex hidden text-white space-x-2 mx-6'>
+          <div className='lg:flex hidden text-white space-x-2 mx-6'>
             <a href="mailto:jeffreysahim@gmail.com">
               <IoMdMail className='text-3xl hover:text-[#e98522] duration-150'/>
             </a>
