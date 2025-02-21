@@ -84,7 +84,7 @@ export default function Projects() {
               <span>HTML</span>
               <span>CSS</span>
               <span>LightHouse</span>
-              <span>Wave Evaluation</span>
+              <span>WAVE</span>
               <span>Mocha</span>
               <span>Chai</span>
               <span>Fetch API</span>
