@@ -28,8 +28,8 @@ export default function Projects() {
               <span>Webpack</span>
             </div>
             <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
-              <a href="https://xpresso-coffee.vercel.app" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962]"><FiExternalLink /></span></a>
-              <a href="https://github.com/jsahim/xpresso" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962]"><FaGithub /></span></a>
+              <a href="https://xpresso-coffee.vercel.app" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FiExternalLink /></span></a>
+              <a href="https://github.com/jsahim/xpresso" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FaGithub /></span></a>
             </div>
           </div>
         </div>
@@ -51,8 +51,8 @@ export default function Projects() {
               <span>Webpack</span>
             </div>
             <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
-              <a href="https://rancid-tomatillos-jsahim.vercel.app" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962]"><FiExternalLink /></span></a>
-              <a href="https://github.com/jsahim/rancid-tomatillos" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962]"><FaGithub /></span></a>
+              <a href="https://rancid-tomatillos-jsahim.vercel.app" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FiExternalLink /></span></a>
+              <a href="https://github.com/jsahim/rancid-tomatillos" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FaGithub /></span></a>
             </div>
           </div>
         </div>
@@ -68,8 +68,8 @@ export default function Projects() {
               <span>CSS</span>
             </div>
             <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
-              <a href="https://jsahim.github.io/battle-of-hogwarts" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962]"><FiExternalLink /></span></a>
-              <a href="https://github.com/jsahim/battle-of-hogwarts" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962]"><FaGithub /></span></a>
+              <a href="https://jsahim.github.io/battle-of-hogwarts" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FiExternalLink /></span></a>
+              <a href="https://github.com/jsahim/battle-of-hogwarts" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FaGithub /></span></a>
             </div>
           </div>
         </div>
@@ -91,8 +91,8 @@ export default function Projects() {
               <span>Webpack</span>
             </div>
             <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
-              <a href="https://hotel-azuro.vercel.app" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962]"><FiExternalLink /></span></a>
-              <a href="https://github.com/jsahim/hotel-azuro" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962]"><FaGithub /></span></a>
+              <a href="https://hotel-azuro.vercel.app" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FiExternalLink /></span></a>
+              <a href="https://github.com/jsahim/hotel-azuro" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FaGithub /></span></a>
             </div>
           </div>
         </div>

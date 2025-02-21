@@ -57,35 +57,35 @@ export default function Navigation() {
           </li>
            */}
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/skills" onClick={() => setOpen(!open)}>
+            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/skills" onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">SKILLS</span>
             </Link>
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/projects" onClick={() => setOpen(!open)}>
+            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/projects" onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">PROJECTS</span>
             </Link>
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white" href="/contact" onClick={() => setOpen(!open)}>
+            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/contact" onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">CONTACT</span>
             </Link>
           </li>
 
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <a className="w-[400px] font-medium hover:text-[#e98522] text-white" target="_blank" href={`https://drive.google.com/file/d/${key}/view?usp=sharing`} onClick={() => setOpen(!open)}>
+            <a className="w-[400px] font-medium hover:text-[#e98522] text-white duration-150" target="_blank" href={`https://drive.google.com/file/d/${key}/view?usp=sharing`} onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">RESUME</span>
             </a>
           </li>
 
           <div className='md:flex hidden text-white space-x-2 mx-6'>
             <a href="mailto:jeffreysahim@gmail.com">
-              <IoMdMail className='text-3xl hover:text-[#e98522]'/>
+              <IoMdMail className='text-3xl hover:text-[#e98522] duration-150'/>
             </a>
             <a href="https://www.linkedin.com/in/jeff-sahim/" target="_blank" rel="noreferrer">
-              <IoLogoLinkedin className='text-3xl hover:text-[#e98522]' />
+              <IoLogoLinkedin className='text-3xl hover:text-[#e98522] duration-150' />
             </a>
           </div>
 
