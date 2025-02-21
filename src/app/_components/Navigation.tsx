@@ -21,12 +21,12 @@ export default function Navigation() {
   
       const sType = allSearchParams.type
   
-      if(sType === "ux" ){
+      if(sType === "u" ){
         setKey("10J6r5-bN6I6dx-xUCvtucJTw00JlQ_Xc")
-        setBack("/?type=ux")
-      }else if(sType === "prod"){
+        setBack("/?type=u")
+      }else if(sType === "p"){
         setKey("1oYg8PjnUsrlICyb9WwI2OL36TxCX-yxM")
-        setBack("/?type=prod")
+        setBack("/?type=p")
       } else {
         setKey("1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW")
         setBack("")

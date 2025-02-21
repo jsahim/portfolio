@@ -16,9 +16,9 @@ export default function Home() {
 
     const siteType = allSearchParams.type
 
-    if(siteType === "ux"){
+    if(siteType === "u"){
       setSite("UX")
-    } else if(siteType === "prod"){
+    } else if(siteType === "p"){
       setSite("PROD")
     } else {
       setSite("DEV")
