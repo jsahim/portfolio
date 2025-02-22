@@ -56,6 +56,7 @@ export default function Navigation() {
             </Link>
           </li>
            */}
+        
           <li className='text-center md:bg-transparent bg-[#304962]'>
             <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/skills" as={`/skills/?${sourcePath}`} onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">SKILLS</span>

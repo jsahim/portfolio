@@ -13,7 +13,7 @@ export default function Projects() {
         <div className="flex flex-col xl:flex-row justify-around items-center w-[100%] lg:w-[90%] bg-gray-100 p-5 lg:p-10 border-2 rounded-[50px] transition-all duration-150 ease-in" >
           <Image height={0} width={500} src="/images/Xpresso.png" alt="Xpresso Coffee" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
-            <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6">Xpresso Coffee</h2>
+            <h2 className="text-2xl/6 p-2 font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Xpresso Coffee</h2>
             <p className="text-center xl:text-left p-2">Order a coffee through Xpresso and have it delivered by drone!</p>
             <div className="my-0 xl:my-5 flex flex-wrap justify-center xl:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] xl:*:text-xs *:bg-[#304962] *:rounded-xl *:font-semibold">
               <span>React</span>
@@ -27,8 +27,8 @@ export default function Projects() {
               <span>Webpack</span>
             </div>
             <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
-              <a href="https://xpresso-coffee.vercel.app" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FiExternalLink /></span></a>
-              <a href="https://github.com/jsahim/xpresso" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FaGithub /></span></a>
+              <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full mr-3" href="https://xpresso-coffee.vercel.app/"><FiExternalLink className="h-10 w-10"/></a>
+              <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full" href="https://github.com/jsahim/xpresso" target="_blank"><FaGithub className="h-10 w-10"/></a>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Projects() {
         <div className="flex flex-col xl:flex-row justify-around items-center w-[100%] lg:w-[90%] bg-gray-100 p-5 lg:p-10 border-2 rounded-[50px] transition-all duration-150 ease-in" >
           <Image className="w-inherit" height={0} width={500} src="/images/Rancid.png" alt="Rancid Tomatillos" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
-            <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6">Rancid Tomatillos</h2>
+            <h2 className="text-2xl/6 p-2 font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Rancid Tomatillos</h2>
             <p className="text-center xl:text-left p-2">Can&apos;t decide on a movie to watch? Rancid Tomatillos has you covered.</p>
             <div className="my-0 xl:my-5 flex flex-wrap justify-center xl:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] xl:*:text-xs *:bg-[#304962] *:rounded-xl *:font-semibold">
               <span>React</span>
@@ -50,8 +50,8 @@ export default function Projects() {
               <span>Webpack</span>
             </div>
             <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
-              <a href="https://rancid-tomatillos-jsahim.vercel.app" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FiExternalLink /></span></a>
-              <a href="https://github.com/jsahim/rancid-tomatillos" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FaGithub /></span></a>
+              <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full mr-3" href="https://rancid-tomatillos-jsahim.vercel.app" target="_blank"><FiExternalLink className="h-10 w-10"/></a>
+              <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full" href="https://github.com/jsahim/rancid-tomatillos" target="_blank"><FaGithub className="h-10 w-10"/></a>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function Projects() {
         <div className="flex flex-col xl:flex-row justify-around items-center w-[100%] lg:w-[90%] bg-gray-100 p-5 lg:p-10 border-2 rounded-[50px] transition-all duration-150 ease-in" >
           <Image className="w-inherit" height={0} width={500}  src="/images/Hogwarts.png" alt="Battle of Hogwarts" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
-            <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6">Battle of Hogwarts</h2>
+            <h2 className="text-2xl/6 p-2 font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Battle of Hogwarts</h2>
             <p className="text-center xl:text-left p-2">Battle of Hogwarts is a magical take on the classic game, Rock Paper Scissors.</p>
             <div className="my-0 xl:my-5 flex flex-wrap justify-center xl:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] xl:*:text-xs *:bg-[#304962] *:rounded-xl *:font-semibold">
               <span>JavaScript</span>
@@ -67,8 +67,8 @@ export default function Projects() {
               <span>CSS</span>
             </div>
             <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
-              <a href="https://jsahim.github.io/battle-of-hogwarts" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FiExternalLink /></span></a>
-              <a href="https://github.com/jsahim/battle-of-hogwarts" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FaGithub /></span></a>
+              <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full mr-3" href="https://jsahim.github.io/battle-of-hogwarts" target="_blank"><FiExternalLink className="h-10 w-10"/></a>
+              <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full" href="https://github.com/jsahim/battle-of-hogwarts" target="_blank"><FaGithub className="h-10 w-10"/></a>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function Projects() {
         <div className="flex flex-col xl:flex-row justify-around items-center w-[100%] lg:w-[90%] bg-gray-100 p-5 lg:p-10 border-2 rounded-[50px] transition-all duration-150 ease-in" >
           <Image className="w-inherit" height={0} width={500} src="/images/Hotel.png" alt="Hotel Azuro" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
-            <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6">Hotel Azuro</h2>
+            <h2 className="text-2xl/6 p-2 font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Hotel Azuro</h2>
             <p className="text-center xl:text-left p-2">Book your stay at the luxourous Hotel Azuro.<br/><br/><span className="font-semibold">USERNAME:</span> customer2 <br/><span className="font-semibold">PASSWORD:</span> overlook2021</p>
             <div className="my-0 xl:my-5 flex flex-wrap justify-center xl:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] xl:*:text-xs *:bg-[#304962] *:rounded-xl *:font-semibold">
               <span>JavaScript</span>
@@ -90,8 +90,8 @@ export default function Projects() {
               <span>Webpack</span>
             </div>
             <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
-              <a href="https://hotel-azuro.vercel.app" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FiExternalLink /></span></a>
-              <a href="https://github.com/jsahim/hotel-azuro" target="_blank"><span className="text-4xl hover:text-[#e98522] text-[#304962] duration-150"><FaGithub /></span></a>
+              <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full mr-3" href="https://hotel-azuro.vercel.app" target="_blank"><FiExternalLink className="h-10 w-10"/></a>
+              <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full" href="https://github.com/jsahim/hotel-azuro" target="_blank"><FaGithub className="h-10 w-10"/></a>
             </div>
           </div>
         </div>

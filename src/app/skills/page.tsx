@@ -304,27 +304,27 @@ export default function Skills() {
     </a>)
 
     const devSkills = (<div className="flex flex-col items-center">
-      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">Languages</h2>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] rounded-t-3xl rounded-b-md w-3/5">Languages</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, tailwindCSS]}
       </div>
-      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">Verison Control</h2>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] rounded-t-3xl rounded-b-md w-3/5">Verison Control</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[git, gitHub]}
       </div>
-      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">Project Management</h2>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] rounded-t-3xl rounded-b-md w-3/5">Project Management</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[typeScript]}
       </div>
-      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">QA Testing</h2>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] rounded-t-3xl rounded-b-md w-3/5">QA Testing</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[mocha, chai, cypress]}
       </div>
-      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">Design</h2>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] rounded-t-3xl rounded-b-md w-3/5">Design</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[adobeCC, figma, tailwindCSS]}
       </div>
-      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">AI Productivity</h2>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] rounded-t-3xl rounded-b-md w-3/5">AI Productivity</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[typeScript]}
       </div>
@@ -355,7 +355,7 @@ export default function Skills() {
 
   return (
     <div className="w-[85%]"> 
-      {currSite && <><h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-20">Skills</h1>{skillSet}</>}
+      {currSite && <><h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Skills</h1>{skillSet}</>}
     </div>
   )
 }
