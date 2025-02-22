@@ -44,9 +44,7 @@ export default function Navigation() {
 
       <nav className="md:flex w-full items-center md:justify-center xl:justify-end">
 
-        <div className='absolute right-8 top-6 cursor-pointer md:hidden' onClick={() => {
-              setOpen(!open)
-            }}>
+        <div className='absolute right-8 top-6 cursor-pointer md:hidden' onClick={() => setOpen(!open)}>
           {open ? <GrClose className='h-10 w-10 text-white'/> : <FiMenu className='h-10 w-10 text-white'/>}
         </div>
         
@@ -60,31 +58,25 @@ export default function Navigation() {
            */}
         
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className={`w-full font-medium hover:text-[#e98522] ${open ? "text-[#e98522]" : "text-white" } text-white duration-150`} href="/skills" as={`/skills/?${sourcePath}`} onClick={() => setOpen(!open)}>
+            <Link className={`w-full font-medium hover:text-[#e98522] ${open ? "text-[#e98522]" : "text-white" } duration-150`} href="/skills" as={`/skills/?${sourcePath}`} onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">SKILLS</span>
             </Link>
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/projects" as={`/projects/?${sourcePath}`} onClick={() => {
-              setOpen(!open)
-            }}>
+            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/projects" as={`/projects/?${sourcePath}`} onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">PROJECTS</span>
             </Link>
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962] drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/contact" as={`/contact/?${sourcePath}`} onClick={() => {
-              setOpen(!open)
-            }}>
+            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/contact" as={`/contact/?${sourcePath}`} onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">CONTACT</span>
             </Link>
           </li>
 
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <a className="w-[400px] font-medium hover:text-[#e98522] text-white duration-150" target="_blank" href={`https://drive.google.com/file/d/${key}/view?usp=sharing`}  onClick={() => {
-              setOpen(!open)
-            }}>
+            <a className="w-[400px] font-medium hover:text-[#e98522] text-white duration-150" target="_blank" href={`https://drive.google.com/file/d/${key}/view?usp=sharing`}  onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">RESUME</span>
             </a>
           </li>
