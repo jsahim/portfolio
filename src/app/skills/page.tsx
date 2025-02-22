@@ -30,147 +30,147 @@ export default function Skills() {
     
     }, []);
 
-    const chatGPT = (<a key="chatGPT" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const chatGPT = (<a key="chatGPT" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://chatgpt.com/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">ChatGPT</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#74AA9C]">
         <SiOpenai className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const githubCopilot = (<a key="githubCopilot" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const githubCopilot = (<a key="githubCopilot" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://github.com/features/copilot" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">GitHub<br/>Copilot</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiGithubcopilot className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const claude = (<a key="claude" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const claude = (<a key="claude" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://claude.ai/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Claude</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#da7756]">
         <SiClaude className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const tableau = (<a key="tableau" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const tableau = (<a key="tableau" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.tableau.com/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Tableau</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#1C4481]">
         <SiTableau className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const slack = (<a key="slack" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const slack = (<a key="slack" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://slack.com/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Slack</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#4A154B]">
         <SiSlack className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const notion = (<a key="notion" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const notion = (<a key="notion" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://slack.com/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Notion</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiNotion className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const googleDocs = (<a key="googleDocs" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const googleDocs = (<a key="googleDocs" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://docs.google.com" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Docs</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#3086F6]">
         <SiGoogledocs className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const googleAnalytics = (<a key="googleAnalytics" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const googleAnalytics = (<a key="googleAnalytics" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Analytics</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#ed750a]">
         <SiGoogleanalytics className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const confluence = (<a key="confluence" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const confluence = (<a key="confluence" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.atlassian.com/software/confluence" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Confluence</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0053CD]">
         <SiConfluence className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const trello = (<a key="trello" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const trello = (<a key="trello" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.atlassian.com/software/trello" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Trello</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0053CD]">
         <FaTrello className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const jira = (<a key="jira" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const jira = (<a key="jira" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.atlassian.com/software/jira" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">JIRA</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0053CD]">
         <SiJira className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const sketch = (<a key="sketch" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const sketch = (<a key="sketch" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.sketch.com/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Sketch</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#E9AC12]">
         <SiSketch className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
     
-    const vercel = (<a key="vercel" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const vercel = (<a key="vercel" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://vercel.com/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Vercel</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiVercel className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const npm = (<a key="npm" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const npm = (<a key="npm" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">npm</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#cb3837]">
         <CgNpm className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const lighthouse = (<a key="lighthouse" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const lighthouse = (<a key="lighthouse" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://developer.chrome.com/docs/lighthouse/overview" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Lighthouse</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#EA4335]">
         <SiLighthouse className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const esLint = (<a key="esLint" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const esLint = (<a key="esLint" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://eslint.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">ESLint</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#4b32c3]">
         <SiEslint className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const webPack = (<a key="webPack" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const webPack = (<a key="webPack" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://webpack.js.org/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Webpack</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#8dd6f9]">
         <SiWebpack className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const agile = (<a key="agile" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const agile = (<a key="agile" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.agilealliance.org/agile101/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Agile</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#6fd7ac]">
         <DiScrum className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const restAPI = (<a key="restAPI" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const restAPI = (<a key="restAPI" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://restfulapi.net/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">REST API</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#01B5E6]">
         <TbCloudCog className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const microsoftTeams = (<a key="microsoftTeams" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const microsoftTeams = (<a key="microsoftTeams" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.microsoft.com/en-us/microsoft-teams/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Microsoft Teams</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#7B83EB]">
         <BsMicrosoftTeams className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
-    const vsCode = (<a key="vsCode" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    const vsCode = (<a key="vsCode" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
       <span className="absolute z-[-1] text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">VS Code</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0098FF]">
         <VscVscode className="w-36 h-36 z-[-2] group-hover:w-24 transition-all duration-150 ease-in" />
@@ -304,27 +304,27 @@ export default function Skills() {
     </a>)
 
     const devSkills = (<div className="flex flex-col items-center">
-      <h2>LANGUAGES</h2>
+      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">Languages</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, tailwindCSS]}
       </div>
-      <h2>VERSION CONTROL</h2>
+      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">Verison Control</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[git, gitHub]}
       </div>
-      <h2>PROJECT MANAGEMENT</h2>
+      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">Project Management</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[typeScript]}
       </div>
-      <h2>QA TESTING</h2>
+      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">QA Testing</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[mocha, chai, cypress]}
       </div>
-      <h2>DESIGN</h2>
+      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">Design</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[adobeCC, figma, tailwindCSS]}
       </div>
-      <h2>AI PRODUCTIVITY</h2>
+      <h2 className="text-2xl p-2 font-semibold text-white text-center xl:text-left bg-[#304962] rounded-lg indent-0 xl:indent-6 w-full">AI Productivity</h2>
       <div className="flex flex-wrap justify-center w-full">
         {[typeScript]}
       </div>
@@ -355,7 +355,7 @@ export default function Skills() {
 
   return (
     <div className="w-[85%]"> 
-      {currSite && <><h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5">Skills</h1>{skillSet}</>}
+      {currSite && <><h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-20">Skills</h1>{skillSet}</>}
     </div>
   )
 }
