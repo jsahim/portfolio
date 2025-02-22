@@ -14,7 +14,6 @@ export default function Navigation() {
   const allSearchParams = useGetAllSearchParams();
   const [open, setOpen] = useState(false)
   const [key, setKey] = useState("home")
-  const [currPage, setCurrPage] = useState("")
   const [sourcePath, setSource] = useState("")
 
 
@@ -33,7 +32,7 @@ export default function Navigation() {
         setSource("")
       }
   
-    }, [currPage]);
+    }, []);
 
 
   return (
@@ -47,7 +46,6 @@ export default function Navigation() {
 
         <div className='absolute right-8 top-6 cursor-pointer md:hidden' onClick={() => {
               setOpen(!open)
-              setCurrPage("home")
             }}>
           {open ? <GrClose className='h-10 w-10 text-white'/> : <FiMenu className='h-10 w-10 text-white'/>}
         </div>
@@ -62,10 +60,7 @@ export default function Navigation() {
            */}
         
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className={`w-full font-medium hover:text-[#e98522] ${currPage === "skills" ? "text-[#e98522]" : "text-white" } text-white duration-150`} href="/skills" as={`/skills/?${sourcePath}`} onClick={() => {
-              setOpen(!open)
-              setCurrPage("skills")
-            }}>
+            <Link className={`w-full font-medium hover:text-[#e98522] ${open ? "text-[#e98522]" : "text-white" } text-white duration-150`} href="/skills" as={`/skills/?${sourcePath}`} onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">SKILLS</span>
             </Link>
           </li>
@@ -73,7 +68,6 @@ export default function Navigation() {
           <li className='text-center md:bg-transparent bg-[#304962]'>
             <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/projects" as={`/projects/?${sourcePath}`} onClick={() => {
               setOpen(!open)
-              setCurrPage("projects")
             }}>
               <span className="w-full flex justify-center items-center tracking-wide">PROJECTS</span>
             </Link>
@@ -82,7 +76,6 @@ export default function Navigation() {
           <li className='text-center md:bg-transparent bg-[#304962] drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]'>
             <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/contact" as={`/contact/?${sourcePath}`} onClick={() => {
               setOpen(!open)
-              setCurrPage("contact")
             }}>
               <span className="w-full flex justify-center items-center tracking-wide">CONTACT</span>
             </Link>
@@ -91,7 +84,6 @@ export default function Navigation() {
           <li className='text-center md:bg-transparent bg-[#304962]'>
             <a className="w-[400px] font-medium hover:text-[#e98522] text-white duration-150" target="_blank" href={`https://drive.google.com/file/d/${key}/view?usp=sharing`}  onClick={() => {
               setOpen(!open)
-              setCurrPage("resume")
             }}>
               <span className="w-full flex justify-center items-center tracking-wide">RESUME</span>
             </a>
