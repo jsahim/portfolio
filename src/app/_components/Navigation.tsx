@@ -36,7 +36,7 @@ export default function Navigation() {
 
 
   return (
-    <header className='fixed h-20 flex md:justify-between items-center w-[100vw] bg-[#304962] border-b-2 border-[#e5e7eb]'>
+    <header className='fixed z-50 h-20 flex md:justify-between items-center w-[100vw] bg-[#304962] border-b-2 border-[#e5e7eb]'>
 
       <Link className='p-2 mx-6 h-full' href={`/?${sourcePath}` }>
         <Image className='min-w-[200px]' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
@@ -69,7 +69,7 @@ export default function Navigation() {
             </Link>
           </li>
           
-          <li className='text-center md:bg-transparent bg-[#304962]'>
+          <li className='text-center md:bg-transparent bg-[#304962] drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]'>
             <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/contact" as={`/contact/?${sourcePath}`} onClick={() => setOpen(!open)}>
               <span className="w-full flex justify-center items-center tracking-wide">CONTACT</span>
             </Link>
