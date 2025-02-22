@@ -39,16 +39,13 @@ export default function Navigation() {
   return (
     <header className='fixed z-50 h-20 flex md:justify-between items-center w-[100vw] bg-[#304962] border-b-2 border-[#e5e7eb]'>
 
-      <Link className='p-2 mx-6 h-full' href={`/?${sourcePath}` }>
+      <Link className='p-2 mx-6 h-full' href={`/?${sourcePath}` } onClick={() => {setCurrPage("home")}}>
         <Image className='min-w-[200px]' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
       </Link>
 
       <nav className="md:flex w-full items-center md:justify-center xl:justify-end">
 
-        <div className='absolute right-8 top-6 cursor-pointer md:hidden' onClick={() => {
-              setOpen(!open)
-              setCurrPage("home")
-            }}>
+        <div className='absolute right-8 top-6 cursor-pointer md:hidden' onClick={() => setOpen(!open)}>
           {open ? <GrClose className='h-10 w-10 text-white'/> : <FiMenu className='h-10 w-10 text-white'/>}
         </div>
         
