@@ -33,7 +33,7 @@ export default function Navigation() {
         setSource("")
       }
   
-    }, []);
+    }, [currPage]);
 
 
   return (
