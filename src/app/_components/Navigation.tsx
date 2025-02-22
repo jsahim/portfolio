@@ -71,7 +71,7 @@ export default function Navigation() {
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/projects" as={`/projects/?${sourcePath}`} onClick={() => {
+            <Link className={`w-full font-medium hover:text-[#e98522] ${currPage === "projects" ? "text-[#e98522]" : "text-white" } duration-150`} href="/projects" as={`/projects/?${sourcePath}`} onClick={() => {
               setOpen(!open)
               setCurrPage("projects")
             }}>
@@ -80,7 +80,7 @@ export default function Navigation() {
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962] drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]'>
-            <Link className="w-full font-medium hover:text-[#e98522] text-white duration-150" href="/contact" as={`/contact/?${sourcePath}`} onClick={() => {
+            <Link className={`w-full font-medium hover:text-[#e98522] ${currPage === "contact" ? "text-[#e98522]" : "text-white" } duration-150`} href="/contact" as={`/contact/?${sourcePath}`} onClick={() => {
               setOpen(!open)
               setCurrPage("contact")
             }}>
@@ -89,7 +89,7 @@ export default function Navigation() {
           </li>
 
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <a className="w-[400px] font-medium hover:text-[#e98522] text-white duration-150" target="_blank" href={`https://drive.google.com/file/d/${key}/view?usp=sharing`}  onClick={() => {
+            <a className={`w-full font-medium hover:text-[#e98522] ${currPage === "resume" ? "text-[#e98522]" : "text-white" } duration-150`} target="_blank" href={`https://drive.google.com/file/d/${key}/view?usp=sharing`}  onClick={() => {
               setOpen(!open)
               setCurrPage("resume")
             }}>
