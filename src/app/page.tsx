@@ -16,6 +16,7 @@ export default function Home() {
 
     const siteType = allSearchParams.type
     const pageOrigin = allSearchParams.origin
+    
     if(pageOrigin){
       setOrigin(pageOrigin)
     }
@@ -27,33 +28,32 @@ export default function Home() {
     } else {
       setSite("DEV")
     }
-
-    if(!origin){
-      setIntro(true)
-      setName(true)
-      setEnd(true)
-      setOrange(true)
-    } else {    
-      setTimeout(() => {
-        setIntro(true)
-      }, 100);
     
-      setTimeout(() => {
-        setName(true)
-      }, 200);
-      
-      setTimeout(() => {
-        setEnd(true)
-      }, 400);
-    
-      setTimeout(() => {
-        setOrange(true)
-      }, 1500);
-    }
-
   }, []);
   
-
+  if(!origin){
+    setIntro(true)
+    setName(true)
+    setEnd(true)
+    setOrange(true)
+  } else {    
+    setTimeout(() => {
+      setIntro(true)
+    }, 100);
+  
+    setTimeout(() => {
+      setName(true)
+    }, 200);
+    
+    setTimeout(() => {
+      setEnd(true)
+    }, 400);
+  
+    setTimeout(() => {
+      setOrange(true)
+    }, 1500);
+  }
+  
   let position
   if(site === "UX" ){
     position = "UX/UI Developer"
