@@ -42,10 +42,9 @@ export default function Navigation() {
       <Link 
       href={{
         pathname: '/',
-        query: { type: `${sourcePath}` },
+        query: { type: `${sourcePath}`, origin: "home" },
       }}
-      onClick={(e) => {
-        e.preventDefault
+      onClick={() => {
         setOpen(!open)
         setCurrPage("home")
       }}> 

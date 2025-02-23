@@ -6,6 +6,7 @@ import useGetAllSearchParams from "./_components/GetParams";
 export default function Home() {
   const allSearchParams = useGetAllSearchParams();
   const [site, setSite] = useState<string>("")
+  const [origin, setOrigin] = useState<string>("")
   const [introReady, setIntro] = useState<boolean>(false);
   const [nameReady, setName] = useState<boolean>(false);
   const [endReady, setEnd] = useState<boolean>(false);
@@ -16,6 +17,7 @@ export default function Home() {
   useEffect(() => {
 
     const siteType = allSearchParams.type
+    const pageOrigin = allSearchParams.origin
 
     if(siteType === "u"){
       setSite("UX")
@@ -25,9 +27,11 @@ export default function Home() {
       setSite("DEV")
     }
     
+    setOrigin(pageOrigin)
+
   }, []);
   
-  if(!animComplete){
+  if(!origin){
     setTimeout(() => {
       setIntro(true)
     }, 100);
