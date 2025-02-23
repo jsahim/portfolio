@@ -44,7 +44,8 @@ export default function Navigation() {
         pathname: '/',
         query: { type: `${sourcePath}` },
       }}
-      onClick={() => {
+      onClick={(e) => {
+        e.preventDefault()
         setOpen(!open)
         setCurrPage("home")
       }}> 
@@ -72,7 +73,8 @@ export default function Navigation() {
               pathname: '/skills',
               query: { type: `${sourcePath}` }
             }}
-            onClick={() => {
+            onClick={(e) => {
+              e.preventDefault()
               setOpen(!open)
               setCurrPage("skills")
             }}>
@@ -86,7 +88,8 @@ export default function Navigation() {
               pathname: '/projects',
               query: { type: `${sourcePath}` }
             }}
-            onClick={() => {
+            onClick={(e) => {
+              e.preventDefault()
               setOpen(!open)
               setCurrPage("projects")
             }}>
@@ -100,7 +103,8 @@ export default function Navigation() {
               pathname: '/contact',
               query: { type: `${sourcePath}` }
             }}
-            onClick={() => {
+            onClick={(e) => {
+              e.preventDefault()
               setOpen(!open)
               setCurrPage("contact")
             }}>
