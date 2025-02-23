@@ -10,6 +10,8 @@ export default function Home() {
   const [nameReady, setName] = useState<boolean>(false);
   const [endReady, setEnd] = useState<boolean>(false);
   const [orangeReady, setOrange] = useState<boolean>(false);
+  const [animComplete, setAnimComplete] = useState<boolean>(false);
+
 
   useEffect(() => {
 
@@ -22,25 +24,25 @@ export default function Home() {
     } else {
       setSite("DEV")
     }
-
-    setTimeout(() => {
-      setIntro(true)
-    }, 100);
-  
-    setTimeout(() => {
-      setName(true)
-    }, 200);
     
-    setTimeout(() => {
-      setEnd(true)
-    }, 400);
-  
-    setTimeout(() => {
-      setOrange(true)
-    }, 1500);
-
   }, []);
+  
+  setTimeout(() => {
+    setIntro(true)
+  }, 100);
 
+  setTimeout(() => {
+    setName(true)
+  }, 200);
+  
+  setTimeout(() => {
+    setEnd(true)
+  }, 400);
+
+  setTimeout(() => {
+    setOrange(true)
+    setAnimComplete(true)
+  }, 1500);
 
   let position
   if(site === "UX" ){
@@ -54,9 +56,9 @@ export default function Home() {
   return (
       <div className="w-[85%] h-full text-center"> 
         <h1 className="font-fugaz text-[#304962] my-3">
-          { introReady ? <><span className="relative z-[-1] animate-refine-slidein text-[5vw]">Hi there, I&apos;m</span><br/></> : null }
-          { nameReady ? <><span className={`relative z-[-1] animate-refine-slidein leading-relaxed ${orangeReady ? "text-[#e98522] duration-700 text-[15vw]": "text-[9vw]"}`}>Jeff Sahim</span><br/></> : null }
-          { endReady ? <span className="relative z-[-1] animate-refine-slidein text-[5vw]">{position}</span> : null }
+          { introReady ? <><span className={`relative z-[-1] ${animComplete ? "" : "animate-refine-slidein" } text-[5vw]`}>Hi there, I&apos;m</span><br/></> : null }
+          { nameReady ? <><span className={`relative z-[-1] ${animComplete ? "" : "animate-refine-slidein" } leading-relaxed ${orangeReady ? "text-[#e98522] duration-700 text-[15vw]": "text-[9vw]"}`}>Jeff Sahim</span><br/></> : null }
+          { endReady ? <span className={`relative z-[-1] ${animComplete ? "" : "animate-refine-slidein" } text-[5vw]`}>{position}</span> : null }
         </h1>
       </div>
   )

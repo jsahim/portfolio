@@ -5,7 +5,7 @@ export default function Contact() {
     
       <h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Contact</h1>
           <div className="w-full flex justify-center">
-            <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] rounded-t-3xl rounded-b-md mb-2 w-3/5">Send me a message!</h2>
+            <h2 className="text-2xl font-regular white text-center">Send me a message!</h2>
           </div>
         <div className="py-8 lg:py-8 px-4 mx-auto max-w-screen-md">
           <form action="https://formsubmit.co/jeffreysahim@gmail.com" method="POST" className="space-y-8">
