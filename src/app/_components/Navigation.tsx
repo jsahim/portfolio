@@ -48,7 +48,7 @@ export default function Navigation() {
         setOpen(!open)
         setCurrPage("home")
       }}> 
-        <Image className='min-w-[200px]' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
+        <Image className='min-w-[200px] ml-6' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
       </Link>
 
       <nav className="md:flex w-full items-center md:justify-center xl:justify-end">
