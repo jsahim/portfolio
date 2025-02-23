@@ -5,7 +5,7 @@ import { VscVscode } from "react-icons/vsc";
 import { BsMicrosoftTeams } from "react-icons/bs";
 import { TbCloudCog } from "react-icons/tb";
 import { DiScrum } from "react-icons/di";
-import { FaTrello } from "react-icons/fa";
+import { FaTrello, FaSalesforce } from "react-icons/fa";
 import { CgNpm } from "react-icons/cg";
 import useGetAllSearchParams from "../_components/GetParams";
 import { useState, useEffect } from "react";
@@ -41,6 +41,13 @@ export default function Skills() {
       <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">GitHub<br/>Copilot</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiGithubcopilot className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
+      </div>
+    </a>)
+
+    const salesForce = (<a key="githubCopilot" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.salesforce.com/" target="_blank" rel="noreferrer">
+      <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Salesforce</span>
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#00A1E0]">
+        <FaSalesforce className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
@@ -367,7 +374,11 @@ export default function Skills() {
     const productSkills = (<div className="flex flex-col items-center relative">
       <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Project Management</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
-        {[agile, tableau, jira, confluence, trello, notion, googleAnalytics, googleDocs]}
+        {[agile, jira, confluence, trello, notion, googleDocs, salesForce]}
+      </div>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Data Analysis</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[tableau, googleAnalytics]}
       </div>
       <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Collaboration</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
