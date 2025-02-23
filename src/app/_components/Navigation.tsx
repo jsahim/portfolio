@@ -76,7 +76,7 @@ export default function Navigation() {
             </Link>
           </li>
           
-          <li className='text-center md:bg-transparent bg-[#304962] drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]'>
+          <li className='text-center md:bg-transparent bg-[#304962]'>
             <Link className={`w-full font-medium hover:text-[#e98522] ${currPage === "contact" ? "text-[#e98522]" : "text-white" } duration-150`} href="/contact" as={`/contact/?${sourcePath}`} onClick={() => {
               setOpen(!open)
               setCurrPage("contact")
