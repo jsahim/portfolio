@@ -42,7 +42,7 @@ export default function Navigation() {
       <Link 
       href={{
         pathname: '/',
-        query: { type: `${sourcePath}`, origin: "home" },
+        query: { type: `${sourcePath}`, origin: "main" },
       }}
       onClick={() => {
         setOpen(!open)
