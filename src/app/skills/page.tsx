@@ -1,6 +1,6 @@
 "use client"
 
-import { SiOpenai, SiGithubcopilot, SiClaude, SiTableau, SiSlack, SiNotion, SiGoogledocs, SiGoogleanalytics, SiConfluence, SiJira, SiSketch, SiVercel, SiLighthouse, SiEslint, SiWebpack, SiGithub, SiGit, SiTailwindcss, SiFigma, SiAdobecreativecloud, SiCypress, SiChai, SiMocha, SiCss3, SiHtml5, SiJquery, SiJavascript, SiRedux, SiNextdotjs, SiTypescript, SiVuedotjs, SiReact, SiReactrouter } from "react-icons/si";
+import { SiOpenai, SiGithubcopilot, SiClaude, SiTableau, SiSlack, SiZoom, SiNotion, SiGoogledocs, SiGoogleanalytics, SiConfluence, SiJira, SiSketch, SiVercel, SiLighthouse, SiEslint, SiWebpack, SiGithub, SiGit, SiTailwindcss, SiFigma, SiAdobecreativecloud, SiCypress, SiChai, SiMocha, SiCss3, SiHtml5, SiJquery, SiJavascript, SiRedux, SiNextdotjs, SiTypescript, SiVuedotjs, SiReact, SiReactrouter } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { BsMicrosoftTeams } from "react-icons/bs";
 import { TbCloudCog } from "react-icons/tb";
@@ -118,6 +118,13 @@ export default function Skills() {
       <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Vercel</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiVercel className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
+      </div>
+    </a>)
+
+    const zoom = (<a key="vercel" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://vercel.com/" target="_blank" rel="noreferrer">
+      <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Zoom</span>
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
+        <SiZoom className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
@@ -330,19 +337,60 @@ export default function Skills() {
       </div>
     </div>)
 
-    const uxSkills = (<div className="flex flex-col items-center">
-      <h2>UX SKILLS</h2>
-      <div className="flex flex-wrap justify-center w-full">
-        {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, mocha, chai, cypress, adobeCC, figma, tailwindCSS, git, gitHub, chatGPT, githubCopilot, claude, tableau, slack, notion, googleDocs, googleAnalytics, confluence, jira, trello, sketch, vercel, npm, lighthouse, esLint, webPack, agile, restAPI, microsoftTeams, vsCode]}
+    const uxSkills = (<div className="flex flex-col items-center relative">
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">UI Design</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[adobeCC, figma, sketch]}
+      </div>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Coding Languages</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[nextJS, typeScript, vueJS, reactJS, javaScript, html, css, tailwindCSS]}
+      </div>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Verison Control</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[git, gitHub]}
+      </div>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Project Management</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[jira, confluence, trello, agile]}
+      </div>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">QA Testing</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[mocha, chai, cypress]}
+      </div>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">AI Productivity</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[chatGPT, claude, githubCopilot]}
       </div>
     </div>)
 
-    const productSkills = (<div className="flex flex-col items-center">
-      <h2>PRODUCT SKILLS</h2>
-      <div className="flex flex-wrap justify-center w-full">
-      {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, mocha, chai, cypress, adobeCC, figma, tailwindCSS, git, gitHub, chatGPT, githubCopilot, claude, tableau, slack, notion, googleDocs, googleAnalytics, confluence, jira, trello, sketch, vercel, npm, lighthouse, esLint, webPack, agile, restAPI, microsoftTeams, vsCode]}
+    const productSkills = (<div className="flex flex-col items-center relative">
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Project Management</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[jira, confluence, trello, agile]}
+      </div>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Collaboration</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[slack, microsoftTeams, zoom]}
+      </div>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Design Prototyping</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[adobeCC, figma, sketch]}
+      </div>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Coding Languages</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[nextJS, typeScript, vueJS, reactJS, javaScript, html, css, tailwindCSS]}
+      </div>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">QA Testing</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[mocha, chai, cypress]}
+      </div>
+      <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">AI Productivity</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
+        {[chatGPT, claude, githubCopilot]}
       </div>
     </div>)
+
 
     let skillSet
     if(currSite === "UX" ){
