@@ -367,7 +367,7 @@ export default function Skills() {
     const productSkills = (<div className="flex flex-col items-center relative">
       <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Project Management</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
-        {[agile, jira, confluence, trello, notion, googleDocs, googleAnalytics, tableau]}
+        {[agile, tableau, jira, confluence, trello, notion, googleAnalytics, googleDocs]}
       </div>
       <h2 className="text-2xl/6 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl w-3/5">Collaboration</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
