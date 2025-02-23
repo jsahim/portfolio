@@ -121,7 +121,7 @@ export default function Skills() {
       </div>
     </a>)
 
-    const zoom = (<a key="vercel" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://vercel.com/" target="_blank" rel="noreferrer">
+    const zoom = (<a key="vercel" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.zoom.com/" target="_blank" rel="noreferrer">
       <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Zoom</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
         <SiZoom className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
@@ -157,8 +157,8 @@ export default function Skills() {
     </a>)
 
     const agile = (<a key="agile" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.agilealliance.org/agile101/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Agile</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#6fd7ac]">
+      <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Agile<br/>Scrum</span>
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#009FE3]">
         <DiScrum className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
@@ -171,7 +171,7 @@ export default function Skills() {
     </a>)
 
     const microsoftTeams = (<a key="microsoftTeams" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://www.microsoft.com/en-us/microsoft-teams/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Microsoft Teams</span>
+      <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Microsoft<br/>Teams</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#7B83EB]">
         <BsMicrosoftTeams className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
