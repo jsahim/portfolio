@@ -17,9 +17,7 @@ export default function Home() {
     const siteType = allSearchParams.type
     const pageOrigin = allSearchParams.origin
     
-    if(pageOrigin){
-      setOrigin(pageOrigin)
-    }
+    pageOrigin ? setOrigin(pageOrigin) : null
 
     if(siteType === "u"){
       setSite("UX")
@@ -28,10 +26,9 @@ export default function Home() {
     } else {
       setSite("DEV")
     }
-    
   }, []);
   
-  if(!origin){
+  if(origin){
     setIntro(true)
     setName(true)
     setEnd(true)
