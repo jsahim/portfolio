@@ -24,10 +24,10 @@ export default function Navigation() {
   
       if(sType === "u" ){
         setKey("10J6r5-bN6I6dx-xUCvtucJTw00JlQ_Xc")
-        setSource("type=u")
+        setSource("u")
       }else if(sType === "p"){
         setKey("1oYg8PjnUsrlICyb9WwI2OL36TxCX-yxM")
-        setSource("type=p")
+        setSource("p")
       } else {
         setKey("1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW")
         setSource("")
@@ -39,10 +39,15 @@ export default function Navigation() {
   return (
     <header className='fixed z-50 h-20 flex md:justify-between items-center w-[100vw] bg-[#304962] border-b-2 border-[#e5e7eb]'>
 
-      <Link className='p-2 mx-6 h-full' href={`/?${sourcePath}` } onClick={() => {
+      <Link 
+      href={{
+        pathname: '/',
+        query: { type: `${sourcePath}` },
+      }}
+      onClick={() => {
         setOpen(!open)
         setCurrPage("home")
-        }}>
+      }}> 
         <Image className='min-w-[200px]' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
       </Link>
 
@@ -62,7 +67,12 @@ export default function Navigation() {
            */}
         
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className={`w-full font-medium hover:text-[#e98522] ${currPage === "skills" ? "text-[#e98522]" : "text-white" } duration-150`} href="/skills" as={`/skills/?${sourcePath}`} onClick={() => {
+            <Link className={`w-full font-medium hover:text-[#e98522] ${currPage === "skills" ? "text-[#e98522]" : "text-white" } duration-150`} 
+            href={{
+              pathname: '/skills',
+              query: { type: `${sourcePath}` }
+            }}
+            onClick={() => {
               setOpen(!open)
               setCurrPage("skills")
             }}>
@@ -71,7 +81,12 @@ export default function Navigation() {
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className={`w-full font-medium hover:text-[#e98522] ${currPage === "projects" ? "text-[#e98522]" : "text-white" } duration-150`} href="/projects" as={`/projects/?${sourcePath}`} onClick={() => {
+            <Link className={`w-full font-medium hover:text-[#e98522] ${currPage === "projects" ? "text-[#e98522]" : "text-white" } duration-150`} 
+            href={{
+              pathname: '/projects',
+              query: { type: `${sourcePath}` }
+            }}
+            onClick={() => {
               setOpen(!open)
               setCurrPage("projects")
             }}>
@@ -80,7 +95,12 @@ export default function Navigation() {
           </li>
           
           <li className='text-center md:bg-transparent bg-[#304962]'>
-            <Link className={`w-full font-medium hover:text-[#e98522] ${currPage === "contact" ? "text-[#e98522]" : "text-white" } duration-150`} href="/contact" as={`/contact/?${sourcePath}`} onClick={() => {
+            <Link className={`w-full font-medium hover:text-[#e98522] ${currPage === "contact" ? "text-[#e98522]" : "text-white" } duration-150`} 
+            href={{
+              pathname: '/contact',
+              query: { type: `${sourcePath}` }
+            }}
+            onClick={() => {
               setOpen(!open)
               setCurrPage("contact")
             }}>
