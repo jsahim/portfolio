@@ -11,8 +11,6 @@ export default function Home() {
   const [nameReady, setName] = useState<boolean>(false);
   const [endReady, setEnd] = useState<boolean>(false);
   const [orangeReady, setOrange] = useState<boolean>(false);
-  const [animComplete, setAnimComplete] = useState<boolean>(false);
-
 
   useEffect(() => {
 
@@ -46,7 +44,6 @@ export default function Home() {
   
     setTimeout(() => {
       setOrange(true)
-      setAnimComplete(true)
     }, 1500);
   }
 
