@@ -66,7 +66,7 @@ export default function Home() {
       <div className="w-[85%] h-full text-center"> 
         <h1 className="font-fugaz text-[#304962] my-3">
           { introReady || origin ? <><span className={`relative z-[-1] ${ !origin ? "animate-refine-slidein" : ""} text-[5vw]`}>Hi there, I&apos;m</span><br/></> : null }
-          { nameReady || origin ? <><span className={`relative z-[-1] ${ !origin ? "animate-refine-slidein" : ""} leading-relaxed ${orangeReady && !origin ? "text-[#e98522] duration-700 text-[15vw]": "text-[9vw]"} ${orangeReady && origin ? "text-[#e98522] text-[15vw]": ""}`}>Jeff Sahim</span><br/></> : null }
+          { nameReady || origin ? <><span className={`relative z-[-1] ${ !origin ? "animate-refine-slidein" : ""} leading-relaxed text-[9vw] ${orangeReady && !origin ? "text-[#e98522] duration-700 text-[15vw]": ""} ${orangeReady && origin ? "text-[#e98522] text-[15vw]": ""}`}>Jeff Sahim</span><br/></> : null }
           { endReady || origin ? <span className={`relative z-[-1] ${ !origin ? "animate-refine-slidein" : ""} text-[5vw]`}>{position}</span> : null }
         </h1>
       </div>
