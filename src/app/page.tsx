@@ -10,6 +10,7 @@ export default function Home() {
   const [nameReady, setName] = useState<boolean>(false);
   const [endReady, setEnd] = useState<boolean>(false);
   const [orangeReady, setOrange] = useState<boolean>(false);
+  const [animComplete, setAnimComplete] = useState<boolean>(false);
 
 
   useEffect(() => {
@@ -26,21 +27,24 @@ export default function Home() {
     
   }, []);
   
-  setTimeout(() => {
-    setIntro(true)
-  }, 100);
-
-  setTimeout(() => {
-    setName(true)
-  }, 200);
+  if(!animComplete){
+    setTimeout(() => {
+      setIntro(true)
+    }, 100);
   
-  setTimeout(() => {
-    setEnd(true)
-  }, 400);
-
-  setTimeout(() => {
-    setOrange(true)
-  }, 1500);
+    setTimeout(() => {
+      setName(true)
+    }, 200);
+    
+    setTimeout(() => {
+      setEnd(true)
+    }, 400);
+  
+    setTimeout(() => {
+      setOrange(true)
+      setAnimComplete(true)
+    }, 1500);
+  }
 
   let position
   if(site === "UX" ){

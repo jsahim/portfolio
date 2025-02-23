@@ -30,7 +30,7 @@ export default function Navigation() {
         setSource("p")
       } else {
         setKey("1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW")
-        setSource("")
+        setSource("d")
       }
   
     }, [currPage]);
