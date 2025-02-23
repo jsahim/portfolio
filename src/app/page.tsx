@@ -25,24 +25,25 @@ export default function Home() {
       setSite("DEV")
     }
     
-  }, []);
+    setTimeout(() => {
+      setIntro(true)
+    }, 100);
   
-  setTimeout(() => {
-    setIntro(true)
-  }, 100);
-
-  setTimeout(() => {
-    setName(true)
-  }, 200);
+    setTimeout(() => {
+      setName(true)
+    }, 200);
+    
+    setTimeout(() => {
+      setEnd(true)
+    }, 400);
   
-  setTimeout(() => {
-    setEnd(true)
-  }, 400);
+    setTimeout(() => {
+      setOrange(true)
+      setAnimComplete(true)
+    }, 1500);
 
-  setTimeout(() => {
-    setOrange(true)
-    setAnimComplete(true)
-  }, 1500);
+  }, [animComplete]);
+  
 
   let position
   if(site === "UX" ){
