@@ -37,7 +37,7 @@ export default function Navigation() {
 
 
   return (
-    <header className='fixed z-50 bg-[#304962] border-b-2 border-gray-100 w-[100vw] display flex justify-center items-center'>
+    <header className='fixed z-50 bg-[#304962] w-[100vw] display flex justify-center items-center'>
 
     <div className='w-[85%] h-20 flex md:justify-between items-center'>
 
@@ -50,7 +50,7 @@ export default function Navigation() {
         setOpen(!open)
         setCurrPage("home")
       }}> 
-        <Image className='min-w-[200px] ml-6' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
+        <Image className='min-w-[200px]' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
       </Link>
 
       <nav className="md:flex w-full items-center md:justify-center xl:justify-end">
@@ -78,7 +78,7 @@ export default function Navigation() {
               setOpen(!open)
               setCurrPage("skills")
             }}>
-              <span className="w-full flex justify-center items-center tracking-wide">SKILLS</span>
+              <span className="w-full flex justify-center items-center tracking-wide text-lg">SKILLS</span>
             </Link>
           </li>
           
@@ -92,7 +92,7 @@ export default function Navigation() {
               setOpen(!open)
               setCurrPage("projects")
             }}>
-              <span className="w-full flex justify-center items-center tracking-wide">PROJECTS</span>
+              <span className="w-full flex justify-center items-center tracking-wide text-lg">PROJECTS</span>
             </Link>
           </li>
           
@@ -106,7 +106,7 @@ export default function Navigation() {
               setOpen(!open)
               setCurrPage("contact")
             }}>
-              <span className="w-full flex justify-center items-center tracking-wide">CONTACT</span>
+              <span className="w-full flex justify-center items-center tracking-wide text-lg">CONTACT</span>
             </Link>
           </li>
 
