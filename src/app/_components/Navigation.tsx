@@ -115,7 +115,7 @@ export default function Navigation() {
               setOpen(!open)
               setCurrPage("resume")
             }}>
-              <span className="w-full flex justify-center items-center tracking-wide">RESUME</span>
+              <span className="w-full flex justify-center items-center tracking-wide text-lg">RESUME</span>
             </a>
           </li>
 
