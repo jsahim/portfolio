@@ -37,7 +37,9 @@ export default function Navigation() {
 
 
   return (
-    <header className='fixed z-50 h-20 flex md:justify-between items-center w-[100vw] bg-[#304962] border-b-2 border-gray-100'>
+    <header className='fixed z-50 bg-[#304962] border-b-2 border-gray-100 w-[100vw] display flex justify-center items-center'>
+
+    <div className='w-[85%] h-20 flex md:justify-between items-center'>
 
       <Link 
       href={{
@@ -129,6 +131,8 @@ export default function Navigation() {
         </ul>
 
       </nav>
+
+    </div>
     </header>
   )
 }
