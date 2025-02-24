@@ -10,7 +10,7 @@ export default function Projects() {
       <h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Projects</h1>
       <div className="flex flex-col flex-wrap justify-center items-center w-inherit gap-10">
 
-        <div className="flex flex-col xl:flex-row justify-around items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
+        <div className="flex flex-col xl:flex-row justify-evenly items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
           <Image height={0} width={500} src="/images/Xpresso.png" alt="Xpresso Coffee" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Xpresso Coffee</h2>
@@ -33,7 +33,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="flex flex-col xl:flex-row justify-around items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
+        <div className="flex flex-col xl:flex-row justify-evenly items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
           <Image className="w-inherit" height={0} width={500} src="/images/Rancid.png" alt="Rancid Tomatillos" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Rancid Tomatillos</h2>
@@ -56,7 +56,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="flex flex-col xl:flex-row justify-around items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
+        <div className="flex flex-col xl:flex-row justify-evenly items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
           <Image className="w-inherit" height={0} width={500}  src="/images/Hogwarts.png" alt="Battle of Hogwarts" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Battle of Hogwarts</h2>
@@ -73,7 +73,7 @@ export default function Projects() {
           </div>
         </div>
         
-        <div className="flex flex-col xl:flex-row justify-around items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
+        <div className="flex flex-col xl:flex-row justify-evenly items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
           <Image className="w-inherit" height={0} width={500} src="/images/Hotel.png" alt="Hotel Azuro" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Hotel Azuro</h2>
