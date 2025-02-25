@@ -1,4 +1,16 @@
+"use client"
+
+import useGetAllSearchParams from "../_components/GetParams";
+import { useEffect, useState } from 'react'
+
 export default function Contact() {
+    const allSearchParams = useGetAllSearchParams();
+    const [cPage, setCPage] = useState("");
+
+    useEffect(() => {
+      const cType = allSearchParams.type
+      setCPage(cType)
+    }, []);
   
   return (
     <div className="w-[85%] h-full"> 
@@ -21,7 +33,7 @@ export default function Contact() {
                   <label htmlFor="message" className="block mb-2 font-medium text-gray-900">Your message</label>
                   <textarea name="message" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-400" placeholder="Leave a comment..." required></textarea>
               </div>
-              <input type="hidden" name="_next" value="https://jeffsahim.vercel.app/thanks"/>
+              <input type="hidden" name="_next" value={`https://jeffsahim.vercel.app/thanks?type=${cPage}`}/>
               <input type="hidden" name="_captcha" value="false" />
               <button type="submit" className="py-3 px-5 font-medium text-center text-white rounded-lg bg-[#304962] sm:w-fit hover:bg-[#e98522] transition-all duration-150 ease-in">SEND MESSAGE</button>
           </form>
