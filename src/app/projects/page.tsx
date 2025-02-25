@@ -11,7 +11,7 @@ export default function Projects() {
       <div className="flex flex-col flex-wrap justify-center items-center w-inherit gap-10">
 
         <div className="flex flex-col xl:flex-row justify-evenly items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
-          <Image className="mt[15px] xl:mt[0px]" height={0} width={500} src="/images/Xpresso.png" alt="Xpresso Coffee" />
+          <Image className="mt-[15px] xl:mt-[0px]" height={0} width={500} src="/images/Xpresso.png" alt="Xpresso Coffee" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 mt-[15px] font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Xpresso Coffee</h2>
             <p className="text-center xl:text-left p-2">Order a coffee through Xpresso and have it delivered by drone!</p>
@@ -34,7 +34,7 @@ export default function Projects() {
         </div>
 
         <div className="flex flex-col xl:flex-row justify-evenly items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
-          <Image className="mt[15px] xl:mt[0px]" height={0} width={500} src="/images/Rancid.png" alt="Rancid Tomatillos" />
+          <Image className="mt-[15px] xl:mt-[0px]" height={0} width={500} src="/images/Rancid.png" alt="Rancid Tomatillos" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 mt-[15px] font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Rancid Tomatillos</h2>
             <p className="text-center xl:text-left p-2">Can&apos;t decide on a movie to watch? Rancid Tomatillos has you covered.</p>
@@ -57,7 +57,7 @@ export default function Projects() {
         </div>
 
         <div className="flex flex-col xl:flex-row justify-evenly items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
-          <Image className="mt[15px] xl:mt[0px]" height={0} width={500}  src="/images/Hogwarts.png" alt="Battle of Hogwarts" />
+          <Image className="mt-[15px] xl:mt-[0px]" height={0} width={500}  src="/images/Hogwarts.png" alt="Battle of Hogwarts" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 mt-[15px] font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Battle of Hogwarts</h2>
             <p className="text-center xl:text-left p-2">Battle of Hogwarts is a magical take on the classic game, Rock Paper Scissors.</p>
@@ -74,7 +74,7 @@ export default function Projects() {
         </div>
         
         <div className="flex flex-col xl:flex-row justify-evenly items-center w-[100%] shadow-md border-2 bg-gray-50 border-gray-100 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
-          <Image className="mt[15px] xl:mt[0px]" height={0} width={500} src="/images/Hotel.png" alt="Hotel Azuro" />
+          <Image className="mt-[15px] xl:mt-[0px]" height={0} width={500} src="/images/Hotel.png" alt="Hotel Azuro" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 mt-[15px] font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Hotel Azuro</h2>
             <p className="text-center xl:text-left p-2">Book your stay at the luxourous Hotel Azuro.<br/><br/><span className="font-semibold">USERNAME:</span> customer2 <br/><span className="font-semibold">PASSWORD:</span> overlook2021</p>
