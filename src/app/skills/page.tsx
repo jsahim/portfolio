@@ -88,14 +88,14 @@ export default function Skills() {
 
     const googleSheets = (<a key="googleSheets" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://docs.google.com" target="_blank" rel="noreferrer">
       <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Sheets</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#3086F6]">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0F9D58]">
         <SiGooglesheets className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
     const googleForms = (<a key="googleForms" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://docs.google.com" target="_blank" rel="noreferrer">
       <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Forms</span>
-      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#3086F6]">
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#7248B9]">
         <SiGoogleforms className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
