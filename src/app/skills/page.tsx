@@ -349,6 +349,10 @@ export default function Skills() {
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
         {[adobeCC, figma, sketch]}
       </div>
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Collaboration</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+        {[slack, microsoftTeams, zoom]}
+      </div>
       <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Coding Languages</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
         {[nextJS, typeScript, vueJS, reactJS, javaScript, html, css, tailwindCSS]}
@@ -360,6 +364,10 @@ export default function Skills() {
       <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Project Management</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
         {[jira, confluence, trello, agile]}
+      </div>
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Data Analysis</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+        {[tableau, googleAnalytics]}
       </div>
       <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">QA Testing</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
