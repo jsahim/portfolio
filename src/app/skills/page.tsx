@@ -322,7 +322,7 @@ export default function Skills() {
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
         {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, tailwindCSS]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Verison Control</h2>
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Version Control</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
         {[git, gitHub]}
       </div>
@@ -353,7 +353,7 @@ export default function Skills() {
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
         {[nextJS, typeScript, vueJS, reactJS, javaScript, html, css, tailwindCSS]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Verison Control</h2>
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Version Control</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
         {[git, gitHub]}
       </div>
