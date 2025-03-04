@@ -1,6 +1,6 @@
 "use client"
 
-import { SiOpenai, SiGithubcopilot, SiClaude, SiTableau, SiSlack, SiZoom, SiNotion, SiGoogledocs, SiGoogleanalytics, SiConfluence, SiJira, SiSketch, SiVercel, SiLighthouse, SiEslint, SiWebpack, SiGithub, SiGit, SiTailwindcss, SiFigma, SiAdobecreativecloud, SiCypress, SiChai, SiMocha, SiCss3, SiHtml5, SiJquery, SiJavascript, SiRedux, SiNextdotjs, SiTypescript, SiVuedotjs, SiReact, SiReactrouter } from "react-icons/si";
+import { SiOpenai, SiGithubcopilot, SiClaude, SiTableau, SiSlack, SiZoom, SiNotion, SiGoogledocs, SiGoogleforms, SiGooglesheets, SiGoogleanalytics, SiConfluence, SiJira, SiSketch, SiVercel, SiLighthouse, SiEslint, SiWebpack, SiGithub, SiGit, SiTailwindcss, SiFigma, SiAdobecreativecloud, SiCypress, SiChai, SiMocha, SiCss3, SiHtml5, SiJquery, SiJavascript, SiRedux, SiNextdotjs, SiTypescript, SiVuedotjs, SiReact, SiReactrouter } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { BsMicrosoftTeams } from "react-icons/bs";
 import { TbCloudCog } from "react-icons/tb";
@@ -83,6 +83,20 @@ export default function Skills() {
       <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Docs</span>
       <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#3086F6]">
         <SiGoogledocs className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
+      </div>
+    </a>)
+
+    const googleSheets = (<a key="googleSheets" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://docs.google.com" target="_blank" rel="noreferrer">
+      <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Sheets</span>
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#3086F6]">
+        <SiGooglesheets className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
+      </div>
+    </a>)
+
+    const googleForms = (<a key="googleForms" className="group m-10 flex flex-col justify-center items-center w-36 h-36" href="https://docs.google.com" target="_blank" rel="noreferrer">
+      <span className="absolute z-3 text-center text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Forms</span>
+      <div className="w-36 h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#3086F6]">
+        <SiGoogleforms className="w-36 h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
       </div>
     </a>)
 
@@ -347,7 +361,7 @@ export default function Skills() {
     const uxSkills = (<div className="flex flex-col items-center relative">
       <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">UI Design</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
-        {[adobeCC, figma, sketch]}
+        {[figma, adobeCC, sketch]}
       </div>
       <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Collaboration</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
@@ -363,7 +377,7 @@ export default function Skills() {
       </div>
       <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Project Management</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
-        {[jira, confluence, trello, agile]}
+        {[jira, confluence, trello,  googleDocs, googleSheets, googleForms, agile]}
       </div>
       <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Data Analysis</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
