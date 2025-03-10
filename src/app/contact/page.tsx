@@ -37,8 +37,8 @@ export default function Contact() {
               <input type="hidden" name="_captcha" value="false" />
               <button type="submit" className="py-2 px-4 font-medium text-center text-white rounded-lg bg-[#304962] sm:w-fit hover:bg-[#e98522] transition-all duration-150 ease-in">SEND MESSAGE</button>
           </form>
-          <p className="text-center pt-16 font-medium">
-            Connect with me on <a className="text-[#304962] font-medium underline" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank" rel="noreferrer">LinkedIn</a> or email me at <a className="text-[#304962] font-medium underline" href="mailto:jeffreysahim@gmail.com">jeffreysahim@gmail.com</a>    
+          <p className="text-center mt-16 py-2 font-medium border border-[#304962] rounded-md">
+            Connect with me on <a className="text-[#304962] font-medium underline hover:text-[#e98522] transition-all duration-150 ease-in" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank" rel="noreferrer">LinkedIn</a> or email me at <a className="text-[#304962] font-medium underline hover:text-[#e98522] transition-all duration-150 ease-in" href="mailto:jeffreysahim@gmail.com">jeffreysahim@gmail.com</a>    
           </p>
         </div>
 
