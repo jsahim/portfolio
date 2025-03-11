@@ -37,7 +37,7 @@ export default function Navigation() {
 
 
   return (
-    <header className='fixed z-50 bg-[#e98522] w-[100%] display flex justify-center items-center border-b border-gray-50'>
+    <header className='fixed z-50 bg-[#e98522] w-[100vw] display flex justify-center items-center border-b border-gray-50'>
 
       <div className='w-[85%] h-20 flex justify-between items-center'>
 
