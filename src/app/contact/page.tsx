@@ -15,9 +15,9 @@ export default function Contact() {
   return (
     <div className="w-[85%]"> 
       <h1 className="font-fugaz text-6xl text-center m-5 mb-16 text-[#e98522]">Contact</h1>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] pt-10 mb-16">
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] mb-16">
 
-        <div className="pb-8 px-4 mx-auto w-[80%]">
+        <div className="py-16 mx-auto w-[80%]">
           <h2 className="text-3xl font-semibold text-left mb-8 text-[#304962]">Send me a message</h2>
           <form action="https://formsubmit.co/jeffreysahim@gmail.com" method="POST" className="space-y-8">
             
@@ -42,12 +42,12 @@ export default function Contact() {
               <button type="submit" className="w-[100%] py-2 px-4 font-medium text-white text-center rounded-lg bg-[#304962] hover:bg-[#e98522] transition-all duration-150 ease-in">SEND MESSAGE</button>
             </div>
           </form>
-          <p className="w-[100%] mt-10 text-base text-center font-medium">
-            Connect with me on <a className="font-semibold underline hover:text-[#e98522] transition-all duration-150 ease-in" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank" rel="noreferrer">LinkedIn</a> or email me at <a className="font-semibold underline hover:text-[#e98522] transition-all duration-150 ease-in" href="mailto:jeffreysahim@gmail.com">jeffreysahim@gmail.com</a>!    
-          </p>
         </div>
 
       </div>
+      <p className="w-[100%] mt-10 text-xl text-center font-normal text-white mb-16">
+        Connect with me on <a className="font-medium underline hover:text-[#e98522] transition-all duration-150 ease-in" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank" rel="noreferrer">LinkedIn</a> or email me at <a className="font-medium underline hover:text-[#e98522] transition-all duration-150 ease-in" href="mailto:jeffreysahim@gmail.com">jeffreysahim@gmail.com</a>!    
+      </p>
     </div>
   )
 }
