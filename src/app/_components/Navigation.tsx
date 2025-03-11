@@ -68,7 +68,7 @@ export default function Navigation() {
                 query: { type: `${sourcePath}` }
               }}
               onClick={() => {
-                setOpen(!open)
+                setOpen(false)
                 setCurrPage("about")
               }}>
                 <span className="w-full flex justify-center items-center tracking-wider text-lg">ABOUT</span>
