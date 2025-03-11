@@ -47,7 +47,7 @@ export default function Navigation() {
           query: { type: `${sourcePath}`, origin: "main" },
         }}
         onClick={() => {
-          setOpen(!open)
+          setOpen(false)
           setCurrPage("home")
         }}> 
           <Image className='min-w-[170px]' width={200} height={60} src="/images/jeff-logo.png" alt="Jeff Logo" priority />
@@ -68,7 +68,7 @@ export default function Navigation() {
                 query: { type: `${sourcePath}` }
               }}
               onClick={() => {
-                setOpen(false)
+                setOpen(!open)
                 setCurrPage("about")
               }}>
                 <span className="w-full flex justify-center items-center tracking-wider text-lg">ABOUT</span>
