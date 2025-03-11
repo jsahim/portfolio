@@ -25,6 +25,7 @@ export default function Projects() {
               <span>Git</span>
               <span>Fetch API</span>
               <span>Webpack</span>
+              <span>Photoshop</span>
             </div>
             <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
               <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full mr-3" href="https://xpresso-coffee.vercel.app/"><FiExternalLink className="h-10 w-10"/></a>
@@ -48,6 +49,7 @@ export default function Projects() {
               <span>Git</span>
               <span>Fetch API</span>
               <span>Webpack</span>
+              <span>Photoshop</span>
             </div>
             <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
               <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full mr-3" href="https://rancid-tomatillos-jsahim.vercel.app" target="_blank"><FiExternalLink className="h-10 w-10"/></a>
@@ -65,6 +67,7 @@ export default function Projects() {
               <span>JavaScript</span>
               <span>HTML</span>
               <span>CSS</span>
+              <span>Photoshop</span>
             </div>
             <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
               <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full mr-3" href="https://jsahim.github.io/battle-of-hogwarts" target="_blank"><FiExternalLink className="h-10 w-10"/></a>
