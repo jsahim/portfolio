@@ -14,7 +14,7 @@ export default function Projects() {
           <Image className="mt-[15px] xl:mt-[0px]" height={0} width={500} src="/images/Xpresso.png" alt="Xpresso Coffee" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 mt-[15px] font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Xpresso Coffee</h2>
-            <p className="text-center xl:text-left p-2">Order a coffee through Xpresso and have it delivered by drone!</p>
+            <p className="text-center xl:text-left p-2 text-xl">Order a coffee through Xpresso and have it delivered by drone!</p>
             <div className="my-0 xl:my-5 flex flex-wrap justify-center xl:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] xl:*:text-xs *:bg-[#304962] *:rounded-xl *:font-semibold">
               <span>React</span>
               <span>JavaScript</span>
@@ -37,7 +37,7 @@ export default function Projects() {
           <Image className="mt-[15px] xl:mt-[0px]" height={0} width={500} src="/images/Rancid.png" alt="Rancid Tomatillos" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 mt-[15px] font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Rancid Tomatillos</h2>
-            <p className="text-center xl:text-left p-2">Can&apos;t decide on a movie to watch? Rancid Tomatillos has you covered.</p>
+            <p className="text-center xl:text-left p-2 text-xl">Can&apos;t decide on a movie to watch? Rancid Tomatillos has you covered.</p>
             <div className="my-0 xl:my-5 flex flex-wrap justify-center xl:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] xl:*:text-xs *:bg-[#304962] *:rounded-xl *:font-semibold">
               <span>React</span>
               <span>JavaScript</span>
@@ -60,7 +60,7 @@ export default function Projects() {
           <Image className="mt-[15px] xl:mt-[0px]" height={0} width={500}  src="/images/Hogwarts.png" alt="Battle of Hogwarts" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 mt-[15px] font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Battle of Hogwarts</h2>
-            <p className="text-center xl:text-left p-2">Battle of Hogwarts is a magical take on the classic game, Rock Paper Scissors.</p>
+            <p className="text-center xl:text-left p-2 text-xl">Battle of Hogwarts is a magical take on the classic game, Rock Paper Scissors.</p>
             <div className="my-0 xl:my-5 flex flex-wrap justify-center xl:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] xl:*:text-xs *:bg-[#304962] *:rounded-xl *:font-semibold">
               <span>JavaScript</span>
               <span>HTML</span>
@@ -77,7 +77,7 @@ export default function Projects() {
           <Image className="mt-[15px] xl:mt-[0px]" height={0} width={500} src="/images/Hotel.png" alt="Hotel Azuro" />
           <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
             <h2 className="text-2xl/7 p-2 mt-[15px] font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Hotel Azuro</h2>
-            <p className="text-center xl:text-left p-2">Book your stay at the luxourous Hotel Azuro.<br/><br/><span className="font-semibold">USERNAME:</span> customer2 <br/><span className="font-semibold">PASSWORD:</span> overlook2021</p>
+            <p className="text-center xl:text-left p-2 text-xl">Book your stay at the luxourous Hotel Azuro.<br/><br/><span className="font-semibold">USERNAME:</span> customer2 <br/><span className="font-semibold">PASSWORD:</span> overlook2021</p>
             <div className="my-0 xl:my-5 flex flex-wrap justify-center xl:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] xl:*:text-xs *:bg-[#304962] *:rounded-xl *:font-semibold">
               <span>JavaScript</span>
               <span>HTML</span>
