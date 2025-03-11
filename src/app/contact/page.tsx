@@ -43,7 +43,7 @@ export default function Contact() {
             </div>
           </form>
           <p className="w-[100%] mt-10 text-base text-center font-medium">
-            Connect with me on <a className="font-medium underline hover:text-[#e98522] transition-all duration-150 ease-in" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank" rel="noreferrer">LinkedIn</a> or email me at <a className="font-medium underline hover:text-[#e98522] transition-all duration-150 ease-in" href="mailto:jeffreysahim@gmail.com">jeffreysahim@gmail.com</a>!    
+            Connect with me on <a className="font-semibold underline hover:text-[#e98522] transition-all duration-150 ease-in" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank" rel="noreferrer">LinkedIn</a> or email me at <a className="font-semibold underline hover:text-[#e98522] transition-all duration-150 ease-in" href="mailto:jeffreysahim@gmail.com">jeffreysahim@gmail.com</a>!    
           </p>
         </div>
 
