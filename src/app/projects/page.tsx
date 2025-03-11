@@ -72,29 +72,6 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        
-        <div className="flex flex-col xl:flex-row justify-evenly items-center w-[100%] shadow-md bg-gray-50 p-5 lg:p-10 rounded-[50px] transition-all duration-150 ease-in" >
-          <Image className="mt-[15px] xl:mt-[0px]" height={0} width={500} src="/images/Hotel.png" alt="Hotel Azuro" />
-          <div className="flex flex-col w-[100%] xl:w-[50%] h-[350px] justify-around xl:justify-between ml-0 xl:ml-6">
-            <h2 className="text-2xl/7 p-2 mt-[15px] font-regular text-white text-center xl:text-left bg-[#304962] rounded-r-3xl rounded-l-md indent-0 xl:indent-6">Hotel Azuro</h2>
-            <p className="text-center xl:text-left p-2 text-xl">Book your stay at the luxourous Hotel Azuro.<br/><br/><span className="font-semibold">USERNAME:</span> customer2 <br/><span className="font-semibold">PASSWORD:</span> overlook2021</p>
-            <div className="my-0 xl:my-5 flex flex-wrap justify-center xl:justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[10px] xl:*:text-xs *:bg-[#304962] *:rounded-xl *:font-semibold">
-              <span>JavaScript</span>
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>LightHouse</span>
-              <span>WAVE</span>
-              <span>Mocha</span>
-              <span>Chai</span>
-              <span>Fetch API</span>
-              <span>Webpack</span>
-            </div>
-            <div className="w-full flex justify-center lg:justify-end items-center *:px-3">
-              <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full mr-3" href="https://hotel-azuro.vercel.app" target="_blank"><FiExternalLink className="h-10 w-10"/></a>
-              <a className="flex justify-center items-center hover:bg-[#e98522] hover:text-white text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full" href="https://github.com/jsahim/hotel-azuro" target="_blank"><FaGithub className="h-10 w-10"/></a>
-            </div>
-          </div>
-        </div>
 
       </div>
     </div>
