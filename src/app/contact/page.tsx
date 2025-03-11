@@ -18,7 +18,7 @@ export default function Contact() {
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] mb-16">
 
         <div className="py-16 mx-auto w-[80%]">
-          <h2 className="text-3xl font-semibold text-left mb-8 text-[#304962]">Send me a message</h2>
+          <h2 className="md:text-3xl text-2xl font-semibold text-left mb-8 text-[#304962]">Send me a message</h2>
           <form action="https://formsubmit.co/jeffreysahim@gmail.com" method="POST" className="space-y-8">
             
             <div className="md:flex w-[100%] justify-between items-center">
