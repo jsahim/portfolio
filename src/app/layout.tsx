@@ -15,11 +15,12 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></link>
       </head>
         <body>
+          <div className="fixed -z-10 h-[100%] w-[100%] bg-[linear-gradient(_var(--tw-gradient-stops))] from-[#304962] to-[#2d649a]"></div>
           <Suspense>
             <Navigation />
           </Suspense>
-          <main className='pt-28 flex flex-col items-center h-[100vh]'>
-            <Suspense fallback={<div>Loading...</div>}>
+          <main className='flex pt-28 flex-col items-center h-[100vh]'>
+            <Suspense fallback={<div className="text-white">Loading...</div>}>
               {children}
             </Suspense>
           </main>

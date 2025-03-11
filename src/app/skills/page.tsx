@@ -332,94 +332,94 @@ export default function Skills() {
     </a>)
 
     const devSkills = (<div className="flex flex-col items-center relative">
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Languages</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Languages</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, tailwindCSS]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Version Control</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Version Control</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[git, gitHub]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Project Management</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Project Management</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[jira, confluence, trello, agile]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">QA Testing</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">QA Testing</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[mocha, chai, cypress]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Design</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Design</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[adobeCC, figma, sketch]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">AI Productivity</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">AI Productivity</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[chatGPT, claude, githubCopilot]}
       </div>
     </div>)
 
     const uxSkills = (<div className="flex flex-col items-center relative">
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">UI Design</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">UI Design</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[figma, adobeCC, sketch]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Collaboration</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Collaboration</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[slack, microsoftTeams, zoom]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Coding Languages</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Coding Languages</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[nextJS, typeScript, vueJS, reactJS, javaScript, html, css, tailwindCSS]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Version Control</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Version Control</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[git, gitHub]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Project Management</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Project Management</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[jira, confluence, trello,  googleDocs, googleSheets, googleForms, agile]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Data Analysis</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Data Analysis</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[tableau, googleAnalytics]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">QA Testing</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">QA Testing</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[mocha, chai, cypress]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">AI Productivity</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">AI Productivity</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[chatGPT, claude, githubCopilot]}
       </div>
     </div>)
 
     const productSkills = (<div className="flex flex-col items-center relative">
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Project Management</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Project Management</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[agile, jira, confluence, trello, notion, googleDocs, salesForce]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Data Analysis</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Data Analysis</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[tableau, googleAnalytics]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Collaboration</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Collaboration</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[slack, microsoftTeams, zoom]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Design Prototyping</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Design Prototyping</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[adobeCC, figma, sketch]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">Coding Languages</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">Coding Languages</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[nextJS, typeScript, vueJS, reactJS, javaScript, html, css, tailwindCSS]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">QA Testing</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">QA Testing</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[mocha, chai, cypress]}
       </div>
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5">AI Productivity</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md border-2 bg-gray-50 border-gray-100 z-1 rounded-[50px] mb-10">
+      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50 ">AI Productivity</h2>
+      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 z-1 rounded-[50px] mb-10">
         {[chatGPT, claude, githubCopilot]}
       </div>
     </div>)

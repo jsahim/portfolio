@@ -63,7 +63,7 @@ export default function Home() {
 
   return (
       <div className="w-[85%] h-full text-center"> 
-        <h1 className="font-fugaz text-[#304962] my-3">
+          <h1 className="font-fugaz text-white my-3">
           { introReady ? <><span className={`relative z-[-1] text-[5vw] ${animation && "animate-refine-slidein"}`}>Hi there, I&apos;m</span><br/></> : null }
           { nameReady ? <><span className={`relative z-[-1] leading-relaxed ${animation && "animate-refine-slidein"} ${orangeReady ? "text-[#e98522] duration-700 text-[15vw]": "text-[9vw]"}`}>Jeff Sahim</span><br/></> : null }
           { endReady ? <span className={`relative z-[-1] text-[5vw] ${animation && "animate-refine-slidein"}`}>{position}</span> : null }
