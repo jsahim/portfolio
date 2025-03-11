@@ -12,10 +12,12 @@ export default {
         fugaz: ['"Fugaz One"', '"sans-serif"']
       },
       keyframes: {
-        refine: { "0%": { left: "-100%" }, "100%": { left: "0%" } }
+        refine: { "0%": { left: "-100%" }, "100%": { left: "0%" } },
+        fade: { "0%": { opacity: "0" }, "100%": { opacity: "1" } }
       },
       animation: {
         "refine-slidein": "refine 1s",
+        "fade-in": "fade 1s",
       },
       colors: {
         background: "var(--background)",
