@@ -8,9 +8,9 @@ export default function Projects() {
   return (
     <div className="w-[85%] pb-16 flex flex-col justify-center items-center">
       <h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Projects</h1>
-      
-      <h2 className="text-2xl/7 p-2 font-regular text-white text-center bg-[#304962] z-1 rounded-t-3xl rounded-b-sm w-3/5 border-t border-l border-r border-gray-50">Software Projects</h2>
-      <div className="flex flex-wrap w-[100%] h-full justify-evenly items-start shadow-md bg-gray-50 rounded-[50px] p-5">
+
+      <h2 className="text-3xl p-2 text-center font-base w-[100%] text-white z-1 rounded-[50px] rounded-b-none px-6 border-2 border-gray-200 border-b-0 bg-[#304962ab]">Software Projects</h2>
+      <div className="flex flex-wrap w-[100%] h-full justify-evenly items-start shadow-md bg-gray-50 rounded-t-none rounded-[50px] p-5">
         
         <div className="flex flex-col h-[600px] justify-between items-center w-96 shadow-md bg-gray-50 rounded-[50px] p-5 m-3 border border-gray-200" >
           <div>
