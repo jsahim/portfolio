@@ -9,10 +9,10 @@ export default function Projects() {
     <div className="w-[85%] pb-16 flex flex-col justify-center items-center">
       <h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Projects</h1>
 
-      <h2 className="text-3xl p-2 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[50px] px-6 border-2 border-gray-200 bg-[#f9fafbca] mb-2 shadow-md">Software Projects</h2>
-      <div className="flex flex-wrap w-[100%] h-full justify-evenly items-start shadow-md bg-[#f9fafbca] rounded-t-lg rounded-[50px] border-2 border-gray-200 p-5">
+      <h2 className="text-3xl p-2 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[50px] bg-gray-50 mb-2 shadow-md">Software Projects</h2>
+      <div className="flex flex-wrap w-[100%] h-full justify-between items-center">
         
-        <div className="flex flex-col h-[600px] justify-between items-center w-96 shadow-md rounded-[50px] p-5 m-3 bg-gray-50">
+        <div className="flex flex-col h-[600px] justify-between items-center w-96 shadow-md rounded-[50px] p-5 bg-gray-50 mb-3 rounded-t-lg">
           <div>
             <h3 className="text-xl md:text-2xl p-2 font-semibold text-center mb-3">Xpresso Coffee</h3>
             <Image height={0} width={500} src="/images/Xpresso.png" alt="Xpresso Coffee" />
@@ -38,7 +38,7 @@ export default function Projects() {
           </div>
         </div>
         
-        <div className="flex flex-col h-[600px] justify-between items-center w-96 shadow-md bg-gray-50 rounded-[50px] p-5 m-3 border border-gray-200" >
+        <div className="flex flex-col h-[600px] justify-between items-center w-96 shadow-md bg-gray-50 rounded-[50px] p-5 mb-3 border border-gray-200 rounded-t-lg" >
           <div>
             <h3 className="text-xl md:text-2xl p-2 font-semibold text-center mb-3">Rancid Tomatillos</h3>
             <Image height={0} width={500} src="/images/Rancid.png" alt="Rancid Tomatillos" />
@@ -65,7 +65,7 @@ export default function Projects() {
         </div>
 
 
-        <div className="flex flex-col h-[600px] justify-between items-center w-96 shadow-md bg-gray-50 rounded-[50px] p-5 m-3 border border-gray-200" >
+        <div className="flex flex-col h-[600px] justify-between items-center w-96 shadow-md bg-gray-50 rounded-[50px] p-5 mb-3 border border-gray-200 rounded-t-lg" >
           <div> 
             <h3 className="text-xl md:text-2xl p-2 font-semibold text-center mb-3">Battle of Hogwarts</h3>
             <Image height={0} width={500} src="/images/Hogwarts.png" alt="Battle of Hogwarts" />
