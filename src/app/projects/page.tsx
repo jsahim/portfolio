@@ -20,7 +20,7 @@ export default function Projects() {
             <div className="my-0 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[12px] *:bg-[#304962] *:rounded-lg *:font-semibold">
               <span>React</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>React Router</span><span>Cypress</span><span>Git</span><span>Fetch API</span><span>Webpack</span><span>Photoshop</span>
             </div>
-            <div className="flex justify-start items-center mt-2">
+            <div className="flex justify-end md:justify-start items-center mt-2">
               <a className="flex justify-center items-center hover:text-[#e98522] text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full" href="https://xpresso-coffee.vercel.app/"><FiExternalLink className="h-10 w-10"/></a>
               <a className="flex justify-center items-center hover:text-[#e98522] text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full" href="https://github.com/jsahim/xpresso" target="_blank"><FaGithub className="h-10 w-10"/></a>
             </div>
@@ -35,7 +35,7 @@ export default function Projects() {
             <div className="my-0 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[12px] *:bg-[#304962] *:rounded-lg *:font-semibold">
               <span>React</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>React Router</span><span>Cypress</span><span>Git</span><span>Fetch API</span><span>Webpack</span><span>Photoshop</span>
             </div>
-            <div className="flex justify-start items-center mt-2">
+            <div className="flex justify-end md:justify-start items-center mt-2">
               <a className="flex justify-center items-center hover:text-[#e98522] text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full" href="https://rancid-tomatillos-jsahim.vercel.app" target="_blank"><FiExternalLink className="h-10 w-10"/></a>
               <a className="flex justify-center items-center hover:text-[#e98522] text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full" href="https://github.com/jsahim/rancid-tomatillos" target="_blank"><FaGithub className="h-10 w-10"/></a>
             </div>
@@ -53,7 +53,7 @@ export default function Projects() {
               <span>CSS</span>
               <span>Photoshop</span>
             </div>
-            <div className="flex justify-start items-center mt-2">
+            <div className="flex justify-end md:justify-start items-center mt-2">
               <a className="flex justify-center items-center hover:text-[#e98522] text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full" href="https://jsahim.github.io/battle-of-hogwarts" target="_blank"><FiExternalLink className="h-10 w-10"/></a>
               <a className="flex justify-center items-center hover:text-[#e98522] text-[#304962] transition-all duration-150 ease-in h-14 w-14 rounded-full" href="https://github.com/jsahim/battle-of-hogwarts" target="_blank"><FaGithub className="h-10 w-10"/></a>
             </div>
