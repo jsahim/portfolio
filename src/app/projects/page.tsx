@@ -10,7 +10,7 @@ export default function Projects() {
       <h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Projects</h1>
 
       <h2 className="text-3xl p-2 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[50px] bg-gray-50 mb-2 shadow-md">Software Projects</h2>
-      <div className="flex flex-wrap w-[100%] h-full justify-between items-center">
+      <div className="flex flex-wrap w-[100%] h-full justify-center gap-5">
         
         <div className="flex flex-col h-[600px] justify-between items-center w-96 shadow-md rounded-[50px] p-5 bg-gray-50 mb-3 rounded-t-lg">
           <div>
