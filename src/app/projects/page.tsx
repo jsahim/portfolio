@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="flex flex-col w-[100%] h-full justify-center gap-5 bg-gray-50 rounded-[50px] shadow-md p-5 rounded-t-lg">
         
         <div className="flex md:flex-row flex-col md:h-96 h-[auto] w-[100%] justify-between items-center">
-          <Image className="max-w-[500px] w-[100%] md:w-[50%] p-5" height={0} width={500} src="/images/Xpresso.png" alt="Xpresso Coffee" />
+          <Image className="max-w-[500px] w-[100%] md:w-[50%] p-3 md:p-5" height={0} width={500} src="/images/Xpresso.png" alt="Xpresso Coffee" />
           <div className="flex flex-col w-[100%] md:w-[50%] p-3 md:p-5">
             <h3 className="text-2xl font-semibold text-left mb-3">Xpresso Coffee</h3>
             <p className="text-base text-left pb-3">Order a coffee through Xpresso and have it delivered by drone!</p>
@@ -28,7 +28,7 @@ export default function Projects() {
         </div>
         
         <div className="flex md:flex-row flex-col md:h-96 h-[auto] w-[100%] justify-between items-center" >
-          <Image className="max-w-[500px] w-[100%] md:w-[50%] p-5" height={0} width={500} src="/images/Rancid.png" alt="Rancid Tomatillos" />
+          <Image className="max-w-[500px] w-[100%] md:w-[50%] p-3 md:p-5" height={0} width={500} src="/images/Rancid.png" alt="Rancid Tomatillos" />
           <div className="flex flex-col w-[100%] md:w-[50%] p-3 md:p-5">
             <h3 className="text-2xl font-semibold text-left mb-3">Rancid Tomatillos</h3>
             <p className="text-base text-left pb-3">Can&apos;t decide on a movie to watch? Rancid Tomatillos has you covered.</p>
@@ -43,7 +43,7 @@ export default function Projects() {
         </div>
 
         <div className="flex md:flex-row flex-col md:h-96 h-[auto] w-[100%] justify-between items-center" >
-          <Image className="max-w-[500px] w-[100%] md:w-[50%] p-5" height={0} width={500} src="/images/Hogwarts.png" alt="Battle of Hogwarts" />
+          <Image className="max-w-[500px] w-[100%] md:w-[50%] p-3 md:p-5" height={0} width={500} src="/images/Hogwarts.png" alt="Battle of Hogwarts" />
           <div className="flex flex-col w-[100%] md:w-[50%] p-3 md:p-5">
             <h3 className="text-2xl font-semibold text-left mb-3">Battle of Hogwarts</h3>
             <p className="text-base text-left pb-3">Battle of Hogwarts is a magical take on the classic game, Rock Paper Scissors.</p>
