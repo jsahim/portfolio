@@ -18,7 +18,7 @@ export default function Contact() {
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] mb-16">
 
         <div className="py-16 mx-auto w-[80%]">
-          <h2 className="md:text-3xl text-2xl font-semibold text-left mb-8 text-[#304962]">Send me a message</h2>
+          <h2 className="md:text-3xl text-2xl font-semibold text-left mb-8 text-[#304962]">Send me a message!</h2>
           <form action="https://formsubmit.co/jeffreysahim@gmail.com" method="POST" className="space-y-8">
             
             <div className="md:flex w-[100%] justify-between items-center">
@@ -46,7 +46,7 @@ export default function Contact() {
 
       </div>
       <p className="w-[100%] mt-10 text-xl text-center font-normal text-white mb-16">
-        Connect with me on <a className="font-medium underline hover:text-[#e98522] transition-all duration-150 ease-in" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank" rel="noreferrer">LinkedIn</a> or email me at <a className="font-medium underline hover:text-[#e98522] transition-all duration-150 ease-in" href="mailto:jeffreysahim@gmail.com">jeffreysahim@gmail.com</a>!    
+        Connect with me on <a className="font-medium underline hover:text-[#e98522] transition-all duration-150 ease-in" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank" rel="noreferrer">LinkedIn</a> or email me at <a className="font-medium underline hover:text-[#e98522] transition-all duration-150 ease-in" href="mailto:jeffreysahim@gmail.com">jeffreysahim@gmail.com</a>.    
       </p>
     </div>
   )
