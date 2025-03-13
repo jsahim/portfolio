@@ -332,89 +332,89 @@ export default function Skills() {
     </a>)
 
     const devSkills = (<div className="flex flex-col items-center relative">
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Languages</h2>
+      <h2 id="dLang" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Languages</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, tailwindCSS]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Version Control</h2>
+      <h2 id="dVersion" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Version Control</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[git, gitHub]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Project Management</h2>
+      <h2 id="dManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Project Management</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[jira, confluence, trello, agile]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">QA Testing</h2>
+      <h2 id="dTesting" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">QA Testing</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[mocha, chai, cypress]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Design</h2>
+      <h2 id="dDesign" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Design</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[adobeCC, figma, sketch]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">AI Productivity</h2>
+      <h2 id="dAI" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">AI Productivity</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[chatGPT, claude, githubCopilot]}
       </div>
     </div>)
 
     const uxSkills = (<div className="flex flex-col items-center relative">
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">UI Design</h2>
+      <h2 id="uDesign" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Design Tools</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[figma, adobeCC, sketch]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Collaboration</h2>
+      <h2 id="uCollab" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Collaboration</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[slack, microsoftTeams, zoom]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Coding Languages</h2>
+      <h2 id="uLang" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Coding Languages</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[nextJS, typeScript, vueJS, reactJS, javaScript, html, css, tailwindCSS]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Version Control</h2>
+      <h2 id="uVersion" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Version Control</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[git, gitHub]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Project Management</h2>
+      <h2 id="uManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Project Management</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[jira, confluence, trello,  googleDocs, googleSheets, googleForms, agile]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Data Analysis</h2>
+      <h2 id="uData" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Data Analysis</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[tableau, googleAnalytics]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">QA Testing</h2>
+      <h2 id="uTesting" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">QA Testing</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[mocha, chai, cypress]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">AI Productivity</h2>
+      <h2 id="uAI" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">AI Productivity</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[chatGPT, claude, githubCopilot]}
       </div>
     </div>)
 
     const productSkills = (<div className="flex flex-col items-center relative">
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Project Management</h2>
+      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Project Management</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[agile, jira, confluence, trello, notion, googleDocs, salesForce]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Data Analysis</h2>
+      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Data Analysis</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[tableau, googleAnalytics]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Collaboration</h2>
+      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Collaboration</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[slack, microsoftTeams, zoom]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Design Prototyping</h2>
+      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Prototyping</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[adobeCC, figma, sketch]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Coding Languages</h2>
+      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Coding Languages</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[nextJS, typeScript, vueJS, reactJS, javaScript, html, css, tailwindCSS]}
       </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">QA Testing</h2>
+      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">QA Testing</h2>
       <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
         {[mocha, chai, cypress]}
       </div>
