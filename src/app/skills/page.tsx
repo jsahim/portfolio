@@ -30,413 +30,163 @@ export default function Skills() {
     
     }, []);
 
-    const chatGPT = (<a key="chatGPT" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://chatgpt.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">ChatGPT</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#74AA9C]">
-        <SiOpenai className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
+    const skills = [
+      { key: "chatGPT", name: "ChatGPT", link:"https://chatgpt.com/", icon: (<SiOpenai className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#74AA9C] group-hover:text-[#e98522]" />)},
+      { key: "claude", name: "Claude", link:"https://claude.ai/", icon: (<SiClaude className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#da7756] group-hover:text-[#e98522]" />)},
+      { key: "tableau", name: "Tableau", link:"https://www.tableau.com/", icon: (<SiTableau className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#1C4481] group-hover:text-[#e98522]" />)},
+      { key: "slack", name: "Slack", link:"https://slack.com/", icon: (<SiSlack className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#4A154B] group-hover:text-[#e98522]" />)},
+      { key: "zoom", name: "Zoom", link:"https://www.zoom.com/", icon: (<SiZoom className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#0B5CFF] group-hover:text-[#e98522]" />)},
+      { key: "notion", name: "Notion", link:"https://notion.so/", icon: (<SiNotion className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#e98522]" />)},
+      { key: "googleDocs", name: "Google Docs", link:"https://docs.google.com", icon: (<SiGoogledocs className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#3086F6] group-hover:text-[#e98522]" />)},
+      { key: "googleSheets", name: "Google Sheets", link:"https://docs.google.com", icon: (<SiGooglesheets className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#0F9D58] group-hover:text-[#e98522]" />)},
+      { key: "googleForms", name: "Google Forms", link:"https://docs.google.com", icon: (<SiGoogleforms className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#e98522] group-hover:text-[#e98522]" />)},
+      { key: "googleAnalytics", name: "Google Analytics", link:"https://marketingplatform.google.com/about/analytics/", icon: (<SiGoogleanalytics className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#ed750a] group-hover:text-[#e98522]" />)},
+      { key: "salesForce", name: "Salesforce", link:"https://www.salesforce.com/", icon: (<FaSalesforce className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#00A1E0] group-hover:text-[#e98522]" />)},
+      { key: "jira", name: "JIRA", link:"https://www.atlassian.com/software/jira", icon: (<SiJira className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#0053CD] group-hover:text-[#e98522]" />)},
+      { key: "trello", name: "Trello", link:"https://www.atlassian.com/software/trello", icon: (<FaTrello className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#0053CD] group-hover:text-[#e98522]" />)},
+      { key: "confluence", name: "Confluence", link:"https://www.atlassian.com/software/confluence", icon: (<SiConfluence className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#0053CD] group-hover:text-[#e98522]" />)},
+      { key: "sketch", name: "Sketch", link:"https://www.sketch.com/", icon: (<SiSketch className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#E9AC12] group-hover:text-[#e98522]" />)},
+      { key: "vercel", name: "Vercel", link:"https://vercel.com/", icon: (<SiVercel className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#e98522]" />)},
+      { key: "lighthouse", name: "Lighthouse", link:"https://developer.chrome.com/docs/lighthouse/overview", icon: (<SiLighthouse className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#EA4335] group-hover:text-[#e98522]" />)},
+      { key: "esLint", name: "ESLint", link:"https://eslint.org/", icon: (<SiEslint className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#4b32c3] group-hover:text-[#e98522]" />)},
+      { key: "webPack", name: "Webpack", link:"https://webpack.js.org/", icon: (<SiWebpack className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#8dd6f9] group-hover:text-[#e98522]" />)},
+      { key: "agile", name: "Agile Scrum", link:"https://www.agilealliance.org/agile101/", icon: (<DiScrum className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#009FE3] group-hover:text-[#e98522]" />)},
+      { key: "restAPI", name: "REST API", link:"https://restfulapi.net/", icon: (<TbCloudCog className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#01B5E6] group-hover:text-[#e98522]" />)},
+      { key: "npm", name: "npm", link:"https://www.npmjs.com/", icon: (<CgNpm className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#cb3837] group-hover:text-[#e98522]" />)},
+      { key: "microsoftTeams", name: "Microsoft Teams", link:"https://www.microsoft.com/en-us/microsoft-teams/", icon: (<BsMicrosoftTeams className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#7B83EB] group-hover:text-[#e98522]" />)},
+      { key: "vsCode", name: "VS Code", link:"https://code.visualstudio.com/", icon: (<VscVscode className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#0098FF] group-hover:text-[#e98522]" />)},
+      { key: "nextJS", name: "Next.js", link:"https://nextjs.org/", icon: (<SiNextdotjs className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#e98522]" />)},
+      { key: "typeScript", name: "TypeScript", link:"https://www.typescriptlang.org/", icon: (<SiTypescript className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#3178c6] group-hover:text-[#e98522]" />)},
+      { key: "react", name: "React", link:"https://reactjs.org/", icon: (<SiReact className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#61DAFB] group-hover:text-[#e98522]" />)},
+      { key: "reactRouter", name: "React Router", link:"https://reactrouter.com/", icon: (<SiReactrouter className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#CA4245] group-hover:text-[#e98522]" />)},
+      { key: "redux", name: "Redux", link:"https://redux.js.org/", icon: (<SiRedux className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#764ABC] group-hover:text-[#e98522]" />)},
+      { key: "vueJS", name: "Vue.js", link:"https://vuejs.org/", icon: (<SiVuedotjs className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#41B883] group-hover:text-[#e98522]" />)},
+      { key: "javaScript", name: "JavaScript", link:"https://developer.mozilla.org/en-US/docs/Web/JavaScript", icon: (<SiJavascript className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#F7DF1E] group-hover:text-[#e98522]" />)},
+      { key: "jquery", name: "jQuery", link:"https://jquery.com/", icon: (<SiJquery className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#1266a9] group-hover:text-[#e98522]" />)},
+      { key: "html5", name: "HTML5", link:"https://developer.mozilla.org/en-US/docs/Web/HTML", icon: (<SiHtml5 className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#E34F26] group-hover:text-[#e98522]" />)},
+      { key: "css3", name: "CSS3", link:"https://developer.mozilla.org/en-US/docs/Web/CSS", icon: (<SiCss3 className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#264de4] group-hover:text-[#e98522]" />)},
+      { key: "mocha", name: "Mocha", link:"https://mochajs.org/", icon: (<SiMocha className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#8D6748] group-hover:text-[#e98522]" />)},
+      { key: "chai", name: "Chai", link:"https://www.chaijs.com/", icon: (<SiChai className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#A30701] group-hover:text-[#e98522]" />)},
+      { key: "cypress", name: "Cypress", link:"https://www.cypress.io/", icon: (<SiCypress className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#95e4c5] group-hover:text-[#e98522]" />)},
+      { key: "adobeCreativeCloud", name: "Adobe Creative Cloud", link:"https://www.adobe.com/creativecloud.html", icon: (<SiAdobecreativecloud className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#da1f26] group-hover:text-[#e98522]" />)},
+      { key: "figma", name: "Figma", link:"https://www.figma.com/", icon: (<SiFigma className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#e98522]" />)},
+      { key: "tailwindCSS", name: "Tailwind CSS", link:"https://tailwindcss.com/", icon: (<SiTailwindcss className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#38bdf8] group-hover:text-[#e98522]" />)},
+      { key: "githubCopilot", name: "ChatGPT",link:"https://chatgpt.com/", icon: (<SiGithubcopilot className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#e98522]" />)},
+      { key: "git", name: "Git", link:"https://git-scm.com/", icon: (<SiGit className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#F05032] group-hover:text-[#e98522]" />)},
+      { key: "github", name: "GitHub", link:"https://github.com/", icon: (<SiGithub className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#e98522]" />)},
+    ]
 
-    const githubCopilot = (<a key="githubCopilot" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://github.com/features/copilot" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">GitHub<br/>Copilot</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
-        <SiGithubcopilot className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const salesForce = (<a key="githubCopilot" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.salesforce.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Salesforce</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#00A1E0]">
-        <FaSalesforce className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const claude = (<a key="claude" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://claude.ai/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Claude</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#da7756]">
-        <SiClaude className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const tableau = (<a key="tableau" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.tableau.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Tableau</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#1C4481]">
-        <SiTableau className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const slack = (<a key="slack" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://slack.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Slack</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#4A154B]">
-        <SiSlack className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const notion = (<a key="notion" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://slack.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Notion</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
-        <SiNotion className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const googleDocs = (<a key="googleDocs" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://docs.google.com" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Docs</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#3086F6]">
-        <SiGoogledocs className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const googleSheets = (<a key="googleSheets" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://docs.google.com" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Sheets</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0F9D58]">
-        <SiGooglesheets className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const googleForms = (<a key="googleForms" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://docs.google.com" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Forms</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#7248B9]">
-        <SiGoogleforms className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const googleAnalytics = (<a key="googleAnalytics" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Google<br/>Analytics</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#ed750a]">
-        <SiGoogleanalytics className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const confluence = (<a key="confluence" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.atlassian.com/software/confluence" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Confluence</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0053CD]">
-        <SiConfluence className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const trello = (<a key="trello" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.atlassian.com/software/trello" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Trello</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0053CD]">
-        <FaTrello className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const jira = (<a key="jira" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.atlassian.com/software/jira" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">JIRA</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0053CD]">
-        <SiJira className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const sketch = (<a key="sketch" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.sketch.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Sketch</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#E9AC12]">
-        <SiSketch className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
+    const setConfigs = {
+      dev: [
+        { key: "dLang", name: "Languages", skills: ["nextJS", "typeScript", "vueJS", "reactJS", "reactRouter", "redux", "jQuery", "javaScript", "html5", "css3", "tailwindCSS"] }, 
+        { key: "dVers", name: "Version Control", skills: ["git", "github"] },
+        { key: "dMgmt", name: "Project Management", skills: ["jira", "confluence", "trello", "agile"] },
+        { key: "dTest", name: "QA Testing", skills: ["mocha", "chai", "cypress"] },
+        { key: "dDesign", name: "Design", skills: ["adobeCC", "figma", "sketch"] },
+        { key: "dAI", name: "AI Productivity", skills: ["chatGPT", "claude", "githubCopilot"] }
+      ],
+      ux: [
+        { key: "uDesign", name: "Design Tools", skills: ["figma", "adobeCC", "sketch"] },
+        { key: "uCollab", name: "Collaboration", skills: ["slack", "microsoftTeams", "zoom"] },
+        { key: "uLang", name: "Coding Languages", skills: ["nextJS", "typeScript", "vueJS", "reactJS", "javaScript", "html5", "css3", "tailwindCSS"] },
+        { key: "uVers", name: "Version Control", skills: ["git", "github"] },
+        { key: "uMgmt", name: "Project Management", skills: ["jira", "confluence", "trello", "googleDocs", "googleSheets", "googleForms", "agile"] },
+        { key: "uData", name: "Data Analysis", skills: ["tableau", "googleAnalytics"] },
+        { key: "uTest", name: "QA Testing", skills: ["mocha", "chai", "cypress"] },
+        { key: "uAI", name: "AI Productivity", skills: ["chatGPT", "claude", "githubCopilot"] }
+      ],
+      prod: [
+        { key: "pMgmt", name: "Project Management", skills: ["agile", "jira", "confluence", "trello", "notion", "googleDocs", "salesForce"] },
+        { key: "pData", name: "Data Analysis", skills: ["tableau", "googleAnalytics"] },
+        { key: "pCollab", name: "Collaboration", skills: ["slack", "microsoftTeams", "zoom"] },
+        { key: "pDesign", name: "Prototyping", skills: ["adobeCC", "figma", "sketch"] },
+        { key: "pLang", name: "Coding Languages", skills: ["nextJS", "typeScript", "vueJS", "reactJS", "javaScript", "html5", "css3", "tailwindCSS"] },
+        { key: "pTest", name: "QA Testing", skills: ["mocha", "chai", "cypress"] },
+        { key: "pAI", name: "AI Productivity", skills: ["chatGPT", "claude", "githubCopilot"] }
+      ]
+    }
     
-    const vercel = (<a key="vercel" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://vercel.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Vercel</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
-        <SiVercel className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const zoom = (<a key="vercel" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.zoom.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Zoom</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0B5CFF]">
-        <SiZoom className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const npm = (<a key="npm" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">npm</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#cb3837]">
-        <CgNpm className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const lighthouse = (<a key="lighthouse" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://developer.chrome.com/docs/lighthouse/overview" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Lighthouse</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#EA4335]">
-        <SiLighthouse className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const esLint = (<a key="esLint" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://eslint.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">ESLint</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#4b32c3]">
-        <SiEslint className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const webPack = (<a key="webPack" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://webpack.js.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Webpack</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#8dd6f9]">
-        <SiWebpack className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const agile = (<a key="agile" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.agilealliance.org/agile101/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Agile<br/>Scrum</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#009FE3]">
-        <DiScrum className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const restAPI = (<a key="restAPI" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://restfulapi.net/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">REST API</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#01B5E6]">
-        <TbCloudCog className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const microsoftTeams = (<a key="microsoftTeams" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.microsoft.com/en-us/microsoft-teams/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Microsoft<br/>Teams</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#7B83EB]">
-        <BsMicrosoftTeams className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const vsCode = (<a key="vsCode" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">VS Code</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#0098FF]">
-        <VscVscode className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const nextJS = (<a key="nextJS" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://nextjs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Next.js</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
-        <SiNextdotjs className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-                    
-    const typeScript = (<a key="typeScript" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">TypeScript</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#3178c6]">
-        <SiTypescript className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const vueJS = (<a key="vueJS" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://vuejs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Vue.js</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#41B883]">
-        <SiVuedotjs className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const reactJS = (<a key="reactJS" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://react.dev/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">React</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#61DAFB]">
-        <SiReact className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const reactRouter = (<a key="reactRouter" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://reactrouter.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">React<br/>Router</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#CA4245]">
-        <SiReactrouter className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const redux = (<a key="redux" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://redux.js.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Redux</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#764ABC]">
-        <SiRedux className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const jQuery = (<a key="jQuery" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://jquery.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">jQuery</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#1266a9]">
-        <SiJquery className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const javaScript = (<a key="javaScript" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.javascript.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">JavaScript</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#F7DF1E]">
-        <SiJavascript className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const html = (<a key="html" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">HTML</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#E34F26]">
-        <SiHtml5 className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const css = (<a key="css" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">CSS</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#264de4]">
-        <SiCss3 className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const mocha = (<a key="mocha" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://mochajs.org/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Mocha</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#8D6748]">
-        <SiMocha className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-                
-    const chai = (<a key="chai" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.chaijs.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Chai</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#A30701]">
-        <SiChai className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-                    
-    const cypress = (<a key="cypress" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.cypress.io/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Cypress</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#95e4c5]">
-        <SiCypress className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const adobeCC = (<a key="adobeCC" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.adobe.com/creativecloud.html" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Adobe<br/>Creative<br/>Cloud</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#da1f26]">
-        <SiAdobecreativecloud className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const figma = (<a key="figma" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://www.figma.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Figma</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#000000]">
-        <SiFigma className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const tailwindCSS = (<a key="tailwindCSS" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Tailwind<br/>CSS</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#38bdf8]">
-        <SiTailwindcss className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const git = (<a key="git" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://git-scm.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">Git</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-[#F05032]">
-        <SiGit className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const gitHub = (<a key="gitHub" className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href="https://github.com/" target="_blank" rel="noreferrer">
-      <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">GitHub</span>
-      <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center group-hover:text-[#e98522] text-black">
-        <SiGithub className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in" />
-      </div>
-    </a>)
-
-    const devSkills = (<div className="flex flex-col items-center relative">
-      <h2 id="dLang" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Languages</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[nextJS, typeScript, vueJS, reactJS, reactRouter, redux, jQuery, javaScript, html, css, tailwindCSS]}
-      </div>
-      <h2 id="dVersion" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Version Control</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[git, gitHub]}
-      </div>
-      <h2 id="dManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Project Management</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[jira, confluence, trello, agile]}
-      </div>
-      <h2 id="dTesting" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">QA Testing</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[mocha, chai, cypress]}
-      </div>
-      <h2 id="dDesign" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Design</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[adobeCC, figma, sketch]}
-      </div>
-      <h2 id="dAI" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">AI Productivity</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[chatGPT, claude, githubCopilot]}
-      </div>
-    </div>)
-
-    const uxSkills = (<div className="flex flex-col items-center relative">
-      <h2 id="uDesign" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Design Tools</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[figma, adobeCC, sketch]}
-      </div>
-      <h2 id="uCollab" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Collaboration</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[slack, microsoftTeams, zoom]}
-      </div>
-      <h2 id="uLang" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Coding Languages</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[nextJS, typeScript, vueJS, reactJS, javaScript, html, css, tailwindCSS]}
-      </div>
-      <h2 id="uVersion" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Version Control</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[git, gitHub]}
-      </div>
-      <h2 id="uManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Project Management</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[jira, confluence, trello,  googleDocs, googleSheets, googleForms, agile]}
-      </div>
-      <h2 id="uData" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Data Analysis</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[tableau, googleAnalytics]}
-      </div>
-      <h2 id="uTesting" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">QA Testing</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[mocha, chai, cypress]}
-      </div>
-      <h2 id="uAI" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">AI Productivity</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[chatGPT, claude, githubCopilot]}
-      </div>
-    </div>)
-
-    const productSkills = (<div className="flex flex-col items-center relative">
-      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Project Management</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[agile, jira, confluence, trello, notion, googleDocs, salesForce]}
-      </div>
-      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Data Analysis</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[tableau, googleAnalytics]}
-      </div>
-      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Collaboration</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[slack, microsoftTeams, zoom]}
-      </div>
-      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Prototyping</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[adobeCC, figma, sketch]}
-      </div>
-      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">Coding Languages</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[nextJS, typeScript, vueJS, reactJS, javaScript, html, css, tailwindCSS]}
-      </div>
-      <h2 id="pManage" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">QA Testing</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[mocha, chai, cypress]}
-      </div>
-      <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">AI Productivity</h2>
-      <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
-        {[chatGPT, claude, githubCopilot]}
-      </div>
-    </div>)
-
 
     let skillSet
     if(currSite === "UX" ){
-      skillSet = uxSkills
+      skillSet = setConfigs.ux.map(confSect => {
+        return (<div key={confSect.key} className="w-[100%]">
+          <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">{confSect.name}</h2>
+          <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
+            {confSect.skills.map(skill => {
+              return skills.map(s => {
+                if(s.key === skill){
+                  return (<a key={s.key} className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href={s.link} target="_blank" rel="noreferrer">
+                    <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">{s.name}</span>
+                    <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center">
+                      {s.icon}
+                    </div>
+                  </a>)
+                } else {
+                  return null;
+                }
+              })
+            })}
+          </div>
+        </div>)
+      })
     }else if(currSite === "PROD"){
-      skillSet = productSkills
+      skillSet = setConfigs.prod.map(confSect => {
+        return (<div key={confSect.key} className="w-[100%]">
+          <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">{confSect.name}</h2>
+          <div className="flex flex-wrap justify-center w-full shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
+            {confSect.skills.map(skill => {
+              return skills.map(s => {
+                if(s.key === skill){
+                  return (<a key={s.key} className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href={s.link} target="_blank" rel="noreferrer">
+                    <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0">{s.name}</span>
+                    <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center">
+                      {s.icon}
+                    </div>
+                  </a>)
+                } else {
+                  return null;
+                }
+              })
+            })}
+          </div>
+        </div>)
+      })
     } else {
-      skillSet = devSkills
+      skillSet = setConfigs.dev.map(confSect => {
+        return (<div key={confSect.key} className="w-[100%]">
+          <h2 className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] px-6 bg-gray-50 mb-2 shadow-md">{confSect.name}</h2>
+          <div className="flex flex-wrap justify-center w-[full] shadow-md bg-gray-50 rounded-[50px] z-1 mb-14 rounded-t-lg">
+            {confSect.skills.map(skill => {
+              return skills.map(s => {
+                if(s.key === skill){
+                  return (<a key={s.key} className="group m-10 flex flex-col justify-center items-center w-16 h-16 md:w-36 md:h-36" href={s.link} target="_blank" rel="noreferrer">
+                    <span className="absolute z-3 text-center text-2xl md:text-4xl duration-300 font-bold transition-all ease-in group-hover:opacity-100 opacity-0 max-w-[225px]">{s.name}</span>
+                    <div className="w-16 h-16 md:w-36 md:h-36 flex justify-center items-center">
+                      {s.icon}
+                    </div>
+                  </a>)
+                } else {
+                  return null;
+                }
+              })
+            })}
+          </div>
+        </div>)
+      })
     }
+
+
 
   return (
     <div className="w-[85%]"> 
-      {currSite && <><h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Skills</h1>{skillSet}</>}
+      {currSite && <>
+      <h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Skills</h1>
+      <div className="flex flex-col items-center relative">
+        {skillSet}
+      </div>
+      </>}
     </div>
   )
 }
+
