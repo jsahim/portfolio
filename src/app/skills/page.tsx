@@ -78,11 +78,13 @@ export default function Skills() {
 
     const setConfigs = {
       dev: [
-        { key: "dLang", name: "Languages", skills: ["nextJS", "typeScript", "vueJS", "reactJS", "reactRouter", "redux", "jQuery", "javaScript", "html5", "css3", "tailwindCSS"] }, 
+        { key: "dLang", name: "Coding Languages", skills: ["nextJS", "typeScript", "vueJS", "reactJS", "reactRouter", "redux", "jQuery", "javaScript", "html5", "css3", "tailwindCSS"] }, 
+        { key: "pMgmt", name: "Product Management", skills: ["agile", "jira", "confluence", "trello", "notion", "googleDocs", "salesForce"] },
+        { key: "dDesign", name: "UX Design", skills: ["adobeCC", "figma", "sketch"] },
         { key: "dVers", name: "Version Control", skills: ["git", "github"] },
-        { key: "dMgmt", name: "Project Management", skills: ["jira", "confluence", "trello", "agile"] },
         { key: "dTest", name: "QA Testing", skills: ["mocha", "chai", "cypress"] },
-        { key: "dDesign", name: "Design", skills: ["adobeCC", "figma", "sketch"] },
+        { key: "dCollab", name: "Collaboration", skills: ["slack", "microsoftTeams", "zoom"] },
+        { key: "dData", name: "Data Analysis", skills: ["tableau", "googleAnalytics"] },
         { key: "dAI", name: "AI Productivity", skills: ["chatGPT", "claude", "githubCopilot"] }
       ],
       ux: [
