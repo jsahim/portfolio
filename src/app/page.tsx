@@ -58,14 +58,14 @@ export default function Home() {
   }else if(site === "PROD"){
     position = "Product Developer"
   } else {
-    position = "Dev · UX · Product"
+    position = "Dev · Product · UX"
   }
 
   return (
       <div className="w-[85%] h-full text-center"> 
           <h1 className="font-fugaz text-white my-3">
           { introReady ? <><span className={`relative z-[-1] md:text-[5vw] text-[8vw] ${animation && "animate-refine-slidein"}`}>Hi there, I&apos;m</span><br/></> : null }
-          { nameReady ? <><span className={`relative z-[-1] leading-relaxed ${animation && "animate-refine-slidein"} ${orangeReady ? "text-[#e98522] duration-700 text-[15vw]": "text-[9vw]"}`}>Jeff Sahim</span><br/></> : null }
+          { nameReady ? <><span className={`relative z-[-1] leading-relaxed ${animation && "animate-refine-slidein"} ${orangeReady ? "text-[#e98522] duration-700 text-[14vw]": "text-[9vw]"}`}>Jeff Sahim</span><br/></> : null }
           { endReady && <span className={`relative z-[-1] md:text-[5vw] text-[8vw] duration-150 ${animation && "animate-fade-in"}`}>{position}</span>}
         </h1>
       </div>
