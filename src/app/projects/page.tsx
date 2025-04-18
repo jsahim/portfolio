@@ -9,32 +9,26 @@ export default function Projects() {
       <h1 className="font-fugaz text-6xl text-[#e98522] text-center m-5 mb-16">Projects</h1>
       
       <h2 id="uxProjects" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] bg-gray-50 mb-2 shadow-md">Full Cycle Development</h2>
-      <div className="flex flex-col w-[100%] h-full justify-center gap-5 bg-gray-50 rounded-[50px] shadow-md p-5 rounded-t-lg mb-14">
-
-          <div className="flex flex-col h-[auto] w-[100%] justify-evenly items-center p-5">
-            <Image className="w-[100%] p-2 md:p-5" height={0} width={1000} src="/images/menu.png" alt="Menu" />
-          </div> 
+      <div className="flex flex-col w-[100%] h-full justify-center bg-gray-50 rounded-[50px] shadow-md p-5 rounded-t-lg mb-14">
 
           <div className="flex flex-col h-[auto] w-[100%] justify-evenly items-start p-5">
-            <div className="w-[100%] flex justify-between items-start">
+            <div className="w-[100%] flex justify-between items-center">
+
+              <div className="w-[60%]">
+                <h3 className="text-2xl font-semibold text-left mb-3">Retrofresh Concession Stand<br/>Menu & Ordering App</h3>
+                <p className="text-base text-left pb-3"><strong>Client:</strong>&nbsp;&nbsp;Concession stand manager at a local park</p>
+                <p className="text-base text-left pb-3"><strong>Duration:</strong>&nbsp;&nbsp;3-weeks</p>
+                <p className="text-base text-left pb-3"><strong>My Role:</strong>&nbsp;&nbsp;Research, <a className="underline" href="https://drive.google.com/file/d/1GAF1Y1VrIsK2iDifTcce-CtMZo7B1Orj/view?usp=sharing" target="_blank">Wireframing & User Flows</a>, <a className="underline" href="https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLiOsFeFPk8KgXY7NFeIUe9JLf_8wDuhgJj3x6dsFL_JHguzVxbyrkz-frVWOaiMQdrXCBWvZDjHEADnxsBpalQvQXiI6eBxYKKWS_8OW8vR8njp3JWHZZdSy5w6PMxg_cK9CH5aunyuCcxA90FIVqvJFcdl2m7n-2CfaJ754s_-QnoWnyvlcayogLus5ghBY2WIzlyLEkPcfAGndKxIsty0Aglqo3TgYZhN7qjeoWzCElPHFjLmwGBK7J6njkSF8ggLIAaf7Fhw385n0Qxh3_-AwGcesLW1N5473mjFGBVALyUA9_P5iUJbvkuXcCBqB2ff0q9j&lib=MJKJo2Ws2uNByezLvycTMRXLZxGTYFyTf" target="_blank">Data Architecture</a>, Software Development</p>
+                <p className="text-base text-left pb-3"><strong>Summary:</strong>&nbsp;&nbsp;Using Google Sheets, an admin can add or remove items, as well as edit each concession menu item's Name, Description, Image, Price, Category, and Availability. The sheet is then converted into a REST API, with the JSON data used to populate the app menu for patron viewing or ordering.</p>
+                <p className="text-base text-left pb-3"><strong>Challenge:</strong>&nbsp;&nbsp;Line backups frequently occur at the park concession stand during game halftimes and intermissions, causing patrons to miss parts of the game. Interviews revealed that these delays are worsened by patrons being indecisive when ordering.</p>
+                <p className="text-base text-left pb-3"><strong>Solution:</strong>&nbsp;&nbsp;Strategically placed QR codes around the park allow patrons to access the app menu, helping them make informed decisions before reaching the concession stand—or place orders directly through the app to skip the wait entirely.</p>
+                <p className="text-base text-left pb-3"><strong>Tech:</strong>&nbsp;&nbsp;React, Vite, React Router, Fetch API, Tailwind CSS, Photoshop</p>
+                <p className="text-base text-left pb-3"><strong>Results:</strong>&nbsp;&nbsp;Research, User Flows, Wireframing, Software Deveopment</p>
+              </div>
 
               <div className="relative flex flex-col scale-75 origin-top justify-start content-center w-[370px] h-[670px]">
                 <iframe className="w-[350px] h-[600px] absolute translate-x-3 translate-y-24" src="https://menu-test-ruby.vercel.app/" title="Menu App" />
                 <Image className="w-[370px] h-auto absolute pointer-events-none" height={0} width={1000} src="/images/frame.png" alt="Frame" />
-              </div>
-
-              <div className="w-[50%]">
-                <h3 className="text-2xl font-semibold text-left mb-3">Retrofresh Concessions<br/>Menu & Ordering App</h3>
-                <p className="text-base text-left pb-3">Battle of Hogwarts is a magical take on the classic game, Rock Paper Scissors.</p>
-                <div className="my-0 flex flex-wrap justify-start *:px-3 *:py-1 *:m-1 *:text-white *:text-[12px] *:bg-[#304962] *:rounded-lg *:font-semibold">
-                  <span>React</span>
-                  <span>Vite</span>
-                  <span>React Router</span>
-                  <span>Google Sheets</span>
-                  <span>Fetch API</span>
-                  <span>Tailwind CSS</span>
-                  <span>Photoshop</span>
-                </div>
               </div>
 
             </div>
