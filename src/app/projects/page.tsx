@@ -22,7 +22,7 @@ export default function Projects() {
                 <p className="text-base text-left pb-3"><strong>Summary:</strong>&nbsp;&nbsp;Using Google Sheets, an admin can add or remove items, as well as edit each concession menu item's Name, Description, Image, Price, Category, and Availability. The sheet is then converted into a REST API, with the JSON data used to populate the app menu for patron viewing or ordering.</p>
                 <p className="text-base text-left pb-3"><strong>Challenge:</strong>&nbsp;&nbsp;Line backups frequently occur at the park concession stand during game halftimes and intermissions, causing patrons to miss parts of the game. Interviews revealed that these delays are worsened by patrons being indecisive when ordering.</p>
                 <p className="text-base text-left pb-3"><strong>Solution:</strong>&nbsp;&nbsp;Strategically placed QR codes around the park allow patrons to access the app menu, helping them make informed decisions before reaching the concession stand—or place orders directly through the app to skip the wait entirely.</p>
-                <p className="text-base text-left pb-3"><strong>Tech:</strong>&nbsp;&nbsp;React, Vite, React Router, Fetch API, Tailwind CSS, Adobe Photoshop, Excalidraw</p>
+                <p className="text-base text-left pb-3"><strong>Tech:</strong>&nbsp;&nbsp;React, Vite, React Router, Fetch API, Adobe Photoshop, Excalidraw</p>
                 <p className="text-base text-left pb-3"><strong>Results:</strong>&nbsp;&nbsp;The concession stand manager has confirmed that the app significantly streamlined the process of selling concession items.</p>
               </div>
 
