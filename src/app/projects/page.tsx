@@ -12,7 +12,7 @@ export default function Projects() {
       <div className="flex flex-col w-[100%] h-full justify-center bg-gray-50 rounded-[50px] shadow-md p-5 rounded-t-lg mb-14">
 
           <div className="flex flex-col h-[auto] w-[100%] justify-evenly items-start p-5">
-            <div className="w-[100%] flex justify-evenly items-center">
+            <div className="w-[100%] flex lg:flex-row flex-col justify-evenly items-center">
 
               <div className="w-[100%] lg:w-[58%]">
                 <h3 className="text-2xl font-semibold text-left mb-3">Retrofresh Concession Stand<br/>Menu & Ordering App</h3>
@@ -26,6 +26,8 @@ export default function Projects() {
                 <p className="text-base text-left pb-3"><strong>Results:</strong>&nbsp;&nbsp;The concession stand manager has confirmed that the app significantly streamlined the process of selling concession items.</p>
               </div>
 
+              <a className="w-[100%] py-2 rounded-xl bg-[#304962] text-2xl font-medium lg:hidden flex justify-evenly items-center hover:bg-[#e98522] text-white transition-all duration-150 ease-in" href="https://menu-test-ruby.vercel.app/" target="_blank">DEMO APP<FiExternalLink className="h-10 w-10"/></a>
+
               <div className="hidden lg:flex relative flex-col scale-75 origin-top justify-start content-center w-[370px] h-[670px]">
                 <iframe className="w-[350px] h-[585px] absolute translate-x-3 translate-y-24" src="https://menu-test-ruby.vercel.app/" title="Menu App" />
                 <Image className="w-[370px] h-auto absolute pointer-events-none" height={0} width={1000} src="/images/frame.png" alt="Frame" />
@@ -36,7 +38,7 @@ export default function Projects() {
           
       </div>
 
-      <h2 id="softProjects" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] bg-gray-50 mb-2 shadow-md">Software Projects</h2>
+      <h2 id="softProjects" className="text-3xl  p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] bg-gray-50 mb-2 shadow-md">Software Projects</h2>
       <div className="flex flex-col w-[100%] h-full justify-center gap-5 bg-gray-50 rounded-[50px] shadow-md p-5 rounded-t-lg">
         
         <div className="flex md:flex-row flex-col md:h-96 h-[auto] w-[100%] justify-evenly items-center">
