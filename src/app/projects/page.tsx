@@ -14,7 +14,7 @@ export default function Projects() {
           <div className="flex flex-col h-[auto] w-[100%] justify-evenly items-start p-5">
             <div className="w-[100%] flex justify-evenly items-center">
 
-              <div className="w-[58%]">
+              <div className="w-[100%] lg:w-[58%]">
                 <h3 className="text-2xl font-semibold text-left mb-3">Retrofresh Concession Stand<br/>Menu & Ordering App</h3>
                 <p className="text-base text-left pb-3"><strong>Client:</strong>&nbsp;&nbsp;Concession stand manager at a local park</p>
                 <p className="text-base text-left pb-3"><strong>Duration:</strong>&nbsp;&nbsp;3-weeks</p>
@@ -26,7 +26,7 @@ export default function Projects() {
                 <p className="text-base text-left pb-3"><strong>Results:</strong>&nbsp;&nbsp;The concession stand manager has confirmed that the app significantly streamlined the process of selling concession items.</p>
               </div>
 
-              <div className="relative flex flex-col scale-75 origin-top justify-start content-center w-[370px] h-[670px]">
+              <div className="hidden lg:flex relative flex-col scale-75 origin-top justify-start content-center w-[370px] h-[670px]">
                 <iframe className="w-[350px] h-[585px] absolute translate-x-3 translate-y-24" src="https://menu-test-ruby.vercel.app/" title="Menu App" />
                 <Image className="w-[370px] h-auto absolute pointer-events-none" height={0} width={1000} src="/images/frame.png" alt="Frame" />
               </div>
