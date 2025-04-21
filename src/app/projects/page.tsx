@@ -12,7 +12,7 @@ export default function Projects() {
       <div className="flex flex-col w-[100%] h-full justify-center bg-gray-50 rounded-[50px] shadow-md p-5 rounded-t-lg mb-14">
 
           <div className="flex flex-col h-[auto] w-[100%] justify-evenly items-start p-5">
-            <div className="w-[100%] flex justify-between items-center">
+            <div className="w-[100%] flex justify-evenly items-center">
 
               <div className="w-[58%]">
                 <h3 className="text-2xl font-semibold text-left mb-3">Retrofresh Concession Stand<br/>Menu & Ordering App</h3>
