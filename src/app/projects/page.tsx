@@ -29,7 +29,7 @@ export default function Projects() {
               <a className="w-[100%] py-2 rounded-xl bg-[#304962] text-2xl font-medium lg:hidden flex justify-evenly items-center hover:bg-[#e98522] text-white transition-all duration-150 ease-in" href="https://menu-test-ruby.vercel.app/" target="_blank">DEMO APP<FiExternalLink className="h-10 w-10"/></a>
 
               <div className="hidden lg:flex relative flex-col scale-75 origin-top justify-start content-center w-[370px] h-[670px]">
-                <iframe className="w-[350px] h-[585px] absolute translate-x-3 translate-y-24" src="https://menu-test-ruby.vercel.app/" title="Menu App" />
+                <iframe className="w-[350px] h-[608px] absolute translate-x-3 translate-y-20" src="https://menu-test-ruby.vercel.app/" title="Menu App" />
                 <Image className="w-[370px] h-auto absolute pointer-events-none" height={0} width={1000} src="/images/frame.png" alt="Frame" />
               </div>
 
