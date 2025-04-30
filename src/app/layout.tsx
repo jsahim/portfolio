@@ -8,7 +8,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
   return (
     <html lang="en">
       <head>
-        <title>Jeff Sahim - Product Engineer</title>
+        <title>Jeff Sahim - Product Manager</title>
         <link rel="icon" type="image/x-icon" href="/images/mini-logo.png"></link>
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"></link>
