@@ -58,7 +58,7 @@ export default function Home() {
   }else if(site === "PROD"){
     position = "Product Developer"
   } else {
-    position = "Technical Product Manager"
+    position = "Product Development Manager"
   }
 
   return (
