@@ -58,7 +58,7 @@ export default function Home() {
   }else if(site === "PROD"){
     position = "Product Developer"
   } else {
-    position = "Product & Software Development"
+    position = "Product Design & Development"
   }
 
   return (
