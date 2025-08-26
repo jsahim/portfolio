@@ -71,7 +71,7 @@ export default function Skills() {
       { key: "adobeCC", name: "Adobe Creative Cloud", link:"https://www.adobe.com/creativecloud.html", icon: (<SiAdobecreativecloud className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#da1f26] group-hover:text-[#e98522]" />)},
       { key: "figma", name: "Figma", link:"https://www.figma.com/", icon: (<SiFigma className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#e98522]" />)},
       { key: "tailwindCSS", name: "Tailwind CSS", link:"https://tailwindcss.com/", icon: (<SiTailwindcss className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#38bdf8] group-hover:text-[#e98522]" />)},
-      { key: "githubCopilot", name: "ChatGPT",link:"https://chatgpt.com/", icon: (<SiGithubcopilot className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#e98522]" />)},
+      { key: "githubCopilot", name: "GitHub Copilot",link:"https://github.com/features/copilot", icon: (<SiGithubcopilot className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#e98522]" />)},
       { key: "git", name: "Git", link:"https://git-scm.com/", icon: (<SiGit className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#F05032] group-hover:text-[#e98522]" />)},
       { key: "github", name: "GitHub", link:"https://github.com/", icon: (<SiGithub className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#e98522]" />)},
     ]
