@@ -8,14 +8,12 @@ export default function Mobile() {
       
       <h2 id="uxProjects" className="text-3xl p-2 py-4 text-center font-semibold tracking-wide w-[100%] text-[#304962] z-1 rounded-[20px] bg-gray-50 mb-2 shadow-md">Digital Guest Directory</h2>
       <div className="flex flex-wrap w-[100%] h-full justify-center bg-gray-50 rounded-[50px] shadow-md p-5 rounded-t-lg mb-14">
-        <p className="text-base text-left pb-3 w-[80%]">
-          <strong>
+        <p className="text-base text-left py-16 w-[80%]">
             The mobile hotel guest directory is a hub for hotel guests to engage with property communications, amenities, campaigns and services via their personal device, with no app downloads and accessed via a QR code. <br/><br/>
             The hotel admin team utilizes a flexible directory editor that delivers comprehensive customization tools, and the power to create the ultimate branded digital companion for their hotel guests.<br/><br/>
             Enterprise hospitality brands can benefit from control via centrally managed corporate branded templates. This enables brands to retain overarching control over their guest-facing digital content. They also can set hotel permissions to view or edit content to ensure brand guidelines are always met.<br/><br/>
             A dynamic workflow means that any amendments or design changes made to brand-level templates are immediately implemented, eliminating the need for properties to manually update content. This lets both hotels and brands consistently deliver their communications within brand guidelines.<br/><br/>
             The update adds additional language support that allows guests to digest content in their preferred language, improving content deliverability, increasing engagement and boosting revenue opportunities.
-          </strong>
         </p>
           <div className="flex flex-col h-[auto] justify-evenly items-start p-5">
             <div className="w-[100%] flex flex-col justify-evenly items-center">
