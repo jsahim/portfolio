@@ -1,0 +1,56 @@
+const Navigation = ({isNavVisible, currentSection, setCurrentSection, scrollToTargetDiv, workSection, aboutSection, contactSection, topSection}) => {
+  return (
+    <nav className={`fixed flex pt-5 justify-center items-center top-0 left-0 right-0 z-50 bg-none transition-transform duration-300 ${
+        isNavVisible ? 'translate-y-0' : '-translate-y-full'
+      }`} style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.10em' }}>
+
+      <div className={`max-w-6xl mx-auto rounded-full bg-white/90 backdrop-blur-md border-b border-gray-100 w-[50vw] ${
+          isNavVisible ? 'shadow-md' : 'shadow-none'
+        } transition-transform duration-300`}>
+
+        <div className="flex justify-center items-center h-14">
+
+          <div className="flex w-full justify-evenly items-center">
+
+            <button className='flex justify-center items-center' onClick={() => scrollToTargetDiv(topSection)}>
+              <img src="/jeff-icon.png" className='h-[45px] cursor-pointer' alt="Jeff Logo" />
+            </button>
+
+            <button onClick={() => { setCurrentSection('work'); scrollToTargetDiv(workSection)}}
+              className={`font-semibold transition-colors text-sm md:text-base cursor-pointer ${
+                currentSection === 'work' 
+                  ? 'text-[#f22b40]' 
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}>
+              WORK
+            </button>
+            <button onClick={() => { setCurrentSection('about'); scrollToTargetDiv(aboutSection) }}
+              className={`font-semibold transition-colors text-sm md:text-base cursor-pointer ${
+                currentSection === 'about' 
+                  ? 'text-[#f22b40]' 
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}>
+              ABOUT
+            </button>
+            <button onClick={() => { setCurrentSection('contact'); scrollToTargetDiv(contactSection)}}
+              className={`font-semibold transition-colors text-sm md:text-base cursor-pointer ${
+                currentSection === 'contact' 
+                  ? 'text-[#f22b40]' 
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}>
+              CONTACT
+            </button>
+            <a target='_blank' href='https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link' className="font-semibold transition-colors text-white text-sm md:text-base bg-black px-2 py-1 hover:bg-[#f22b40]">
+              RESUME
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+  
+    </nav>
+  )
+}
+
+export default Navigation;
