@@ -1,14 +1,14 @@
 const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workSection, aboutSection, contactSection, topSection}) => {
   return (
-    <nav className="fixed flex sm:pt-5 sm:pb-auto pt-auto pb-5 justify-center sm:justify-end items-center sm:top-0 sm:bottom-auto top-auto bottom-0 left-0 right-0 z-50 bg-none transition-transform duration-300" 
+    <nav className="fixed flex md:pt-5 md:pb-auto pt-auto pb-5 justify-center md:justify-end items-center md:top-0 md:bottom-auto top-auto bottom-0 left-0 right-0 z-50 bg-none transition-transform duration-300" 
       style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.10em' }}
     >
 
-      <div className="max-w-6xl mr-0 sm:mr-15 rounded-full bg-white/90 backdrop-blur-md border-b border-gray-100 sm:w-[40vw] w-[90vw] shadow-md transition-transform duration-300">
+      <div className="max-w-6xl mr-0 md:mr-15 rounded-full bg-white/90 backdrop-blur-md border-b border-gray-100 md:w-[40vw] w-[90vw] shadow-md transition-transform duration-300">
         <div className="flex justify-center items-center h-14">
           <div className="flex w-full justify-evenly items-center">
 
-            <button className='flex justify-center items-center' onClick={() => scrollToTargetDiv(topSection)}>
+            <button className='flexjustify-center items-center' onClick={() => scrollToTargetDiv(topSection)}>
               <img src="/jeff-icon.png" className='h-[45px] cursor-pointer' alt="Jeff Logo" />
             </button>
 
@@ -38,7 +38,7 @@ const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workS
             </button>
             <a target='_blank' 
               href='https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link' 
-              className="font-semibold transition-colors text-white text-base sm:text-lg bg-black px-2 py-1 hover:bg-[#f22b40] hidden sm:block">
+              className="font-semibold transition-colors text-white text-base sm:text-lg bg-black px-2 py-1 hover:bg-[#f22b40] hidden lg:block">
               RESUME
             </a>
 
