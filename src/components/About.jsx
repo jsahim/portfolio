@@ -8,7 +8,7 @@ const About = ({aboutSection}) => {
       {/* Bio Section */}
       <section ref={aboutSection} className="pt-20 pb-16 px-8 sm:px-10">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 pb-10 sm:pb-auto text-[#f22b40]" style={{ fontFamily: 'Shrikhand, cursive' }}>
+          <h2 className="text-4xl sm:text-5xl font-bold mb-6 pb-10 sm:pb-0 text-[#f22b40]" style={{ fontFamily: 'Shrikhand, cursive' }}>
             About Me
           </h2>
           <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
