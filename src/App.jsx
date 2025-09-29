@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import Navigation from './components/Navigation.jsx';
 import Hero from './components/Hero.jsx';
 import Work from './components/Work.jsx';
-import Chyron from './components/Chyron.jsx';
+import Marquee from 'react-fast-marquee';
 import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
 
@@ -31,8 +31,19 @@ const Portfolio = () => {
         {/* Featured Work Section */}
         <Work workSection={workSection} />
 
-        {/* Chyron */}
-        <Chyron />
+        <Marquee speed={100} pauseOnHover={true} className="text-black tracking-wider py-2 px-4 text-2xl font-bold border-y-4 uppercase" style={{ fontFamily: 'Jost, sans-serif'}}>
+          <span>
+            <span className='text-[#f22b40]'>●</span> Mobile Guest Directory&nbsp;
+            <span className='text-[#f22b40]'>●</span> Digital Signage&nbsp;
+            <span className='text-[#f22b40]'>●</span> Hotel Interactive TV&nbsp;
+            <span className='text-[#f22b40]'>●</span> Digital Menu Boards&nbsp;
+            <span className='text-[#f22b40]'>●</span> Interactive Kiosk&nbsp;
+            <span className='text-[#f22b40]'>●</span> Room Booking & Signage&nbsp;
+            <span className='text-[#f22b40]'>●</span> Digital Concierge&nbsp;
+            <span className='text-[#f22b40]'>●</span> Wayfinding&nbsp;
+            <span className='text-[#f22b40]'>●</span> Shuttle Tracker&nbsp;
+          </span>
+        </Marquee>
 
         {/* About Section */}
         <About aboutSection={aboutSection} />
