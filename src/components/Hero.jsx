@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="pt-20 pb-16 px-8 sm:px-10 bg-black flex items-center min-h-screen">
+    <section className="pt-0 sm:pt-20 pb-16 px-8 sm:px-10 bg-black flex items-center min-h-screen">
       <div className="max-w-6xl mx-auto text-left">
         <h1 className="text-2xl sm:text-4xl lg:text-6xl leading-[35px] sm:leading-[40px] lg:leading-[80px] text-white tracking-widest" style={{ fontFamily: 'Jost, sans-serif'}}>
           <span className='text-xl font-semibold tracking-wide'>HELLO, I'M</span><br />

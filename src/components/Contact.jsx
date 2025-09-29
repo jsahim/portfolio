@@ -1,7 +1,7 @@
 import { GrLinkedinOption, GrMail } from "react-icons/gr";
 const Contact = ({contactSection}) => {
   return (
-    <footer ref={contactSection} className="bg-black text-white py-16 px-8 sm:px-10 pb-35 sm:pb-16">
+    <footer ref={contactSection} className="bg-black text-white py-20 px-8 sm:px-10 pb-35 sm:pb-16">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
           Let's Connect...
