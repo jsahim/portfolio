@@ -13,7 +13,7 @@ const About = ({aboutSection}) => {
           </h2>
           <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
             <div>
-              <div className="text-lg text-black space-y-4 leading-relaxed" style={{ fontFamily: 'Jost, sans-serif' }}>
+              <div className="text-xl text-black space-y-4 leading-relaxed" style={{ fontFamily: 'Jost, sans-serif' }}>
                 <p>I have dedicated over 12 years to providing exceptional customer-centric project management in the technology and marketing fields. I possess a strong work ethic paired with excellent analytical and organizational skills.</p>
                 <p>As a natural progression for my career in tech, I enrolled in the Turing School of Software & Design and completed their immersive frontend software engineering program. This engineering program specialized in UX principles as well as coding languages such as HTML, CSS, JavaScript and React framework.</p>
                 <p>Shortly after receiving my Accredited Frontend Software Engineering Certificate, I accepted a position of UX Engineer working in the hospitality tech industry. For the past 2 years, I collaborated with cross-functional teams to design, develop and implement new product features in an Agile environment.</p>
@@ -58,7 +58,7 @@ const About = ({aboutSection}) => {
                   {role.icon}
                 </div>
                 <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>{role.title}</h3>
-                <p className="text-white leading-relaxed text-lg" style={{ fontFamily: 'Jost, sans-serif' }}>{role.description}</p>
+                <p className="text-white leading-relaxed text-xl" style={{ fontFamily: 'Jost, sans-serif' }}>{role.description}</p>
               </div>
             ))}
           </div>

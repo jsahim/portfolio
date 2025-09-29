@@ -2,6 +2,7 @@ import { useState, useRef } from 'react';
 import Navigation from './components/Navigation.jsx';
 import Hero from './components/Hero.jsx';
 import Work from './components/Work.jsx';
+import Chyron from './components/Chyron.jsx';
 import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
 
@@ -29,6 +30,9 @@ const Portfolio = () => {
 
         {/* Featured Work Section */}
         <Work workSection={workSection} />
+
+        {/* Chyron */}
+        <Chyron />
 
         {/* About Section */}
         <About aboutSection={aboutSection} />

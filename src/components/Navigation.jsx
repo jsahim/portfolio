@@ -4,7 +4,7 @@ const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workS
       style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.10em' }}
     >
 
-      <div className="max-w-6xl mr-0 md:mr-15 rounded-full bg-white/90 backdrop-blur-md border-b border-gray-100 md:w-[40vw] w-[90vw] shadow-md transition-transform duration-300">
+      <div className="max-w-6xl mr-0 md:mr-15 rounded-full bg-white/90 backdrop-blur-md border-1 border-gray-100 md:w-[40vw] w-[90vw] shadow-md transition-transform duration-300">
         <div className="flex justify-center items-center h-14">
           <div className="flex w-full justify-evenly items-center">
 
