@@ -9,7 +9,7 @@ const Contact = ({contactSection}) => {
 
         <div className="w-full sm:w-1/2">
           <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
-            Let's Connect...
+            Let's Connect!
           </h2>
           <div className="flex flex-col justify-center space-y-6 text-lg tracking-widest">
             <a href="mailto:jeffreysahim@gmail.com" className="group max-w-[350px] flex justify-between items-center font-semibold px-4 py-2 bg-gray-600 hover:bg-[#f22b40] transition-colors" style={{ fontFamily: 'Jost, sans-serif' }}>
