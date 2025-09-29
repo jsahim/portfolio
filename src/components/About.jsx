@@ -6,7 +6,7 @@ const About = ({aboutSection}) => {
   return (
     <>
       {/* Bio Section */}
-      <section ref={aboutSection} className="pt-20 pb-16 px-10 sm:px-12">
+      <section ref={aboutSection} className="pt-20 pb-16 px-8 sm:px-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 pb-10 sm:pb-auto text-[#f22b40]" style={{ fontFamily: 'Shrikhand, cursive' }}>
             About Me
@@ -58,7 +58,7 @@ const About = ({aboutSection}) => {
                   {role.icon}
                 </div>
                 <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>{role.title}</h3>
-                <p className="text-white leading-relaxed" style={{ fontFamily: 'Jost, sans-serif' }}>{role.description}</p>
+                <p className="text-white leading-relaxed text-lg" style={{ fontFamily: 'Jost, sans-serif' }}>{role.description}</p>
               </div>
             ))}
           </div>
@@ -76,7 +76,7 @@ const About = ({aboutSection}) => {
           <svg xmlns="http://www.w3.org/2000/svg" className='lg:rotate-0 rotate-90' width="51px" height="201px" viewBox="0 0 51 200.787">
             <path d="M0.0240945 91.8181l0 17.0428c4.52776,0.108425 8.23831,1.57016 11.1015,4.38319 2.83713,2.78492 4.74059,6.56173 5.70638,11.3043 0.933661,4.77874 1.44768,12.9789 1.4778,24.6045 0.0622441,11.6617 0.240945,19.2917 0.544134,23.0042 0.53811,5.91921 1.50791,10.6237 2.95559,14.1535 1.44768,3.52984 3.22866,6.34488 5.34295,8.44913 2.14039,2.14039 4.85504,3.74669 8.14394,4.85102 2.23276,0.783071 5.88709,1.17661 10.9509,1.17661l4.95343 0 0 -16.4043 -2.74677 0c-6.12602,0 -10.1699,-1.31717 -12.1918,-3.91736 -1.99181,-2.60823 -2.98772,-8.4913 -2.98772,-17.6191 0,-17.3982 -0.271063,-28.4556 -0.815197,-33.1239 -0.935669,-7.7022 -2.83311,-13.9065 -5.64012,-18.5467 -2.83913,-4.59602 -6.85087,-8.19815 -12.0392,-10.8004 6.78862,-3.81496 11.5553,-8.87882 14.3322,-15.1916 2.77689,-6.31276 4.16232,-16.9384 4.16232,-31.9131 0,-13.5833 0.12248,-21.681 0.421654,-24.3555 0.425669,-4.66831 1.57016,-7.91303 3.49972,-9.77031 1.90346,-1.81913 5.67626,-2.74677 11.2581,-2.74677l2.74677 0 0 -16.3983 -4.95343 0c-5.7626,0 -9.95504,0.534094 -12.5512,1.67457 -3.7728,1.53402 -6.87697,4.09807 -9.35067,7.7022 -2.4737,3.63827 -4.1061,8.19815 -4.82894,13.6937 -0.724843,5.52366 -1.14449,14.5491 -1.20673,27.0601 -0.0301181,12.5532 -0.544134,21.1831 -1.4778,25.9618 -0.965787,4.77874 -2.86925,8.55756 -5.70638,11.3405 -2.86323,2.7789 -6.57378,4.24063 -11.1015,4.3852z"/>
           </svg>
-          <div className="flex flex-wrap justify-center md:justify-start w-full sm:w-[60vw] gap-7 md:gap-10">
+          <div className="flex max-w-[700px] flex-wrap justify-center md:justify-start w-full sm:w-[60vw] gap-7 md:gap-10">
             {[
               <SiReact className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#61DAFB] group-hover:text-[#f22b40]" />,
               <SiJavascript className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F7DF1E] group-hover:text-[#f22b40]" />,
@@ -93,7 +93,7 @@ const About = ({aboutSection}) => {
               <SiGithub className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#000000] group-hover:text-[#f22b40]" />
             ].map((tech, index) => (
               <div key={index} className="group cursor-pointer transform transition-all duration-300 hover:scale-110">
-                <div className="bg-none w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-3 duration-300">
+                <div className="bg-none w-16 h-16 rounded-xl flex items-center justify-center mx-auto duration-300">
                   {tech}
                 </div>
               </div>

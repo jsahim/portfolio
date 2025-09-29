@@ -2,7 +2,7 @@ import { ExternalLink } from 'lucide-react';
 
 const Work = ({workSection}) => {
   return (
-    <section ref={workSection} className="py-20 px-10 sm:px-12">
+    <section ref={workSection} className="py-20 px-8 sm:px-10">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive' }}>
           Featured Work
