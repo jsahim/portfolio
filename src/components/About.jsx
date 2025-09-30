@@ -38,7 +38,7 @@ const About = ({aboutSection}) => {
       <section className="py-20 px-10 sm:px-12 bg-black">
 
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-15 md:gap-8">
             {[
               {
                 icon: <Code className="w-18 h-18" />,

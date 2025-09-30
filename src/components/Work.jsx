@@ -27,7 +27,7 @@ const Work = ({workSection}) => {
               key={index}
               className="group cursor-pointer transform transition-all duration-300 hover:scale-105"
             >
-              <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+              <div className="bg-white rounded-md shadow-lg overflow-hidden">
                 <div className={`h-64 ${project.image} relative`}>
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <ExternalLink className="text-white w-8 h-8" />

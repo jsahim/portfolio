@@ -22,15 +22,15 @@ const Contact = ({contactSection}) => {
             </div>
 
             <div className="flex flex-col justify-center space-y-6 text-lg tracking-widest">
-              <a href="mailto:jeffreysahim@gmail.com" className="group max-w-[350px] flex justify-between items-center font-semibold px-4 py-2 bg-gray-600 hover:bg-[#f22b40] transition-colors" style={{ fontFamily: 'Jost, sans-serif' }}>
+              <a href="mailto:jeffreysahim@gmail.com" className="group max-w-[400px] flex justify-between items-center font-medium px-4 py-3 bg-gray-600 hover:bg-[#f22b40] transition-colors rounded-md" style={{ fontFamily: 'Jost, sans-serif' }}>
                 SEND ME AN EMAIL <TbMailFilled className="block group-hover:hidden w-6 h-6" /><TbMailOpenedFilled className="hidden group-hover:block w-6 h-6" />
               </a>
-              <a href="https://www.linkedin.com/in/jeff-sahim/" className="group max-w-[350px] flex justify-between items-center font-semibold px-4 py-2 bg-gray-600 hover:bg-[#f22b40] transition-colors" style={{ fontFamily: 'Jost, sans-serif' }}>
+              <a href="https://www.linkedin.com/in/jeff-sahim/" className="group max-w-[400px] flex justify-between items-center font-medium px-4 py-3 bg-gray-600 hover:bg-[#f22b40] transition-colors rounded-md" style={{ fontFamily: 'Jost, sans-serif' }}>
                 ADD ME ON LINKEDIN <GrLinkedinOption className="block group-hover:hidden w-6 h-6" /><GrLinkedin className="hidden group-hover:block w-6 h-6" />
               </a>
             </div>
             
-          </div>lg:
+          </div>
           
         </div>
       </div>
