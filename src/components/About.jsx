@@ -7,8 +7,9 @@ const About = ({aboutSection}) => {
     <>
       {/* Bio Section */}
       <section ref={aboutSection} className="pt-20 pb-16 px-8 sm:px-10">
+
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 pb-10 sm:pb-0 text-[#f22b40]" style={{ fontFamily: 'Shrikhand, cursive' }}>
+          <h2 className="text-4xl sm:text-5xl font-bold mb-6 pb-10 md:pb-0 text-[#f22b40]" style={{ fontFamily: 'Shrikhand, cursive' }}>
             About Me
           </h2>
           <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
@@ -30,10 +31,12 @@ const About = ({aboutSection}) => {
             </div>
           </div>
         </div>
+
       </section>
       
       {/* Role Items Section */}
       <section className="py-20 px-10 sm:px-12 bg-black">
+
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -63,10 +66,12 @@ const About = ({aboutSection}) => {
             ))}
           </div>
         </div>
+
       </section>
 
       {/* Technology Section */}
       <section className="py-20 px-10 sm:px-12 bg-gray-50">
+
         <div className="max-w-6xl flex flex-col lg:flex-row justify-between items-center mx-auto text-center">
           <div className="text-2xl px-[55px] font-bold text-white bg-black rounded-full h-56 w-56 flex flex-col justify-center items-center" style={{ fontFamily: 'Jost, sans-serif' }}>
             <span className='text-4xl tracking-widest text-center'>TECH</span>
@@ -100,6 +105,7 @@ const About = ({aboutSection}) => {
             ))}
           </div>
         </div>
+        
       </section>
     </>
   )
