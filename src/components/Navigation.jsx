@@ -40,7 +40,7 @@ const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workS
             
             <a target='_blank' 
               href='https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link' 
-              className="font-semibold transition-colors text-white text-base sm:text-lg bg-black px-2 py-1 hover:bg-[#f22b40] hidden lg:block">
+              className="rounded-sm font-semibold transition-colors text-white text-base sm:text-lg bg-black px-2 py-1 hover:bg-[#f22b40] hidden lg:block">
               RESUME
             </a>
 

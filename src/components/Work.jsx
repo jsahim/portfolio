@@ -1,4 +1,4 @@
-import { ExternalLink } from 'lucide-react';
+import Retrofresh from './WorkItems/Retrofresh';
 
 const Work = ({workSection}) => {
   return (
@@ -15,41 +15,7 @@ const Work = ({workSection}) => {
         </p>
 
         <div className="gap-8 flex flex-wrap">
-          {[
-            {
-              title: "RETROFRESH",
-              description: "Concession Ordering App",
-              image: "bg-black",
-              tech: "React, Vite, Tailwind CSS"
-            },
-            {
-              title: "RETROFRESH",
-              description: "Concession Ordering App",
-              image: "bg-black",
-              tech: "React, Vite, Tailwind CSS"
-            },
-            {
-              title: "RETROFRESH",
-              description: "Concession Ordering App",
-              image: "bg-black",
-              tech: "React, Vite, Tailwind CSS"
-            }
-          ].map((project, index) => (
-            <div key={index} className="group cursor-pointer w-[500px] transform transition-all duration-300 hover:scale-105">
-              <div className="bg-white border-4 border-dotted rounded-md border-[#f22b40] overflow-hidden">
-                <div className={`h-64 ${project.image} relative`}>
-                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                    <ExternalLink className="text-white w-8 h-8" />
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="font-bold text-xl text-gray-900 mb-2">{project.title}</h3>
-                  <p className="text-gray-600 mb-4">{project.description}</p>
-                  <div className="text-sm text-[#f22b40] font-medium">{project.tech}</div>
-                </div>
-              </div>
-            </div>
-          ))}
+          <Retrofresh />
         </div>
         
       </div>
