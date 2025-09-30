@@ -14,7 +14,7 @@ const Work = ({workSection}) => {
           I have dedicated over 12 years to providing exceptional customer-centric project management in the technology and marketing fields. 
         </p>
 
-        <div className="gap-8 flex">
+        <div className="gap-8 flex flex-wrap">
           {[
             {
               title: "RETROFRESH",
@@ -35,7 +35,7 @@ const Work = ({workSection}) => {
               tech: "React, Vite, Tailwind CSS"
             }
           ].map((project, index) => (
-            <div key={index} className="group cursor-pointer transform transition-all duration-300 hover:scale-105">
+            <div key={index} className="group cursor-pointer w-[500px] transform transition-all duration-300 hover:scale-105">
               <div className="bg-white border-4 border-dotted rounded-md border-[#f22b40] overflow-hidden">
                 <div className={`h-64 ${project.image} relative`}>
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
