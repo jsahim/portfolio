@@ -20,13 +20,13 @@ const Hero = () => {
             <span className='transition-opacity duration-700 ease-in-out' style={{ opacity: animate ? 1 : 0, transitionDelay: '0ms' }}>
               DESIGN
             </span>
-            <span className='text-gray-700 transition-opacity duration-700 ease-in-out font-extralight' style={{ opacity: animate ? 1 : 0, transitionDelay: '900ms' }}>
+            <span className='text-gray-600 transition-opacity duration-700 ease-in-out font-extralight' style={{ opacity: animate ? 1 : 0, transitionDelay: '900ms' }}>
               ●
             </span>
             <span className='transition-opacity duration-700 ease-in-out' style={{ opacity: animate ? 1 : 0, transitionDelay: '300ms' }}>
               ENGINEER
             </span>
-            <span className='text-gray-700 transition-opacity duration-700 ease-in-out font-extralight' style={{ opacity: animate ? 1 : 0, transitionDelay: '900ms' }}>
+            <span className='text-gray-600 transition-opacity duration-700 ease-in-out font-extralight' style={{ opacity: animate ? 1 : 0, transitionDelay: '900ms' }}>
               ●
             </span>
             <span className='transition-opacity duration-700 ease-in-out' style={{ opacity: animate ? 1 : 0, transitionDelay: '600ms' }}>

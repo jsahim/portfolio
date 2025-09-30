@@ -1,9 +1,13 @@
-const Retrofresh = () => {
+const SnackShack = () => {
 
   return (
-    <div className="text-black border-4 border-red-600 bg-white rounded-lg p-10">
+    <div className="text-black border-4 border-[#f22b40] bg-white rounded-lg p-10">
       
-      <h3 className="font-bold text-xl">CONCESSION ORDERING APP</h3><br/><br/>
+      <h3 className="font-bold  text-[#f22b40] text-xl">
+        <span className="text-gray-600 font-bold">
+          CASE STUDY | 
+        </span> CONCESSION ORDERING APP
+      </h3><br/><br/>
 
       <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">
 
@@ -25,11 +29,11 @@ const Retrofresh = () => {
         <div className="list-decimal list-inside space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">
           
           <div>
-            <p><strong>THE CHALLENGE: REDUCING WAIT TIMES AND INDICISION</strong><br/><br/>The primary problem was the frequent and lengthy line backups at the concession stand during peak event times. Patron feedback and initial observations revealed that these delays were significantly compounded by patron indecision when ordering at the window, leading to long transaction times and frustration. Patrons were missing portions of the games they came to see.</p>
+            <p><strong>THE CHALLENGE: <span className="text-gray-600 font-semibold">REDUCING WAIT TIMES AND INDICISION</span></strong><br/><br/>The primary problem was the frequent and lengthy line backups at the concession stand during peak event times. Patron feedback and initial observations revealed that these delays were significantly compounded by patron indecision when ordering at the window, leading to long transaction times and frustration. Patrons were missing portions of the games they came to see.</p>
             <p>Key Issues Identified:<br/>Peak Congestion: Halftimes and intermissions saw massive influxes of customers.<br/>Menu Blindness: Patrons had no way to view the menu, prices, or options until they were physically at the window, leading to on-the-spot decision-making.<br/>Lost Time: Extended wait times resulted in patrons missing game action.</p><br/><br/>
           </div>
           <div>
-            <p><strong>THE SOLUTION: A MOBILE-FIRST PRE-ORDERING APP</strong><br/><br/>The solution was to provide patrons with easy, remote access to the full menu and the ability to place orders before they even approached the stand, addressing indecision and queue length simultaneously.The solution was to provide patrons with easy, remote access to the full menu and the ability to place orders before they even approached the stand, addressing indecision and queue length simultaneously.</p>
+            <p><strong>THE SOLUTION: <span className="text-gray-600 font-semibold">A MOBILE-FIRST PRE-ORDERING APP</span></strong><br/><br/>The solution was to provide patrons with easy, remote access to the full menu and the ability to place orders before they even approached the stand, addressing indecision and queue length simultaneously.The solution was to provide patrons with easy, remote access to the full menu and the ability to place orders before they even approached the stand, addressing indecision and queue length simultaneously.</p>
             <p>Strategy:<br/>Menu Visibility: Provide a digital, mobile-first menu accessible anywhere in the park.<br/>Order Ahead: Implement a feature for patrons to place and pay for orders directly through the app.<br/>Easy Access: Utilize strategically placed QR codes around the park (near seating areas, entrances) to provide instant access to the app menu.</p><br/><br/>
           </div>
 
@@ -75,4 +79,4 @@ const Retrofresh = () => {
   )
 }
 
-export default Retrofresh;
+export default SnackShack;

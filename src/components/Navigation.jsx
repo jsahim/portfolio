@@ -15,7 +15,7 @@ const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workS
               className={`font-semibold transition-colors text-base sm:text-lg cursor-pointer ${
                 currentSection === 'work' 
                   ? 'text-[#f22b40]' 
-                  : 'text-gray-600 hover:text-gray-900'
+                  : 'text-gray-600 hover:text-black'
               }`}>
               WORK
             </button>
@@ -24,7 +24,7 @@ const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workS
               className={`font-semibold transition-colors text-base sm:text-lg cursor-pointer ${
                 currentSection === 'about' 
                   ? 'text-[#f22b40]' 
-                  : 'text-gray-600 hover:text-gray-900'
+                  : 'text-gray-600 hover:text-black'
               }`}>
               ABOUT
             </button>
@@ -33,7 +33,7 @@ const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workS
               className={`font-semibold transition-colors text-base sm:text-lg cursor-pointer ${
                 currentSection === 'contact' 
                   ? 'text-[#f22b40]' 
-                  : 'text-gray-600 hover:text-gray-900'
+                  : 'text-gray-600 hover:text-black'
               }`}>
               CONTACT
             </button>

@@ -22,11 +22,11 @@ const Contact = ({contactSection}) => {
             </div>
 
             <div className="flex flex-col justify-center space-y-6 text-lg tracking-widest">
-              <a href="mailto:jeffreysahim@gmail.com" className="group max-w-[400px] flex justify-between items-center font-medium px-4 py-3 bg-gray-600 hover:bg-[#f22b40] transition-colors rounded-md">
-                SEND ME AN EMAIL <TbMailFilled className="block group-hover:hidden w-6 h-6" /><TbMailOpenedFilled className="hidden group-hover:block w-6 h-6" />
+              <a href="mailto:jeffreysahim@gmail.com" className="group max-w-[400px] flex justify-between items-center px-4 py-3 bg-gray-600 hover:bg-[#f22b40] transition-colors rounded-md">
+                <span className="font-medium">SEND ME AN <strong>EMAIL</strong></span><TbMailFilled className="block group-hover:hidden w-6 h-6" /><TbMailOpenedFilled className="hidden group-hover:block w-6 h-6" />
               </a>
               <a href="https://www.linkedin.com/in/jeff-sahim/" className="group max-w-[400px] flex justify-between items-center font-medium px-4 py-3 bg-gray-600 hover:bg-[#f22b40] transition-colors rounded-md">
-                ADD ME ON LINKEDIN <GrLinkedinOption className="block group-hover:hidden w-6 h-6" /><GrLinkedin className="hidden group-hover:block w-6 h-6" />
+                <span className="font-medium">ADD ME ON <strong>LINKEDIN</strong></span><GrLinkedinOption className="block group-hover:hidden w-6 h-6" /><GrLinkedin className="hidden group-hover:block w-6 h-6" />
               </a>
             </div>
             

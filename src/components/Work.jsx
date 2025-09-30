@@ -1,4 +1,4 @@
-import Retrofresh from './WorkItems/Retrofresh';
+import SnackShack from './WorkItems/SnackShack';
 
 const Work = ({workSection}) => {
   return (
@@ -15,7 +15,7 @@ const Work = ({workSection}) => {
         </p>
 
         <div className="gap-8 flex flex-wrap">
-          <Retrofresh />
+          <SnackShack />
         </div>
         
       </div>

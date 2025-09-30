@@ -1,5 +1,6 @@
 import { SiJira, SiSketch, SiGithub, SiGit, SiTailwindcss, SiFigma, SiAdobecreativecloud, SiCss3, SiHtml5, SiJavascript, SiVuedotjs, SiReact } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
+import { PiReadCvLogo, PiReadCvLogoFill } from "react-icons/pi";
 import { Code, Palette, Lightbulb } from 'lucide-react';
 
 const About = ({aboutSection}) => {
@@ -19,12 +20,12 @@ const About = ({aboutSection}) => {
                 <p>As a natural progression for my career in tech, I enrolled in the Turing School of Software & Design and completed their immersive frontend software engineering program. This engineering program specialized in UX principles as well as coding languages such as HTML, CSS, JavaScript and React framework.</p>
                 <p>Shortly after receiving my Accredited Frontend Software Engineering Certificate, I accepted a position of UX Engineer working in the hospitality tech industry. For the past 2 years, I collaborated with cross-functional teams to design, develop and implement new product features in an Agile environment.</p>
               </div>
-              <a target='_blank' 
-                href='https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link' 
-                className="w-fit tracking-widest mt-6 rounded-sm font-semibold transition-colors text-white text-base sm:text-lg bg-black px-2 py-1 hover:bg-[#f22b40] block lg:hidden">
-                RESUME
+
+              <a href="https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link" target="_blank" className="group max-w-[400px] flex justify-between items-center px-4 py-3 bg-gray-600 hover:bg-[#f22b40] transition-colors rounded-md text-lg tracking-widest mt-8">
+                <span className="font-medium">VIEW MY <strong>RESUME</strong></span><PiReadCvLogoFill className="block group-hover:hidden w-6 h-6" /><PiReadCvLogo className="hidden group-hover:block w-6 h-6" />
               </a>
             </div>
+
             <div className="lg:text-center">
               <div className="inline-block">
                 <div className="w-80 h-80 rounded-3xl shadow-2xl transform rotate-0 hover:rotate-0 md:rotate-3 transition-transform duration-300">
