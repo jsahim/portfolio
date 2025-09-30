@@ -16,7 +16,23 @@ const Hero = () => {
           <span className='text-[#f22b40] leading-15 lg:leading-40 tracking-normal text-[3.5rem] lg:text-[12.5rem]' style={{ fontFamily: 'Shrikhand, cursive' }}>Jeff Sahim</span>
 
           <span className='w-full flex justify-evenly items-center text-white font-normal text-base lg:text-5xl border-y-1 lg:border-y-3 border-white py-2 my-2 lg:py-5 lg:my-5 tracking-widest'>
-            <span>ENGINEER</span><span className='text-gray-600'>●</span><span>DESIGNER</span><span className='text-gray-600'>●</span><span>INNOVATOR</span>
+            
+            <span className='transition-opacity duration-700 ease-in-out' style={{ opacity: animate ? 1 : 0, transitionDelay: '0ms' }}>
+              ENGINEER
+            </span>
+            <span className='text-gray-700 transition-opacity duration-700 ease-in-out font-extralight' style={{ opacity: animate ? 1 : 0, transitionDelay: '900ms' }}>
+              ●
+            </span>
+            <span className='transition-opacity duration-700 ease-in-out' style={{ opacity: animate ? 1 : 0, transitionDelay: '300ms' }}>
+              DESIGNER
+            </span>
+            <span className='text-gray-700 transition-opacity duration-700 ease-in-out font-extralight' style={{ opacity: animate ? 1 : 0, transitionDelay: '900ms' }}>
+              ●
+            </span>
+            <span className='transition-opacity duration-700 ease-in-out' style={{ opacity: animate ? 1 : 0, transitionDelay: '600ms' }}>
+              INNOVATOR
+            
+            </span>
           </span>
           
         </div>

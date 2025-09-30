@@ -1,7 +1,7 @@
 const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workSection, aboutSection, contactSection, topSection}) => {
   
   return (
-    <nav className="tracking-widest fixed flex md:pt-5 md:pb-auto pt-auto pb-5 justify-center md:justify-end items-center md:top-0 md:bottom-auto top-auto bottom-0 left-0 right-0 z-50 bg-none transition-transform duration-300" style={{ fontFamily: 'Jost, sans-serif' }}>
+    <nav className="tracking-widest fixed flex md:pt-5 md:pb-auto pt-auto pb-5 justify-center md:justify-end items-center md:top-0 md:bottom-auto top-auto bottom-0 left-0 right-0 z-50 bg-none transition-transform duration-300">
 
       <div className="max-w-6xl mr-0 bg-white/90 rounded-full md:rounded-r-none backdrop-blur-md border-1 border-gray-200 md:w-[50vw] w-[90vw] shadow-md transition-transform duration-300">
         <div className="flex justify-center items-center h-14">

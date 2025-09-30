@@ -18,7 +18,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div ref={topSection} className="min-h-screen">
+    <div ref={topSection} className="min-h-screen" style={{ fontFamily: 'Jost, sans-serif' }}>
       
       {/* Navigation / Header */}
       <Navigation currentSection={currentSection} setCurrentSection={setCurrentSection} scrollToTargetDiv={scrollToTargetDiv} workSection={workSection} aboutSection={aboutSection} contactSection={contactSection} topSection={topSection} />

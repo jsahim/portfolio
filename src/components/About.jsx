@@ -14,7 +14,7 @@ const About = ({aboutSection}) => {
           </h2>
           <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
             <div>
-              <div className="text-xl text-black space-y-4 leading-relaxed" style={{ fontFamily: 'Jost, sans-serif' }}>
+              <div className="text-xl text-black space-y-4 leading-relaxed">
                 <p>I have dedicated over 12 years to providing exceptional customer-centric project management in the technology and marketing fields. I possess a strong work ethic paired with excellent analytical and organizational skills.</p>
                 <p>As a natural progression for my career in tech, I enrolled in the Turing School of Software & Design and completed their immersive frontend software engineering program. This engineering program specialized in UX principles as well as coding languages such as HTML, CSS, JavaScript and React framework.</p>
                 <p>Shortly after receiving my Accredited Frontend Software Engineering Certificate, I accepted a position of UX Engineer working in the hospitality tech industry. For the past 2 years, I collaborated with cross-functional teams to design, develop and implement new product features in an Agile environment.</p>
@@ -61,7 +61,7 @@ const About = ({aboutSection}) => {
                   {role.icon}
                 </div>
                 <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>{role.title}</h3>
-                <p className="text-white leading-relaxed text-xl" style={{ fontFamily: 'Jost, sans-serif' }}>{role.description}</p>
+                <p className="text-white leading-relaxed text-xl">{role.description}</p>
               </div>
             ))}
           </div>
@@ -73,7 +73,7 @@ const About = ({aboutSection}) => {
       <section className="py-20 px-10 sm:px-12 bg-gray-50">
 
         <div className="max-w-6xl flex flex-col lg:flex-row justify-between items-center mx-auto text-center">
-          <div className="text-2xl px-[55px] font-bold text-white bg-black rounded-full h-56 w-56 flex flex-col justify-center items-center" style={{ fontFamily: 'Jost, sans-serif' }}>
+          <div className="text-2xl px-[55px] font-bold text-white bg-black rounded-full h-56 w-56 flex flex-col justify-center items-center">
             <span className='text-4xl tracking-widest text-center'>TECH</span>
             <span className='tracking-[5px] w-full text-sm border-y-2 border-white text-center'>AND</span>
             <span className='text-3xl tracking-widest text-center'>TOOLS</span>
