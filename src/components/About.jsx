@@ -79,7 +79,7 @@ const About = ({aboutSection}) => {
       <section className="py-20 px-10 sm:px-12 bg-gray-50">
 
         <div className="max-w-6xl flex flex-col lg:flex-row justify-between items-center mx-auto text-center">
-          <div className="text-2xl px-[55px] font-bold text-white bg-black rounded-full h-56 w-56 flex flex-col justify-center items-center">
+          <div className="transition-all duration-300 text-2xl px-[55px] font-bold text-white bg-black rounded-full h-56 w-56 m-4 hover:m-2 hover:h-60 hover:w-60 hover:px-[63px] flex flex-col justify-center items-center">
             <span className='text-4xl tracking-widest text-center'>TECH</span>
             <span className='tracking-[5px] w-full text-sm border-y-2 border-white text-center'>AND</span>
             <span className='text-3xl tracking-widest text-center'>TOOLS</span>
@@ -103,7 +103,7 @@ const About = ({aboutSection}) => {
               <SiGit className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F05032] group-hover:text-[#f22b40]" />,
               <SiGithub className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#000000] group-hover:text-[#f22b40]" />
             ].map((tech, index) => (
-              <div key={index} className="group cursor-pointer transform transition-all duration-300 hover:scale-110">
+              <div key={index} className="group transform transition-all duration-300 hover:scale-110">
                 <div className="bg-none w-16 h-16 rounded-xl flex items-center justify-center mx-auto duration-300">
                   {tech}
                 </div>

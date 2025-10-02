@@ -3,12 +3,14 @@ const SnackShack = () => {
   return (
     <div className="text-black border-4 border-[#f22b40] bg-white rounded-lg p-10">
       
-      <h3 className="font-bold  text-[#f22b40] text-xl">
-        <span className="text-gray-600 font-bold">
-          CASE STUDY | 
-        </span> CONCESSION ORDERING APP
-      </h3><br/><br/>
+      <div className="flex justify-between items-center">
+        <h3 className="font-bold  text-[#f22b40] text-xl">
+          <span className="text-gray-600 font-bold">CASE STUDY | </span> CONCESSION ORDERING APP
+        </h3>
+        <button className="w-20 h-20 rounded-full bg-[#f22b40] border-5 border-gray-400 flex justify-center items-center text-white font-bold">OPEN</button>
+      </div>
 
+      <br/><br/>
       <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">
 
         <p><strong>PROJECT OVERVIEW</strong></p><br/>
