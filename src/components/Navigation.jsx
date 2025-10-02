@@ -37,12 +37,6 @@ const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workS
               }`}>
               CONTACT
             </button>
-            
-            <a target='_blank' 
-              href='https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link' 
-              className="rounded-sm font-semibold transition-colors text-white text-base sm:text-lg bg-black px-2 py-1 hover:bg-[#f22b40] hidden lg:block">
-              RESUME
-            </a>
 
           </div>
         </div>

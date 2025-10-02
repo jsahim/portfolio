@@ -11,11 +11,12 @@ const SnackShack = () => {
 
       <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">
 
+        <p><strong>PROJECT OVERVIEW</strong></p><br/>
         <div>
           IMAGE
         </div>
         <div>
-          <p><strong>PROJECT OVERVIEW</strong><br/><br/>This three-week project focused on improving the customer experience and operational efficiency of a local park's concession stand, which suffered from severe queue backups during peak hours, particularly at game halftimes and intermissions.</p>
+          <p>This three-week project focused on improving the customer experience and operational efficiency of a local park's concession stand, which suffered from severe queue backups during peak hours, particularly at game halftimes and intermissions.</p>
           <p>Client: Concession Stand Manager at a local park</p>
           <p>Duration: 3 weeks</p>
           <p>My Role: Research, Wireframing & User Flows, Data Architecture, Software Development</p>
@@ -41,9 +42,10 @@ const SnackShack = () => {
 
       <hr /><br/><br/>
 
-      <p><strong>PROCESS & EXECUTION</strong><br/><br/>
+      <p><strong>PROCESS & EXECUTION</strong></p><br/>
 
-        <ol className="list-decimal list-inside space-y-4 grid md:grid-cols-3 gap-15 md:gap-8">
+      <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">
+        <ol className="list-decimal list-inside">
           <li>Research & Analysis<br/>
             <strong>User Interviews:</strong> Conducted brief interviews with park patrons to confirm the pain points. The consensus was a desire to skip the line and the need for pre-order viewing of the menu.<br/>
             <strong>Flow Mapping:</strong> Mapped the existing inefficient patron flow (Wait in line → View menu → Decide → Order/Pay → Wait for fulfillment) and compared it to the proposed streamlined flow (Scan QR → View/Order → Pickup at designated area).
@@ -60,19 +62,29 @@ const SnackShack = () => {
               <strong>Tech Stack:</strong><br/>Front-end: React with Vite for a fast, modern build.<br/>Routing: React Router for seamless navigation.<br/>Data Fetching: Fetch API to consume the JSON data from the Google Sheets API.<br/>Design: A mobile-first approach was mandatory, ensuring usability on all common smartphone screen sizes.
           </li>
         </ol>
-      </p>
+
+        <div className="flex flex-col items-center justify-evenly">
+          <img src="/GoogleSheets-Items.png" alt="jeff pic" />
+          <img src="/Menu-Wireframe.png" alt="jeff pic" />
+        </div>
+
+      </div>
+
       
       <hr /><br/><br/>
 
-      <div className="list-decimal list-inside space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">  
-        <div>
-          <p><strong>RESULTS & IMPACT</strong><br/><br/>The implementation of the app immediately started to show positive effects on the concession stand operations.</p> <br/><br/>
-          <p><strong>CONCLUSION</strong><br/><br/>This project demonstrated that a simple, focused application can solve a complex operational problem. By leveraging common, accessible tools (Google Sheets) for the backend and pairing them with a modern, mobile-first frontend (React), we delivered an impactful UX solution that benefits both the business (faster service, higher throughput) and the user (less waiting, more game time).</p>
-        </div>
-        <div>
-          IMAGE
-        </div>
+      <div>  
+        <p><strong>RESULTS & CONCLUSION</strong></p><br/>
+        <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">
+
+          <p>The implementation of the app immediately started to show positive effects on the concession stand operations.<br/><br/>This project demonstrated that a simple, focused application can solve a complex operational problem. By leveraging common, accessible tools (Google Sheets) for the backend and pairing them with a modern, mobile-first frontend (React), we delivered an impactful UX solution that benefits both the business (faster service, higher throughput) and the user (less waiting, more game time).
+          </p>
           
+          <div>
+            <img className="w-50" src="/snackshack-qr.png" alt="jeff pic" />
+          </div>
+
+        </div>  
       </div>
 
     </div>

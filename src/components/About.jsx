@@ -16,7 +16,7 @@ const About = ({aboutSection}) => {
           <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
             <div>
               <div className="text-xl text-black space-y-4 leading-relaxed">
-                <p>I have dedicated over 12 years to providing exceptional customer-centric project management in the technology and marketing fields. I possess a strong work ethic paired with excellent analytical and organizational skills.</p>
+                <p>I have dedicated over 12 years to providing exceptional customer-centric project management and development in the technology and marketing fields.</p>
                 <p>As a natural progression for my career in tech, I enrolled in the Turing School of Software & Design and completed their immersive frontend software engineering program. This engineering program specialized in UX principles as well as coding languages such as HTML, CSS, JavaScript and React framework.</p>
                 <p>Shortly after receiving my Accredited Frontend Software Engineering Certificate, I accepted a position of UX Engineer working in the hospitality tech industry. For the past 2 years, I collaborated with cross-functional teams to design, develop and implement new product features in an Agile environment.</p>
               </div>
@@ -48,17 +48,17 @@ const About = ({aboutSection}) => {
             {[
               {
                 icon: <Palette className="w-18 h-18" />,
-                title: "UX DESIGN",
+                title: "PRODUCT DESIGNER",
                 description: "Designing intuitive interfaces that prioritize user experience and accessibility."
               },
               {
                 icon: <Code className="w-18 h-18" />,
-                title: "ENGINEERING",
+                title: "FRONTEND ENGINEER",
                 description: "Building responsive, performant web applications with modern frameworks and best practices."
               },
               {
                 icon: <Lightbulb className="w-18 h-18" />,
-                title: "INNOVATION",
+                title: "PROBLEM SOLVER",
                 description: "Creating end-to-end digital solutions from concept to deployment and maintenance."
               }
             ].map((role, index) => (
