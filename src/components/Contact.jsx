@@ -12,16 +12,16 @@ const Contact = ({contactSection}) => {
         <div className="w-full">
 
 
-          <div className="grid grid-cols-2 w-full">
+          <div className="grid grid-cols-3 w-full">
 
-            <div className="text-xl text-white space-y-4 leading-relaxed text-left pr-0 md:pr-20">        
+            <div className="col-span-2 text-xl text-white space-y-4 leading-relaxed text-left pr-0 md:pr-20">        
               <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
                 Let's Connect!
               </h2>
               <p>
                 I have dedicated over 12 years to providing exceptional customer-centric project management in the technology and marketing fields. 
               </p>
-              <div className="flex flex-col justify-center space-y-6 text-lg tracking-widest">
+              <div className="flex flex-col justify-center space-y-6 text-lg tracking-widest mt-8">
                 <a href="mailto:jeffreysahim@gmail.com" className="group max-w-[400px] flex justify-between items-center px-4 py-3 bg-gray-600 hover:bg-[#f22b40] transition-colors rounded-md">
                   <span className="font-medium">SEND ME AN <strong>EMAIL</strong></span><TbMailFilled className="block group-hover:hidden w-6 h-6" /><TbMailOpenedFilled className="hidden group-hover:block w-6 h-6" />
                 </a>
@@ -32,7 +32,7 @@ const Contact = ({contactSection}) => {
               
             </div>
 
-            <div className="w-full flex justify-center items-center">
+            <div className="w-full flex justify-end items-center">
               <IconRotate />
             </div>
             

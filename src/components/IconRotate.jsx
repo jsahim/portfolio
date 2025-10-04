@@ -4,7 +4,7 @@ export default function IconRotate() {
   
   return (
     <div className="flex items-center justify-center">
-      <div className="relative w-80 h-80">
+      <div className="relative w-75 h-75">
         <div className="absolute inset-0 w-full h-full p-10">
           {/* Logo Image */}
           <img 
