@@ -47,14 +47,14 @@ const About = ({aboutSection}) => {
           <div className="grid md:grid-cols-3 gap-15 md:gap-8">
             {[
               {
-                icon: <Code className="w-18 h-18" />,
-                title: "FRONTEND ENGINEER",
-                description: "Building responsive, performant web applications with modern frameworks and best practices."
-              },
-              {
                 icon: <Palette className="w-18 h-18" />,
                 title: "PRODUCT DESIGNER",
                 description: "Designing intuitive interfaces that prioritize user experience and accessibility."
+              },
+              {
+                icon: <Code className="w-18 h-18" />,
+                title: "FRONTEND ENGINEER",
+                description: "Building responsive, performant web applications with modern frameworks and best practices."
               },
               {
                 icon: <Lightbulb className="w-18 h-18" />,

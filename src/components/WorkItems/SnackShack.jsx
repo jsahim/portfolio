@@ -20,7 +20,7 @@ const SnackShack = () => {
         </h3>
         <div className=" flex space-x-4 items-center">
           <div className="tracking-wider w-20 h-10 rounded-t-2xl rounded-b-0 bg-black border-5 border-black flex justify-center items-center text-white font-bold">{drawerOpen ? "OPEN" : "CLOSED"}</div>
-          <button className="w-10 h-10 rounded-full bg-red-700 flex justify-center items-center text-white font-bold" onClick={ ()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}>PUSH</button>
+          <button className="w-10 h-10 rounded-full bg-red-700 flex justify-center items-center text-white font-bold" onClick={ ()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}></button>
         </div>
       </div>
 
