@@ -12,7 +12,7 @@ const SnackShack = () => {
 
   return (
     
-    <div ref={projectTop} className="text-black border-4 border-[#f22b40] bg-white rounded-lg p-10">
+    <div ref={projectTop} className="text-black border-4 snap-start scroll-mt-10 border-[#f22b40] bg-white rounded-lg p-10">
       
       <div className="flex justify-between items-center border-b-3 border-black">
         <h3 className="font-bold text-[#f22b40] text-xl">

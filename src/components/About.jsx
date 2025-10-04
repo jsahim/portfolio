@@ -7,7 +7,7 @@ const About = ({aboutSection}) => {
   return (
     <>
       {/* Bio Section */}
-      <section ref={aboutSection} className="pt-20 pb-16 px-8 sm:px-10">
+      <section ref={aboutSection} className="snap-start scroll-mt-10 pt-20 pb-16 px-8 sm:px-10">
 
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 pb-10 md:pb-0 text-[#f22b40]" style={{ fontFamily: 'Shrikhand, cursive' }}>
