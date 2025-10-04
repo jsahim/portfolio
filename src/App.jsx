@@ -7,7 +7,7 @@ import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
 
 const Portfolio = () => {
-  const [currentSection, setCurrentSection] = useState('work');
+  const [currentSection, setCurrentSection] = useState('landing');
   const workSection = useRef(null)
   const aboutSection = useRef(null)
   const topSection = useRef(null)

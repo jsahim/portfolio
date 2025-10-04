@@ -16,7 +16,7 @@ const SnackShack = () => {
       
       <div className="flex justify-between items-center border-b-3 border-black">
         <h3 className="font-bold text-[#f22b40] text-xl">
-          <span className="text-gray-600 font-bold text-sm">CASE STUDY</span><br/> THE SNACK SHACK: CONCESSION ORDERING APP
+          THE SNACK SHACK: CONCESSION ORDERING APP
         </h3>
         <div className=" flex space-x-4 items-center">
           <div className="tracking-wider w-20 h-10 rounded-t-2xl rounded-b-0 bg-black border-5 border-black flex justify-center items-center text-white font-bold">{drawerOpen ? "OPEN" : "CLOSED"}</div>
