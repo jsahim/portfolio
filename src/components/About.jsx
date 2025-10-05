@@ -1,13 +1,15 @@
-import { SiJira, SiSketch, SiGithub, SiGit, SiTailwindcss, SiFigma, SiAdobecreativecloud, SiCss3, SiHtml5, SiJavascript, SiVuedotjs, SiReact } from "react-icons/si";
+import { SiJira, SiSketch, SiLighthouse, SiSlack, SiConfluence, SiNotion, SiClaude, SiCypress, SiGithub, SiGit, SiTailwindcss, SiFigma, SiAdobecreativecloud, SiCss3, SiHtml5, SiJavascript, SiVuedotjs, SiReact } from "react-icons/si";
+import { FaSalesforce } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
-import { PiReadCvLogo, PiReadCvLogoFill } from "react-icons/pi";
-import { Code, Palette, Lightbulb } from 'lucide-react';
+import { BsMicrosoftTeams } from "react-icons/bs";
+import { CgFigma } from "react-icons/cg";
+import { Code, Palette, Lightbulb, ExternalLink } from 'lucide-react';
 
 const About = ({aboutSection}) => {
   return (
     <>
       {/* Bio Section */}
-      <section ref={aboutSection} className="snap-start scroll-mt-10 pt-20 pb-16 px-8 sm:px-10">
+      <section ref={aboutSection} className="snap-start scroll-mt-0 sm:scroll-mt-10 pt-20 pb-16 px-8 sm:px-10">
 
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 pb-10 md:pb-0 text-[#f22b40]" style={{ fontFamily: 'Shrikhand, cursive' }}>
@@ -16,14 +18,10 @@ const About = ({aboutSection}) => {
           <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
             <div>
               <div className="text-xl text-black space-y-4 leading-relaxed">
-                <p>I have dedicated over 12 years to providing exceptional customer-centric project management and development in the technology and marketing fields.</p>
                 <p>As a natural progression for my career in tech, I enrolled in the Turing School of Software & Design and completed their immersive frontend software engineering program. This engineering program specialized in UX principles as well as coding languages such as HTML, CSS, JavaScript and React framework.</p>
                 <p>Shortly after receiving my Accredited Frontend Software Engineering Certificate, I accepted a position of UX Engineer working in the hospitality tech industry. For the past 2 years, I collaborated with cross-functional teams to design, develop and implement new product features in an Agile environment.</p>
+                <a className="flex items-center font-semibold text-black hover:text-[#f22b40] duration-300" href="https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link" target="_blank">View My Resume <ExternalLink className="ml-3 stroke-3"/></a>
               </div>
-
-              <a href="https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link" target="_blank" className="group max-w-[400px] flex justify-between items-center px-4 py-3 bg-gray-600 hover:bg-[#f22b40] transition-colors rounded-md text-lg tracking-widest mt-8">
-                <span className="font-medium">VIEW MY <strong>RESUME</strong></span><PiReadCvLogoFill className="block group-hover:hidden w-6 h-6" /><PiReadCvLogo className="hidden group-hover:block w-6 h-6" />
-              </a>
             </div>
 
             <div className="lg:text-center">
@@ -89,19 +87,27 @@ const About = ({aboutSection}) => {
           </svg>
           <div className="flex max-w-[700px] flex-wrap justify-center md:justify-start w-full sm:w-[60vw] gap-7 md:gap-10">
             {[
-              <SiReact className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#61DAFB] group-hover:text-[#f22b40]" />,
-              <SiJavascript className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F7DF1E] group-hover:text-[#f22b40]" />,
-              <SiVuedotjs className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#4FC08D] group-hover:text-[#f22b40]" />,
-              <SiHtml5 className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E34F26] group-hover:text-[#f22b40]" />,
-              <SiCss3 className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#264de4] group-hover:text-[#f22b40]" />,
-              <VscVscode className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0098FF] group-hover:text-[#f22b40]" />,
-              <SiFigma className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#000000] group-hover:text-[#f22b40]" />,
-              <SiAdobecreativecloud className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#da1f26] group-hover:text-[#f22b40]" />,
-              <SiSketch className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E9AC12] group-hover:text-[#f22b40]" />,
-              <SiTailwindcss className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#38bdf8] group-hover:text-[#f22b40]" />,
-              <SiJira className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0053CD] group-hover:text-[#f22b40]" />,
-              <SiGit className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F05032] group-hover:text-[#f22b40]" />,
-              <SiGithub className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#000000] group-hover:text-[#f22b40]" />
+              <SiReact title="React" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#61DAFB] group-hover:text-[#f22b40]" />,
+              <SiVuedotjs title="Vue.js" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#4FC08D] group-hover:text-[#f22b40]" />,
+              <SiJavascript title="JavaScript" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F7DF1E] group-hover:text-[#f22b40]" />,
+              <SiHtml5 title="HTML" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E34F26] group-hover:text-[#f22b40]" />,
+              <SiCss3 title="CSS" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#264de4] group-hover:text-[#f22b40]" />,
+              <VscVscode title="VS Code" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0098FF] group-hover:text-[#f22b40]" />,
+              <SiNotion title="Notion" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#f22b40]" />,
+              <CgFigma title="Figma" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#a259ff] group-hover:text-[#f22b40]" />,
+              <SiSlack title="Slack" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#4A154B] group-hover:text-[#f22b40]" />,
+              <BsMicrosoftTeams title="Microsoft Teams" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#7B83EB] group-hover:text-[#f22b40]" />,
+              <SiAdobecreativecloud title="Adobe Creative Cloud" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#da1f26] group-hover:text-[#f22b40]" />,
+              <SiSketch title="Sketch" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E9AC12] group-hover:text-[#f22b40]" />,
+              <SiTailwindcss title="Tailwind CSS" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#38bdf8] group-hover:text-[#f22b40]" />,
+              <SiJira title="Jira" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0053CD] group-hover:text-[#f22b40]" />,
+              <SiConfluence title="Confluence" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#0053CD] group-hover:text-[#f22b40]" />,
+              <SiLighthouse title="Lighthouse" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#EA4335] group-hover:text-[#f22b40]" />,
+              <FaSalesforce title="Salesforce" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#00A1E0] group-hover:text-[#f22b40]" />,
+              <SiGit title="Git" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F05032] group-hover:text-[#f22b40]" />,
+              <SiGithub title="GitHub" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#000000] group-hover:text-[#f22b40]" />,
+              <SiClaude title="Claude" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#da7756] group-hover:text-[#f22b40]" />,
+              <SiCypress title="Cypress" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#95e4c5] group-hover:text-[#f22b40]" />
             ].map((tech, index) => (
               <div key={index} className="group transform transition-all duration-300 hover:scale-110">
                 <div className="bg-none w-16 h-16 rounded-xl flex items-center justify-center mx-auto duration-300">

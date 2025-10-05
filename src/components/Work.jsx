@@ -2,7 +2,7 @@ import SnackShack from './WorkItems/SnackShack';
 
 const Work = ({workSection}) => {
   return (
-    <section ref={workSection} className="snap-start scroll-mt-10 py-20 px-8 sm:px-10">
+    <section ref={workSection} className="snap-start scroll-mt-0 sm:scroll-mt-10 py-20 px-8 sm:px-10">
 
       <div className="max-w-6xl mx-auto">
 

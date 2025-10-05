@@ -1,5 +1,7 @@
 
 import { useState, useRef } from 'react';
+import { ChevronsDownUp, ChevronsUpDown } from 'lucide-react';
+
 
 const SnackShack = () => {
 
@@ -12,15 +14,15 @@ const SnackShack = () => {
 
   return (
     
-    <div ref={projectTop} className="text-black border-4 snap-start scroll-mt-10 border-[#f22b40] bg-white rounded-lg p-10">
+    <div ref={projectTop} className="text-black border-4 snap-start scroll-mt-0 sm:scroll-mt-25 border-[#f22b40] bg-white rounded-lg md:p-10 p-5">
       
-      <div className="flex justify-between items-center border-b-3 border-black">
+      <div className="flex justify-between items-center border-b-3 py-5 border-black">
         <h3 className="font-bold text-[#f22b40] text-xl">
           THE SNACK SHACK: CONCESSION ORDERING APP
         </h3>
-        <div className=" flex space-x-4 items-center">
-          <div className="tracking-wider w-20 h-10 rounded-t-2xl rounded-b-0 bg-black border-5 border-black flex justify-center items-center text-white font-bold">{drawerOpen ? "OPEN" : "CLOSED"}</div>
-          <button className="w-10 h-10 rounded-full bg-red-700 flex justify-center items-center text-white font-bold" onClick={ ()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}></button>
+        <div className="flex items-center">
+          <button className="cursor-pointer z-5 w-12 h-12 rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
+            onClick={()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}>{drawerOpen ? <ChevronsUpDown className='stroke-2 w-8 h-8'/> : <ChevronsDownUp className='stroke-2 w-8 h-8'/> }</button>
         </div>
       </div>
 
@@ -31,10 +33,10 @@ const SnackShack = () => {
         <div>
           <p className='font-bold'>PROJECT OVERVIEW</p>
           <p>This three-week project focused on improving the customer experience and operational efficiency of a local park's concession stand, which suffered from severe queue backups during peak hours, particularly at game halftimes and intermissions.</p>
-          <p>Client: Concession Stand Manager at a local park</p>
-          <p>Duration: 3 weeks</p>
-          <p>My Role: Research, Wireframing & User Flows, Data Architecture, Software Development</p>
-          <p>Summary: Developed a mobile-first web application that allows patrons to browse the concession menu and place orders remotely. The application's menu data is dynamically managed by an administrator using a simple Google Sheet, which is converted into a REST API to populate the app.</p><br/><br/>
+          <p><strong>Client:</strong> Concession Stand Manager at a local park</p>
+          <p><strong>Duration:</strong> 3 weeks</p>
+          <p><strong>My Role:</strong> Research, Wireframing & User Flows, Data Architecture, Software Development</p>
+          <p><strong>Summary:</strong> Developed a mobile-first web application that allows patrons to browse the concession menu and place orders remotely. The application's menu data is dynamically managed by an administrator using a simple Google Sheet, which is converted into a REST API to populate the app.</p>
         </div>
       </div>
 
@@ -42,7 +44,7 @@ const SnackShack = () => {
         <div className="list-decimal list-inside space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">
         
           <div>
-            <p><strong>THE CHALLENGE: <span className="text-gray-600 font-semibold">REDUCING WAIT TIMES AND INDICISION</span></strong><br/><br/>The primary problem was the frequent and lengthy line backups at the concession stand during peak event times. Patron feedback and initial observations revealed that these delays were significantly compounded by patron indecision when ordering at the window, leading to long transaction times and frustration. Patrons were missing portions of the games they came to see.</p>
+            <p><strong>THE CHALLENGE: <span className="text-gray-600 font-semibold">REDUCING WAIT TIMES AND INDICISION</span></strong><br/>The primary problem was the frequent and lengthy line backups at the concession stand during peak event times. Patron feedback and initial observations revealed that these delays were significantly compounded by patron indecision when ordering at the window, leading to long transaction times and frustration. Patrons were missing portions of the games they came to see.</p>
             <p>Key Issues Identified:<br/>Peak Congestion: Halftimes and intermissions saw massive influxes of customers.<br/>Menu Blindness: Patrons had no way to view the menu, prices, or options until they were physically at the window, leading to on-the-spot decision-making.<br/>Lost Time: Extended wait times resulted in patrons missing game action.</p><br/><br/>
           </div>
           <div>
@@ -56,8 +58,8 @@ const SnackShack = () => {
           <ol className="list-decimal list-inside">
             <p className='font-bold'>PROCESS & EXECUTION</p>
             <li>Research & Analysis<br/>
-              <strong>User Interviews:</strong> Conducted brief interviews with park patrons to confirm the pain points. The consensus was a desire to skip the line and the need for pre-order viewing of the menu.<br/>
-              <strong>Flow Mapping:</strong> Mapped the existing inefficient patron flow (Wait in line → View menu → Decide → Order/Pay → Wait for fulfillment) and compared it to the proposed streamlined flow (Scan QR → View/Order → Pickup at designated area).
+              <p><strong>User Interviews:</strong> Conducted brief interviews with park patrons to confirm the pain points. The consensus was a desire to skip the line and the need for pre-order viewing of the menu.</p>
+              <p><strong>Flow Mapping:</strong> Mapped the existing inefficient patron flow (Wait in line → View menu → Decide → Order/Pay → Wait for fulfillment) and compared it to the proposed streamlined flow (Scan QR → View/Order → Pickup at designated area).</p>
             </li>
             <li>Data Architecture & Administration<br/>
               A critical requirement was giving the non-technical concession manager full control over the menu content without needing developer intervention.<br/>
