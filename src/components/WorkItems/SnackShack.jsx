@@ -27,8 +27,8 @@ const SnackShack = () => {
       </div>
 
       <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8 mt-10">
-        <div>
-          IMAGE
+        <div className='flex justify-center items-center'>
+          <img className='w-[250px]' src="/shack-frame.png" alt="shack" />
         </div>
         <div>
           <p className='font-bold py-2'>PROJECT OVERVIEW</p>
@@ -82,14 +82,14 @@ const SnackShack = () => {
             </li>
             <div className='pl-5'>
               <p><strong>User Interviews:</strong> Conducted brief interviews with park patrons to confirm the pain points. The consensus was a desire to skip the line and the need for pre-order viewing of the menu.</p>
-              <p><strong>Flow Mapping:</strong> Mapped the existing inefficient patron flow (Wait in line → View menu → Decide → Order/Pay → Wait for fulfillment) and compared it to the proposed streamlined flow (Scan QR → View/Order → Pickup at designated area).</p>
+              <p><strong>Flow Mapping:</strong> Mapped the existing inefficient patron flow <span className='font-semibold italic'>(Wait in line → View menu → Decide → Order/Pay → Wait for fulfillment)</span> and compared it to the proposed streamlined flow <span className='font-semibold italic'>(Scan QR → View/Order → Pickup at designated area)</span>.</p>
             </div>
             <li className='font-bold py-2'>
               Data Architecture & Administration
             </li>
             <div className='pl-5'>
               <p>A critical requirement was giving the non-technical concession manager full control over the menu content without needing developer intervention.</p>
-              <p><strong>Admin System:</strong> A Google Sheet was chosen as the user-friendly administration tool. <br/>The manager can use it to:<br/>Add or remove items.<br/>Edit the Name, Description, Image URL, Price, Category, and Availability of each item.</p>
+              <p><strong>Admin System:</strong> A Google Sheet was chosen as the user-friendly administration tool. <br/>The manager can use it to: <span className='font-semibold italic'>add or remove items</span> and <br/><span className='font-semibold italic'>edit the Name, Description, Image URL, Price, Category, and Availability of each item.</span></p>
             </div>
             <li className='font-bold py-2'>
               Design & Development
