@@ -16,11 +16,12 @@ const About = ({aboutSection}) => {
             About Me
           </h2>
           <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
+
             <div>
               <div className="text-xl text-black space-y-4 leading-relaxed">
                 <p>As a natural progression for my career in tech, I enrolled in the Turing School of Software & Design and completed their immersive frontend software engineering program. This engineering program specialized in UX principles as well as coding languages such as HTML, CSS, JavaScript and React framework.</p>
                 <p>Shortly after receiving my Accredited Frontend Software Engineering Certificate, I accepted a position of UX Engineer working in the hospitality tech industry. For the past 2 years, I collaborated with cross-functional teams to design, develop and implement new product features in an Agile environment.</p>
-                <a className="flex items-center font-semibold text-black hover:text-[#f22b40] duration-300" href="https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link" target="_blank">View My Resume <ExternalLink className="ml-3 stroke-3"/></a>
+                <a className="w-fit flex items-center font-semibold text-black hover:text-[#f22b40] transition-colors duration-200" href="https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link" target="_blank">VIEW MY RESUME <ExternalLink className="ml-3 stroke-3"/></a>
               </div>
             </div>
 
@@ -33,6 +34,7 @@ const About = ({aboutSection}) => {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
