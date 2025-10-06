@@ -16,15 +16,19 @@ const SnackShack = () => {
     
     <div ref={projectTop} className="text-black border-4 snap-start scroll-mt-0 sm:scroll-mt-25 border-[#f22b40] bg-white rounded-lg md:p-10 p-5">
       
-      <div className="flex justify-between items-center border-b-3 pb-5 border-black">
+      <div className="flex justify-between items-center">
         <h3 className="font-bold text-[#f22b40] text-xl">
-          THE SNACK SHACK: CONCESSION ORDERING APP
+          THE SNACK SHACK<span className='text-gray-600 font-semibold'>: CONCESSION ORDERING APP</span>
         </h3>
         <div className="flex flex-col justify-start h-[-webkit-fill-available]">
-          <button className="cursor-pointer z-5 w-12 h-12 rounded-full bg-[#f22b40] border-3 border-black hover:border-gray-600 transition-all duration-300 flex justify-center items-center text-white font-bold" 
-            onClick={()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}>{drawerOpen ? <ChevronsDownUp className='stroke-2 w-8 h-8'/> : <ChevronsUpDown className='stroke-2 w-8 h-8'/> }</button>
+          <button className="cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
+            onClick={()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}>{drawerOpen 
+              ? <ChevronsDownUp className='group-hover:stroke-3 group-hover:w-6 group-hover:h-6 w-8 h-8 stroke-2 transition-all duration-300'/> 
+              : <ChevronsUpDown className='group-hover:stroke-3 group-hover:w-6 group-hover:h-6 w-8 h-8 stroke-2 transition-all duration-300'/> }
+          </button>
         </div>
       </div>
+      <hr className='border border-gray-600 my-10'/>
 
       <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8 mt-10">
         <div className='flex justify-center items-center'>
@@ -43,7 +47,7 @@ const SnackShack = () => {
 
       <div className={`overflow-hidden transition-all duration-500 ease-in-out ${drawerOpen ? 'max-h-[5000px] opacity-100' : 'max-h-0 opacity-0'}`}>
         
-        <hr className='border border-gray-600 my-10'/>
+        <hr className='border border-gray-300 my-10'/>
         
         <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">
         
@@ -71,7 +75,7 @@ const SnackShack = () => {
 
         </div>
 
-        <hr className='border border-gray-600 my-10'/>
+        <hr className='border border-gray-300 my-10'/>
 
         <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">
           
@@ -122,7 +126,7 @@ const SnackShack = () => {
 
         </div>
 
-        <hr className='border border-gray-600 my-10'/>
+        <hr className='border border-gray-300 my-10'/>
 
         <div>  
       
@@ -132,9 +136,9 @@ const SnackShack = () => {
               <p><span className='font-semibold'>The implementation of the app immediately started to show positive effects on the concession stand operations.</span><br/>This project demonstrated that a simple, focused application can solve a complex operational problem. By leveraging common, accessible tools (Google Sheets) for the backend and pairing them with a modern, mobile-first frontend (React), we delivered an impactful UX solution that benefits both the business (faster service, higher throughput) and the user (less waiting, more game time).</p>
             </div>
             <div className='w-full flex flex-col items-center'>
-              <p className='text-[#f22b40] font-bold'>Scan to Demo Application</p>
+              <p className='sm:block hidden text-[#f22b40] font-bold'>Scan to Demo Application</p>
               <img className="hidden sm:flex w-50" src="/snackshack-qr.png" alt="jeff pic" />
-              <a className="sm:hidden flex w-fit items-center text-xl font-semibold text-black hover:text-[#f22b40] transition-colors duration-200" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO <ExternalLink className="ml-3 stroke-3"/></a>
+              <a className="sm:hidden flex w-full justify-start items-center text-xl font-semibold text-black hover:text-[#f22b40] transition-colors duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO <ExternalLink className="ml-3 stroke-3"/></a>
             </div>
           </div>  
           
