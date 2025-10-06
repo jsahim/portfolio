@@ -33,7 +33,7 @@ const SnackShack = () => {
         <div>
           <p className='font-bold py-2'>PROJECT OVERVIEW</p>
           <p>This three-week project focused on improving the customer experience and operational efficiency of a local park's concession stand, which suffered from severe queue backups during peak hours, particularly at game halftimes and intermissions.</p>
-          <p><strong>Client:</strong> Concession Stand Manager at a local park</p>
+          <p><strong>Client:</strong> Franklin Park Borough - Parks and Recreation</p>
           <p><strong>Duration:</strong> 3 weeks</p>
           <p><strong>My Role:</strong> Research, Wireframing & User Flows, Data Architecture, Software Development</p>
           <p><strong>Summary:</strong> Developed a mobile-first web application that allows patrons to browse the concession menu and place orders remotely. The application's menu data is dynamically managed by an administrator using a simple Google Sheet, which is converted into a REST API to populate the app.</p>
@@ -126,10 +126,13 @@ const SnackShack = () => {
 
         <div>  
       
-          <p className='py-2'><strong>RESULTS & CONCLUSION</strong></p>
           <div className="grid md:grid-cols-2 gap-15 md:gap-8">
-            <p>The implementation of the app immediately started to show positive effects on the concession stand operations.<br/>This project demonstrated that a simple, focused application can solve a complex operational problem. By leveraging common, accessible tools (Google Sheets) for the backend and pairing them with a modern, mobile-first frontend (React), we delivered an impactful UX solution that benefits both the business (faster service, higher throughput) and the user (less waiting, more game time).</p>
             <div>
+              <p className='py-2'><strong>RESULTS & CONCLUSION</strong></p>
+              <p><span className='font-semibold'>The implementation of the app immediately started to show positive effects on the concession stand operations.</span><br/>This project demonstrated that a simple, focused application can solve a complex operational problem. By leveraging common, accessible tools (Google Sheets) for the backend and pairing them with a modern, mobile-first frontend (React), we delivered an impactful UX solution that benefits both the business (faster service, higher throughput) and the user (less waiting, more game time).</p>
+            </div>
+            <div className='w-full flex flex-col items-center'>
+              <p className='text-[#f22b40] font-bold'>Scan to Demo Application</p>
               <img className="hidden sm:flex w-50" src="/snackshack-qr.png" alt="jeff pic" />
               <a className="sm:hidden flex w-fit items-center text-xl font-semibold text-black hover:text-[#f22b40] transition-colors duration-200" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO <ExternalLink className="ml-3 stroke-3"/></a>
             </div>
