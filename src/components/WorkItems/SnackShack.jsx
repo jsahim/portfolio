@@ -30,13 +30,13 @@ const SnackShack = () => {
       </div>
       <hr className='border border-gray-600 my-10'/>
 
-      <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8 mt-10">
-        <div className='flex justify-center items-center'>
+      <div className="space-y-4 grid md:grid-cols-3 gap-15 md:gap-8 mt-10">
+        <div className='hidden sm:flex justify-center items-center'>
           <img className='w-[250px]' src="/shack-frame.png" alt="shack" />
         </div>
-        <div>
+        <div className='col-span-2'>
           <p className='font-bold py-2'>PROJECT OVERVIEW</p>
-          <p>This three-week project focused on improving the customer experience and operational efficiency of a local park's concession stand, which suffered from severe queue backups during peak hours, particularly at game halftimes and intermissions.</p>
+          <p className='pb-2'>This three-week project focused on improving the customer experience and operational efficiency of a local park's concession stand, which suffered from severe queue backups during peak hours, particularly at game halftimes and intermissions.</p>
           <p><strong>Client:</strong> Franklin Park Borough - Parks and Recreation</p>
           <p><strong>Duration:</strong> 3 weeks</p>
           <p><strong>My Role:</strong> Research, Wireframing & User Flows, Data Architecture, Software Development</p>
@@ -100,15 +100,15 @@ const SnackShack = () => {
             </li>
             <div className='pl-5'>
               <p><strong>Wireframing & User Flows</strong></p>
-              <p>Created wireframes to outline the user interface and experience, focusing on simplicity and ease of use.</p>
+              <p className='pb-2'>Created wireframes to outline the user interface and experience, focusing on simplicity and ease of use.</p>
               <ul className='list-disc list-inside'>
                 <li><strong>Menu Browsing:</strong> Clear category sorting and high-quality images (Adobe Photoshop was used to prep assets).</li>
                 <li><strong>Order Creation:</strong> Simple, intuitive adding/removing items from a cart.</li>
                 <li><strong>Checkout/Order Placement:</strong> Minimal steps to confirm and place the order.</li>
               </ul>
 
-              <p><strong>Tech Stack</strong></p>
-              <p>Created wireframes to outline the user interface and experience, focusing on simplicity and ease of use.</p>
+              <p className='pt-2'><strong>Tech Stack</strong></p>
+              <p className='pb-2'>Created wireframes to outline the user interface and experience, focusing on simplicity and ease of use.</p>
               <ul className='list-disc list-inside'>
                 <li><strong>Front-end:</strong> React with Vite for a fast, modern build.</li>
                 <li><strong>Routing:</strong> React Router for seamless navigation.</li>
@@ -119,7 +119,7 @@ const SnackShack = () => {
             </div>
           </ol>
 
-          <div className="flex flex-col items-center justify-evenly">
+          <div className="hidden sm:flex flex-col items-center justify-evenly">
             <img src="/GoogleSheets-Items.png" alt="jeff pic" />
             <img src="/Menu-Wireframe.png" alt="jeff pic" />
           </div>
@@ -130,15 +130,16 @@ const SnackShack = () => {
 
         <div>  
       
-          <div className="grid md:grid-cols-2 gap-15 md:gap-8">
-            <div>
+          <div className="grid md:grid-cols-3 gap-15 md:gap-8">
+            <div className='col-span-2'>
               <p className='py-2'><strong>RESULTS & CONCLUSION</strong></p>
-              <p><span className='font-semibold'>The implementation of the app immediately started to show positive effects on the concession stand operations.</span><br/>This project demonstrated that a simple, focused application can solve a complex operational problem. By leveraging common, accessible tools (Google Sheets) for the backend and pairing them with a modern, mobile-first frontend (React), we delivered an impactful UX solution that benefits both the business (faster service, higher throughput) and the user (less waiting, more game time).</p>
+              <p className='pb-2 font-semibold'>The implementation of the app immediately started to show positive effects on the concession stand operations.</p>
+              <p>This project demonstrated that a simple, focused application can solve a complex operational problem. By leveraging common, accessible tools (Google Sheets) for the backend and pairing them with a modern, mobile-first frontend (React), we delivered an impactful UX solution that benefits both the business (faster service, higher throughput) and the user (less waiting, more game time).</p>
             </div>
             <div className='w-full flex flex-col items-center'>
               <p className='sm:block hidden text-[#f22b40] font-bold'>Scan to Demo Application</p>
               <img className="hidden sm:flex w-50" src="/snackshack-qr.png" alt="jeff pic" />
-              <a className="sm:hidden flex w-full justify-start items-center text-xl font-semibold text-black hover:text-[#f22b40] transition-colors duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO <ExternalLink className="ml-3 stroke-3"/></a>
+              <a className="sm:hidden flex w-full justify-start items-center text-xl font-semibold text-[#f22b40] transition-colors duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO <ExternalLink className="ml-3 stroke-3"/></a>
             </div>
           </div>  
           
