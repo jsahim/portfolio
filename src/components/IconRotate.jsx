@@ -4,9 +4,8 @@ export default function IconRotate() {
   
   return (
     <div className="flex items-center justify-center">
-      <div className="relative w-40 h-40">
+      <div className="relative w-50 h-50">
         <div className="absolute inset-0 w-full h-full p-10">
-          {/* Logo Image */}
           <img 
             src="/jeff-icon-r.png"
             alt="Logo"
@@ -42,7 +41,7 @@ export default function IconRotate() {
         }
         
         .animate-spin-slow {
-          animation: spin-slow 20s linear infinite;
+          animation: spin-slow 30s linear infinite;
         }
       `}</style>
     </div>
