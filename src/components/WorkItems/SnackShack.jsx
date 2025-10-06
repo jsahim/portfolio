@@ -16,11 +16,11 @@ const SnackShack = () => {
     
     <div ref={projectTop} className="text-black border-4 snap-start scroll-mt-0 sm:scroll-mt-25 border-[#f22b40] bg-white rounded-lg md:p-10 p-5">
       
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-start">
         <h3 className="font-bold text-[#f22b40] text-xl">
           THE SNACK SHACK<span className='text-gray-600 font-semibold'>: CONCESSION ORDERING APP</span>
         </h3>
-        <div className="flex flex-col justify-start h-[-webkit-fill-available]">
+        <div className="flex flex-col justify-start">
           <button className="cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
             onClick={()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}>{drawerOpen 
               ? <ChevronsDownUp className='group-hover:stroke-3 group-hover:w-6 group-hover:h-6 w-8 h-8 stroke-2 transition-all duration-300'/> 
