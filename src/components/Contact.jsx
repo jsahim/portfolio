@@ -8,18 +8,16 @@ const Contact = ({contactSection}) => {
 
       <div className="max-w-6xl mx-auto flex justify-start flex-col">
 
+        <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
+          Let's Connect!
+        </h2>
         <div className="text-xl text-white grid grid-cols-1 lg:grid-cols-3 gap-10 leading-relaxed text-left">    
-          <div className="col-span-2">            
-            <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
-              Let's Connect!
-            </h2>
-            <p>
-              I have dedicated over 12 years to providing exceptional customer-centric project management in the technology and marketing fields. 
-            </p>
+          <div className="col-span-2 pr-20">            
+            <p>Ready to discuss potential opportunities? Reach out directly via email or connect with me on LinkedIn — I'd love to hear from you!</p>
           </div>    
-          <div className="grid grid-cols-1">
-            <a className="flex p-2 border-2 h-fit rounded-sm group justify-between items-start text-xl font-semibold text-white hover:text-[#f22b40] transition-all duration-200" href="https://snackshack-demo.vercel.app/" target="_blank">SEND ME AN EMAIL <TbMailFilled className="block group-hover:hidden w-6 h-6 ml-3 transition-all duration-200" /><TbMailOpenedFilled className="hidden group-hover:block w-6 h-6 ml-3 transition-all duration-200" /></a>
-            <a className="flex p-2 border-2 h-fit rounded-sm group justify-between items-start text-xl font-semibold text-white hover:text-[#f22b40] transition-all duration-200" href="https://snackshack-demo.vercel.app/" target="_blank">CONNECT ON LINKEDIN <GrLinkedinOption className="block group-hover:hidden w-6 h-6 ml-3 transition-all duration-200" /><GrLinkedin className="hidden group-hover:block w-6 h-6 ml-3 transition-all duration-200" /></a>
+          <div className="space-y-3">
+            <a className="flex p-2 border-2 h-fit rounded-sm group justify-between items-start text-xl font-semibold text-white hover:border-[#f22b40] transition-all duration-200" href="https://snackshack-demo.vercel.app/" target="_blank">SEND ME AN EMAIL <TbMailFilled className="block group-hover:hidden w-6 h-6 ml-3 transition-all duration-200" /><TbMailOpenedFilled className="hidden group-hover:block w-6 h-6 ml-3 transition-all duration-200" /></a>
+            <a className="flex p-2 border-2 h-fit rounded-sm group justify-between items-start text-xl font-semibold text-white hover:border-[#f22b40] transition-all duration-200" href="https://snackshack-demo.vercel.app/" target="_blank">CONNECT ON LINKEDIN <GrLinkedinOption className="block group-hover:hidden w-6 h-6 ml-3 transition-all duration-200" /><GrLinkedin className="hidden group-hover:block w-6 h-6 ml-3 transition-all duration-200" /></a>
           </div>
 
         </div>

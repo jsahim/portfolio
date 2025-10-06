@@ -11,7 +11,7 @@ const Work = ({workSection}) => {
         </h2>
 
         <p className="text-xl text-black space-y-4 leading-relaxed mb-10">
-          I have dedicated over 12 years to providing exceptional customer-centric project management in the technology and marketing fields. 
+          Explore my featured case study, showcasing the full-lifecycle process from initial ideation and UX design to clean code implementation and deployment.
         </p>
 
         <div className="gap-8 flex flex-wrap">

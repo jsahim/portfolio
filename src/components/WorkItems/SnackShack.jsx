@@ -20,8 +20,8 @@ const SnackShack = () => {
         <h3 className="font-bold text-[#f22b40] text-xl">
           THE SNACK SHACK: CONCESSION ORDERING APP
         </h3>
-        <div className="flex items-center">
-          <button className="cursor-pointer z-5 w-12 h-12 rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
+        <div className="flex flex-col justify-start h-[-webkit-fill-available]">
+          <button className="cursor-pointer z-5 w-12 h-12 rounded-full bg-[#f22b40] border-3 border-black hover:border-gray-600 transition-all duration-300 flex justify-center items-center text-white font-bold" 
             onClick={()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}>{drawerOpen ? <ChevronsDownUp className='stroke-2 w-8 h-8'/> : <ChevronsUpDown className='stroke-2 w-8 h-8'/> }</button>
         </div>
       </div>

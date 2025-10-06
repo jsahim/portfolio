@@ -35,13 +35,10 @@ const Portfolio = () => {
           <span>
             <span className='text-[#f22b40]'>●</span> Mobile Guest Directory&nbsp;
             <span className='text-[#f22b40]'>●</span> Digital Signage&nbsp;
-            <span className='text-[#f22b40]'>●</span> Hotel Interactive TV&nbsp;
+            <span className='text-[#f22b40]'>●</span> Interactive TV&nbsp;
             <span className='text-[#f22b40]'>●</span> Digital Menu Boards&nbsp;
             <span className='text-[#f22b40]'>●</span> Interactive Kiosk&nbsp;
-            <span className='text-[#f22b40]'>●</span> Room Booking & Signage&nbsp;
-            <span className='text-[#f22b40]'>●</span> Digital Concierge&nbsp;
             <span className='text-[#f22b40]'>●</span> Wayfinding&nbsp;
-            <span className='text-[#f22b40]'>●</span> Shuttle Tracker&nbsp;
           </span>
         </Marquee>
 
