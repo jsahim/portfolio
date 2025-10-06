@@ -1,4 +1,5 @@
 // import { useEffect, useState } from 'react';
+import IconRotate from "./IconRotate";
 
 const Hero = () => {
   // const [animate, setAnimate] = useState(false);
@@ -8,19 +9,17 @@ const Hero = () => {
   // }, []);
 
   return (
-    <section className="bg-black min-h-screen">
+    <section className="bg-black h-auto min-h-screen flex flex-col justify-center items-center">
 
-      <div className="max-w-6xl pt-35 pl-10">
+      <div className="max-w-6xl mx-auto">
 
         <div className="text-white tracking-widest font-light" style={{ fontFamily: 'Jost, sans-serif'}}>
-          <div className='text-[#f22b40] leading-74 tracking-normal text-[3.5rem] lg:text-[24rem]' style={{ fontFamily: 'Shrikhand, cursive' }}>
-            Jeff
-          </div>
-          <div className='text-[#f22b40] leading-74 tracking-normal text-[3.5rem] lg:text-[24rem] inline-block align-middle' style={{ fontFamily: 'Shrikhand, cursive' }}>
-            Sahim
-          </div>
-                    
+          <div className='text-[#f22b40] leading-15 lg:leading-38 tracking-normal text-[4rem] lg:text-[12rem] flex flex-col lg:flex-row justify-center items-center' style={{ fontFamily: 'Shrikhand, cursive' }}>
+            <IconRotate />
+            <span className="z-1 pl-0 lg:pl-10">Jeff<br/>Sahim</span>
+          </div>                    
         </div>
+
       </div>
 
     </section>

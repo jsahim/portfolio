@@ -16,7 +16,7 @@ const SnackShack = () => {
     
     <div ref={projectTop} className="text-black border-4 snap-start scroll-mt-0 sm:scroll-mt-25 border-[#f22b40] bg-white rounded-lg md:p-10 p-5">
       
-      <div className="flex justify-between items-start">
+      <div className="flex justify-between items-start sm:items-center">
         <h3 className="font-bold text-[#f22b40] text-xl">
           THE SNACK SHACK<span className='text-gray-600 font-semibold'>: CONCESSION ORDERING APP</span>
         </h3>
@@ -28,10 +28,10 @@ const SnackShack = () => {
           </button>
         </div>
       </div>
-      <hr className='border border-gray-600 my-10'/>
+      <hr className='border border-gray-600 mb-10 mt-5'/>
 
-      <div className="space-y-4 grid md:grid-cols-3 gap-15 md:gap-8 mt-10">
-        <div className='hidden sm:flex justify-center items-center'>
+      <div className="space-y-4 grid grid-cols-1 md:grid-cols-3 gap-15 md:gap-8 mt-10">
+        <div className='flex justify-center items-center'>
           <img className='w-[250px]' src="/shack-frame.png" alt="shack" />
         </div>
         <div className='col-span-2'>
