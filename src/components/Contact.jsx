@@ -27,7 +27,7 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
           </div>
         </div>
         <div className="flex justify-end">
-          <button className="cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
+          <button className="mt-6 sm:mt-0 cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
             onClick={()=> scrollToTargetDiv(topSection)}>
                 <FaHandPointer className='group-hover:stroke-3 group-hover:w-6 group-hover:h-6 w-8 h-8 stroke-2 transition-all duration-300'/> 
           </button>
