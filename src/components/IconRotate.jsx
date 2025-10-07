@@ -1,6 +1,4 @@
 export default function IconRotate() {
-
-  const text = "PRODUCT DESIGNER • FRONTEND ENGINEER • PROBLEM SOLVER •";
   
   return (
     <div className="absolute lg:static z-0 flex items-center justify-center">
@@ -22,9 +20,9 @@ export default function IconRotate() {
                 d="M 100, 100 m -85, 0 a 85,85 0 1,1 170,0 a 85,85 0 1,1 -170,0"
               />
             </defs>
-            <text className="text-sm font-bold fill-white tracking-widest" style={{ fontFamily: 'Jost, sans-serif'}}>
+            <text className="text-[13.6px] font-bold fill-white tracking-widest" style={{ fontFamily: 'Jost, sans-serif'}}>
               <textPath href="#circlePath" startOffset="0%">
-                {text}
+                PRODUCT DESIGNER ● FRONTEND ENGINEER ● PROBLEM SOLVER ●
               </textPath>
             </text>
           </svg>

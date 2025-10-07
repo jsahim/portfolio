@@ -1,12 +1,6 @@
-// import { useEffect, useState } from 'react';
 import IconRotate from "./IconRotate";
 
 const Hero = () => {
-  // const [animate, setAnimate] = useState(false);
-
-  // useEffect(() => {
-  //   setAnimate(true);
-  // }, []);
 
   return (
     <section className="bg-black min-h-[75vh] lg:min-h-screen flex flex-col justify-center items-center">
