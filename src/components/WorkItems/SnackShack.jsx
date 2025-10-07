@@ -14,7 +14,7 @@ const SnackShack = () => {
 
   return (
     
-    <div ref={projectTop} className={`transition-all duration-300 ${drawerOpen ? "outline-offset-0 outline-[#f22b40] border-transparent outline-4" : "outline-offset-5 border-[#f22b40] outline-3"}  text-black border-4 snap-start scroll-mt-0 sm:scroll-mt-25 bg-white rounded-lg md:p-10 p-5`}>
+    <div ref={projectTop} className={`transition-all duration-300 ${drawerOpen ? "outline-offset-0 outline-[#f22b40] border-[#f22b40] outline-0" : "outline-offset-5 border-black outline-2"}  text-black border-4 snap-start scroll-mt-0 sm:scroll-mt-25 bg-white rounded-lg md:p-10 p-5`}>
       
       <div className="flex justify-between items-start sm:items-center">
         <h3 className="font-bold text-black text-xl">
