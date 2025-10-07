@@ -47,7 +47,7 @@ const Portfolio = () => {
         <About aboutSection={aboutSection} />
 
         {/* Contact Section / Footer */}
-        <Contact contactSection={contactSection} />
+        <Contact contactSection={contactSection} scrollToTargetDiv={scrollToTargetDiv} topSection={topSection} />
       
       </div>
 
