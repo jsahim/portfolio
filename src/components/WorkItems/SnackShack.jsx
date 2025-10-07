@@ -30,7 +30,7 @@ const SnackShack = () => {
       </div>
       <hr className='border border-gray-600 mb-10 mt-5'/>
 
-      <div className="space-y-4 grid grid-cols-1 md:grid-cols-3 gap-15 md:gap-8 mt-10">
+      <div className="space-y-4 grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8 lg:gap-15 mt-10">
         <div className='flex justify-center items-center'>
           <img className='w-[250px]' src="/shack-frame.png" alt="shack" />
         </div>
@@ -49,7 +49,7 @@ const SnackShack = () => {
         
         <hr className='border border-gray-300 my-10'/>
         
-        <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">
+        <div className="space-y-4 grid md:grid-cols-2 gap-0 md:gap-8 lg:gap-15">
         
           <div>
             <p className='py-2'><strong>THE CHALLENGE: <span className="text-gray-600">REDUCING WAIT TIMES AND INDICISION</span></strong></p>
@@ -61,6 +61,8 @@ const SnackShack = () => {
               <p><strong className='text-gray-600'>Lost Time:</strong> Extended wait times resulted in patrons missing game action.</p>
             </div>
           </div>
+          
+          <hr className='border border-gray-300 my-10 block sm:hidden'/>
 
           <div>
             <p className='py-2'><strong>THE SOLUTION: <span className="text-gray-600">A MOBILE-FIRST PRE-ORDERING APP</span></strong></p>

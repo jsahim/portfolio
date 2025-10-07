@@ -22,7 +22,7 @@ const About = ({aboutSection}) => {
               <div className="text-xl text-black space-y-4 leading-relaxed">
                 <p><span className="font-medium">Hi, I'm Jeff Sahim - Design Engineer.</span> To truly blend my passion for design and technology, I attended the Turing School of Software & Design, where I completed their immersive program specializing in frontend engineering and UX principles.</p>
                 <p>Shortly after graduating, I put those skills to immediate use as a Digital Product Engineer in the hospitality tech industry. Over the past two years, I've enjoyed collaborating with cross-functional teams to ideate, design, develop, and ship new product features within a fast-paced Agile environment. As I look to the future, I'm actively seeking my next opportunity to build impactful products.</p>
-                <a className="font-lg mb-5 flex px-3 w-75 py-2 h-fit rounded-sm group justify-between items-center text-xl font-semibold bg-black text-white hover:bg-gray-600 transition-all duration-200" href="https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link" target="_blank">
+                <a className="font-lg mb-5 flex px-3 w-full sm:w-75 py-2 h-fit rounded-sm group justify-between items-center text-xl font-semibold bg-black text-white hover:bg-gray-600 transition-all duration-200" href="https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link" target="_blank">
                   VIEW MY RESUME 
                   <PiReadCvLogoBold className="block group-hover:hidden w-6 h-6 ml-3 transition-all duration-200" />
                   <PiReadCvLogoFill className="hidden group-hover:block w-6 h-6 ml-3 transition-all duration-200" />
