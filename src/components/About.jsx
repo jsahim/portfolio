@@ -22,10 +22,10 @@ const About = ({aboutSection}) => {
               <div className="text-xl text-black space-y-4 leading-relaxed">
                 <p><span className="font-medium">Hi, I'm Jeff Sahim - Design Engineer.</span> To truly blend my passion for design and technology, I attended the Turing School of Software & Design, where I completed their immersive program specializing in frontend engineering and UX principles.</p>
                 <p>Shortly after graduating, I put those skills to immediate use as a Digital Product Engineer in the hospitality tech industry. Over the past two years, I've enjoyed collaborating with cross-functional teams to ideate, design, develop, and ship new product features within a fast-paced Agile environment. As I look to the future, I'm actively seeking my next opportunity to build impactful products.</p>
-                <a className="font-lg mb-5 flex px-3 w-full sm:w-75 py-2 h-fit rounded-sm group justify-between items-center text-xl font-semibold bg-black text-white hover:bg-gray-600 transition-all duration-200" href="https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view?usp=drive_link" target="_blank">
-                  VIEW MY RESUME 
-                  <PiReadCvLogoBold className="block group-hover:hidden w-6 h-6 ml-3 transition-all duration-200" />
-                  <PiReadCvLogoFill className="hidden group-hover:block w-6 h-6 ml-3 transition-all duration-200" />
+                <a className="font-lg flex w-fit group justify-start items-center text-xl font-semibold text-black transition-all duration-200 hover:bg-gray-500" href="https://snackshack-demo.vercel.app/" target="_blank">
+                  <PiReadCvLogoBold className="block group-hover:hidden w-6 h-6 transition-all duration-200" />
+                  <PiReadCvLogoFill className="hidden group-hover:block w-6 h-6 transition-all duration-200" />
+                  <span className="ml-2">VIEW MY RESUME</span> 
                 </a>
               </div>
             </div>
@@ -100,21 +100,21 @@ const About = ({aboutSection}) => {
               <SiHtml5 title="HTML" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E34F26] group-hover:text-[#f22b40]" />,
               <SiCss3 title="CSS" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#264de4] group-hover:text-[#f22b40]" />,
               <VscVscode title="VS Code" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0098FF] group-hover:text-[#f22b40]" />,
-              <SiNotion title="Notion" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#000000] group-hover:text-[#f22b40]" />,
+              <SiNotion title="Notion" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#000000] group-hover:text-[#f22b40]" />,
               <CgFigma title="Figma" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#a259ff] group-hover:text-[#f22b40]" />,
-              <SiSlack title="Slack" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#4A154B] group-hover:text-[#f22b40]" />,
-              <BsMicrosoftTeams title="Microsoft Teams" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#7B83EB] group-hover:text-[#f22b40]" />,
+              <SiSlack title="Slack" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#4A154B] group-hover:text-[#f22b40]" />,
+              <BsMicrosoftTeams title="Microsoft Teams" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#7B83EB] group-hover:text-[#f22b40]" />,
               <SiAdobecreativecloud title="Adobe Creative Cloud" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#da1f26] group-hover:text-[#f22b40]" />,
               <SiSketch title="Sketch" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E9AC12] group-hover:text-[#f22b40]" />,
               <SiTailwindcss title="Tailwind CSS" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#38bdf8] group-hover:text-[#f22b40]" />,
               <SiJira title="Jira" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0053CD] group-hover:text-[#f22b40]" />,
-              <SiConfluence title="Confluence" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#0053CD] group-hover:text-[#f22b40]" />,
-              <SiLighthouse title="Lighthouse" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#EA4335] group-hover:text-[#f22b40]" />,
-              <FaSalesforce title="Salesforce" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#00A1E0] group-hover:text-[#f22b40]" />,
+              <SiConfluence title="Confluence" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#0053CD] group-hover:text-[#f22b40]" />,
+              <SiLighthouse title="Lighthouse" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#EA4335] group-hover:text-[#f22b40]" />,
+              <FaSalesforce title="Salesforce" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#00A1E0] group-hover:text-[#f22b40]" />,
               <SiGit title="Git" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F05032] group-hover:text-[#f22b40]" />,
               <SiGithub title="GitHub" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#000000] group-hover:text-[#f22b40]" />,
-              <SiClaude title="Claude" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#da7756] group-hover:text-[#f22b40]" />,
-              <SiCypress title="Cypress" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in text-[#95e4c5] group-hover:text-[#f22b40]" />
+              <SiClaude title="Claude" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#da7756] group-hover:text-[#f22b40]" />,
+              <SiCypress title="Cypress" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#95e4c5] group-hover:text-[#f22b40]" />
             ].map((tech, index) => (
               <div key={index} className="group transform transition-all duration-300 hover:scale-110">
                 <div className="bg-none w-16 h-16 rounded-xl flex items-center justify-center mx-auto duration-300">

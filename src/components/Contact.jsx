@@ -1,5 +1,5 @@
 import { TbMailFilled, TbMailOpenedFilled } from "react-icons/tb";
-import { GrLinkedinOption, GrLinkedin } from "react-icons/gr";
+import { AiFillLinkedin, AiOutlineLinkedin } from "react-icons/ai";
 import { FaHandPointer } from "react-icons/fa6";
 
 
@@ -13,27 +13,41 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
             Let's Connect!
           </h2>
           <p className="text-xl mb-4 hidden lg:block">Send me an email or connect on LinkedIn to discuss potential opportunities.</p>
-          <div className="flex flex-col lg:flex-row items-start lg:items-center">
-            <a className="mr-4 mb-4 lg:mb-0 font-lg flex px-3 w-full sm:w-75 py-2 h-fit rounded-sm group justify-between items-center text-xl font-semibold bg-gray-600 text-white transition-all duration-200 hover:bg-gray-500" href="https://snackshack-demo.vercel.app/" target="_blank">
-              SEND ME AN EMAIL 
-              <TbMailFilled className="block group-hover:hidden w-6 h-6 ml-3 transition-all duration-200" />
-              <TbMailOpenedFilled className="hidden group-hover:block w-6 h-6 ml-3 transition-all duration-200" />
+          <div className="flex flex-col justify-center w-fit items-start">
+            <a className="my-4 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-200 hover:bg-gray-500" href="https://snackshack-demo.vercel.app/" target="_blank">
+              <TbMailFilled className="block group-hover:hidden w-6 h-6 transition-all duration-200" />
+              <TbMailOpenedFilled className="hidden group-hover:block w-6 h-6 transition-all duration-200" />
+              <span className="ml-2">SEND ME AN EMAIL</span> 
             </a>
-            <a className="font-lg flex px-3 w-full sm:w-75 py-2 h-fit rounded-sm group justify-between items-center text-xl font-semibold bg-gray-600 text-white transition-all duration-200 hover:bg-gray-500" href="https://snackshack-demo.vercel.app/" target="_blank">
-              CONNECT ON LINKEDIN 
-              <GrLinkedinOption className="block group-hover:hidden w-6 h-6 ml-3 transition-all duration-200" />
-              <GrLinkedin className="hidden group-hover:block w-6 h-6 ml-3 transition-all duration-200" />
+            <a className="font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-200 hover:bg-gray-500" href="https://snackshack-demo.vercel.app/" target="_blank">
+              <AiFillLinkedin className="block group-hover:hidden w-6 h-6 transition-all duration-200" />
+              <AiOutlineLinkedin className="hidden group-hover:block w-6 h-6 transition-all duration-200" />
+              <span className="ml-2">CONNECT ON LINKEDIN</span> 
             </a>
           </div>
         </div>
         <div className="flex justify-end">
-          <button className="mt-6 sm:mt-0 cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
+          <button className="cursor-pointer z-5 w-50 h-50 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
             onClick={()=> scrollToTargetDiv(topSection)}>
-                <FaHandPointer className='group-hover:stroke-3 group-hover:w-6 group-hover:h-6 w-8 h-8 stroke-2 transition-all duration-300'/> 
+              <FaHandPointer className='move-icon stroke-2 w-30 h-30 transition-all duration-300'/> 
           </button>
         </div>
 
       </div>
+      <style jsx>{`
+        @keyframes moveIcon {
+          0%, 100% {
+            margin-bottom: 0px
+          }
+          50% {
+            margin-bottom: 10px;
+          }
+        }
+        
+        .move-icon {
+          animation: moveIcon 1s ease-in-out infinite;
+        }
+      `}</style>
 
     </footer>
   )

@@ -1,6 +1,6 @@
 
 import { useState, useRef } from 'react';
-import { ChevronsDownUp, ChevronsUpDown, ExternalLink } from 'lucide-react';
+import { ChevronsDownUp, ChevronsUpDown } from 'lucide-react';
 
 
 const SnackShack = () => {
@@ -14,7 +14,7 @@ const SnackShack = () => {
 
   return (
     
-    <div ref={projectTop} className={`transition-all duration-300 ${drawerOpen ? "outline-offset-0 outline-[#f22b40] border-[#f22b40] outline-0" : "outline-offset-5 border-black outline-2"}  text-black border-4 snap-start scroll-mt-0 sm:scroll-mt-25 bg-white rounded-lg md:p-10 p-5`}>
+    <div ref={projectTop} className={`transition-all duration-300 ${drawerOpen ? "outline-offset-0 border-[#f22b40] outline-0" : "outline-offset-5 border-black outline-2"}  text-black border-4 outline-[#f22b40] snap-start scroll-mt-0 sm:scroll-mt-25 bg-white rounded-lg md:p-10 p-5`}>
       
       <div className="flex justify-between items-start sm:items-center">
         <h3 className="font-bold text-black text-xl">
@@ -23,8 +23,8 @@ const SnackShack = () => {
         <div className="flex flex-col justify-start">
           <button className="cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
             onClick={()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}>{drawerOpen 
-              ? <ChevronsDownUp className='group-hover:stroke-3 group-hover:w-6 group-hover:h-6 w-8 h-8 stroke-2 transition-all duration-300'/> 
-              : <ChevronsUpDown className='group-hover:stroke-3 group-hover:w-6 group-hover:h-6 w-8 h-8 stroke-2 transition-all duration-300'/> }
+              ? <ChevronsDownUp className='pulse-icon transition-all duration-300'/> 
+              : <ChevronsUpDown className='pulse-icon transition-all duration-300'/> }
           </button>
         </div>
       </div>
@@ -141,13 +141,30 @@ const SnackShack = () => {
             <div className='w-full flex flex-col items-center col-span-3 sm:col-span-1'>
               <p className='sm:block hidden text-[#f22b40] font-bold'>Scan to Demo Application</p>
               <img className="hidden sm:flex w-50" src="/snackshack-qr.png" alt="jeff pic" />
-              <a className="sm:hidden flex w-full rounded-sm bg-black py-2 px-3 justify-between items-center text-lg font-semibold text-white transition-colors duration-300 hover:bg-gray-600" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO <ExternalLink className="ml-3 stroke-3"/></a>
+              <a className="sm:hidden flex w-full rounded-sm bg-black py-2 px-3 justify-between items-center text-lg font-semibold text-white transition-colors duration-300 hover:bg-gray-600" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO</a>
             </div>
           </div>  
           
         </div>
 
       </div>
+      <style jsx>{`
+        @keyframes pulseSize {
+          0%, 100% {
+            width: 2.2vw;
+            height: 2.2vw;
+          }
+          50% {
+            width: 2.5vw;
+            height: 2.5vw;
+          }
+        }
+        
+        .pulse-icon {
+          animation: pulseSize 1.5s ease-in-out infinite;
+        }
+      `}</style>
+      
     </div>
   );
 }
