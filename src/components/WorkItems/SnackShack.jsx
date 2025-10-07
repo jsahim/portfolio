@@ -93,7 +93,7 @@ const SnackShack = () => {
             </li>
             <div className='pl-5'>
               <p>A critical requirement was giving the non-technical concession manager full control over the menu content without needing developer intervention.</p>
-              <p><strong>Admin System:</strong> A Google Sheet was chosen as the user-friendly administration tool. <br/>The manager can use it to: <span className='font-semibold italic'>add or remove items</span> and <br/><span className='font-semibold italic'>edit the Name, Description, Image URL, Price, Category, and Availability of each item.</span></p>
+              <p><strong>Admin System:</strong> A Google Sheet was chosen as the user-friendly administration tool. <br/>The manager can use it to: <span className='font-semibold italic'>add or remove items</span> and <span className='font-semibold italic'>edit the Name, Description, Image URL, Price, Category, and Availability of each item.</span></p>
             </div>
             <li className='font-bold py-2'>
               Design & Development
