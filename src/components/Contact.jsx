@@ -10,14 +10,14 @@ const Contact = ({contactSection}) => {
         <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
           Let's Connect!
         </h2>
-        <div className="grid grid-cols-3 gap-8">
+        <div>
           <p className="text-xl mb-4">Let's connect to discuss potential projects or opportunities; find me on LinkedIn or send an email.</p>
-          <a className="h-auto flex p-2 border-4 border-white outline outline-white outline-offset-4 max-w-sm rounded-sm group justify-between items-start text-xl font-semibold bg-white text-black transition-all duration-200" href="https://snackshack-demo.vercel.app/" target="_blank">
+          <a className="font-lg mb-5 flex px-3 w-75 py-2 h-fit rounded-sm group justify-between items-center text-xl font-semibold bg-gray-600 text-white transition-all duration-200 hover:bg-white hover:text-black" href="https://snackshack-demo.vercel.app/" target="_blank">
             SEND ME AN EMAIL 
             <TbMailFilled className="block group-hover:hidden w-6 h-6 ml-3 transition-all duration-200" />
             <TbMailOpenedFilled className="hidden group-hover:block w-6 h-6 ml-3 transition-all duration-200" />
           </a>
-          <a className="h-auto flex p-2 border-4 border-white outline outline-white outline-offset-4 max-w-sm rounded-sm group justify-between items-start text-xl font-semibold bg-white text-black transition-all duration-200" href="https://snackshack-demo.vercel.app/" target="_blank">
+          <a className="font-lg flex px-3 w-75 py-2 h-fit rounded-sm group justify-between items-center text-xl font-semibold bg-gray-600 text-white transition-all duration-200 hover:bg-white hover:text-black" href="https://snackshack-demo.vercel.app/" target="_blank">
             CONNECT ON LINKEDIN 
             <GrLinkedinOption className="block group-hover:hidden w-6 h-6 ml-3 transition-all duration-200" />
             <GrLinkedin className="hidden group-hover:block w-6 h-6 ml-3 transition-all duration-200" />

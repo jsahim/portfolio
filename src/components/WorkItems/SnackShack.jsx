@@ -37,7 +37,7 @@ const SnackShack = () => {
         <div className='col-span-2'>
           <p className='font-bold py-2'>PROJECT OVERVIEW</p>
           <p className='pb-2'>This three-week project focused on improving the customer experience and operational efficiency of a local park's concession stand, which suffered from severe queue backups during peak hours, particularly at game halftimes and intermissions.</p>
-          <p><strong>Client:</strong> Franklin Park Borough - Parks and Recreation</p>
+          <p><strong>Client:</strong> Franklin Park Borough - Recreation</p>
           <p><strong>Duration:</strong> 3 weeks</p>
           <p><strong>My Role:</strong> Research, Wireframing & User Flows, Data Architecture, Software Development</p>
           <p><strong>Summary:</strong> Developed a mobile-first web application that allows patrons to browse the concession menu and place orders remotely. The application's menu data is dynamically managed by an administrator using a simple Google Sheet, which is converted into a REST API to populate the app.</p>
@@ -131,15 +131,15 @@ const SnackShack = () => {
         <div>  
       
           <div className="grid md:grid-cols-3 gap-15 md:gap-8">
-            <div className='col-span-2'>
+            <div className='col-span-3 sm:col-span-2'>
               <p className='py-2'><strong>RESULTS & CONCLUSION</strong></p>
               <p className='pb-2 font-semibold text-gray-600'>The implementation of the app immediately started to show positive effects on the concession stand operations.</p>
               <p>This project demonstrated that a simple, focused application can solve a complex operational problem. By leveraging common, accessible tools (Google Sheets) for the backend and pairing them with a modern, mobile-first frontend (React), we delivered an impactful UX solution that benefits both the business (faster service, higher throughput) and the user (less waiting, more game time).</p>
             </div>
-            <div className='w-full flex flex-col items-center'>
+            <div className='w-full flex flex-col items-center col-span-3 sm:col-span-1'>
               <p className='sm:block hidden text-[#f22b40] font-bold'>Scan to Demo Application</p>
               <img className="hidden sm:flex w-50" src="/snackshack-qr.png" alt="jeff pic" />
-              <a className="sm:hidden flex w-full justify-start items-center text-xl font-semibold text-[#f22b40] transition-colors duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO <ExternalLink className="ml-3 stroke-3"/></a>
+              <a className="sm:hidden flex w-full rounded-sm bg-black py-2 px-3 justify-between items-center text-lg font-semibold text-white transition-colors duration-300 hover:bg-gray-600" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO <ExternalLink className="ml-3 stroke-3"/></a>
             </div>
           </div>  
           
