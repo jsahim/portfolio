@@ -3,7 +3,7 @@ import IconRotate from "./IconRotate";
 const Hero = () => {
 
   return (
-    <section className="bg-black lg:min-h-screen flex flex-col justify-center items-center">
+    <section className="bg-black min-h-[100vh] lg:min-h-screen flex flex-col justify-center items-center">
 
       <div className="max-w-6xl mx-auto">
 
