@@ -12,7 +12,7 @@ export default function IconRotate() {
         </div>
         
         {/* Rotating Text Container */}
-        <div className="absolute inset-0 animate-spin-slow">
+        <div className="absolute inset-0 animate-spin-slow border-4 lg:border-0 rounded-full">
           <svg className="w-full h-full" viewBox="0 0 200 200">
             <defs>
               <path

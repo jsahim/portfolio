@@ -151,12 +151,12 @@ const SnackShack = () => {
       <style jsx>{`
         @keyframes pulseSize {
           0%, 100% {
-            width: 2.2vw;
-            height: 2.2vw;
+            width: 30px;
+            height: 30px;
           }
           50% {
-            width: 2.5vw;
-            height: 2.5vw;
+            width: 35px;
+            height: 35px;
           }
         }
         
