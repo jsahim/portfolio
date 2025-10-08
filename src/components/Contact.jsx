@@ -5,7 +5,7 @@ import { FaHandPointer } from "react-icons/fa6";
 
 const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
   return (
-    <footer ref={contactSection} className="bg-black text-white py-20 px-8 sm:px-10 pb-35 sm:pb-16 min-h-[60vh]">
+    <footer ref={contactSection} className="bg-black text-white py-20 px-8 sm:px-10 pb-35 sm:pb-16">
 
       <div className="max-w-6xl mx-auto my-auto grid grid-cols-1 lg:grid-cols-3">
         <div className="col-span-1 lg:col-span-2">

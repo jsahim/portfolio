@@ -23,8 +23,8 @@ const SnackShack = () => {
         <div className="flex flex-col justify-start">
           <button className="cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
             onClick={()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}>{drawerOpen 
-              ? <ChevronsDownUp className='pulse-icon transition-all duration-300'/> 
-              : <ChevronsUpDown className='pulse-icon transition-all duration-300'/> }
+              ? <ChevronsDownUp className='transition-all duration-300'/> 
+              : <ChevronsUpDown className='transition-all duration-300'/> }
           </button>
         </div>
       </div>
@@ -150,23 +150,6 @@ const SnackShack = () => {
         </div>
 
       </div>
-      <style jsx>{`
-        @keyframes pulseSize {
-          0%, 100% {
-            width: 30px;
-            height: 30px;
-          }
-          50% {
-            width: 35px;
-            height: 35px;
-          }
-        }
-        
-        .pulse-icon {
-          animation: pulseSize 1.5s ease-in-out infinite;
-        }
-      `}</style>
-      
     </div>
   );
 }

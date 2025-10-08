@@ -3,7 +3,7 @@ import { FaSalesforce } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 import { BsMicrosoftTeams } from "react-icons/bs";
 import { CgFigma } from "react-icons/cg";
-import { PiReadCvLogoBold, PiReadCvLogoFill } from "react-icons/pi";
+import { PiReadCvLogoFill } from "react-icons/pi";
 import { Code, Palette, Lightbulb } from 'lucide-react';
 
 const About = ({aboutSection}) => {
