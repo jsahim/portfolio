@@ -1,6 +1,6 @@
 
 import { useState, useRef } from 'react';
-import { ChevronsDownUp, ChevronsUpDown } from 'lucide-react';
+import { ChevronsDownUp, ChevronsUpDown, ExternalLink } from 'lucide-react';
 
 
 const SnackShack = () => {
@@ -142,6 +142,8 @@ const SnackShack = () => {
               <p className='sm:block hidden text-[#f22b40] font-bold'>Scan to Demo Application</p>
               <img className="hidden sm:flex w-50" src="/snackshack-qr.png" alt="jeff pic" />
               <a className="sm:hidden flex w-full rounded-sm bg-black py-2 px-3 justify-center items-center text-lg font-semibold text-white transition-colors duration-300 hover:bg-gray-600" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO</a>
+              <p className='text-xs flex items-center w-50 justify-center p-0 font-bold leading-4'><a className='text-xs sm:flex hidden items-center text-black font-bold justify-between' href="https://snackshack-demo.vercel.app/" target="_blank">OR <span className='bg-black ml-2 px-2 rounded-sm text-white flex items-center'>LAUNCH DEMO <ExternalLink className='ml-1 w-[15px] stroke-3'/></span></a></p>
+
             </div>
           </div>  
           

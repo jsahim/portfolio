@@ -13,10 +13,8 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
             Let's Connect!
           </h2>
           <div className="flex justify-start items-center">
-            <p className="w-70 text-xl hidden lg:block">Send me an email or connect on LinkedIn to discuss potential opportunities.</p>
-            <div className="w-[2px] h-15 bg-white mx-8 hidden lg:block"></div>
-            <div className="flex flex-col justify-center w-fit items-start">
-              <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 mb-4 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-gray-300 hover:text-white transition-all duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">
+            <div className="flex flex-col lg:flex-row justify-center w-fit items-start gap-2 lg:gap-10">
+              <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-gray-300 hover:text-white transition-all duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">
                 <TbMailFilled className="w-6 h-6" />
                 <span className="ml-2">SEND ME AN EMAIL</span> 
               </a>
@@ -28,9 +26,9 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
           </div>
         </div>
         <div className="flex justify-end">
-          <button className="cursor-pointer z-5 w-15 h-15 lg:w-40 lg:h-40 mt-10 lg:mt-0 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
+          <button className="cursor-pointer z-5 w-15 h-15 lg:w-25 lg:h-25 mt-10 lg:mt-0 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
             onClick={()=> scrollToTargetDiv(topSection)}>
-              <FaHandPointer className='move-icon stroke-2 w-8 h-8 lg:w-20 lg:h-20 transition-all duration-300'/> 
+              <FaHandPointer className='move-icon stroke-2 w-8 h-8 lg:w-15 lg:h-15 transition-all duration-300'/> 
           </button>
         </div>
 
