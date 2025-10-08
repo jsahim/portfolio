@@ -12,7 +12,7 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
           <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
             Let's Connect!
           </h2>
-          <p className="text-xl mb-2 text-gray-400">Connect with me to discuss any opportunities.</p>
+          <p className="text-xl mb-2 text-gray-400">Connect with me to discuss possible opportunities.</p>
           <div className="flex justify-start items-center">
             <div className="flex flex-col lg:flex-row justify-center w-fit items-start gap-2 lg:gap-10">
 
