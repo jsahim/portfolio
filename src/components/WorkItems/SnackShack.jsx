@@ -141,7 +141,7 @@ const SnackShack = () => {
             <div className='w-full flex flex-col items-center col-span-3 sm:col-span-1'>
               <p className='sm:block hidden text-[#f22b40] font-bold'>Scan to Demo Application</p>
               <img className="hidden sm:flex w-50" src="/snackshack-qr.png" alt="jeff pic" />
-              <a className="sm:hidden flex w-full rounded-sm bg-black py-2 px-3 justify-between items-center text-lg font-semibold text-white transition-colors duration-300 hover:bg-gray-600 text-center" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO</a>
+              <a className="sm:hidden flex w-full rounded-sm bg-black py-2 px-3 justify-center items-center text-lg font-semibold text-white transition-colors duration-300 hover:bg-gray-600" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO</a>
             </div>
           </div>  
           
