@@ -12,15 +12,15 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
           <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
             Let's Connect!
           </h2>
-          <p className="text-xl mb-4 text-gray-400">Connect with me to discuss possible opportunities.</p>
+          <p className="text-xl mb-4 text-gray-300">Connect with me to discuss possible opportunities.</p>
           <div className="flex justify-start items-center">
             <div className="flex flex-col lg:flex-row justify-center w-fit items-start gap-2 lg:gap-10">
 
-              <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-gray-300 hover:text-white transition-all duration-300" href="mailto:jeffreysahim@gmail.com">
+              <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-300" href="mailto:jeffreysahim@gmail.com">
                 <TbMailFilled className="w-6 h-6" />
                 <span className="ml-2">SEND ME AN EMAIL</span> 
               </a>
-              <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-gray-300 hover:text-white transition-all duration-300" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank">
+              <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-300" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank">
                 <AiFillLinkedin className="w-6 h-6" />
                 <span className="ml-2">CONNECT ON LINKEDIN</span> 
               </a>

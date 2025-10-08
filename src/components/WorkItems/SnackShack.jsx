@@ -23,8 +23,8 @@ const SnackShack = () => {
         <div className="flex flex-col justify-start">
           <button className="cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
             onClick={()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}>{drawerOpen 
-              ? <ChevronsDownUp className='transition-all duration-300'/> 
-              : <ChevronsUpDown className='transition-all duration-300'/> }
+              ? <ChevronsDownUp className='w-8 h-8'/> 
+              : <ChevronsUpDown className='w-8 h-8'/> }
           </button>
         </div>
       </div>
@@ -135,7 +135,7 @@ const SnackShack = () => {
           <div className="grid md:grid-cols-3 gap-15 md:gap-8">
             <div className='col-span-3 sm:col-span-2'>
               <p className='py-2'><strong>RESULTS & CONCLUSION</strong></p>
-              <p className='pb-2 font-semibold text-gray-600'>The implementation of the app immediately started to show positive effects on the concession stand operations.</p>
+              <p className='pb-2 font-semibold'>The implementation of the app immediately started to show positive effects on the concession stand operations.</p>
               <p>This project demonstrated that a simple, focused application can solve a complex operational problem. By leveraging common, accessible tools (Google Sheets) for the backend and pairing them with a modern, mobile-first frontend (React), we delivered an impactful UX solution that benefits both the business (faster service, higher throughput) and the user (less waiting, more game time).</p>
             </div>
             <div className='w-full flex flex-col items-center col-span-3 sm:col-span-1'>
