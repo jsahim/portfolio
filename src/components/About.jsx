@@ -24,7 +24,7 @@ const About = ({aboutSection}) => {
                 <p>Shortly after graduating, I put those skills to immediate use as a Digital Product Engineer in the hospitality tech industry. Over the past two years, I've enjoyed collaborating with cross-functional teams to ideate, design, develop, and ship new product features within a fast-paced Agile environment. As I look to the future, I'm actively seeking my next opportunity to build impactful products.</p>
                 <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-black transition-all duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">
                   <PiReadCvLogoFill className="w-6 h-6" />
-                  <span className="ml-2">VIEW MY RESUME</span> 
+                  <span className="ml-2 tracking-wider">VIEW MY RESUME</span> 
                 </a>
               </div>
             </div>

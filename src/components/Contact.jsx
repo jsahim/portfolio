@@ -18,11 +18,11 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
 
               <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-300" href="mailto:jeffreysahim@gmail.com">
                 <TbMailFilled className="w-6 h-6" />
-                <span className="ml-2">SEND ME AN EMAIL</span> 
+                <span className="ml-2 tracking-wider">SEND ME AN EMAIL</span> 
               </a>
               <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-300" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank">
                 <AiFillLinkedin className="w-6 h-6" />
-                <span className="ml-2">CONNECT ON LINKEDIN</span> 
+                <span className="ml-2 tracking-wider">CONNECT ON LINKEDIN</span> 
               </a>
             </div>
           </div>

@@ -145,7 +145,7 @@ const SnackShack = () => {
             <div className='w-full flex flex-col items-center col-span-3 sm:col-span-1'>
               <p className='sm:block hidden text-[#f22b40] font-bold pt-2'>SCAN QR CODE TO DEMO</p>
               <img className="hidden sm:flex w-40 pt-3" src="/snackshack-qr.png" alt="jeff pic" />
-              <a className="sm:hidden flex w-full rounded-sm bg-black py-2 px-3 justify-center items-center text-lg font-semibold text-white transition-colors duration-300 hover:bg-gray-600" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO</a>
+              <a className="sm:hidden flex w-full rounded-sm bg-black py-2 px-3 justify-center items-center text-lg font-semibold text-white transition-colors duration-300 hover:bg-gray-600 tracking-wider" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO</a>
               <a className='w-50 tracking-wider text-xs sm:flex hidden flex-col items-center text-gray-600 font-bold justify-start' href="https://snackshack-demo.vercel.app/" target="_blank">
                 <span className='py-1 font-semibold'>OR</span>
                 <span className='flex w-40 items-center justify-between bg-gray-600 text-white rounded-sm px-4 transition-colors duration-300 hover:bg-black'>LAUNCH DEMO<ExternalLink className='ml-1 w-[15px] stroke-3'/></span>
