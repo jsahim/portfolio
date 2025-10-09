@@ -22,7 +22,7 @@ const About = ({aboutSection}) => {
               <div className="text-xl text-black space-y-4 leading-relaxed">
                 <p><span className="font-medium">Hi, I'm Jeff Sahim.</span> To truly blend my passion for design and technology, I attended the Turing School of Software & Design, where I completed their immersive program specializing in frontend engineering and UX principles.</p>
                 <p>Shortly after graduating, I put those skills to immediate use as a Digital Product Engineer in the hospitality tech industry. Over the past two years, I've enjoyed collaborating with cross-functional teams to ideate, design, develop, and ship new product features within a fast-paced Agile environment. As I look to the future, I'm actively seeking my next opportunity to build impactful products.</p>
-                <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-black transition-all duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">
+                <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-[2.5px] font-lg flex w-fit group justify-start items-center text-xl font-semibold text-black transition-all duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">
                   <PiReadCvLogoFill className="w-6 h-6" />
                   <span className="ml-2 tracking-wider">VIEW MY RESUME</span> 
                 </a>
@@ -49,31 +49,29 @@ const About = ({aboutSection}) => {
 
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-15 md:gap-8">
-            {[
-              {
-                icon: <Code className="w-18 h-18" />,
-                title: "FRONTEND ENGINEER",
-                description: "Building responsive, performant web applications with modern frameworks and best practices."
-              },
-              {
-                icon: <Palette className="w-18 h-18" />,
-                title: "PRODUCT DESIGNER",
-                description: "Designing intuitive interfaces that prioritize user experience and accessibility."
-              },
-              {
-                icon: <Lightbulb className="w-18 h-18" />,
-                title: "PROBLEM SOLVER",
-                description: "Creating end-to-end digital solutions from concept to deployment and maintenance."
-              }
-            ].map((role, index) => (
-              <div key={index} className="text-center group hover:transform hover:scale-105 transition-all duration-300 px-5">
+            
+              <div className="text-center group hover:transform hover:scale-105 transition-all duration-300 px-5">
                 <div className="bg-[#f22b40] w-24 h-24 rounded-2xl flex items-center justify-center mx-auto mb-6 text-black group-hover:shadow-2xl transition-shadow duration-300">
-                  {role.icon}
+                  <Code className="w-18 h-18" />
                 </div>
-                <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>{role.title}</h3>
-                <p className="text-gray-300 leading-relaxed text-xl">{role.description}</p>
+                <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>FRONTEND ENGINEER</h3>
+                <p className="text-gray-300 leading-relaxed text-xl">Building responsive, performant web applications with modern frameworks and best practices.</p>
               </div>
-            ))}
+              <div className="text-center group hover:transform hover:scale-105 transition-all duration-300 px-5">
+                <div className="bg-[#f22b40] w-24 h-24 rounded-2xl flex items-center justify-center mx-auto mb-6 text-black group-hover:shadow-2xl transition-shadow duration-300">
+                  <Palette className="w-18 h-18" />
+                </div>
+                <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>PRODUCT DESIGNER</h3>
+                <p className="text-gray-300 leading-relaxed text-xl">Designing intuitive interfaces that prioritize user experience and accessibility.</p>
+              </div>
+              <div className="text-center group hover:transform hover:scale-105 transition-all duration-300 px-5">
+                <div className="bg-[#f22b40] w-24 h-24 rounded-2xl flex items-center justify-center mx-auto mb-6 text-black group-hover:shadow-2xl transition-shadow duration-300">
+                  <Lightbulb className="w-18 h-18" />
+                </div>
+                <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>PROBLEM SOLVER</h3>
+                <p className="text-gray-300 leading-relaxed text-xl">Creating end-to-end digital solutions from concept to deployment and maintenance.</p>
+              </div>
+
           </div>
         </div>
 
