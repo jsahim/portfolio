@@ -36,7 +36,7 @@ const SnackShack = () => {
 
       <div className="space-y-4 grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8 lg:gap-15 mt-10">
         <div className='flex justify-center items-center'>
-          <img className='w-[250px]' src="/shack-frame.png" alt="shack" />
+          <img className='w-[250px]' src="/shack-frame.png" alt="Snack Shack Mobile" />
         </div>
         <div className='col-span-2'>
           <p className='font-bold py-2'>PROJECT OVERVIEW</p>
@@ -126,8 +126,8 @@ const SnackShack = () => {
           </ol>
 
           <div className="hidden sm:flex flex-col items-center justify-evenly">
-            <img src="/GoogleSheets-Items.png" alt="jeff pic" />
-            <img src="/Menu-Wireframe.png" alt="jeff pic" />
+            <img src="/GoogleSheets-Items.png" alt="Google Sheets" />
+            <img src="/Menu-Wireframe.png" alt="Snack Shack Wireframe" />
           </div>
 
         </div>
@@ -144,7 +144,7 @@ const SnackShack = () => {
             </div>
             <div className='w-full flex flex-col items-center col-span-3 sm:col-span-1'>
               <p className='sm:block hidden text-[#f22b40] font-semibold pt-2'>SCAN QR CODE TO DEMO</p>
-              <img className="hidden sm:flex w-40 pt-2" src="/snackshack-qr.png" alt="jeff pic" />
+              <img className="hidden sm:flex w-40 pt-2" src="/snackshack-qr.png" alt="Snack Shack QR Code" />
               <a className="sm:hidden flex w-full rounded-sm bg-black py-2 px-3 justify-center items-center text-lg font-semibold text-white transition-colors duration-300 hover:bg-gray-600 tracking-wider" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO</a>
               <a className='w-50 text-xs sm:flex hidden flex-col items-center text-gray-600 font-bold justify-start mt-3' href="https://snackshack-demo.vercel.app/" target="_blank">
                 <span className='tracking-wider flex w-40 items-center justify-between bg-gray-600 text-white rounded-sm px-2 transition-colors duration-300 hover:bg-black font-semibold'>OR LAUNCH DEMO<ExternalLink className='ml-1 w-[15px] stroke-3'/></span>
