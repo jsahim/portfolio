@@ -8,21 +8,25 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
     <footer ref={contactSection} className="bg-black text-white py-20 px-8 sm:px-10 pb-35 sm:pb-16">
 
       <div className="max-w-6xl mx-auto my-auto">
-        <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
-          Let's Connect!
-        </h2>
-        <p className="text-gray-300 pb-5 leading-relaxed text-xl">Send me and email or connect with me on LinkedIn to discuss possible opportunties</p>
-        <div className="flex justify-between"> 
-          <div className="flex items-center gap-10 tracking-wider">
-            <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-300" href="mailto:jeffreysahim@gmail.com">
-              <TbMailFilled className="w-6 h-6" />
-              <span className="ml-2 font-bold">EMAIL</span> 
-            </a>
-            <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-300" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank">
-              <AiFillLinkedin className="w-6 h-6" />
-              <span className="ml-2 font-bold">LINKEDIN</span> 
-            </a>   
+        <div className="grid grid-cols-1 lg:grid-cols-3">
+
+          <div className="col-span-2">
+            <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
+              Let's Connect!
+            </h2>
+            <p className="text-gray-300 pb-5 leading-relaxed text-xl">Send me and email or connect with me on LinkedIn to discuss possible opportunties</p>
+            <div className="flex items-center gap-10 tracking-wider">
+              <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-300" href="mailto:jeffreysahim@gmail.com">
+                <TbMailFilled className="w-6 h-6" />
+                <span className="ml-2 font-bold">EMAIL</span> 
+              </a>
+              <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-300" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank">
+                <AiFillLinkedin className="w-6 h-6" />
+                <span className="ml-2 font-bold">LINKEDIN</span> 
+              </a>   
+            </div>
           </div>
+
           <div className="flex justify-center relative">
             <button className="relative cursor-pointer group z-5 w-25 h-25 mt-15 lg:mt-0 flex justify-center items-center text-white font-bold" 
               onClick={()=> scrollToTargetDiv(topSection)}>
