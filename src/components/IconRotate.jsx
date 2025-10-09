@@ -20,7 +20,7 @@ export default function IconRotate() {
                 d="M 100, 100 m -85, 0 a 85,85 0 1,1 170,0 a 85,85 0 1,1 -170,0"
               />
             </defs>
-            <text className="text-[13.6px] font-bold fill-white tracking-widest" style={{ fontFamily: 'Jost, sans-serif'}}>
+            <text className="text-[13.6px] font-bold fill-gray-300 tracking-widest" style={{ fontFamily: 'Jost, sans-serif'}}>
               <textPath href="#circlePath" startOffset="0%">
                 PRODUCT DESIGNER ● FRONTEND ENGINEER ● PROBLEM SOLVER ●
               </textPath>

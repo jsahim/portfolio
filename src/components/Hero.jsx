@@ -11,8 +11,10 @@ const Hero = () => {
           <div className='text-[#f22b40] tracking-normal flex flex-col lg:flex-row justify-center items-center' style={{ fontFamily: 'Shrikhand, cursive' }}>
             <IconRotate />
             <h1 className="z-1 pl-0 lg:pl-10">
-              <span className="leading-19 text-[6rem] lg:text-[12rem] lg:leading-38">Jeff<br/>Sahim</span>
-              <span className="text-[20px] lg:text-[40px] text-white font-semibold tracking-widest" style={{ fontFamily: 'Jost, sans-serif'}}><br/>DIGITAL PRODUCT ENGINEER</span>
+              <span className="leading-19 text-[6rem] lg:text-[12rem] lg:leading-38">Jeff<br/>Sahim</span><br/>
+              <span className="text-[19px] lg:text-[39px] text-white font-bold tracking-widest" style={{ fontFamily: 'Jost, sans-serif'}}>
+                DIGITAL PRODUCT ENGINEER
+              </span>
             </h1>
           </div>                    
         </div>

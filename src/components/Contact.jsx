@@ -14,7 +14,7 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
             <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
               Let's Connect!
             </h2>
-            <p className="text-gray-300 pb-5 leading-relaxed text-xl">Send me and email or connect with me on LinkedIn to discuss possible opportunties</p>
+            <p className="text-gray-300 pb-5 leading-relaxed text-xl">Send me and email or connect with me on LinkedIn to discuss possible opportunties.</p>
             <div className="flex items-center gap-10 tracking-wider">
               <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-300" href="mailto:jeffreysahim@gmail.com">
                 <TbMailFilled className="w-6 h-6" />
