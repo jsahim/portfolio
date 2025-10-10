@@ -1,9 +1,38 @@
 import { TbMailFilled, TbMailOpenedFilled } from "react-icons/tb";
 import { AiFillLinkedin, AiOutlineLinkedin } from "react-icons/ai";
 import { FaHandPointer } from "react-icons/fa6";
+import {useRef, useEffect, useState} from 'react'
 
 
 const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
+
+  const [isVisible, setIsVisible] = useState(false);
+  const h2Ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      {
+        threshold: 0.1,
+        rootMargin: '0px'
+      }
+    );
+
+    if (h2Ref.current) {
+      observer.observe(h2Ref.current);
+    }
+
+    return () => {
+      if (h2Ref.current) {
+        observer.unobserve(h2Ref.current);
+      }
+    };
+  }, []);
+
   return (
     <footer ref={contactSection} className="bg-black text-white py-20 px-8 sm:px-10 pb-35 sm:pb-16">
 
@@ -11,7 +40,14 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
         <div className="grid grid-cols-1 lg:grid-cols-3">
 
           <div className="col-span-2">
-            <h2 className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left" style={{fontFamily: 'Shrikhand, cursive'}}>
+            <h2 
+              ref={h2Ref}
+              className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left transition-opacity duration-1000 ease-out" 
+              style={{
+                fontFamily: 'Shrikhand, cursive',
+                opacity: isVisible ? 1 : 0
+              }}
+            >
               Let's Connect!
             </h2>
             <p className="text-gray-300 pb-5 leading-relaxed text-xl">Send me and email or connect with me on LinkedIn to discuss possible opportunties.</p>

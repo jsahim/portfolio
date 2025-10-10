@@ -1,19 +1,54 @@
-import { SiJira, SiSketch, SiLighthouse, SiSlack, SiConfluence, SiNotion, SiClaude, SiCypress, SiGithub, SiGit, SiTailwindcss, SiFigma, SiAdobecreativecloud, SiCss3, SiHtml5, SiJavascript, SiVuedotjs, SiReact } from "react-icons/si";
-import { FaSalesforce } from "react-icons/fa";
+import { SiJira, SiSketch, SiSlack, SiConfluence, SiNotion, SiClaude, SiCypress, SiGithub, SiGit, SiTailwindcss, SiAdobecreativecloud, SiCss3, SiHtml5, SiJavascript, SiVuedotjs, SiReact } from "react-icons/si";
+import { FaSalesforce, FaWordpress } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 import { BsMicrosoftTeams } from "react-icons/bs";
 import { CgFigma } from "react-icons/cg";
 import { PiReadCvLogoFill } from "react-icons/pi";
 import { Code, Palette, Lightbulb } from 'lucide-react';
+import {useRef, useEffect, useState} from 'react'
 
 const About = ({aboutSection}) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const h2Ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      {
+        threshold: 0.1,
+        rootMargin: '0px'
+      }
+    );
+
+    if (h2Ref.current) {
+      observer.observe(h2Ref.current);
+    }
+
+    return () => {
+      if (h2Ref.current) {
+        observer.unobserve(h2Ref.current);
+      }
+    };
+  }, []);
+
   return (
     <>
       {/* Bio Section */}
       <section ref={aboutSection} className="snap-start scroll-mt-0 sm:scroll-mt-10 pt-20 pb-16 px-8 sm:px-10">
 
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 pb-10 md:pb-0 text-[#f22b40]" style={{ fontFamily: 'Shrikhand, cursive' }}>
+          <h2 
+            ref={h2Ref}
+            className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left transition-opacity duration-1000 ease-out" 
+            style={{
+              fontFamily: 'Shrikhand, cursive',
+              opacity: isVisible ? 1 : 0
+            }}
+          >
             About Me
           </h2>
           <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
@@ -96,17 +131,17 @@ const About = ({aboutSection}) => {
               {name: "JavaScript" , icon: <SiJavascript className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F7DF1E]" />},
               {name: "HTML" , icon: <SiHtml5 className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E34F26]" />},
               {name: "CSS" , icon: <SiCss3 className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#264de4]" />},
+              {name: "Tailwind CSS" , icon: <SiTailwindcss className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#38bdf8]" />},
               {name: "VS Code" , icon: <VscVscode className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0098FF]" />},
               {name: "Notion" , icon: <SiNotion className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#000000]" />},
               {name: "Figma" , icon: <CgFigma className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#a259ff]" />},
+              {name: "Sketch" , icon: <SiSketch className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E9AC12]" />},
+              {name: "Adobe CC" , icon: <SiAdobecreativecloud className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#da1f26]" />},
+              {name: "WordPress" , icon: <FaWordpress className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#3858e9]" />},
               {name: "Slack" , icon: <SiSlack className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#4A154B]" />},
               {name: "Teams" , icon: <BsMicrosoftTeams className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#7B83EB]" />},
-              {name: "Adobe CC" , icon: <SiAdobecreativecloud className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#da1f26]" />},
-              {name: "Sketch" , icon: <SiSketch className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E9AC12]" />},
-              {name: "Tailwind CSS" , icon: <SiTailwindcss className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#38bdf8]" />},
               {name: "Jira" , icon: <SiJira className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0053CD]" />},
               {name: "Confluence" , icon: <SiConfluence className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#0053CD]" />},
-              {name: "Lighthouse" , icon: <SiLighthouse className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#EA4335]" />},
               {name: "Salesforce" , icon: <FaSalesforce className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#00A1E0]" />},
               {name: "Git" , icon: <SiGit className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F05032]" />},
               {name: "GitHub" , icon: <SiGithub className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#000000]" />},
