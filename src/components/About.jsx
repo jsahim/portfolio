@@ -56,7 +56,7 @@ const About = ({aboutSection}) => {
             <div>
               <div className="text-xl text-black space-y-4 leading-relaxed">
                 <p><span className="font-medium">Hi, I'm Jeff Sahim.</span> To truly blend my passion for design and technology, I attended the Turing School of Software & Design, where I completed their immersive program specializing in frontend engineering and UX principles.</p>
-                <p>Shortly after graduating, I put those skills to immediate use as a Digital Product Engineer in the hospitality tech industry. Over the past two years, I've enjoyed collaborating with cross-functional teams to ideate, design, develop, and ship new product features within a fast-paced Agile environment. As I look to the future, I'm actively seeking my next opportunity to build impactful products.</p>
+                <p>Shortly after graduating, I put those skills to immediate use as a Digital Product Engineer in the hospitality tech industry. Over the past two years, I've enjoyed collaborating with cross-functional teams to ideate, design, develop, and ship new digital solutions within a fast-paced Agile environment. As I look to the future, I'm actively seeking my next opportunity to build impactful products.</p>
                 <a className="hover:border-[#f22b40] pb-1 border-transparent border-b-[2.5px] font-lg flex w-fit group justify-start items-center text-xl font-semibold text-black transition-all duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">
                   <PiReadCvLogoFill className="w-6 h-6" />
                   <span className="ml-2 tracking-wider font-bold">RESUME</span> 

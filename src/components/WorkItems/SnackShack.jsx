@@ -83,34 +83,45 @@ const SnackShack = () => {
 
         <hr className='border border-gray-300 my-10'/>
 
-        <div className="space-y-4 grid md:grid-cols-2 gap-15 md:gap-8">
+        <div className="space-y-4 gap-15 md:gap-8">
           
-          <ol className="list-decimal list-inside">
+          <ol className="list-decimal list-inside ">
             <p className='font-bold py-2'>PROCESS & EXECUTION</p>
+
             <li className='font-bold py-2'>
               Research & Analysis
             </li>
+
             <div className='pl-5'>
               <p><strong>User Interviews:</strong> Conducted brief interviews with park patrons to confirm the pain points. The consensus was a desire to skip the line and the need for pre-order viewing of the menu.</p>
               <p><strong>Flow Mapping:</strong> Mapped the existing inefficient patron flow <span className='font-semibold italic'>(Wait in line → View menu → Decide → Order/Pay → Wait for fulfillment)</span> and compared it to the proposed streamlined flow <span className='font-semibold italic'>(Scan QR → View/Order → Pay/Pickup at designated area)</span>.</p>
             </div>
+
+            
             <li className='font-bold py-2'>
               Data Architecture & Administration
             </li>
-            <div className='pl-5'>
-              <p>A critical requirement was giving the non-technical concession manager full control over the menu content without needing developer intervention.</p>
-              <p><strong>Admin System:</strong> A Google Sheet was chosen as the user-friendly administration tool. <br/>The manager can use it to: <span className='font-semibold italic'>add or remove items</span> and <span className='font-semibold italic'>edit the Name, Description, Image URL, Price, Category, and Availability of each item.</span></p>
+            <div className='pl-5 grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-8 lg:gap-15'>
+              <div>
+                <p>A critical requirement was giving the non-technical concession manager full control over the menu content without needing developer intervention.</p>
+                <p><strong>Admin System:</strong> A Google Sheet was chosen as the user-friendly administration tool. The manager can use it to: <span className='font-semibold italic'>add or remove items</span> and <span className='font-semibold italic'>edit the Name, Description, Image URL, Price, Category, and Availability of each item.</span></p>
+              </div>
+              <img className='hidden md:block' src="/GoogleSheets-Items.png" alt="Google Sheets" />
             </div>
+
             <li className='font-bold py-2'>
               Design & Development
             </li>
             <div className='pl-5'>
-              <p><strong>Wireframing & User Flows</strong></p>
-              <p className='pb-2'>Created wireframes to outline the user interface and experience, focusing on simplicity and ease of use.</p>
-              <div>
-                <p><strong className='text-gray-600'>Menu Browsing:</strong> Clear category sorting and high-quality images (Adobe Photoshop was used to prep assets).</p>
-                <p><strong className='text-gray-600'>Order Creation:</strong> Simple, intuitive adding/removing items from a cart.</p>
-                <p><strong className='text-gray-600'>Checkout/Order Placement:</strong> Minimal steps to confirm and place the order.</p>
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-8 lg:gap-15'>
+                <div>
+                  <p><strong>Wireframing & User Flows</strong></p>
+                  <p className='pb-2'>Created wireframes to outline the user interface and experience, focusing on simplicity and ease of use.</p>
+                  <p><strong className='text-gray-600'>Menu Browsing:</strong> Clear category sorting and high-quality images (Adobe Photoshop was used to prep assets).</p>
+                  <p><strong className='text-gray-600'>Order Creation:</strong> Simple, intuitive adding/removing items from a cart.</p>
+                  <p><strong className='text-gray-600'>Checkout/Order Placement:</strong> Minimal steps to confirm and place the order.</p>
+                </div>
+                <img className='hidden md:block' src="/Menu-Wireframe.png" alt="Snack Shack Wireframe" />
               </div>
 
               <p className='pt-2'><strong>Tech Stack</strong></p>
@@ -124,11 +135,6 @@ const SnackShack = () => {
               
             </div>
           </ol>
-
-          <div className="hidden sm:flex flex-col items-center justify-evenly">
-            <img src="/GoogleSheets-Items.png" alt="Google Sheets" />
-            <img src="/Menu-Wireframe.png" alt="Snack Shack Wireframe" />
-          </div>
 
         </div>
 
