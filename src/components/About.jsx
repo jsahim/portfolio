@@ -82,40 +82,41 @@ const About = ({aboutSection}) => {
 
         <div className="max-w-6xl flex flex-col lg:flex-row justify-between items-center mx-auto text-center">
           <div className="transition-all duration-300 text-2xl px-[55px] font-bold text-white bg-black rounded-full h-56 w-56 m-4 hover:m-2 hover:h-60 hover:w-60 hover:px-[63px] flex flex-col justify-center items-center">
-            <span className='text-4xl tracking-widest text-center'>TECH</span>
-            <span className='tracking-[5px] w-full text-sm border-y-2 border-white text-center'>AND</span>
-            <span className='text-3xl tracking-widest text-center'>TOOLS</span>
+            <span className='pointer-events-none text-4xl tracking-widest text-center'>TECH</span>
+            <span className='pointer-events-none tracking-[5px] w-full text-sm border-y-2 border-white text-center'>AND</span>
+            <span className='pointer-events-none text-3xl tracking-widest text-center'>TOOLS</span>
           </div>
           <svg xmlns="http://www.w3.org/2000/svg" className='lg:rotate-0 rotate-90' width="50px" height="200px" viewBox="0 0 51 200.787">
             <path d="M0.0240945 91.8181l0 17.0428c4.52776,0.108425 8.23831,1.57016 11.1015,4.38319 2.83713,2.78492 4.74059,6.56173 5.70638,11.3043 0.933661,4.77874 1.44768,12.9789 1.4778,24.6045 0.0622441,11.6617 0.240945,19.2917 0.544134,23.0042 0.53811,5.91921 1.50791,10.6237 2.95559,14.1535 1.44768,3.52984 3.22866,6.34488 5.34295,8.44913 2.14039,2.14039 4.85504,3.74669 8.14394,4.85102 2.23276,0.783071 5.88709,1.17661 10.9509,1.17661l4.95343 0 0 -16.4043 -2.74677 0c-6.12602,0 -10.1699,-1.31717 -12.1918,-3.91736 -1.99181,-2.60823 -2.98772,-8.4913 -2.98772,-17.6191 0,-17.3982 -0.271063,-28.4556 -0.815197,-33.1239 -0.935669,-7.7022 -2.83311,-13.9065 -5.64012,-18.5467 -2.83913,-4.59602 -6.85087,-8.19815 -12.0392,-10.8004 6.78862,-3.81496 11.5553,-8.87882 14.3322,-15.1916 2.77689,-6.31276 4.16232,-16.9384 4.16232,-31.9131 0,-13.5833 0.12248,-21.681 0.421654,-24.3555 0.425669,-4.66831 1.57016,-7.91303 3.49972,-9.77031 1.90346,-1.81913 5.67626,-2.74677 11.2581,-2.74677l2.74677 0 0 -16.3983 -4.95343 0c-5.7626,0 -9.95504,0.534094 -12.5512,1.67457 -3.7728,1.53402 -6.87697,4.09807 -9.35067,7.7022 -2.4737,3.63827 -4.1061,8.19815 -4.82894,13.6937 -0.724843,5.52366 -1.14449,14.5491 -1.20673,27.0601 -0.0301181,12.5532 -0.544134,21.1831 -1.4778,25.9618 -0.965787,4.77874 -2.86925,8.55756 -5.70638,11.3405 -2.86323,2.7789 -6.57378,4.24063 -11.1015,4.3852z"/>
           </svg>
           <div className="flex max-w-[700px] flex-wrap justify-center md:justify-start w-full sm:w-[60vw] gap-7 md:gap-10">
             {[
-              <SiReact title="React" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#61DAFB] group-hover:text-[#f22b40]" />,
-              <SiVuedotjs title="Vue.js" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#4FC08D] group-hover:text-[#f22b40]" />,
-              <SiJavascript title="JavaScript" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F7DF1E] group-hover:text-[#f22b40]" />,
-              <SiHtml5 title="HTML" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E34F26] group-hover:text-[#f22b40]" />,
-              <SiCss3 title="CSS" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#264de4] group-hover:text-[#f22b40]" />,
-              <VscVscode title="VS Code" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0098FF] group-hover:text-[#f22b40]" />,
-              <SiNotion title="Notion" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#000000] group-hover:text-[#f22b40]" />,
-              <CgFigma title="Figma" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#a259ff] group-hover:text-[#f22b40]" />,
-              <SiSlack title="Slack" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#4A154B] group-hover:text-[#f22b40]" />,
-              <BsMicrosoftTeams title="Microsoft Teams" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#7B83EB] group-hover:text-[#f22b40]" />,
-              <SiAdobecreativecloud title="Adobe Creative Cloud" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#da1f26] group-hover:text-[#f22b40]" />,
-              <SiSketch title="Sketch" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E9AC12] group-hover:text-[#f22b40]" />,
-              <SiTailwindcss title="Tailwind CSS" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#38bdf8] group-hover:text-[#f22b40]" />,
-              <SiJira title="Jira" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0053CD] group-hover:text-[#f22b40]" />,
-              <SiConfluence title="Confluence" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#0053CD] group-hover:text-[#f22b40]" />,
-              <SiLighthouse title="Lighthouse" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#EA4335] group-hover:text-[#f22b40]" />,
-              <FaSalesforce title="Salesforce" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#00A1E0] group-hover:text-[#f22b40]" />,
-              <SiGit title="Git" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F05032] group-hover:text-[#f22b40]" />,
-              <SiGithub title="GitHub" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#000000] group-hover:text-[#f22b40]" />,
-              <SiClaude title="Claude" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#da7756] group-hover:text-[#f22b40]" />,
-              <SiCypress title="Cypress" className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#95e4c5] group-hover:text-[#f22b40]" />
+              {name: "React" , icon: <SiReact className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#61DAFB]" />},
+              {name: "Vue.js" , icon: <SiVuedotjs className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#4FC08D]" />},
+              {name: "JavaScript" , icon: <SiJavascript className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F7DF1E]" />},
+              {name: "HTML" , icon: <SiHtml5 className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E34F26]" />},
+              {name: "CSS" , icon: <SiCss3 className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#264de4]" />},
+              {name: "VS Code" , icon: <VscVscode className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0098FF]" />},
+              {name: "Notion" , icon: <SiNotion className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#000000]" />},
+              {name: "Figma" , icon: <CgFigma className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#a259ff]" />},
+              {name: "Slack" , icon: <SiSlack className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#4A154B]" />},
+              {name: "Teams" , icon: <BsMicrosoftTeams className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#7B83EB]" />},
+              {name: "Adobe CC" , icon: <SiAdobecreativecloud className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#da1f26]" />},
+              {name: "Sketch" , icon: <SiSketch className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#E9AC12]" />},
+              {name: "Tailwind CSS" , icon: <SiTailwindcss className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#38bdf8]" />},
+              {name: "Jira" , icon: <SiJira className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#0053CD]" />},
+              {name: "Confluence" , icon: <SiConfluence className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#0053CD]" />},
+              {name: "Lighthouse" , icon: <SiLighthouse className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#EA4335]" />},
+              {name: "Salesforce" , icon: <FaSalesforce className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#00A1E0]" />},
+              {name: "Git" , icon: <SiGit className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#F05032]" />},
+              {name: "GitHub" , icon: <SiGithub className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-300 text-[#000000]" />},
+              {name: "Claude" , icon: <SiClaude className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#da7756]" />},
+              {name: "Cypress" , icon: <SiCypress className="w-16 h-16 md:w-36 md:h-36 z-2 group-hover:w-24 transition-all duration-150 ease-in-out text-[#95e4c5]" />}
             ].map((tech, index) => (
               <div key={index} className="group transform transition-all duration-300 hover:scale-110">
                 <div className="bg-none w-16 h-16 rounded-xl flex items-center justify-center mx-auto duration-300">
-                  {tech}
+                  {tech.icon}
+                  <p className="whitespace-nowrap group-hover:bg-black/70 bg-transparent px-2 rounded-sm pointer-events-none font-bold absolute z-5 text-transparent group-hover:text-white transition-color duration-300">{tech.name}</p>
                 </div>
               </div>
             ))}
