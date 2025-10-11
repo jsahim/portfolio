@@ -7,8 +7,8 @@ const Hero = () => {
 
       <div className="max-w-6xl mx-auto">
 
-        <div className="mt-[30vh] lg:mt-0 text-white tracking-widest font-light" style={{ fontFamily: 'Jost, sans-serif'}}>
-          <div className='text-[#f22b40] tracking-normal flex flex-col lg:flex-row justify-center items-center' style={{ fontFamily: 'Shrikhand, cursive' }}>
+        <div className="mt-[30vh] lg:mt-0 text-white font-light" style={{ fontFamily: 'Jost, sans-serif'}}>
+          <div className='text-[#f22b40] flex flex-col lg:flex-row justify-center items-center' style={{ fontFamily: 'Shrikhand, cursive' }}>
             <IconRotate />
             <h1 className="z-1 pl-0 lg:pl-10">
               <span className="leading-19 text-[6rem] lg:text-[12rem] lg:leading-38">Jeff<br/>Sahim</span><br/>
