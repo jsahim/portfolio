@@ -1,5 +1,5 @@
-import { TbMailFilled, TbMailOpenedFilled } from "react-icons/tb";
-import { AiFillLinkedin, AiOutlineLinkedin } from "react-icons/ai";
+import { TbMailFilled } from "react-icons/tb";
+import { AiFillLinkedin } from "react-icons/ai";
 import { FaHandPointer } from "react-icons/fa6";
 import {useRef, useEffect, useState} from 'react'
 

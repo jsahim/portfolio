@@ -151,7 +151,7 @@ const About = ({aboutSection}) => {
               <div key={index} className="group transform transition-all duration-300 hover:scale-110">
                 <div className="bg-none w-16 h-16 rounded-xl flex items-center justify-center mx-auto duration-300">
                   {tech.icon}
-                  <p className="whitespace-nowrap group-hover:bg-black/70 bg-transparent px-2 rounded-sm pointer-events-none font-bold absolute z-5 text-transparent group-hover:text-white transition-color duration-300">{tech.name}</p>
+                  <p className="whitespace-nowrap group-hover:bg-black/70 bg-transparent px-2 rounded-lg pointer-events-none font-semibold absolute z-5 text-transparent group-hover:text-white transition-color duration-300">{tech.name}</p>
                 </div>
               </div>
             ))}

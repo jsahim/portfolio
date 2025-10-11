@@ -7,7 +7,6 @@ export default function IconRotate() {
           <img 
             src="/jeff-icon-r.webp"
             alt="Jeff Sahim Logo"
-            className="hidden lg:block"
           />
         </div>
         
