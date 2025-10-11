@@ -1,9 +1,9 @@
 export default function IconRotate() {
   
   return (
-    <div className="absolute lg:static z-0 items-center justify-center hidden lg:flex">
+    <div className="absolute lg:static z-0 items-center justify-center hidden lg:flex group">
       <div className="relative w-85 h-85 lg:w-100 lg:h-100">
-        <div className="absolute inset-0 w-full h-full p-10">
+        <div className="absolute flex justify-center items-center w-full h-full group-hover:p-15 p-10 transition-all duration-300">
           <img 
             src="/jeff-icon-r.webp"
             alt="Jeff Sahim Logo"
