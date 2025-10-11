@@ -8,9 +8,9 @@ const Hero = () => {
   const [engineerReady, setEngineer] = useState(false)
 
   useEffect(() => {
-    setTimeout(() => setDigital(true), 500)
-    setTimeout(() => setProduct(true), 1000)
-    setTimeout(() => setEngineer(true), 1500)
+    setTimeout(() => setDigital(true), 300)
+    setTimeout(() => setProduct(true), 600)
+    setTimeout(() => setEngineer(true), 900)
   }, []);
 
   return (

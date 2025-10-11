@@ -24,8 +24,8 @@ const SnackShack = () => {
         <h3 className="font-bold text-black text-xl">
           THE SNACK SHACK<span className='text-gray-600 font-semibold'> | CONCESSION ORDERING APP</span>
         </h3>
-        <div className="flex flex-col justify-start">
-          <button className="cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] transition-all duration-300 flex justify-center items-center text-white font-bold" 
+        <div className="flex flex-col justify-start group">
+          <button className="cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] group-hover:bg-[#db2739] transition-all duration-300 flex justify-center items-center text-white font-bold" 
             onClick={()=> { scrollToTargetDiv(projectTop); drawerOpen ? setDrawerOpen(false) : setDrawerOpen(true)}}>{drawerOpen 
               ? <ChevronsDownUp className='w-8 h-8'/> 
               : <ChevronsUpDown className='w-8 h-8'/> }

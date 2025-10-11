@@ -87,21 +87,21 @@ const About = ({aboutSection}) => {
 
               <div className="text-center group hover:transform hover:scale-105 transition-all duration-300 px-5">
                 <div className="bg-[#f22b40] w-24 h-24 rounded-2xl flex items-center justify-center mx-auto mb-6 text-black group-hover:shadow-2xl transition-shadow duration-300">
-                  <Code className="w-18 h-18" />
+                  <Code className="w-18 h-18 group-hover:text-white transition-color duration-300" />
                 </div>
                 <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>FRONTEND ENGINEER</h3>
                 <p className="text-gray-300 leading-relaxed text-xl">Building responsive, performant web applications with modern frameworks and best practices.</p>
               </div>
               <div className="text-center group hover:transform hover:scale-105 transition-all duration-300 px-5">
                 <div className="bg-[#f22b40] w-24 h-24 rounded-2xl flex items-center justify-center mx-auto mb-6 text-black group-hover:shadow-2xl transition-shadow duration-300">
-                  <Palette className="w-18 h-18" />
+                  <Palette className="w-18 h-18 group-hover:text-white transition-color duration-300" />
                 </div>
                 <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>PRODUCT DESIGNER</h3>
                 <p className="text-gray-300 leading-relaxed text-xl">Designing intuitive interfaces that prioritize user experience and accessibility.</p>
               </div>
               <div className="text-center group hover:transform hover:scale-105 transition-all duration-300 px-5">
                 <div className="bg-[#f22b40] w-24 h-24 rounded-2xl flex items-center justify-center mx-auto mb-6 text-black group-hover:shadow-2xl transition-shadow duration-300">
-                  <Lightbulb className="w-18 h-18" />
+                  <Lightbulb className="w-18 h-18 group-hover:text-white transition-color duration-300" />
                 </div>
                 <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>PROBLEM SOLVER</h3>
                 <p className="text-gray-300 leading-relaxed text-xl">Creating end-to-end digital solutions from concept to deployment and maintenance.</p>
