@@ -68,7 +68,7 @@ const About = ({aboutSection}) => {
               <div className="inline-block">
                 <div className="w-80 h-80 rounded-3xl shadow-2xl transform rotate-0 hover:rotate-0 md:rotate-3 transition-transform duration-300">
                   <div className="w-full h-full bg-gray-200 rounded-3xl flex items-center justify-center">
-                    <img className='border-8 border-neutral-100' src="/deli-jeff.png" alt="Jeff Sahim" />
+                    <img className='border-8 border-neutral-100' src="/deli-jeff.webp" alt="Jeff Sahim" />
                   </div>
                 </div>
               </div>

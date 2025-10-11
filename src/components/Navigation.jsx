@@ -8,8 +8,8 @@ const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workS
           <div className="flex w-full justify-evenly items-center">
 
             <button className='flex justify-center  items-center w-[45px]' onClick={() => { setCurrentSection('top'); scrollToTargetDiv(topSection)}}>
-              <img src="/jeff-icon-r.png" className={`absolute transition-all duration-300 w-[45px] ${currentSection === 'top' ? "opacity-100" : "opacity-0"} cursor-pointer`} alt="Jeff Logo" />
-              <img src="/jeff-icon.png" className={`absolute transition-all duration-300 w-[45px] ${currentSection !== 'top' ? "opacity-100" : "opacity-0"} cursor-pointer`} alt="Jeff Logo" />
+              <img src="/jeff-icon-r.webp" className={`absolute transition-all duration-300 w-[45px] ${currentSection === 'top' ? "opacity-100" : "opacity-0"} cursor-pointer`} alt="Jeff Logo" />
+              <img src="/jeff-icon.webp" className={`absolute transition-all duration-300 w-[45px] ${currentSection !== 'top' ? "opacity-100" : "opacity-0"} cursor-pointer`} alt="Jeff Logo" />
             </button>
 
             <button onClick={() => { setCurrentSection('work'); scrollToTargetDiv(workSection)}}

@@ -5,7 +5,7 @@ export default function IconRotate() {
       <div className="relative w-85 h-85 lg:w-100 lg:h-100">
         <div className="absolute inset-0 w-full h-full p-10">
           <img 
-            src="/jeff-icon-r.png"
+            src="/jeff-icon-r.webp"
             alt="Jeff Sahim Logo"
             className="hidden lg:block"
           />

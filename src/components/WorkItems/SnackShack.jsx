@@ -36,7 +36,7 @@ const SnackShack = () => {
 
       <div className="space-y-4 grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8 lg:gap-15 mt-10">
         <div className='flex justify-center items-center'>
-          <img className='w-[250px]' src="/shack-frame.png" alt="Snack Shack Mobile" />
+          <img className='w-[250px]' src="/shack-frame.webp" alt="Snack Shack Mobile" />
         </div>
         <div className='col-span-2'>
           <p className='font-bold py-2'>PROJECT OVERVIEW</p>
@@ -106,7 +106,7 @@ const SnackShack = () => {
                 <p>A critical requirement was giving the non-technical concession manager full control over the menu content without needing developer intervention.</p>
                 <p><strong>Admin System:</strong> A Google Sheet was chosen as the user-friendly administration tool. The manager can use it to: <span className='font-semibold italic'>add or remove items</span> and <span className='font-semibold italic'>edit the Name, Description, Image URL, Price, Category, and Availability of each item.</span></p>
               </div>
-              <img className='hidden md:block' src="/GoogleSheets-Items.png" alt="Google Sheets" />
+              <img className='hidden md:block' src="/GoogleSheets-Items.webp" alt="Google Sheets" />
             </div>
 
             <li className='font-bold py-2'>
@@ -121,7 +121,7 @@ const SnackShack = () => {
                   <p><strong className='text-gray-600'>Order Creation:</strong> Simple, intuitive adding/removing items from a cart.</p>
                   <p><strong className='text-gray-600'>Checkout/Order Placement:</strong> Minimal steps to confirm and place the order.</p>
                 </div>
-                <img className='hidden md:block' src="/Menu-Wireframe.png" alt="Snack Shack Wireframe" />
+                <img className='hidden md:block' src="/Menu-Wireframe.webp" alt="Snack Shack Wireframe" />
               </div>
 
               <p className='pt-2'><strong>Tech Stack</strong></p>
@@ -149,7 +149,7 @@ const SnackShack = () => {
               <p>This project demonstrated that a simple, focused application can solve a complex operational problem. By leveraging common, accessible tools (Google Sheets) for the backend and pairing them with a modern, mobile-first frontend (React), we delivered an impactful UX solution that benefits both the business (faster service, higher throughput) and the user (less waiting, more game time).</p>
             </div>
             <div className='w-full flex flex-col items-center col-span-3 sm:col-span-1'>
-              <img className="hidden sm:flex w-40 pt-2" src="/snackshack-qr.png" alt="Snack Shack QR Code" />
+              <img className="hidden sm:flex w-40 pt-2" src="/snackshack-qr.webp" alt="Snack Shack QR Code" />
               <a className="sm:hidden flex w-full rounded-sm bg-black py-2 px-3 justify-center items-center text-lg font-semibold text-white transition-colors duration-300 hover:bg-gray-600 tracking-wider" href="https://snackshack-demo.vercel.app/" target="_blank">LAUNCH DEMO</a>
               <p className='sm:block hidden text-[#f22b40] font-semibold pt-2'>SCAN QR CODE TO DEMO</p>
               <a className='w-50 text-xs sm:flex hidden flex-col items-center text-gray-600 font-bold justify-start mt-2' href="https://snackshack-demo.vercel.app/" target="_blank">
