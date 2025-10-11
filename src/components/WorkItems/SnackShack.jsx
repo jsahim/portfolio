@@ -70,7 +70,7 @@ const SnackShack = () => {
 
           <div>
             <p className='py-2'><strong>THE SOLUTION: <span className="text-gray-600 font-semibold">A MOBILE-FIRST PRE-ORDERING APP</span></strong></p>
-            <p>The solution was to provide patrons with easy, remote access to the full menu and the ability to place orders before they even approached the stand, addressing indecision and queue length simultaneously.The solution was to provide patrons with easy, remote access to the full menu and the ability to place orders before they even approached the stand, addressing indecision and queue length simultaneously.</p>
+            <p>The solution was to provide patrons with easy, remote access to the full menu and the ability to place orders before they even approached the stand, addressing indecision and queue length simultaneously.</p>
             <p className='py-2'><strong>Strategy</strong></p>
             <div>
               <p><strong className='text-gray-600'>Menu Visibility:</strong> Provide a digital, mobile-first menu accessible anywhere in the park.</p>
