@@ -16,8 +16,8 @@ const SnackShack = () => {
     
     <div ref={projectTop} className={`transition-all duration-300 ${
       drawerOpen ? "outline-offset-0 border-[#f22b40] outline-0" 
-      : "outline-offset-8 border-black outline-[2.5px]"}  
-      text-black border-4 outline-[#f22b40] snap-start scroll-mt-5 sm:scroll-mt-25 bg-white rounded-xl md:p-10 p-5`
+      : "outline-offset-4 border-black outline-[2.5px]"}  
+      text-black border-4 outline-gray-600 snap-start scroll-mt-5 sm:scroll-mt-25 bg-white rounded-xl md:p-10 p-5`
       }>
       
       <div className="flex justify-between items-start sm:items-center">
