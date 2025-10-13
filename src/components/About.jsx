@@ -104,7 +104,7 @@ const About = ({aboutSection}) => {
                   <Lightbulb className="w-18 h-18 group-hover:text-white transition-color duration-300" />
                 </div>
                 <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>PROBLEM SOLVER</h3>
-                <p className="text-gray-300 leading-relaxed text-xl">Creating end-to-end digital solutions from concept to deployment and maintenance.</p>
+                <p className="text-gray-300 leading-relaxed text-xl">Creating and managing end-to-end digital solutions from concept to deployment and maintenance.</p>
               </div>
 
           </div>
