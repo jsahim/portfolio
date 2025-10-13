@@ -58,10 +58,10 @@ const About = ({aboutSection}) => {
                 <p><span className="font-medium">Hi, I'm Jeff Sahim.</span> For my entire career, I've been in client management, focused on delivering digital products. While I enjoyed managing these relationships and projects, I've always wanted to contribute more directly to the build process.</p>
                 <p>To truly blend my passion for design and technology, I attended the Turing School of Software & Design, where I completed their immersive program specializing in frontend engineering and UX principles.</p>
                 <p>Shortly after graduating, I put those skills to immediate use as a Digital Product Engineer in the hospitality tech industry. Over the past two years, I've enjoyed collaborating with cross-functional teams to ideate, design, develop, and ship new digital solutions within a fast-paced Agile environment. As I look to the future, I'm actively seeking my next opportunity to design, build, and manage impactful products.</p>
-                <a className="hover:border-[#f22b40] py-1 border-transparent border-y-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-black transition-all duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">
+                <a className="animated-link py-1 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white" href="https://drive.google.com/file/d/1JPlJfU8D1ZaMBcKKfk_yxdlKA4SktTuW/view" target="_blank">
                   <PiReadCvLogoFill className="w-6 h-6" />
-                  <span className="ml-2 tracking-wider font-bold">RESUME</span> 
-                </a>
+                  <span className="ml-2 font-bold">RESUME</span> 
+                </a>   
               </div>
             </div>
 
@@ -158,7 +158,36 @@ const About = ({aboutSection}) => {
             ))}
           </div>
         </div>
-        
+        <style jsx>{`
+        .animated-link {
+          position: relative;
+        }
+
+        .animated-link::before,
+        .animated-link::after {
+          content: '';
+          position: absolute;
+          height: 2px;
+          width: 0;
+          background-color: #f22b40;
+          transition: width 0.3s ease;
+        }
+
+        .animated-link::before {
+          top: 0;
+          right: 0;
+        }
+
+        .animated-link::after {
+          bottom: 0;
+          left: 0;
+        }
+
+        .animated-link:hover::before,
+        .animated-link:hover::after {
+          width: 100%;
+        }
+      `}</style>
       </section>
     </>
   )

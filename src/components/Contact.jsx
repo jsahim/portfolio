@@ -52,11 +52,11 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
             </h2>
             <p className="text-gray-300 pb-5 leading-relaxed text-xl">Send me and email or connect with me on LinkedIn to discuss possible opportunties.</p>
             <div className="flex items-center gap-10 tracking-wider">
-              <a className="hover:border-[#f22b40] py-1 border-transparent border-y-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-300" href="mailto:jeffreysahim@gmail.com">
+              <a className="animated-link py-1 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white" href="mailto:jeffreysahim@gmail.com">
                 <TbMailFilled className="w-6 h-6" />
                 <span className="ml-2 font-bold">EMAIL</span> 
               </a>
-              <a className="hover:border-[#f22b40] py-1 border-transparent border-y-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white transition-all duration-300" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank">
+              <a className="animated-link py-1 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-white" href="https://www.linkedin.com/in/jeff-sahim/" target="_blank">
                 <AiFillLinkedin className="w-6 h-6" />
                 <span className="ml-2 font-bold">LINKEDIN</span> 
               </a>   
@@ -85,6 +85,35 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
         
         .move-icon {
           animation: moveIcon 1s ease-in-out infinite;
+        }
+
+        .animated-link {
+          position: relative;
+        }
+
+        .animated-link::before,
+        .animated-link::after {
+          content: '';
+          position: absolute;
+          height: 2px;
+          width: 0;
+          background-color: #f22b40;
+          transition: width 0.3s ease;
+        }
+
+        .animated-link::before {
+          top: 0;
+          right: 0;
+        }
+
+        .animated-link::after {
+          bottom: 0;
+          left: 0;
+        }
+
+        .animated-link:hover::before,
+        .animated-link:hover::after {
+          width: 100%;
         }
       `}</style>
 
