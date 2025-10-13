@@ -73,50 +73,6 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
 
         </div>
       </div>
-      <style jsx>{`
-        @keyframes moveIcon {
-          0%, 100% {
-            margin-bottom: 0px
-          }
-          50% {
-            margin-bottom: 10px;
-          }
-        }
-        
-        .move-icon {
-          animation: moveIcon 1s ease-in-out infinite;
-        }
-
-        .animated-link {
-          position: relative;
-        }
-
-        .animated-link::before,
-        .animated-link::after {
-          content: '';
-          position: absolute;
-          height: 2px;
-          width: 0;
-          background-color: #f22b40;
-          transition: width 0.3s ease;
-        }
-
-        .animated-link::before {
-          top: 0;
-          right: 0;
-        }
-
-        .animated-link::after {
-          bottom: 0;
-          left: 0;
-        }
-
-        .animated-link:hover::before,
-        .animated-link:hover::after {
-          width: 100%;
-        }
-      `}</style>
-
     </footer>
   )
 }

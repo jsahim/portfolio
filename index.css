@@ -14,3 +14,58 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@keyframes moveIcon {
+  0%, 100% {
+    margin-bottom: 0px
+  }
+  50% {
+    margin-bottom: 10px;
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animated-link {
+  position: relative;
+}
+
+.animated-link::before,
+.animated-link::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background-color: #f22b40;
+  transition: width 0.3s ease;
+}
+
+.animated-link::before {
+  top: 0;
+  right: 0;
+}
+
+.animated-link::after {
+  bottom: 0;
+  left: 0;
+}
+
+.animated-link:hover::before,
+.animated-link:hover::after {
+  width: 100%;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 50s linear infinite;
+}
+
+.move-icon {
+  animation: moveIcon 1s ease-in-out infinite;
+}
