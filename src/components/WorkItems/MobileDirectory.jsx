@@ -17,7 +17,7 @@ const MobileDirectory = () => {
   };
 
   return (
-    <section className='min-h-[100vh] lg:min-h-screen bg-white fixed w-full'>
+    <section className='min-h-[100vh] lg:min-h-screen bg-white fixed w-full' style={{ fontFamily: 'Jost, sans-serif'}}>
       <div className="max-w-6xl mx-auto my-auto outline-offset-0 outline-0 text-black bg-white p-10">
         
         <div className="flex justify-between items-start sm:items-center">
@@ -26,13 +26,13 @@ const MobileDirectory = () => {
           </h3>
         </div>
         
-        <hr className='border border-gray-600 my-5'/>
+        <hr className='border border-gray-600 my-3'/>
 
         <div className="space-y-4 grid grid-cols-3 gap-15 mt-7 ">
           <div className='flex flex-col justify-center items-center h-fit'>
-            <div>
-              <label for="lang-select">Select a language:</label>
-              <select name="languages" id="lang-select" value={currLang} onChange={handleChange}>
+            <div className='pb-3'>
+              <label for="lang-select" className='text-sm font-semibold'>Language: </label>
+              <select className='text-sm font-medium border-3 border-red-600 rounded-sm' name="languages" id="lang-select" value={currLang} onChange={handleChange}>
                 <option value="english">English</option>
                 <option value="spanish">Spanish</option>
                 <option value="german">German</option>
@@ -54,69 +54,69 @@ const MobileDirectory = () => {
           <div className='h-[600px] col-span-2 pl-10 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
 
             <p className='font-bold py-2' ref={projectTop}>PRODUCT DESCRIPTION</p>
-            <p className='pb-2'>The digital hotel guest directory lets guests access property communications, amenities, campaigns, and services via QR code on their personal devices. Hotel admins use a customizable editor to create branded digital experiences for guests.</p>
+            <p className='pb-2'>The Digital Compendium mobile directory lets guests access property communications, amenities, campaigns, and services via QR code on their mobile devices. Hotel admins use a customizable editor to create branded digital experiences for guests.</p>
             <p className='pb-2'>Enterprise brands maintain control through centrally managed templates, ensuring consistent guest-facing content across properties. Brands can set viewing and editing permissions to enforce brand guidelines. Dynamic workflows automatically push template updates to all properties, eliminating manual content updates.</p>
             
-            <hr className='border border-gray-300 my-10'/>
+            <hr className='border border-gray-300 my-5'/>
             
             <p className='font-bold py-2'>PROJECT OVERVIEW</p>
-            <p><strong>CLIENT: Hyatt Hotels Corporation</strong></p>
-            <p><strong>DURATION: 2 months</strong></p>
-            <p className='pb-2'><strong>MY ROLE: Product Design, Software Development, Project Management</strong></p>
-            <p className='pb-2'>Led the transformation of a digital hotel guest directory from a domestic-only product to a globally compliant platform serving enterprise hospitality brands across 9 languages and multiple regions.</p>
+            <p><strong className='text-gray-600'>CLIENT:</strong> Hyatt Hotels Corporation</p>
+            <p><strong className='text-gray-600'>DURATION:</strong> 2 months</p>
+            <p className='pb-2'><strong className='text-gray-600'>MY ROLE:</strong> Product Design, Software Development, Project Management</p>
+            <p className='pb-2'>Led the transformation of a digital compendium from a domestic-only product to a globally compliant platform serving enterprise hospitality brands across 9 languages and multiple regions.</p>
             
-            <hr className='border border-gray-300 my-10'/>
+            <hr className='border border-gray-300 my-5'/>
 
             <div>
-              <p className='py-2'><strong>THE CHALLENGE: <span className="text-gray-600 font-semibold">DOMESTIC LIMITATIONS</span></strong></p>
+              <p className='py-2'><strong>THE CHALLENGE: <span className="text-gray-600">DOMESTIC LIMITATIONS</span></strong></p>
               <p>The initial product served only domestic US properties. To unlock enterprise value, the platform needed to scale globally while maintaining brand consistency and meeting complex regional compliance requirements across different markets.</p>
             </div>
           
-            <hr className='border border-gray-300 my-10'/>
+            <hr className='border border-gray-300 my-5'/>
 
             <div>
-              <p className='py-2'><strong>THE SOLUTION: <span className="text-gray-600 font-semibold">DYNAMIC REGIONAL ARCHITECTURE</span></strong></p>
+              <p className='py-2'><strong>THE SOLUTION: <span className="text-gray-600">DYNAMIC REGIONAL ARCHITECTURE</span></strong></p>
               <p className='py-2'><strong>Technical Implementation</strong></p>
-              <div>
+              <ul className="list-none list-inside ">
                 <p>Developed an intelligent regional adaptation system that automatically configures the directory based on a single location selection:</p>
-                <p><strong className='text-gray-600'>Dynamic Asset Management:</strong> Automatically displays region-specific trademarked logos.</p>
-                <p><strong className='text-gray-600'>Compliance Automation:</strong>  Implements required legal disclosures per jurisdiction.</p>
-                <p><strong className='text-gray-600'>Multi-language Support:</strong> Delivers content in 9 languages based on guest preference.</p>
-              </div>
+                <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Dynamic Asset Management:</strong> Automatically displays region-specific trademarked logos.</li>
+                <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Compliance Automation:</strong>  Implements required legal disclosures per jurisdiction.</li>
+                <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Multi-language Support:</strong> Delivers content in 9 languages based on guest preference.</li>
+              </ul>
               <p className='py-2'><strong>Design & Project Management</strong></p>
-              <div>
-                <p>Created high-fidelity prototypes leveraging brand guidelines for Hyatt corporate design approval.</p>
-                <p>Partnered with Hyatt legal teams to ensure regulatory compliance across regions.</p>
-                <p>Collaborated with Hyatt's localization teams to implement accurate multi-language delivery.</p>
-              </div>
+              <ul className="list-none list-inside ">
+                <li className='before:content-["‣_"] pl-2'>Created high-fidelity prototypes leveraging brand guidelines for Hyatt corporate design approval.</li>
+                <li className='before:content-["‣_"] pl-2'>Partnered with Hyatt legal teams to ensure regulatory compliance across regions.</li>
+                <li className='before:content-["‣_"] pl-2'>Collaborated with Hyatt's localization teams to implement accurate multi-language delivery.</li>
+              </ul>
             </div>
 
-            <hr className='border border-gray-300 my-10'/>
+            <hr className='border border-gray-300 my-5'/>
 
             <div>
               <p className='py-2'><strong>IMPACT</strong></p>
               <p className='py-2'><strong>From Local to Global</strong></p>
-              <div>
-                <p>Expanded from domestic-only to full international deployment.</p>
-                <p>Enabled consistent brand experience across all Hyatt properties worldwide.</p>
-              </div>
+              <ul className="list-none list-inside">
+                <li className='before:content-["‣_"] pl-2'>Expanded from domestic-only to full international deployment in 40 countries.</li>
+                <li className='before:content-["‣_"] pl-2'>Enabled consistent brand experience across all Hyatt properties worldwide.</li>
+              </ul>
               <p className='py-2'><strong>Operational Efficiency</strong></p>
-              <div>
-                <p>Eliminated manual configuration for regional requirements.</p>
-                <p>One-click regional adaptation replaced complex setup processes.</p>
-              </div>
+              <ul className="list-none list-inside">
+                <li className='before:content-["‣_"] pl-2'>Eliminated manual configuration for regional requirements.</li>
+                <li className='before:content-["‣_"] pl-2'>One-click regional adaptation replaced complex setup processes.</li>
+              </ul>
               <p className='py-2'><strong>Enterprise Scalability</strong></p>
-              <div>
-                <p>Established framework for rapid deployment in new markets.</p>
-                <p>Created centralized template system with local flexibility.</p>
-              </div>
+              <ul className="list-none list-inside ">
+                <li className='before:content-["‣_"] pl-2'>Established framework for rapid deployment in new markets.</li>
+                <li className='before:content-["‣_"] pl-2'>Created centralized template system with local flexibility.</li>
+              </ul>
             </div>
 
-            <hr className='border border-gray-300 my-10'/>
+            <hr className='border border-gray-300 my-5'/>
 
             <div>
               <p className='py-2'><strong>KEY TAKEAWAYS</strong></p>
-              <p>Successfully scaling a product globally requires equal attention to technical architecture, legal compliance, and cross-functional collaboration. Building intelligent automation into the core platform—rather than treating regional variations as exceptions—was critical to sustainable growth.</p>
+              <p>Successfully scaling a product globally requires equal attention to technical architecture, legal compliance, and cross-functional collaboration. Building intelligent automation into the core platform (rather than treating regional variations as exceptions) was critical to sustainable growth.</p>
             </div>
             
             <button className="cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] group-hover:bg-[#db2739] transition-all duration-300 flex justify-center items-center text-white font-bold" 

@@ -56,7 +56,7 @@ const SnackShack = () => {
         <div className="space-y-4 grid md:grid-cols-2 gap-0 md:gap-8 lg:gap-15">
         
           <div>
-            <p className='py-2'><strong>THE CHALLENGE: <span className="text-gray-600 font-semibold">REDUCING WAIT TIMES AND INDICISION</span></strong></p>
+            <p className='py-2'><strong>THE CHALLENGE: <span className="text-gray-600">REDUCING WAIT TIMES AND INDICISION</span></strong></p>
             <p>The primary problem was the frequent and lengthy line backups at the concession stand during peak event times. Patron feedback and initial observations revealed that these delays were significantly compounded by patron indecision when ordering at the window, leading to long transaction times and frustration. Patrons were missing portions of the games they came to see.</p>
             <p className='py-2'><strong>Key Issues Identified</strong></p>
             <div>
@@ -69,7 +69,7 @@ const SnackShack = () => {
           <hr className='border border-gray-300 my-10 block sm:hidden'/>
 
           <div>
-            <p className='py-2'><strong>THE SOLUTION: <span className="text-gray-600 font-semibold">A MOBILE-FIRST PRE-ORDERING APP</span></strong></p>
+            <p className='py-2'><strong>THE SOLUTION: <span className="text-gray-600">A MOBILE-FIRST PRE-ORDERING APP</span></strong></p>
             <p>The solution was to provide patrons with easy, remote access to the full menu and the ability to place orders before they even approached the stand, addressing indecision and queue length simultaneously.</p>
             <p className='py-2'><strong>Strategy</strong></p>
             <div>
