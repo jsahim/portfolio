@@ -9,6 +9,7 @@ createRoot(document.getElementById('root')).render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/mobile-directory" element={<MobileDirectory />} />
+      <Route path="*" element={<App />} />
     </Routes>
   </BrowserRouter>,
 )
