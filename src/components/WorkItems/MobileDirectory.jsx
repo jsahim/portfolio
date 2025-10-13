@@ -1,6 +1,6 @@
 
 import { useState, useRef } from 'react';
-import { ChevronsDownUp } from 'lucide-react';
+import { FaHandPointer } from "react-icons/fa6";
 
 
 const MobileDirectory = () => {
@@ -32,7 +32,7 @@ const MobileDirectory = () => {
           <div className='flex flex-col justify-center items-center h-fit'>
             <div className='pb-3'>
               <label for="lang-select" className='text-sm font-semibold'>Language: </label>
-              <select className='text-sm font-medium border-3 border-red-600 rounded-sm' name="languages" id="lang-select" value={currLang} onChange={handleChange}>
+              <select className='text-sm font-medium border-2 border-[#f22b40] rounded-sm' name="languages" id="lang-select" value={currLang} onChange={handleChange}>
                 <option value="english">English</option>
                 <option value="spanish">Spanish</option>
                 <option value="german">German</option>
@@ -81,7 +81,7 @@ const MobileDirectory = () => {
                 <p>Developed an intelligent regional adaptation system that automatically configures the directory based on a single location selection:</p>
                 <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Dynamic Asset Management:</strong> Automatically displays region-specific trademarked logos.</li>
                 <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Compliance Automation:</strong>  Implements required legal disclosures per jurisdiction.</li>
-                <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Multi-language Support:</strong> Delivers content in 9 languages based on guest preference.</li>
+                <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Multi-language Support:</strong> Delivers content in 9 languages (with dynamic text direction) based on guest preference.</li>
               </ul>
               <p className='py-2'><strong>Design & Project Management</strong></p>
               <ul className="list-none list-inside ">
@@ -115,14 +115,18 @@ const MobileDirectory = () => {
             <hr className='border border-gray-300 my-5'/>
 
             <div>
-              <p className='py-2'><strong>KEY TAKEAWAYS</strong></p>
-              <p>Successfully scaling a product globally requires equal attention to technical architecture, legal compliance, and cross-functional collaboration. Building intelligent automation into the core platform (rather than treating regional variations as exceptions) was critical to sustainable growth.</p>
+              <p className='py-2'><strong>CONCLUSION</strong></p>
+              <p>Successfully scaling a product globally requires equal attention to technical architecture, legal compliance, and cross-functional collaboration. Building intelligent automation into the core platform (rather than treating regional variations as exceptions) was critical to sustainable growth and product sales.</p>
             </div>
             
-            <button className="cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] group-hover:bg-[#db2739] transition-all duration-300 flex justify-center items-center text-white font-bold" 
-              onClick={()=> scrollToTargetDiv(projectTop)}>
-              <ChevronsDownUp className='w-8 h-8'/> 
-            </button>
+            <div className='w-full flex justify-center'>
+              <button className="relative cursor-pointer group z-5 w-15 h-15 mt-10 flex items-center justify-center font-bold" 
+                onClick={()=> scrollToTargetDiv(projectTop)}>
+                  <div className="absolute rounded-full h-15 w-15 bg-[#f22b40]"></div>
+                  <FaHandPointer className='absolute move-icon stroke-2 w-10 h-10 text-white'/> 
+              </button>
+            </div>
+ 
           </div>
         </div>
       </div>
