@@ -51,13 +51,74 @@ const MobileDirectory = () => {
               </div>
             </div>
           </div>
-          <div className='col-span-2 border-l-2 border-black snap-start scroll-mt-5 sm:scroll-mt-25' ref={projectTop}>
+          <div className='h-[600px] col-span-2 pl-10 border-l-1 border-gray-400 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
+
+            <p className='font-bold py-2' ref={projectTop}>PRODUCT DESCRIPTION</p>
+            <p className='pb-2'>The digital hotel guest directory lets guests access property communications, amenities, campaigns, and services via QR code on their personal devices. Hotel admins use a customizable editor to create branded digital experiences for guests.</p>
+            <p className='pb-2'>Enterprise brands maintain control through centrally managed templates, ensuring consistent guest-facing content across properties. Brands can set viewing and editing permissions to enforce brand guidelines. Dynamic workflows automatically push template updates to all properties, eliminating manual content updates.</p>
+            
+            <hr className='border border-gray-300 my-10'/>
+            
             <p className='font-bold py-2'>PROJECT OVERVIEW</p>
-            <p className='pb-2'>This three-week project focused on improving the customer experience and operational efficiency of a local park's concession stand, which suffered from severe queue backups during peak hours, particularly at game halftimes and intermissions.</p>
-            <p><strong>Client:</strong> Hyatt Corporate</p>
-            <p><strong>Duration:</strong> 2 months</p>
-            <p><strong>My Role:</strong> Research, Wireframing & User Flows, Data Architecture, Software Development</p>
-            <p><strong>Summary:</strong> Developed a mobile-first web application that allows patrons to browse the concession menu and place orders remotely. The application's menu data is dynamically managed by an administrator using a simple Google Sheet, which is converted into a REST API to populate the app.</p>
+            <p><strong>CLIENT: Hyatt Hotels Corporation</strong></p>
+            <p><strong>DURATION: 2 months</strong></p>
+            <p className='pb-2'><strong>MY ROLE: Product Design, Software Development, Project Management</strong></p>
+            <p className='pb-2'>Led the transformation of a digital hotel guest directory from a domestic-only product to a globally compliant platform serving enterprise hospitality brands across 9 languages and multiple regions.</p>
+            
+            <hr className='border border-gray-300 my-10'/>
+
+            <div>
+              <p className='py-2'><strong>THE CHALLENGE: <span className="text-gray-600 font-semibold">DOMESTIC LIMITATIONS</span></strong></p>
+              <p>The initial product served only domestic US properties. To unlock enterprise value, the platform needed to scale globally while maintaining brand consistency and meeting complex regional compliance requirements across different markets.</p>
+            </div>
+          
+            <hr className='border border-gray-300 my-10'/>
+
+            <div>
+              <p className='py-2'><strong>THE SOLUTION: <span className="text-gray-600 font-semibold">DYNAMIC REGIONAL ARCHITECTURE</span></strong></p>
+              <p className='py-2'><strong>Technical Implementation</strong></p>
+              <div>
+                <p>Developed an intelligent regional adaptation system that automatically configures the directory based on a single location selection:</p>
+                <p><strong className='text-gray-600'>Dynamic Asset Management:</strong> Automatically displays region-specific trademarked logos.</p>
+                <p><strong className='text-gray-600'>Compliance Automation:</strong>  Implements required legal disclosures per jurisdiction.</p>
+                <p><strong className='text-gray-600'>Multi-language Support:</strong> Delivers content in 9 languages based on guest preference.</p>
+              </div>
+              <p className='py-2'><strong>Design & Project Management</strong></p>
+              <div>
+                <p>Created high-fidelity prototypes for Hyatt corporate design approval.</p>
+                <p>Partnered with Hyatt legal teams to ensure regulatory compliance across regions.</p>
+                <p>Collaborated with Hyatt's localization teams to implement accurate multi-language delivery.</p>
+              </div>
+            </div>
+
+            <hr className='border border-gray-300 my-10'/>
+
+            <div>
+              <p className='py-2'><strong>IMPACT</strong></p>
+              <p className='py-2'><strong>From Local to Global</strong></p>
+              <div>
+                <p>Expanded from domestic-only to full international deployment.</p>
+                <p>Enabled consistent brand experience across all Hyatt properties worldwide.</p>
+              </div>
+              <p className='py-2'><strong>Operational Efficiency</strong></p>
+              <div>
+                <p>Eliminated manual configuration for regional requirements.</p>
+                <p>One-click regional adaptation replaced complex setup processes.</p>
+              </div>
+              <p className='py-2'><strong>Enterprise Scalability</strong></p>
+              <div>
+                <p>Established framework for rapid deployment in new markets.</p>
+                <p>Created centralized template system with local flexibility.</p>
+              </div>
+            </div>
+
+            <hr className='border border-gray-300 my-10'/>
+
+            <div>
+              <p className='py-2'><strong>KEY TAKEAWAYS</strong></p>
+              <p>Successfully scaling a product globally requires equal attention to technical architecture, legal compliance, and cross-functional collaboration. Building intelligent automation into the core platform—rather than treating regional variations as exceptions—was critical to sustainable growth.</p>
+            </div>
+            
             <button className="cursor-pointer z-5 w-12 h-12 group rounded-full bg-[#f22b40] group-hover:bg-[#db2739] transition-all duration-300 flex justify-center items-center text-white font-bold" 
               onClick={()=> scrollToTargetDiv(projectTop)}>
               <ChevronsDownUp className='w-8 h-8'/> 
