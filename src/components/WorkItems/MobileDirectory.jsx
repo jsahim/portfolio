@@ -28,7 +28,7 @@ const MobileDirectory = () => {
         
         <hr className='border border-gray-600 my-3'/>
 
-        <div className="space-y-4 grid grid-cols-3 gap-15 mt-7 ">
+        <div className="space-y-4 grid grid-cols-3 gap-15 mt-7">
           <div className='flex flex-col justify-center items-center h-fit'>
             <div className='pb-3'>
               <label for="lang-select" className='text-sm font-semibold'>Language: </label>
@@ -51,7 +51,7 @@ const MobileDirectory = () => {
               </div>
             </div>
           </div>
-          <div className='h-[600px] col-span-2 pl-10 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
+          <div className='h-[600px] col-span-2 pl-10 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25 pr-10'>
 
             <p className='font-bold py-2' ref={projectTop}>PRODUCT DESCRIPTION</p>
             <p className='pb-2'>The Digital Compendium mobile directory lets guests access property communications, amenities, campaigns, and services via QR code on their mobile devices. Hotel admins use a customizable editor to create branded digital experiences for guests.</p>
