@@ -28,8 +28,8 @@ const MobileDirectory = () => {
         
         <hr className='border border-gray-600 my-3'/>
 
-        <div className="space-y-4 grid grid-cols-3 gap-15 mt-7">
-          <div className='flex flex-col justify-center items-center h-fit'>
+        <div className="space-y-4 grid grid-cols-2 md:grid-cols-3 gap-15 mt-7">
+          <div className='hidden md:flex flex-col justify-center items-center h-fit'>
             <div className='pb-3'>
               <label for="lang-select" className='text-sm font-semibold'>Language: </label>
               <select className='text-sm font-medium border-2 border-[#f22b40] rounded-sm' name="languages" id="lang-select" value={currLang} onChange={handleChange}>
