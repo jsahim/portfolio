@@ -51,7 +51,7 @@ const MobileDirectory = () => {
               </div>
             </div>
           </div>
-          <div className='h-[600px] col-span-2 pl-10 border-l-1 border-gray-400 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
+          <div className='h-[600px] col-span-2 pl-10 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
 
             <p className='font-bold py-2' ref={projectTop}>PRODUCT DESCRIPTION</p>
             <p className='pb-2'>The digital hotel guest directory lets guests access property communications, amenities, campaigns, and services via QR code on their personal devices. Hotel admins use a customizable editor to create branded digital experiences for guests.</p>
@@ -85,7 +85,7 @@ const MobileDirectory = () => {
               </div>
               <p className='py-2'><strong>Design & Project Management</strong></p>
               <div>
-                <p>Created high-fidelity prototypes for Hyatt corporate design approval.</p>
+                <p>Created high-fidelity prototypes leveraging brand guidelines for Hyatt corporate design approval.</p>
                 <p>Partnered with Hyatt legal teams to ensure regulatory compliance across regions.</p>
                 <p>Collaborated with Hyatt's localization teams to implement accurate multi-language delivery.</p>
               </div>
