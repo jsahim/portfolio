@@ -17,7 +17,7 @@ const MobileDirectory = () => {
   };
 
   return (
-    <section className='min-h-[100vh] lg:min-h-screen bg-white'>
+    <section className='min-h-[100vh] lg:min-h-screen bg-white fixed w-full'>
       <div className="max-w-6xl mx-auto my-auto outline-offset-0 outline-0 text-black bg-white p-10">
         
         <div className="flex justify-between items-start sm:items-center">
