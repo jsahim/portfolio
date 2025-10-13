@@ -79,8 +79,8 @@ const MobileDirectory = () => {
               <p className='py-2'><strong>Technical Implementation</strong></p>
               <ul className="list-none list-inside ">
                 <p>Developed an intelligent regional adaptation system that automatically configures the directory based on a single location selection:</p>
-                <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Dynamic Asset Management:</strong> Automatically displays region-specific trademarked logos.</li>
-                <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Compliance Automation:</strong>  Implements required legal disclosures per jurisdiction.</li>
+                <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Dynamic Asset Management:</strong> Automatically displays region-specific trademarked logos by dynamically rendering the appropriate SVG path.</li>
+                <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Compliance Automation:</strong>  Implements required legal disclosures per jurisdiction based on the region selected.</li>
                 <li className='before:content-["‣_"] pl-2'><strong className='text-gray-600'>Multi-language Support:</strong> Delivers content in 9 languages (with dynamic text direction) based on guest preference.</li>
               </ul>
               <p className='py-2'><strong>Design & Project Management</strong></p>
