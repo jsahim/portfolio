@@ -55,8 +55,9 @@ const About = ({aboutSection}) => {
 
             <div>
               <div className="text-xl text-black space-y-4 leading-relaxed">
-                <p><span className="font-medium">Hi, I'm Jeff Sahim.</span> To truly blend my passion for design and technology, I attended the Turing School of Software & Design, where I completed their immersive program specializing in frontend engineering and UX principles.</p>
-                <p>Shortly after graduating, I put those skills to immediate use as a Digital Product Engineer in the hospitality tech industry. Over the past two years, I've enjoyed collaborating with cross-functional teams to ideate, design, develop, and ship new digital solutions within a fast-paced Agile environment. As I look to the future, I'm actively seeking my next opportunity to build impactful products.</p>
+                <p><span className="font-medium">Hi, I'm Jeff Sahim.</span> For my entire career, I've been in client management, focused on delivering digital products. While I enjoyed managing these relationships and projects, I've always wanted to contribute more directly to the build process.</p>
+                <p>To truly blend my passion for design and technology, I attended the Turing School of Software & Design, where I completed their immersive program specializing in frontend engineering and UX principles.</p>
+                <p>Shortly after graduating, I put those skills to immediate use as a Digital Product Engineer in the hospitality tech industry. Over the past two years, I've enjoyed collaborating with cross-functional teams to ideate, design, develop, and ship new digital solutions within a fast-paced Agile environment. As I look to the future, I'm actively seeking my next opportunity to design, build, and manage impactful products.</p>
                 <a className="hover:border-[#f22b40] py-1 border-transparent border-y-2 font-lg flex w-fit group justify-start items-center text-xl font-semibold text-black transition-all duration-300" href="https://snackshack-demo.vercel.app/" target="_blank">
                   <PiReadCvLogoFill className="w-6 h-6" />
                   <span className="ml-2 tracking-wider font-bold">RESUME</span> 
@@ -104,7 +105,7 @@ const About = ({aboutSection}) => {
                   <Lightbulb className="w-18 h-18 group-hover:text-white transition-color duration-300" />
                 </div>
                 <h3 className="font-bold text-xl text-white mb-4" style={{ fontFamily: 'Jost, sans-serif', letterSpacing: '0.15em' }}>PROBLEM SOLVER</h3>
-                <p className="text-gray-300 leading-relaxed text-xl">Creating and managing end-to-end digital solutions from concept to deployment and maintenance.</p>
+                <p className="text-gray-300 leading-relaxed text-xl">Managing end-to-end digital solutions from concept to deployment and maintenance.</p>
               </div>
 
           </div>
