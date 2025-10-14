@@ -3,7 +3,7 @@ const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workS
   return (
     <nav className={`tracking-widest fixed flex pb-3 lg:pb-auto justify-center items-center lg:top-0 lg:bottom-auto top-auto bottom-0 left-0 right-0 z-50 bg-none transform-all duration-150 pointer-events-none ${isAtTop ? 'pt-auto lg:pt-1' : 'pt-auto lg:pt-3'}`}>
 
-      <div className={`max-w-6xl mr-0 bg-white/90 rounded-xl backdrop-blur-md border-1 border-gray-200 shadow-md transform-all duration-150 pointer-events-auto ${isAtTop ? 'lg:w-[100vw]' : 'lg:w-150'} w-[90vw]`}>
+      <div className={`max-w-6xl mr-0 bg-white/90 rounded-xl backdrop-blur-md border-1 border-gray-200 shadow-md transform-all duration-150 pointer-events-auto ${isAtTop ? 'lg:w-[65vw]' : 'lg:w-150'} w-[90vw]`}>
         <div className="flex justify-center items-center h-14">
           <div className="flex w-full justify-evenly items-center">
 
