@@ -45,9 +45,9 @@ const MobileDirectory = () => {
               </select>
             </div>
             <div className='relative w-[280px] flex flex-col items-center justify-start'>
-              <img className='w-[280px] absolute z-10 pointer-events-none' src="/mobile_directory/frameiphone.webp" alt="Snack Shack Mobile" />
+              <img className='w-[280px] absolute z-10 pointer-events-none' src="/mobile_directory/frameiphone.webp" alt="phone frame" />
               <div className='w-[252px] absolute mt-19 max-h-[432px] overflow-y-scroll'>
-                <img src={`/mobile_directory/${currLang}-screen.webp`} alt="Snack Shack Mobile" />
+                <img src={`/mobile_directory/${currLang}-screen.webp`} alt="Hyatt Regency Mobile Directory" />
               </div>
             </div>
           </div>
@@ -117,6 +117,16 @@ const MobileDirectory = () => {
             <div>
               <p className='py-2'><strong>CONCLUSION</strong></p>
               <p>Successfully scaling a product globally requires equal attention to technical architecture, legal compliance, and cross-functional collaboration. Building intelligent automation into the core platform (rather than treating regional variations as exceptions) was critical to sustainable growth and product sales.</p>
+            </div>
+
+            <div className=' rounded-2xl bg-gray-200 p-4 mt-10'>
+              <p className='pt-2 pb-5 text-center'><strong>OTHER DIRECTORIES</strong></p>
+              <div className='flex justify-evenly items-center'>
+                <img className='w-1/3 p-1' src="/mobile_directory/inn.webp" alt="Inn Mobile Directory" />
+                <img className='w-1/3 p-1' src="/mobile_directory/caption.webp" alt="Caption Mobile Directory" />
+                <img className='w-1/3 p-1' src="/mobile_directory/alila.webp" alt="Alila Mobile Directory" />
+
+              </div>
             </div>
             
             <div className='w-full flex justify-center '>
