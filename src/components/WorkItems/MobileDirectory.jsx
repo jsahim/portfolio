@@ -51,7 +51,7 @@ const MobileDirectory = () => {
               </div>
             </div>
           </div>
-          <div className='h-[600px] col-span-2 pl-10 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25 pr-10'>
+          <div className='h-[600px] col-span-2 px-2 md:px-10 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
 
             <p className='font-bold py-2' ref={projectTop}>PRODUCT DESCRIPTION</p>
             <p className='pb-2'>The Digital Compendium mobile directory lets guests access property communications, amenities, campaigns, and services via QR code on their mobile devices. Hotel admins use a customizable editor to create branded digital experiences for guests.</p>
@@ -119,14 +119,14 @@ const MobileDirectory = () => {
               <p>Successfully scaling a product globally requires equal attention to technical architecture, legal compliance, and cross-functional collaboration. Building intelligent automation into the core platform (rather than treating regional variations as exceptions) was critical to sustainable growth and product sales.</p>
             </div>
             
-            <div className='w-full flex justify-center'>
-              <button className="relative cursor-pointer group z-5 w-15 h-15 mt-10 flex items-center justify-center font-bold" 
+            <div className='w-full flex justify-center '>
+              <button className="relative cursor-pointer group z-5 w-15 h-15 my-10 flex items-center justify-center font-bold" 
                 onClick={()=> scrollToTargetDiv(projectTop)}>
                   <div className="absolute rounded-full h-15 w-15 bg-[#f22b40]"></div>
                   <FaHandPointer className='absolute move-icon stroke-2 w-10 h-10 text-white'/> 
               </button>
             </div>
- 
+
           </div>
         </div>
       </div>
