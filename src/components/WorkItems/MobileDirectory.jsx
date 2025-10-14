@@ -131,9 +131,9 @@ const MobileDirectory = () => {
               </div>
               
               <div className='w-full flex justify-center'>
-                <button className="relative cursor-pointer group z-5 w-15 h-15 my-20 flex items-center justify-center font-bold" 
+                <button className="relative cursor-pointer group z-5 w-20 h-20 my-20 flex items-center justify-center font-bold" 
                   onClick={()=> scrollToTargetDiv(projectTop)}>
-                    <div className="absolute rounded-full h-15 w-15 bg-[#f22b40]"></div>
+                    <div className="absolute rounded-full h-20 w-20 bg-[#f22b40]"></div>
                     <FaHandPointer className='absolute move-icon stroke-2 w-10 h-10 text-white'/> 
                 </button>
               </div>
