@@ -129,7 +129,7 @@ const MobileDirectory = () => {
               </div>
             </div>
             
-            <div className='w-full flex justify-center '>
+            <div className='w-full flex justify-center'>
               <button className="relative cursor-pointer group z-5 w-15 h-15 my-20 flex items-center justify-center font-bold" 
                 onClick={()=> scrollToTargetDiv(projectTop)}>
                   <div className="absolute rounded-full h-15 w-15 bg-[#f22b40]"></div>

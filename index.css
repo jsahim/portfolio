@@ -41,7 +41,7 @@
 .animated-link::after {
   content: '';
   position: absolute;
-  height: 2px;
+  height: 2.5px;
   width: 0;
   background-color: #f22b40;
   transition: width 0.3s ease;
