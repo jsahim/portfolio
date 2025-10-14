@@ -51,6 +51,7 @@ const MobileDirectory = () => {
               </div>
             </div>
           </div>
+          
           <div className='h-[600px] col-span-2 px-2 md:px-10 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
 
             <p className='font-bold py-2' ref={projectTop}>PRODUCT DESCRIPTION</p>
