@@ -122,7 +122,7 @@ const MobileDirectory = () => {
               </div>
 
               <div className=' rounded-2xl bg-gray-200 p-4 mt-10'>
-                <p className='text-gray-600 pt-2 pb-5 text-center'><strong>ADDITIONAL DIRECTORIES</strong></p>
+                <p className='text-gray-600 pt-2 pb-5 text-center'><strong>ADDITIONAL BRAND DIRECTORIES</strong></p>
                 <div className='flex justify-evenly items-center'>
                   <img className='w-1/3 p-1' src="/mobile_directory/inn.webp" alt="Inn Mobile Directory" />
                   <img className='w-1/3 p-1' src="/mobile_directory/caption.webp" alt="Caption Mobile Directory" />
