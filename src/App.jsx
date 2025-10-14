@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Navigation from './components/Navigation.jsx';
 import Hero from './components/Hero.jsx';
 import Work from './components/Work.jsx';
@@ -8,6 +8,7 @@ import Contact from './components/Contact.jsx';
 
 const Portfolio = () => {
   const [currentSection, setCurrentSection] = useState('landing');
+  const [isAtTop, setIsAtTop] = useState(true);
   const workSection = useRef(null)
   const aboutSection = useRef(null)
   const topSection = useRef(null)
@@ -17,11 +18,32 @@ const Portfolio = () => {
     targetDivRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsAtTop(window.scrollY === 0);
+    };
+    
+    window.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div ref={topSection} className="min-h-screen" style={{ fontFamily: 'Jost, sans-serif' }}>
       
       {/* Navigation / Header */}
-      <Navigation currentSection={currentSection} setCurrentSection={setCurrentSection} scrollToTargetDiv={scrollToTargetDiv} workSection={workSection} aboutSection={aboutSection} contactSection={contactSection} topSection={topSection} />
+      <Navigation 
+        currentSection={currentSection} 
+        setCurrentSection={setCurrentSection} 
+        scrollToTargetDiv={scrollToTargetDiv} 
+        workSection={workSection} 
+        aboutSection={aboutSection} 
+        contactSection={contactSection} 
+        topSection={topSection}
+        isAtTop={isAtTop}
+      />
     
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
 

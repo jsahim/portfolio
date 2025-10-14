@@ -1,9 +1,9 @@
-const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workSection, aboutSection, contactSection, topSection}) => {
+const Navigation = ({currentSection, setCurrentSection, scrollToTargetDiv, workSection, aboutSection, contactSection, topSection, isAtTop}) => {
   
   return (
-    <nav className="tracking-widest fixed flex pt-auto lg:pt-3 pb-3 lg:pb-auto justify-center items-center lg:top-0 lg:bottom-auto top-auto bottom-0 left-0 right-0 z-50 bg-none transition-transform duration-300 pointer-events-none">
+    <nav className={`tracking-widest fixed flex pb-3 lg:pb-auto justify-center items-center lg:top-0 lg:bottom-auto top-auto bottom-0 left-0 right-0 z-50 bg-none transform-all duration-150 pointer-events-none ${isAtTop ? 'pt-auto lg:pt-2' : 'pt-auto lg:pt-3'}`}>
 
-      <div className="max-w-6xl mr-0 bg-white/90 rounded-xl backdrop-blur-md border-1 border-gray-200 lg:w-150 w-[90vw] shadow-md transition-transform duration-300 pointer-events-auto">
+      <div className={`max-w-6xl mr-0 bg-white/90 rounded-xl backdrop-blur-md border-1 border-gray-200 shadow-md transform-all duration-150 pointer-events-auto ${isAtTop ? 'lg:w-[100vw]' : 'lg:w-150'} w-[90vw]`}>
         <div className="flex justify-center items-center h-14">
           <div className="flex w-full justify-evenly items-center">
 
