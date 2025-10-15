@@ -37,17 +37,17 @@ const SnackShack = () => {
       <div className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-8 lg:gap-15 mt-10">
         <div className='relative h-[250px] md:h-[400px] w-full flex items-center justify-center group overflow-hidden mb-10 md:mb-0'>
           <img 
-            className='absolute w-[190px] transition-all duration-500 ease-out z-10 self-start' 
+            className='absolute w-[190px] pointer-events-none transition-all duration-500 ease-out z-10 self-start' 
             src="/snackshack/PhoneShack1.webp" 
             alt="Snack Shack Mobile 1" 
           />
           <img 
-            className='absolute w-[160px] hidden md:block transition-all duration-500 ease-out -translate-x-[70px] group-hover:-translate-x-[170px] blur-[0.5px] group-hover:blur-none' 
+            className='absolute pointer-events-none w-[160px] hidden md:block transition-all duration-500 ease-out -translate-x-[70px] group-hover:-translate-x-[170px] blur-[0.5px] group-hover:blur-none' 
             src="/snackshack/PhoneShack2.webp" 
             alt="Snack Shack Mobile 2" 
           />
           <img 
-            className='absolute w-[160px] hidden md:block transition-all duration-500 ease-out translate-x-[70px] group-hover:translate-x-[170px] blur-[0.5px] group-hover:blur-none' 
+            className='absolute w-[160px] pointer-events-none hidden md:block transition-all duration-500 ease-out translate-x-[70px] group-hover:translate-x-[170px] blur-[0.5px] group-hover:blur-none' 
             src="/snackshack/PhoneShack3.webp" 
             alt="Snack Shack Mobile 3" 
           />
