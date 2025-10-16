@@ -71,8 +71,7 @@ const SnackShack = () => {
         
           <div className='mb-0'>
             <p className='py-2'><strong>THE CHALLENGE: <span className="text-gray-600">REDUCING WAIT TIMES AND INDICISION</span></strong></p>
-            <p>The primary problem was the frequent and lengthy line backups at the concession stand during peak event times. Patron feedback and initial observations revealed that these delays were significantly compounded by patron indecision when ordering at the window, leading to long transaction times and frustration. Patrons were missing portions of the games they came to see.</p>
-            <p className='py-2'><strong className='text-gray-600'>Key Issues Identified</strong></p>
+            <p className='pb-2'>The primary problem was the frequent and lengthy line backups at the concession stand during peak event times. Patron feedback and initial observations revealed that these delays were significantly compounded by patron indecision when ordering at the window, leading to long transaction times and frustration. Patrons were missing portions of the games they came to see.</p>
             <div>
               <p><strong>Peak Congestion:</strong> Halftimes and intermissions saw massive influxes of customers.</p>
               <p><strong>Menu Blindness:</strong> Patrons had no way to view the menu, prices, or options until they were physically at the window, leading to on-the-spot decision-making.</p>
@@ -84,8 +83,7 @@ const SnackShack = () => {
 
           <div>
             <p className='py-2'><strong>THE SOLUTION: <span className="text-gray-600">A MOBILE-FIRST PRE-ORDERING APP</span></strong></p>
-            <p>The solution was to provide patrons with easy, remote access to the full menu and the ability to place orders before they even approached the stand, addressing indecision and queue length simultaneously.</p>
-            <p className='py-2'><strong className='text-gray-600'>Strategy</strong></p>
+            <p className='pb-2'>The solution was to provide patrons with easy, remote access to the full menu and the ability to place orders before they even approached the stand, addressing indecision and queue length simultaneously.</p>
             <div>
               <p><strong>Menu Visibility:</strong> Provide a digital, mobile-first menu accessible anywhere in the park.</p>
               <p><strong>Order Ahead:</strong>  Implement a feature for patrons to place and pay for orders directly through the app.</p>
