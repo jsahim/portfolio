@@ -69,7 +69,7 @@ const SnackShack = () => {
         
         <div className="space-y-4 grid md:grid-cols-2 gap-0 md:gap-8 lg:gap-15">
         
-          <div>
+          <div className='mb-0'>
             <p className='py-2'><strong>THE CHALLENGE: <span className="text-gray-600">REDUCING WAIT TIMES AND INDICISION</span></strong></p>
             <p>The primary problem was the frequent and lengthy line backups at the concession stand during peak event times. Patron feedback and initial observations revealed that these delays were significantly compounded by patron indecision when ordering at the window, leading to long transaction times and frustration. Patrons were missing portions of the games they came to see.</p>
             <p className='py-2'><strong className='text-gray-600'>Key Issues Identified</strong></p>
