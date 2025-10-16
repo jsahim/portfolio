@@ -135,7 +135,7 @@ const SnackShack = () => {
                   <p><strong>Checkout/Order Placement:</strong> Minimal steps to confirm and place the order.</p>
                 </div>
                 <div>
-                  <p className='py-2'><strong className='text-gray-600'>Development</strong></p>
+                  <p className='pb-2'><strong className='text-gray-600'>Development</strong></p>
                   <p><strong>Framework:</strong> React with Vite for a fast, modern build.</p>
                   <p><strong>Routing:</strong> React Router for seamless navigation.</p>
                   <p><strong>Data Fetching:</strong> Fetch API to consume the JSON data from the Google Sheets API.</p>
