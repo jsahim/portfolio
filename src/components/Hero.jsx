@@ -26,7 +26,7 @@ const Hero = () => {
               <span className="text-[19px] lg:text-[39px] text-white font-bold tracking-widest" style={{ fontFamily: 'Jost, sans-serif'}}>
                 <span className="transition-opacity duration-1000 ease-in" style={{opacity: digitalReady ? 1 : 0}}>DIGITAL </span>                
                 <span className="transition-opacity duration-1000 ease-in" style={{opacity: productReady ? 1 : 0}}>PRODUCT </span>
-                <span className="transition-opacity duration-1000 ease-in" style={{opacity: engineerReady ? 1 : 0}}>ENGINEER </span>
+                <span className="transition-opacity duration-1000 ease-in" style={{opacity: engineerReady ? 1 : 0}}>DESIGNER </span>
               </span>
             </h1>
           </div>                    

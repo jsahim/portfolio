@@ -21,7 +21,7 @@ export default function IconRotate() {
             </defs>
             <text className="text-[13.6px] font-bold fill-gray-300 tracking-widest" style={{ fontFamily: 'Jost, sans-serif'}}>
               <textPath href="#circlePath" startOffset="0%">
-                PRODUCT DESIGNER ● FRONTEND ENGINEER ● PROBLEM SOLVER ●
+                UX/UI DESIGNER ● FRONTEND ENGINEER ● PROBLEM SOLVER ●
               </textPath>
             </text>
           </svg>
