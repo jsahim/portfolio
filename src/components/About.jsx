@@ -119,7 +119,7 @@ const About = ({aboutSection}) => {
         <div className="max-w-6xl flex flex-col lg:flex-row justify-between items-center mx-auto text-center">
           <div className="transition-all duration-300 text-2xl px-[55px] font-bold text-white bg-black rounded-full h-56 w-56 m-4 hover:m-2 hover:h-60 hover:w-60 hover:px-[63px] flex flex-col justify-center items-center">
             <span className='pointer-events-none text-4xl tracking-widest text-center'>TECH</span>
-            <span className='pointer-events-none tracking-[5px] w-full text-sm border-y-2 border-white text-center'>AND</span>
+            <span className='pointer-events-none tracking-[5px] w-full text-sm border-y-2 border-gray-300 text-center'>AND</span>
             <span className='pointer-events-none text-3xl tracking-widest text-center'>TOOLS</span>
           </div>
           <svg xmlns="http://www.w3.org/2000/svg" className='lg:rotate-0 rotate-90' width="50px" height="200px" viewBox="0 0 51 200.787">
