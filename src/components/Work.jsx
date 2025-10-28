@@ -1,5 +1,6 @@
-import SnackShack from './WorkItems/SnackShack';
 import { useEffect, useRef, useState } from 'react';
+import { ExternalLink } from 'lucide-react';
+
 
 const Work = ({workSection}) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -34,14 +35,7 @@ const Work = ({workSection}) => {
 
       <div className="max-w-6xl mx-auto">
 
-        <h2 
-          ref={h2Ref}
-          className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left transition-opacity duration-1000 ease-out" 
-          style={{
-            fontFamily: 'Shrikhand, cursive',
-            opacity: isVisible ? 1 : 0
-          }}
-        >
+        <h2 ref={h2Ref} className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left transition-opacity duration-1000 ease-out" style={{ fontFamily: 'Shrikhand, cursive', opacity: isVisible ? 1 : 0 }}>
           Featured Work
         </h2>
 
@@ -49,8 +43,35 @@ const Work = ({workSection}) => {
           Explore my featured case study, showcasing the full-lifecycle process from initial ideation and UX design to clean code implementation and deployment.
         </p>
 
-        <div className="gap-8 flex flex-wrap">
-          <SnackShack/>
+        <div className='flex flex-col gap-8'>
+
+          <a className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group px-5 md:px-7 pb-7 pt-0' target='_blank' href='/snack-shack'>
+            <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
+              <span className='bg-gray-50 px-2'>THE SNACK SHACK</span>
+            </h3>
+            <div className="border-4 h-full border-black group-hover:border-[#f22b40] rounded-2xl transition-colors duration-300">
+              <p className='font-medium text-xl text-gray-700 text-center px-5 pt-5 pb-1'>CONCESSION ORDERING APP</p>
+              <div className='relative h-[400px] w-full flex items-center justify-center group overflow-hidden mb-10 md:mb-0'>
+                <img 
+                  className='absolute w-[170px] pointer-events-none transition-all duration-500 ease-out z-10' 
+                  src="/snackshack/shack-phone-1.webp" 
+                  alt="Snack Shack Mobile 1" 
+                />
+                <img 
+                  className='absolute pointer-events-none w-[150px] grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 -translate-x-[70px] group-hover:-translate-x-[170px]' 
+                  src="/snackshack/shack-phone-2.webp" 
+                  alt="Snack Shack Mobile 2" 
+                />
+                <img 
+                  className='absolute w-[150px] pointer-events-none grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 translate-x-[70px] group-hover:translate-x-[170px]' 
+                  src="/snackshack/shack-phone-3.webp" 
+                  alt="Snack Shack Mobile 3" 
+                />
+              </div>
+
+            </div>  
+          </a>
+
         </div>
         
       </div>

@@ -19,6 +19,7 @@ const Portfolio = () => {
   };
 
   useEffect(() => {
+    document.title = "Jeff Sahim | Digital Product Engineer";
     const handleScroll = () => {
       setIsAtTop(window.scrollY === 0);
     };
@@ -45,7 +46,7 @@ const Portfolio = () => {
         isAtTop={isAtTop}
       />
     
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
+      <div className="min-h-screen bg-gray-50">
 
         {/* Hero Section */}
         <Hero />
@@ -53,7 +54,7 @@ const Portfolio = () => {
         {/* Featured Work Section */}
         <Work workSection={workSection} />
 
-        <Marquee speed={70} pauseOnHover={true} className="text-black tracking-wider py-2 px-4 text-2xl font-bold border-y-4 uppercase" style={{ fontFamily: 'Jost, sans-serif'}}>
+        <Marquee speed={70} pauseOnHover={true} className="bg-black text-white tracking-wider py-2 px-4 text-2xl font-bold uppercase" style={{ fontFamily: 'Jost, sans-serif'}}>
           <span>
             <span className='text-[#f22b40]'>●</span> Mobile Guest Directory&nbsp;
             <span className='text-[#f22b40]'>●</span> Self Service POS&nbsp;

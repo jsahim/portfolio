@@ -40,14 +40,7 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
         <div className="grid grid-cols-1 lg:grid-cols-3">
 
           <div className="col-span-2">
-            <h2 
-              ref={h2Ref}
-              className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left transition-opacity duration-1000 ease-out" 
-              style={{
-                fontFamily: 'Shrikhand, cursive',
-                opacity: isVisible ? 1 : 0
-              }}
-            >
+            <h2 ref={h2Ref} className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left transition-opacity duration-1000 ease-out" style={{ fontFamily: 'Shrikhand, cursive', opacity: isVisible ? 1 : 0 }}>
               Let's Connect!
             </h2>
             <p className="text-gray-300 pb-5 leading-relaxed text-xl">Send me and email or connect with me on LinkedIn to discuss possible opportunties.</p>
@@ -71,6 +64,9 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
             </button>
           </div>
 
+        </div>
+        <div className="w-full mt-30 text-right">
+          © 2025 Jeff Sahim
         </div>
       </div>
     </footer>

@@ -41,14 +41,7 @@ const About = ({aboutSection}) => {
       <section ref={aboutSection} className="snap-start scroll-mt-0 sm:scroll-mt-10 pt-20 pb-16 px-8 sm:px-10">
 
         <div className="max-w-6xl mx-auto">
-          <h2 
-            ref={h2Ref}
-            className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 pb-10 md:pb-0 text-left transition-opacity duration-1000 ease-out" 
-            style={{
-              fontFamily: 'Shrikhand, cursive',
-              opacity: isVisible ? 1 : 0
-            }}
-          >
+          <h2 ref={h2Ref} className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 pb-10 md:pb-0 text-left transition-opacity duration-1000 ease-out" style={{ fontFamily: 'Shrikhand, cursive', opacity: isVisible ? 1 : 0 }}>
             About Me
           </h2>
           <div className="flex flex-col-reverse md:flex-row gap-12 items-center">

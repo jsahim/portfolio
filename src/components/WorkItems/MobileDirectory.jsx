@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect, use } from 'react';
 import { FaHandPointer } from "react-icons/fa6";
 
 
@@ -6,6 +6,10 @@ const MobileDirectory = () => {
 
   const projectTop = useRef(null)
   const [currLang, setLang] = useState("english")
+
+  useEffect(() => {
+    document.title = "Mobile Directory | Jeff Sahim";
+  }, []);
 
   const scrollToTargetDiv = (targetDivRef) => {
     targetDivRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -17,7 +21,7 @@ const MobileDirectory = () => {
 
   return (
     <section className='min-h-[100vh] lg:min-h-screen bg-white fixed w-full' style={{ fontFamily: 'Jost, sans-serif'}}>
-      <div className="max-w-6xl mx-auto my-auto outline-offset-0 outline-0 text-black bg-white p-10">
+      <div className="max-w-6xl mx-auto my-auto outline-offset-0 outline-0 text-black p-10">
         
         <div className="flex justify-between items-start sm:items-center">
           <h3 className="font-bold text-black text-xl">
@@ -27,10 +31,9 @@ const MobileDirectory = () => {
         
         <hr className='border border-gray-600 my-3'/>
 
-        <div className="space-y-4 grid grid-cols-2 md:grid-cols-3 gap-15 mt-7">
+        <div className="space-y-4 grid grid-cols-2 md:grid-cols-3 gap-15 mt-10">
           <div className='hidden md:flex flex-col justify-center items-center h-fit'>
             <div className='pb-3'>
-              <label for="lang-select" className='text-sm font-semibold'>Language: </label>
               <select className='text-sm font-medium border-2 border-[#f22b40] rounded-sm' name="languages" id="lang-select" value={currLang} onChange={handleChange}>
                 <option value="english">English</option>
                 <option value="spanish">Spanish</option>
@@ -43,9 +46,9 @@ const MobileDirectory = () => {
                 <option value="arabic">Arabic</option>
               </select>
             </div>
-            <div className='relative w-[280px] flex flex-col items-center justify-start'>
-              <img className='w-[280px] absolute z-10 pointer-events-none' src="/mobile_directory/frameiphone.webp" alt="phone frame" />
-              <div className='w-[252px] absolute mt-19 max-h-[432px] overflow-y-scroll'>
+            <div className='relative w-[270px] flex flex-col items-center justify-start'>
+              <img className='w-[270px] absolute z-10 pointer-events-none' src="/mobile_directory/frameiphone.webp" alt="phone frame" />
+              <div className='w-[243px] absolute mt-18 max-h-[418px] overflow-y-scroll'>
                 <img src={`/mobile_directory/${currLang}-screen.webp`} alt="Hyatt Regency Mobile Directory" />
               </div>
             </div>

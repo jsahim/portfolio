@@ -1,15 +1,17 @@
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import MobileDirectory from './components/WorkItems/MobileDirectory.jsx';
 import { BrowserRouter, Routes, Route } from "react-router";
+import App from './App.jsx'
+import SnackShack from './components/WorkItems/SnackShack.jsx';
+import MobileDirectory from './components/WorkItems/MobileDirectory.jsx';
 
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/snack-shack" element={<SnackShack />} />
       <Route path="/mobile-directory" element={<MobileDirectory />} />
       <Route path="*" element={<App />} />
     </Routes>
-  </BrowserRouter>,
+  </BrowserRouter>
 )
