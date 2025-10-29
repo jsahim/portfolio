@@ -1,6 +1,4 @@
 import { useEffect, useRef, useState } from 'react';
-import { ExternalLink } from 'lucide-react';
-
 
 const Work = ({workSection}) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -40,7 +38,7 @@ const Work = ({workSection}) => {
         </h2>
 
         <p className="text-xl text-black space-y-4 leading-relaxed mb-10">
-          Explore my featured case study, showcasing the full-lifecycle process from initial ideation and UX design to clean code implementation and deployment.
+          Explore my featured case studies, showcasing the full-lifecycle process from initial ideation and UX design to clean code implementation and deployment.
         </p>
 
         <div className='flex sm:flex-row flex-col gap-8'>

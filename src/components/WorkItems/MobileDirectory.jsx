@@ -20,8 +20,8 @@ const MobileDirectory = () => {
   };
 
   return (
-    <section className='min-h-[100vh] lg:min-h-screen bg-white fixed w-full' style={{ fontFamily: 'Jost, sans-serif'}}>
-      <div className="max-w-6xl mx-auto my-auto outline-offset-0 outline-0 text-black p-10">
+    <section className='min-h-[100vh] lg:min-h-screen fixed inset-0 overflow-y-auto transition-all duration-300 text-black bg-white' style={{ fontFamily: 'Jost, sans-serif'}}>      
+      <div className="max-w-6xl mx-auto my-auto outline-offset-0 outline-0 text-black md:p-10 p-5">
         
         <div className="flex justify-between items-start sm:items-center">
           <h3 className="font-bold text-[#f22b40] text-xl">
@@ -162,7 +162,7 @@ const MobileDirectory = () => {
 
           </div>
           
-          <div className='relative h-[575px] px-2 md:px-5 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
+          <div className='relative lg:h-[575px] h-full px-2 md:px-5 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
             <div className="sticky top-0 left-0 right-0 h-3 bg-gradient-to-b from-white to-transparent pointer-events-none z-10"></div>
             <div ref={projectTop} className="relative z-0">
               <p className='font-bold py-2'>PRODUCT DESCRIPTION</p>
