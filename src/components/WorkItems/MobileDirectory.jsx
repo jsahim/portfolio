@@ -34,8 +34,8 @@ const MobileDirectory = () => {
         <hr className='border border-gray-600 mb-10 mt-5'/>
 
         <div className="space-y-4 grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10">
-          <div className="lg:hidden flex items-start h-[400px] lg:h-auto justify-center relative overflow-hidden">
-            <img src="/mobile_directory/azuro-home.webp" alt="Snack Shack App" className="absolute w-[300px] ml-0 lg:ml-5 transition-transform duration-800 translate-y-2"/>
+          <div className="lg:hidden flex items-start h-[400px] lg:h-auto justify-center group relative overflow-hidden">
+            <img src="/mobile_directory/azuro-home.webp" alt="Snack Shack App" className="absolute w-[300px] ml-0 lg:ml-5 transition-transform duration-800 translate-y-2 group-hover:-translate-y-75"/>
             <div className="absolute bottom-0 left-0 right-0 h-3 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none"></div>
           </div>
           <div className='hidden lg:flex flex-col justify-center items-center h-fit relative'>
