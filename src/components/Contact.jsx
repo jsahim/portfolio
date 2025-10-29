@@ -65,7 +65,7 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
           </div>
 
         </div>
-        <div className="w-full mt-30 text-right">
+        <div className="w-full mt-30 text-center">
           © 2025 Jeff Sahim
         </div>
       </div>

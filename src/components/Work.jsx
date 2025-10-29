@@ -43,7 +43,7 @@ const Work = ({workSection}) => {
           Explore my featured case study, showcasing the full-lifecycle process from initial ideation and UX design to clean code implementation and deployment.
         </p>
 
-        <div className='flex flex-col gap-8'>
+        <div className='flex sm:flex-row flex-col gap-8'>
 
           <a className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group px-5 md:px-7 pb-7 pt-0' target='_blank' href='/snack-shack'>
             <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
@@ -71,6 +71,34 @@ const Work = ({workSection}) => {
 
             </div>  
           </a>
+
+          <a className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group px-5 md:px-7 pb-7 pt-0' target='_blank' href='/mobile-directory'>
+            <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
+              <span className='bg-gray-50 px-2'>AZURO HOTELS</span>
+            </h3>
+            <div className="border-4 h-full border-black group-hover:border-[#f22b40] rounded-2xl transition-colors duration-300">
+              <p className='font-medium text-xl text-gray-700 text-center px-5 pt-5 pb-1'>MOBILE GUEST DIRECTORY</p>
+              <div className='relative h-[400px] w-full flex items-center justify-center group overflow-hidden mb-10 md:mb-0'>
+                <img 
+                  className='absolute w-[170px] pointer-events-none transition-all duration-500 ease-out z-10' 
+                  src="/mobile_directory/azuro-home.webp" 
+                  alt="Azuro Home" 
+                />
+                <img 
+                  className='absolute pointer-events-none w-[150px] grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 -translate-x-[70px] group-hover:-translate-x-[170px]' 
+                  src="/mobile_directory/azuro-dining.webp" 
+                  alt="Azuro Dining" 
+                />
+                <img 
+                  className='absolute w-[150px] pointer-events-none grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 translate-x-[70px] group-hover:translate-x-[170px]' 
+                  src="/mobile_directory/azuro-services.webp" 
+                  alt="Azuro Services" 
+                />
+              </div>
+
+            </div>  
+          </a>
+
 
         </div>
         

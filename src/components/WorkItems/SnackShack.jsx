@@ -22,20 +22,22 @@ const SnackShack = () => {
       <div ref={projectTop} className='relative md:p-10 p-5 max-w-6xl mx-auto my-auto'>
 
         <div className="flex justify-between items-start md:items-center">
-          <h3 className="font-bold text-black text-xl">
-            THE SNACK SHACK<span className='text-gray-600 font-semibold'> | CONCESSION ORDERING APP</span>
+          <h3 className="font-bold text-[#f22b40] text-xl">
+            THE SNACK SHACK<span className='text-gray-600 font-medium'> | CONCESSION ORDERING APP</span>
           </h3>
         </div>
         <hr className='border border-gray-600 mb-10 mt-5'/>
 
         <div className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-8 lg:gap-15 mt-10">
           <div className="flex items-start h-[400px] md:h-auto justify-center relative group overflow-hidden">
-            <img src="/snackshack/shack-phone-1.webp" alt="Snack Shack App" className=" absolute w-[300px] ml-0 md:ml-5 transition-transform duration-800 group-hover:-translate-y-75"/>
+            <div className="absolute top-0 left-0 right-0 h-3 bg-gradient-to-b from-white to-transparent z-10 pointer-events-none"></div>
+            <img src="/snackshack/shack-phone-1.webp" alt="Snack Shack App" className="absolute w-[300px] ml-0 md:ml-5 transition-transform duration-800 translate-y-2 group-hover:-translate-y-75"/>
+            <div className="absolute bottom-0 left-0 right-0 h-3 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none"></div>
           </div>
           <div>
             <p className='font-bold py-2'>PROJECT OVERVIEW</p>
             <p className='pb-2'>This three-week project focused on improving the customer experience and operational efficiency of a local park's concession stand, which suffered from severe queue backups during peak hours, particularly at game halftimes and intermissions.</p>
-            <p><strong>Client:</strong> Franklin Park Borough - Recreation</p>
+            <p><strong>Client:</strong> Community Parks & Recreation</p>
             <p><strong>Duration:</strong> 3 weeks</p>
             <p><strong>My Role:</strong> Research, Wireframing & User Flows, Data Architecture, Software Development</p>
             <p><strong>Summary:</strong> Developed a mobile-first web application that allows patrons to browse the concession menu and place orders remotely. The application's menu data is dynamically managed by an administrator using a simple Google Sheet, which is converted into a REST API to populate the app.</p>
