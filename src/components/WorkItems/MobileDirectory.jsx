@@ -4,7 +4,9 @@ import { FaHandPointer } from "react-icons/fa6";
 
 const MobileDirectory = () => {
 
-  const projectTop = useRef(null)
+  const projectTopInner = useRef(null)
+  const projectTopOuter = useRef(null)
+
   const [currLang, setLang] = useState("english")
 
   useEffect(() => {
@@ -21,7 +23,7 @@ const MobileDirectory = () => {
 
   return (
     <section className='min-h-[100vh] lg:min-h-screen fixed inset-0 overflow-y-auto transition-all duration-300 text-black bg-white' style={{ fontFamily: 'Jost, sans-serif'}}>      
-      <div className="max-w-6xl mx-auto my-auto outline-offset-0 outline-0 text-black md:p-10 p-5">
+      <div ref={projectTopOuter} className="max-w-6xl mx-auto my-auto outline-offset-0 outline-0 text-black md:p-10 p-5">
         
         <div className="flex justify-between items-start sm:items-center">
           <h3 className="font-bold text-[#f22b40] text-xl">
@@ -164,7 +166,7 @@ const MobileDirectory = () => {
           
           <div className='relative lg:h-[575px] h-full px-2 md:px-5 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
             <div className="sticky top-0 left-0 right-0 h-3 bg-gradient-to-b from-white to-transparent pointer-events-none z-10"></div>
-            <div ref={projectTop} className="relative z-0">
+            <div ref={projectTopInner} className="relative z-0">
               <p className='font-bold py-2'>PRODUCT DESCRIPTION</p>
               <p className='pb-2'>The Azuro Hotels mobile directory lets guests access property communications, amenities, campaigns, and services via QR code on their mobile devices. Hotel admins use a customizable editor to create branded digital experiences for guests.</p>
               <p className='pb-2'>Enterprise brands maintain control through centrally managed templates, ensuring consistent guest-facing content across properties. Brands can set viewing and editing permissions to enforce brand guidelines. Dynamic workflows automatically push template updates to all properties, eliminating manual content updates.</p>
@@ -232,8 +234,13 @@ const MobileDirectory = () => {
               </div>
 
               <div className='w-full flex justify-center'>
-                <button className="relative cursor-pointer group z-5 w-20 h-20 my-20 flex items-center justify-center font-bold" 
-                  onClick={()=> scrollToTargetDiv(projectTop)}>
+                <button className="relative cursor-pointer group z-5 w-20 h-20 my-20 lg:flex hidden items-center justify-center font-bold" 
+                  onClick={()=> scrollToTargetDiv(projectTopInner)}>
+                    <div className="absolute rounded-full h-20 w-20 bg-[#f22b40]"></div>
+                    <FaHandPointer className='absolute move-icon stroke-2 w-10 h-10 text-white'/> 
+                </button>
+                <button className="relative cursor-pointer group z-5 w-20 h-20 my-20 flex lg:hidden items-center justify-center font-bold" 
+                  onClick={()=> scrollToTargetDiv(projectTopOuter)}>
                     <div className="absolute rounded-full h-20 w-20 bg-[#f22b40]"></div>
                     <FaHandPointer className='absolute move-icon stroke-2 w-10 h-10 text-white'/> 
                 </button>
