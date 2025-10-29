@@ -179,9 +179,9 @@ const MobileDirectory = () => {
               <hr className='border border-gray-300 my-5'/>
               
               <p className='font-bold py-2'>PROJECT OVERVIEW</p>
-              <p><strong className='text-gray-600'>CLIENT:</strong> Major Hotel Corporation</p>
-              <p><strong className='text-gray-600'>DURATION:</strong> 2 months</p>
-              <p className='pb-2'><strong className='text-gray-600'>MY ROLE:</strong> Product Design, Software Development, Project Management</p>
+              <p><strong>Client:</strong> Major Hotel Corporation</p>
+              <p><strong>Duration:</strong> 2 months</p>
+              <p className='pb-2'><strong>My Role:</strong> Product Design, Software Development, Project Management</p>
               <p className='pb-2'>Led the transformation of a mobile directory from a domestic-only product to a globally compliant platform serving enterprise hospitality brands across 9 languages and multiple regions.</p>
               
               <hr className='border border-gray-300 my-5'/>

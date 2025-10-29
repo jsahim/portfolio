@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import App from './App.jsx'
 import SnackShack from './components/WorkItems/SnackShack.jsx';
 import MobileDirectory from './components/WorkItems/MobileDirectory.jsx';
+import ClientDirectory from './components/WorkItems/ClientDirectory.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/" element={<App />} />
       <Route path="/snack-shack" element={<SnackShack />} />
       <Route path="/mobile-directory" element={<MobileDirectory />} />
+      <Route path="/digital-directory" element={<ClientDirectory />} />
       <Route path="*" element={<App />} />
     </Routes>
   </BrowserRouter>
