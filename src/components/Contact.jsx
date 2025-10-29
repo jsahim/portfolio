@@ -37,9 +37,9 @@ const Contact = ({contactSection, topSection, scrollToTargetDiv}) => {
     <footer ref={contactSection} className="bg-black text-white py-20 px-8 sm:px-10 pb-35 sm:pb-16">
 
       <div className="max-w-6xl mx-auto my-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-3">
+        <div className="flex lg:flex-row flex-col lg:justify-between items-center gap-10">
 
-          <div className="col-span-2">
+          <div>
             <h2 ref={h2Ref} className="text-4xl sm:text-5xl font-bold text-[#f22b40] mb-6 text-left transition-opacity duration-1000 ease-out" style={{ fontFamily: 'Shrikhand, cursive', opacity: isVisible ? 1 : 0 }}>
               Let's Connect!
             </h2>
