@@ -38,12 +38,13 @@ const MobileDirectory = () => {
             <img src="/mobile_directory/azuro-home.webp" alt="Snack Shack App" className="absolute w-[300px] ml-0 lg:ml-5 transition-transform duration-800 translate-y-2 group-hover:-translate-y-75"/>
             <div className="absolute bottom-0 left-0 right-0 h-3 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none"></div>
           </div>
+
           <div className='hidden lg:flex flex-col justify-center items-center h-fit relative'>
-            
             <div className='pb-2 flex justify-start'>
 
-
               <div className='relative w-[270px] flex flex-col items-center justify-start'>
+              <div className="absolute z-40 w-[240px] translate-y-[73px] h-4 bg-gradient-to-t from-transparent to-white pointer-events-none"></div>
+                <div className="absolute z-40 w-[240px] translate-y-[473px] h-4 bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
                 <img className='w-[270px] absolute z-10 pointer-events-none' src="/mobile_directory/frameiphone.webp" alt="phone frame" />
                 <div className='w-[243px] absolute mt-18 max-h-[418px] overflow-y-scroll'>
                   <img className='pointer-events-none' src={`/mobile_directory/${currLang}-screen.webp`} alt="Mobile Directory" />
