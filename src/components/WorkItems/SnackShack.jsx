@@ -28,7 +28,7 @@ const SnackShack = () => {
         </div>
         <hr className='border border-gray-600 mb-10 mt-5'/>
 
-        <div className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-8 lg:gap-15 mt-10">
+        <div className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 lg:gap-15 mt-10">
           <div className="flex items-start h-[400px] md:h-auto justify-center relative group overflow-hidden">
             <div className="absolute top-0 left-0 right-0 h-3 bg-gradient-to-b from-white to-transparent z-10 pointer-events-none"></div>
             <img src="/snackshack/shack-phone-1.webp" alt="Snack Shack App" className="absolute w-[300px] ml-0 md:ml-5 transition-transform duration-800 translate-y-2 group-hover:-translate-y-75"/>

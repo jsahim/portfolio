@@ -34,9 +34,14 @@ const MobileDirectory = () => {
         <hr className='border border-gray-600 mb-10 mt-5'/>
 
         <div className="space-y-4 grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10">
+          <div className="lg:hidden flex items-start h-[400px] lg:h-auto justify-center relative overflow-hidden">
+            <img src="/mobile_directory/azuro-home.webp" alt="Snack Shack App" className="absolute w-[300px] ml-0 lg:ml-5 transition-transform duration-800 translate-y-2"/>
+            <div className="absolute bottom-0 left-0 right-0 h-3 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none"></div>
+          </div>
           <div className='hidden lg:flex flex-col justify-center items-center h-fit relative'>
             
             <div className='pb-2 flex justify-start'>
+
 
               <div className='relative w-[270px] flex flex-col items-center justify-start'>
                 <img className='w-[270px] absolute z-10 pointer-events-none' src="/mobile_directory/frameiphone.webp" alt="phone frame" />
@@ -164,7 +169,7 @@ const MobileDirectory = () => {
 
           </div>
           
-          <div className='relative lg:h-[575px] h-full px-2 md:px-5 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
+          <div className='relative lg:h-[575px] h-full px-0 md:px-5 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
             <div className="sticky top-0 left-0 right-0 h-3 bg-gradient-to-b from-white to-transparent pointer-events-none z-10"></div>
             <div ref={projectTopInner} className="relative z-0">
               <p className='font-bold py-2'>PRODUCT DESCRIPTION</p>
