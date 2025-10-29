@@ -22,7 +22,7 @@ const ClientDirectories = () => {
 
         <div className="flex justify-between items-start md:items-center">
           <h3 className="font-bold text-[#f22b40] text-xl">
-            DIGITAL DIRECTORY<span className='text-gray-600 font-medium'> | CLIENT DELIVERABLES</span>
+            DIGITAL DIRECTORY<span className='text-gray-600 font-medium'> | CLIENT DIRECTORIES</span>
           </h3>
         </div>
         <hr className='border border-gray-600 mb-10 mt-5'/>
@@ -32,7 +32,7 @@ const ClientDirectories = () => {
             <div className="gap-15 md:gap-8">
               <div>
                 <p className='py-2'><strong>PRODUCT DESCRIPTION</strong></p>
-                <p>Digital Directory lets guests access property communications, amenities, campaigns, and services via QR code on their mobile devices. Hotel admins use a customizable editor to create branded digital experiences for guests.</p><br/>
+                <p>The Digital Directory lets guests access property communications, amenities, campaigns, and services via QR code on their mobile devices. Hotel admins use a customizable editor to create branded digital experiences for guests.</p><br/>
                 <p><strong>Clients:</strong> Hyatt Hotels Corporation, Hilton Worldwide, Sonesta International Hotels, Sparrow Hotels</p>
                 <p><strong>My Role:</strong> Product Design, Software Development, Project Management</p>
 
