@@ -3,7 +3,7 @@ import { useRef, useEffect } from 'react';
 
 
 
-const ClientDirectory = () => {
+const ClientDirectories = () => {
 
   const projectTop = useRef(null)
 
@@ -38,14 +38,14 @@ const ClientDirectory = () => {
 
               </div>
               <div className='w-full flex justify-center flex-wrap mt-10'>
-                <img className="w-1/4 min-w-[260px] p-2" src="/client_directory/inn.webp" alt="Inn" />
-                <img className="w-1/4 min-w-[260px] p-2" src="/client_directory/alila.webp" alt="Alila" />
-                <img className="w-1/4 min-w-[260px] p-2" src="/client_directory/essuites.webp" alt="Sonesta ES Suites" />
-                <img className="w-1/4 min-w-[260px] p-2" src="/client_directory/hyatt.webp" alt="Hyatt Regency" />
-                <img className="w-1/4 min-w-[260px] p-2" src="/client_directory/caption.webp" alt="Caption" />
-                <img className="w-1/4 min-w-[260px] p-2" src="/client_directory/hampton.webp" alt="Hampton" />
-                <img className="w-1/4 min-w-[260px] p-2" src="/client_directory/embassy.webp" alt="Embassy Suites" />
-                <img className="w-1/4 min-w-[260px] p-2" src="/client_directory/royal.webp" alt="The Royal Sonesta" />
+                <img className="w-1/4 min-w-[260px] p-2" src="/client_directories/inn.webp" alt="Inn" />
+                <img className="w-1/4 min-w-[260px] p-2" src="/client_directories/alila.webp" alt="Alila" />
+                <img className="w-1/4 min-w-[260px] p-2" src="/client_directories/essuites.webp" alt="Sonesta ES Suites" />
+                <img className="w-1/4 min-w-[260px] p-2" src="/client_directories/hyatt.webp" alt="Hyatt Regency" />
+                <img className="w-1/4 min-w-[260px] p-2" src="/client_directories/caption.webp" alt="Caption" />
+                <img className="w-1/4 min-w-[260px] p-2" src="/client_directories/hampton.webp" alt="Hampton" />
+                <img className="w-1/4 min-w-[260px] p-2" src="/client_directories/embassy.webp" alt="Embassy Suites" />
+                <img className="w-1/4 min-w-[260px] p-2" src="/client_directories/royal.webp" alt="The Royal Sonesta" />
 
               </div>
             
@@ -66,4 +66,4 @@ const ClientDirectory = () => {
   );
 }
 
-export default ClientDirectory;
+export default ClientDirectories;
