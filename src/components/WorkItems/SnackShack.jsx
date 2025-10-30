@@ -1,12 +1,12 @@
-
-import { FaHandPointer } from "react-icons/fa6";
+import { FaHandPointer, FaArrowLeft } from "react-icons/fa6";
 import { useRef, useEffect } from 'react';
-
+import { useNavigate, Link } from 'react-router';
 
 
 const SnackShack = () => {
 
   const projectTop = useRef(null)
+  const navigate = useNavigate();
 
   useEffect(() => {
     document.title = "Snack Shack | Jeff Sahim";
@@ -21,11 +21,23 @@ const SnackShack = () => {
     <section className='min-h-[100vh] lg:min-h-screen fixed inset-0 overflow-y-auto transition-all duration-300 text-black bg-white' style={{ fontFamily: 'Jost, sans-serif'}}>
       <div ref={projectTop} className='relative md:p-10 p-5 max-w-6xl mx-auto my-auto'>
 
-        <div className="flex justify-between items-start md:items-center">
-          <h3 className="font-bold text-[#f22b40] text-xl">
+        <div className="flex justify-between items-center">
+          <Link to={'..'} className="flex justify-between items-center group" onClick={(e) => {
+            e.preventDefault();
+            navigate(-1);
+            }}>
+              <div className="absolute flex justify-center items-center group-hover:border-[#f22b40] group-hover:text-[#f22b40] h-8 w-8 z-2 bg-white border-3 border-black rounded-full text transition-color duration-300">
+                <FaArrowLeft className="stroke-10" />
+              </div>
+              <div className="z-1 bg-black pl-9 pr-4 py-1 font-semibold rounded-2xl group-hover:bg-[#f22b40] text-white tracking-widest transition-color duration-300 mr-5">
+                BACK
+              </div>
+          </Link>
+          <h3 className="font-bold text-[#f22b40] text-xl text-right">
             THE SNACK SHACK<span className='text-gray-600 font-medium'> | CONCESSION ORDERING APP</span>
           </h3>
         </div>
+
         <hr className='border border-gray-600 mb-10 mt-5'/>
 
         <div className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 lg:gap-15 mt-10">

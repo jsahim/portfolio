@@ -2,7 +2,6 @@ import { FaHandPointer } from "react-icons/fa6";
 import { useRef, useEffect } from 'react';
 
 
-
 const ClientDirectories = () => {
 
   const projectTop = useRef(null)

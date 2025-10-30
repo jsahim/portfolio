@@ -33,6 +33,11 @@
   }
 }
 
+@keyframes border-pulse {
+  0%, 100% { border-color: #7e1520; }
+  50% { border-color:#f22b40; }
+}
+
 .animated-link {
   position: relative;
 }
@@ -68,4 +73,8 @@
 
 .move-icon {
   animation: moveIcon 1s ease-in-out infinite;
+}
+
+.group:hover .animate-on-hover {
+  animation: border-pulse 1s ease-in-out infinite;
 }

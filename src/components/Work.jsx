@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Link } from "react-router";
 
 const Work = ({workSection}) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -43,11 +44,11 @@ const Work = ({workSection}) => {
 
         <div className='flex sm:flex-row flex-col gap-8'>
 
-          <a className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group px-5 md:px-7 pb-7 pt-0' target='_blank' href='/snack-shack'>
+          <Link className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group px-5 md:px-7 pb-7 pt-0' to='/snack-shack'>
             <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
               <span className='bg-gray-50 px-2'>THE SNACK SHACK</span>
             </h3>
-            <div className="border-4 h-full border-black group-hover:border-[#f22b40] rounded-2xl transition-colors duration-300">
+            <div className="border-4 h-full animate-on-hover rounded-2xl transition-colors duration-300">
               <p className='font-medium text-xl text-gray-700 text-center px-5 pt-5 pb-1'>CONCESSION ORDERING APP</p>
               <div className='relative h-[400px] w-full flex items-center justify-center group overflow-hidden mb-10 md:mb-0'>
                 <img 
@@ -68,13 +69,13 @@ const Work = ({workSection}) => {
               </div>
 
             </div>  
-          </a>
+          </Link>
 
-          <a className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group px-5 md:px-7 pb-7 pt-0' target='_blank' href='/mobile-directory'>
+          <Link className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group px-5 md:px-7 pb-7 pt-0' to='/mobile-directory'>
             <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
               <span className='bg-gray-50 px-2'>AZURO HOTELS</span>
             </h3>
-            <div className="border-4 h-full border-black group-hover:border-[#f22b40] rounded-2xl transition-colors duration-300">
+            <div className="border-4 h-full animate-on-hover rounded-2xl transition-colors duration-300">
               <p className='font-medium text-xl text-gray-700 text-center px-5 pt-5 pb-1'>MOBILE GUEST DIRECTORY</p>
               <div className='relative h-[400px] w-full flex items-center justify-center group overflow-hidden mb-10 md:mb-0'>
                 <img 
@@ -95,7 +96,7 @@ const Work = ({workSection}) => {
               </div>
 
             </div>  
-          </a>
+          </Link>
 
 
         </div>

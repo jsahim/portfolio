@@ -1,11 +1,14 @@
 import { useState, useRef, useEffect } from 'react';
-import { FaHandPointer } from "react-icons/fa6";
+import { FaHandPointer, FaArrowLeft } from "react-icons/fa6";
+import { useNavigate, Link } from 'react-router';
 
 
 const MobileDirectory = () => {
 
   const projectTopInner = useRef(null)
   const projectTopOuter = useRef(null)
+  const navigate = useNavigate();
+
 
   const [currLang, setLang] = useState("english")
 
@@ -25,9 +28,20 @@ const MobileDirectory = () => {
     <section className='min-h-[100vh] lg:min-h-screen fixed inset-0 overflow-y-auto transition-all duration-300 text-black bg-white' style={{ fontFamily: 'Jost, sans-serif'}}>      
       <div ref={projectTopOuter} className="max-w-6xl mx-auto my-auto outline-offset-0 outline-0 text-black md:p-10 p-5">
         
-        <div className="flex justify-between items-start sm:items-center">
-          <h3 className="font-bold text-[#f22b40] text-xl">
-            AZURO HOTELS<span className='text-gray-600 font-medium'> | MOBILE GUEST DIRECTORY</span>
+        <div className="flex justify-between items-center">
+          <Link to={'..'} className="flex justify-between items-center group" onClick={(e) => {
+            e.preventDefault();
+            navigate(-1);
+            }}>
+              <div className="absolute flex justify-center items-center group-hover:border-[#f22b40] group-hover:text-[#f22b40] h-8 w-8 z-2 bg-white border-3 border-black rounded-full text transition-color duration-300">
+                <FaArrowLeft className="stroke-10" />
+              </div>
+              <div className="z-1 bg-black pl-9 pr-4 py-1 font-semibold rounded-2xl group-hover:bg-[#f22b40] text-white tracking-widest transition-color duration-300 mr-5">
+                BACK
+              </div>
+          </Link>
+          <h3 className="font-bold text-[#f22b40] text-xl text-right">
+            AZURO HOTELS<span className='text-gray-600 font-medium'> | MOBILE DIRECTORY</span>
           </h3>
         </div>
         
