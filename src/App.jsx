@@ -54,7 +54,7 @@ const Portfolio = () => {
         {/* Featured Work Section */}
         <Work workSection={workSection} />
 
-        <Marquee speed={70} pauseOnHover={true} className="bg-black text-white tracking-wider py-2 px-4 text-2xl font-bold uppercase" style={{ fontFamily: 'Jost, sans-serif'}}>
+        <Marquee speed={70} pauseOnHover={true} className="bg-black text-white tracking-wider py-6 px-4 text-2xl font-bold uppercase" style={{ fontFamily: 'Jost, sans-serif'}}>
           <span>
             <span className='text-[#f22b40]'>●</span> Mobile Guest Directory&nbsp;
             <span className='text-[#f22b40]'>●</span> Self Service POS&nbsp;
