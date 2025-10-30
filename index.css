@@ -66,6 +66,10 @@
   animation: spin-slow 50s linear infinite reverse;
 }
 
+.animate-spin-slow:hover {
+  animation-play-state: paused;
+}
+
 .move-icon {
   animation: moveIcon 1s ease-in-out infinite;
 }
