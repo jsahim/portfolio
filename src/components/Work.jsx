@@ -52,17 +52,17 @@ const Work = ({workSection}) => {
               <p className='font-medium text-xl text-gray-700 text-center px-5 pt-5 pb-1'>CONCESSION ORDERING APP</p>
               <div className='relative h-[400px] w-full flex items-center justify-center group overflow-hidden mb-10 md:mb-0'>
                 <img 
-                  className='absolute w-[170px] pointer-events-none transition-all duration-500 ease-out z-10' 
+                  className='absolute w-[170px] group-hover:w-[180px] pointer-events-none transition-all duration-500 ease-out z-10' 
                   src="/snackshack/shack-phone-1.webp" 
                   alt="Snack Shack Mobile 1" 
                 />
                 <img 
-                  className='absolute pointer-events-none w-[150px] grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 -translate-x-[70px] group-hover:-translate-x-[170px]' 
+                  className='absolute pointer-events-none w-[150px] grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 -translate-x-[70px] group-hover:-translate-x-[165px]' 
                   src="/snackshack/shack-phone-2.webp" 
                   alt="Snack Shack Mobile 2" 
                 />
                 <img 
-                  className='absolute w-[150px] pointer-events-none grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 translate-x-[70px] group-hover:translate-x-[170px]' 
+                  className='absolute w-[150px] pointer-events-none grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 translate-x-[70px] group-hover:translate-x-[165px]' 
                   src="/snackshack/shack-phone-3.webp" 
                   alt="Snack Shack Mobile 3" 
                 />
@@ -79,17 +79,17 @@ const Work = ({workSection}) => {
               <p className='font-medium text-xl text-gray-700 text-center px-5 pt-5 pb-1'>MOBILE GUEST DIRECTORY</p>
               <div className='relative h-[400px] w-full flex items-center justify-center group overflow-hidden mb-10 md:mb-0'>
                 <img 
-                  className='absolute w-[170px] pointer-events-none transition-all duration-500 ease-out z-10' 
+                  className='absolute w-[170px] group-hover:w-[180px] pointer-events-none transition-all duration-500 ease-out z-10' 
                   src="/mobile_directory/azuro-home.webp" 
                   alt="Azuro Home" 
                 />
                 <img 
-                  className='absolute pointer-events-none w-[150px] grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 -translate-x-[70px] group-hover:-translate-x-[170px]' 
+                  className='absolute pointer-events-none w-[150px] grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 -translate-x-[70px] group-hover:-translate-x-[165px]' 
                   src="/mobile_directory/azuro-dining.webp" 
                   alt="Azuro Dining" 
                 />
                 <img 
-                  className='absolute w-[150px] pointer-events-none grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 translate-x-[70px] group-hover:translate-x-[170px]' 
+                  className='absolute w-[150px] pointer-events-none grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 translate-x-[70px] group-hover:translate-x-[165px]' 
                   src="/mobile_directory/azuro-services.webp" 
                   alt="Azuro Services" 
                 />
