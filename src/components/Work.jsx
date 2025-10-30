@@ -48,7 +48,7 @@ const Work = ({workSection}) => {
             <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
               <span className='bg-gray-50 px-2'>THE SNACK SHACK</span>
             </h3>
-            <div className="border-4 h-full animate-on-hover rounded-2xl transition-colors duration-300">
+            <div className="border-4 h-full group-hover:border-[#f22b40] rounded-2xl transition-colors duration-300">
               <p className='font-medium text-xl text-gray-700 text-center px-5 pt-5 pb-1'>CONCESSION ORDERING APP</p>
               <div className='relative h-[400px] w-full flex items-center justify-center group overflow-hidden mb-10 md:mb-0'>
                 <img 
@@ -75,7 +75,7 @@ const Work = ({workSection}) => {
             <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
               <span className='bg-gray-50 px-2'>AZURO HOTELS</span>
             </h3>
-            <div className="border-4 h-full animate-on-hover rounded-2xl transition-colors duration-300">
+            <div className="border-4 h-full group-hover:border-[#f22b40] rounded-2xl transition-colors duration-300">
               <p className='font-medium text-xl text-gray-700 text-center px-5 pt-5 pb-1'>MOBILE GUEST DIRECTORY</p>
               <div className='relative h-[400px] w-full flex items-center justify-center group overflow-hidden mb-10 md:mb-0'>
                 <img 
