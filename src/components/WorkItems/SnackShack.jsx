@@ -19,7 +19,7 @@ const SnackShack = () => {
   return (
     
     <section className='min-h-[100vh] lg:min-h-screen fixed inset-0 overflow-y-auto transition-all duration-300 text-black bg-white' style={{ fontFamily: 'Jost, sans-serif'}}>
-      <div ref={projectTop} className='relative md:p-10 p-5 max-w-6xl mx-auto my-auto'>
+      <div ref={projectTop} className="max-w-6xl mx-auto my-auto text-black md:px-10 px-5 py-10">
 
         <div className="flex justify-between items-center">
           <Link to={'..'} className="flex justify-between items-center group" onClick={(e) => {

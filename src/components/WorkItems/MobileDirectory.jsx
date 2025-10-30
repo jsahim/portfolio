@@ -26,7 +26,7 @@ const MobileDirectory = () => {
 
   return (
     <section className='min-h-[100vh] lg:min-h-screen fixed inset-0 overflow-y-auto transition-all duration-300 text-black bg-white' style={{ fontFamily: 'Jost, sans-serif'}}>      
-      <div ref={projectTopOuter} className="max-w-6xl mx-auto my-auto outline-offset-0 outline-0 text-black md:p-10 p-5">
+      <div ref={projectTopOuter} className="max-w-6xl mx-auto my-auto text-black md:px-10 px-5 py-10">
         
         <div className="flex justify-between items-center">
           <Link to={'..'} className="flex justify-between items-center group" onClick={(e) => {
@@ -41,7 +41,7 @@ const MobileDirectory = () => {
               </div>
           </Link>
           <h3 className="font-bold text-[#f22b40] text-xl text-right">
-            AZURO HOTELS<span className='text-gray-600 font-medium'> | MOBILE DIRECTORY</span>
+            AZURO HOTELS<span className='text-gray-600 font-medium'> | MOBILE GUEST DIRECTORY</span>
           </h3>
         </div>
         
