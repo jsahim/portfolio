@@ -184,7 +184,7 @@ const MobileDirectory = () => {
 
           </div>
           
-          <div className='relative lg:h-[575px] h-full px-0 md:px-5 snap-start overflow-scroll scroll-mt-5 sm:scroll-mt-25'>
+          <div className='relative lg:h-[575px] h-full px-0 md:px-5 snap-start overflow-y-scroll scroll-mt-5 sm:scroll-mt-25'>
             <div className="sticky top-0 left-0 right-0 h-3 bg-gradient-to-b from-white to-transparent pointer-events-none z-10"></div>
             <div ref={projectTopInner} className="relative z-0">
               <p className='font-bold py-2'>PRODUCT DESCRIPTION</p>
