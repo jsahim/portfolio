@@ -19,7 +19,7 @@ const Portfolio = () => {
   };
 
   useEffect(() => {
-    document.title = "Jeff Sahim | Digital Product Designer";
+    document.title = "Jeff Sahim | Digital Product Development";
     const handleScroll = () => {
       setIsAtTop(window.scrollY === 0);
     };

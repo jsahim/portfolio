@@ -23,10 +23,10 @@ const Hero = () => {
             <IconRotate />
             <h1 className="z-1 pl-0 lg:pl-10">
               <span className="leading-19 text-[6rem] lg:text-[12rem] lg:leading-38">Jeff<br/>Sahim</span><br/>
-              <span className="text-[19px] lg:text-[39px] text-white font-bold tracking-widest" style={{ fontFamily: 'Jost, sans-serif'}}>
+              <span className="text-[17px] lg:text-[34px] text-white font-bold tracking-widest" style={{ fontFamily: 'Jost, sans-serif'}}>
                 <span className="transition-opacity duration-1000 ease-in" style={{opacity: digitalReady ? 1 : 0}}>DIGITAL </span>                
                 <span className="transition-opacity duration-1000 ease-in" style={{opacity: productReady ? 1 : 0}}>PRODUCT </span>
-                <span className="transition-opacity duration-1000 ease-in" style={{opacity: engineerReady ? 1 : 0}}>DESIGNER </span>
+                <span className="transition-opacity duration-1000 ease-in" style={{opacity: engineerReady ? 1 : 0}}>DEVELOPMENT </span>
               </span>
             </h1>
           </div>                    
