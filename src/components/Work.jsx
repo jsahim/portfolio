@@ -42,9 +42,9 @@ const Work = ({workSection}) => {
           Explore my featured case studies representing real projects presented under fictional brand names, showcasing the full-lifecycle process from initial ideation and UX design to clean code implementation and deployment.        
         </p>
 
-        <div className='flex sm:flex-row flex-col'>
+        <div className='flex sm:flex-row flex-col justify-center items-center w-full'>
 
-          <Link className='pointer-events-auto w-full md:w-1/2 h-[450px] text-black rounded-sm group mx-5 md:mx-7 mb-7 mt-0' to='/snack-shack'>
+          <Link className='pointer-events-auto w-full md:w-1/2 h-[450px] text-black rounded-sm group mx-5 mb-7 mt-0' to='/snack-shack'>
             <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
               <span className='bg-gray-50 px-2'>THE SNACK SHACK</span>
             </h3>
