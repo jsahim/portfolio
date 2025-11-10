@@ -44,12 +44,12 @@ const Work = ({workSection}) => {
 
         <div className='flex sm:flex-row flex-col gap-8'>
 
-          <Link className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group mx-5 md:mx-7 mb-7 mt-0' to='/snack-shack'>
+          <Link className='pointer-events-auto w-full md:w-1/2 h-[450px] text-black rounded-sm group mx-5 md:mx-7 mb-7 mt-0' to='/snack-shack'>
             <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
               <span className='bg-gray-50 px-2'>THE SNACK SHACK</span>
             </h3>
             <div className="border-4 h-full group-hover:border-[#f22b40] rounded-2xl transition-colors duration-300">
-              <p className='font-medium text-xl text-gray-700 text-center px-5 pt-5 pb-1'>Ordering for Concessions</p>
+              <p className='font-medium text-xl leading-[18px] text-gray-700 text-center px-5 pt-5 pb-1'>Ordering for Concessions</p>
               <div className='relative h-[400px] w-full flex items-center justify-center group overflow-hidden mb-10 md:mb-0'>
                 <img 
                   className='absolute w-[170px] group-hover:w-[180px] pointer-events-none transition-all duration-500 ease-out z-10' 
@@ -71,12 +71,12 @@ const Work = ({workSection}) => {
             </div>  
           </Link>
 
-          <Link className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group mx-5 md:mx-7 mb-7 mt-0' to='/mobile-directory'>
+          <Link className='pointer-events-auto w-full md:w-1/2 h-[450px] text-black rounded-sm group mx-5 md:mx-7 mb-7 mt-0' to='/mobile-directory'>
             <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
               <span className='bg-gray-50 px-2'>AZURO HOTELS</span>
             </h3>
             <div className="border-4 h-full group-hover:border-[#f22b40] rounded-2xl transition-colors duration-300">
-              <p className='font-medium text-xl text-gray-700 text-center px-5 pt-5 pb-1'>Mobile Guest Directory</p>
+              <p className='font-medium text-xl leading-[18px] text-gray-700 text-center px-5 pt-5 pb-1'>Mobile Guest Directory</p>
               <div className='relative h-[400px] w-full flex items-center justify-center group overflow-hidden mb-10 md:mb-0'>
                 <img 
                   className='absolute w-[170px] group-hover:w-[180px] pointer-events-none transition-all duration-500 ease-out z-10' 
