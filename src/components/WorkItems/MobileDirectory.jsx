@@ -41,7 +41,7 @@ const MobileDirectory = () => {
               </div>
           </Link>
           <h3 className="font-bold text-[#f22b40] text-xl text-right">
-            AZURO HOTELS<span className='text-gray-600 font-medium'> | MOBILE GUEST DIRECTORY</span>
+            AZURO HOTELS<span className='text-gray-600 font-medium'> | GUEST DIRECTORY APP</span>
           </h3>
         </div>
         
