@@ -57,12 +57,12 @@ const Work = ({workSection}) => {
                   alt="Snack Shack Mobile 1" 
                 />
                 <img 
-                  className='absolute pointer-events-none w-[150px] grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 -translate-x-[70px] group-hover:-translate-x-[165px]' 
+                  className='absolute pointer-events-none w-[150px] grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 -translate-x-[100px] group-hover:-translate-x-[170px]' 
                   src="/snackshack/shack-phone-2.webp" 
                   alt="Snack Shack Mobile 2" 
                 />
                 <img 
-                  className='absolute w-[150px] pointer-events-none grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 translate-x-[70px] group-hover:translate-x-[165px]' 
+                  className='absolute w-[150px] pointer-events-none grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 translate-x-[100px] group-hover:translate-x-[170px]' 
                   src="/snackshack/shack-phone-3.webp" 
                   alt="Snack Shack Mobile 3" 
                 />
@@ -84,12 +84,12 @@ const Work = ({workSection}) => {
                   alt="Azuro Home" 
                 />
                 <img 
-                  className='absolute pointer-events-none w-[150px] grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 -translate-x-[70px] group-hover:-translate-x-[165px]' 
+                  className='absolute pointer-events-none w-[150px] grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 -translate-x-[100px] group-hover:-translate-x-[170px]' 
                   src="/mobile_directory/azuro-dining.webp" 
                   alt="Azuro Dining" 
                 />
                 <img 
-                  className='absolute w-[150px] pointer-events-none grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 translate-x-[70px] group-hover:translate-x-[165px]' 
+                  className='absolute w-[150px] pointer-events-none grayscale group-hover:grayscale-0 brightness-70 group-hover:brightness-100 transition-all duration-500 translate-x-[100px] group-hover:translate-x-[170px]' 
                   src="/mobile_directory/azuro-services.webp" 
                   alt="Azuro Services" 
                 />
