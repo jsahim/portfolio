@@ -44,7 +44,7 @@ const Work = ({workSection}) => {
 
         <div className='flex sm:flex-row flex-col gap-8'>
 
-          <Link className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group px-5 md:px-7 pb-7 pt-0' to='/snack-shack'>
+          <Link className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group mx-5 md:mx-7 mb-7 mt-0' to='/snack-shack'>
             <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
               <span className='bg-gray-50 px-2'>THE SNACK SHACK</span>
             </h3>
@@ -71,7 +71,7 @@ const Work = ({workSection}) => {
             </div>  
           </Link>
 
-          <Link className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group px-5 md:px-7 pb-7 pt-0' to='/mobile-directory'>
+          <Link className='pointer-events-auto w-full md:w-1/2 h-[500px] text-black rounded-sm group mx-5 md:mx-7 mb-7 mt-0' to='/mobile-directory'>
             <h3 className="relative text-center translate-y-[16px] w-full font-bold text-xl bg-transparent px-2 text-[#f22b40]">
               <span className='bg-gray-50 px-2'>AZURO HOTELS</span>
             </h3>
