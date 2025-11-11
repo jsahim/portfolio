@@ -34,7 +34,7 @@ const SnackShack = () => {
               </div>
           </Link>
           <h3 className="font-bold text-[#f22b40] text-xl text-right">
-            THE SNACK SHACK<span className='text-gray-600 font-medium'> | CONCESSION ORDERING APP</span>
+            THE SNACK SHACK<span className='text-gray-600 font-medium'> | MOBILE ORDERING APP</span>
           </h3>
         </div>
 
